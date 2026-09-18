@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="SWM-------------------------------" DocumentType="DT_PARTIC" Version="1" FeedFlag="P" Date="2026-08-30" Time="000715491" LogicalDate="2026-08-30" Source="CTO1">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-SWM-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Participant Code="9000001" Parent="9000001" Status="ENT" GivenName="Alessandro" FamilyName="Fontana" PassportGivenName="ALESSANDRO" PassportFamilyName="FONTANA" PrintName="FONTANA Alessandro" PrintInitialName="FONTANA A" TVName="Alessandro FONTANA" TVInitialName="A. FONTANA" TVFamilyName="FONTANA" Gender="M" Organisation="CAF" BirthDate="2011-05-04" Nationality="CAF" MainFunctionId="AA01" PSCBName="FONTANA Alessandro" PSCBShortName="FONTANA A." PSCBLongName="FONTANA Alessandro">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000002" Parent="9000002" Status="ENT" GivenName="Marco" FamilyName="Pérez" PassportGivenName="MARCO" PassportFamilyName="PEREZ" PrintName="PEREZ Marco" PrintInitialName="PEREZ M" TVName="Marco PEREZ" TVInitialName="M. PEREZ" TVFamilyName="PEREZ" Gender="M" Organisation="NCA" BirthDate="2011-12-17" Nationality="NCA" MainFunctionId="AA01" PSCBName="PEREZ Marco" PSCBShortName="PEREZ Marco" PSCBLongName="PEREZ Marco">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000003" Parent="9000003" Status="ENT" GivenName="Girma" FamilyName="Worku" PassportGivenName="GIRMA" PassportFamilyName="WORKU" PrintName="WORKU Girma" PrintInitialName="WORKU G" TVName="Girma WORKU" TVInitialName="G. WORKU" TVFamilyName="WORKU" Gender="M" Organisation="VAN" BirthDate="2011-04-10" Nationality="VAN" MainFunctionId="AA01" PSCBName="WORKU Girma" PSCBShortName="WORKU Girma" PSCBLongName="WORKU Girma">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000004" Parent="9000004" Status="ENT" GivenName="Riccardo" FamilyName="Costa" PassportGivenName="RICCARDO" PassportFamilyName="COSTA" PrintName="COSTA Riccardo" PrintInitialName="COSTA R" TVName="Riccardo COSTA" TVInitialName="R. COSTA" TVFamilyName="COSTA" Gender="M" Organisation="TTO" BirthDate="2010-09-13" Nationality="TTO" MainFunctionId="AA01" PSCBName="COSTA Riccardo" PSCBShortName="COSTA Riccardo" PSCBLongName="COSTA Riccardo">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000005" Parent="9000005" Status="ENT" GivenName="Kanat" FamilyName="Berdiev" PassportGivenName="KANAT" PassportFamilyName="BERDIEV" PrintName="BERDIEV Kanat" PrintInitialName="BERDIEV K" TVName="Kanat BERDIEV" TVInitialName="K. BERDIEV" TVFamilyName="BERDIEV" Gender="M" Organisation="SYR" BirthDate="2009-08-08" Nationality="SYR" MainFunctionId="AA01" PSCBName="BERDIEV Kanat" PSCBShortName="BERDIEV Kanat" PSCBLongName="BERDIEV Kanat">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000006" Parent="9000006" Status="ENT" GivenName="Habib" FamilyName="Karim" PassportGivenName="HABIB" PassportFamilyName="KARIM" PrintName="KARIM Habib" PrintInitialName="KARIM H" TVName="Habib KARIM" TVInitialName="H. KARIM" TVFamilyName="KARIM" Gender="M" Organisation="BAN" BirthDate="2010-07-22" Nationality="BAN" MainFunctionId="AA01" PSCBName="KARIM Habib" PSCBShortName="KARIM Habib" PSCBLongName="KARIM Habib">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000007" Parent="9000007" Status="ENT" GivenName="Alessandro" FamilyName="Ricci" PassportGivenName="ALESSANDRO" PassportFamilyName="RICCI" PrintName="RICCI Alessandro" PrintInitialName="RICCI A" TVName="Alessandro RICCI" TVInitialName="A. RICCI" TVFamilyName="RICCI" Gender="M" Organisation="ESP" BirthDate="2011-12-25" Nationality="ESP" MainFunctionId="AA01" PSCBName="RICCI Alessandro" PSCBShortName="RICCI A." PSCBLongName="RICCI Alessandro">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000008" Parent="9000008" Status="ENT" GivenName="Khalil" FamilyName="Barakat" PassportGivenName="KHALIL" PassportFamilyName="BARAKAT" PrintName="BARAKAT Khalil" PrintInitialName="BARAKAT K" TVName="Khalil BARAKAT" TVInitialName="K. BARAKAT" TVFamilyName="BARAKAT" Gender="M" Organisation="BRN" BirthDate="2010-02-15" Nationality="BRN" MainFunctionId="AA01" PSCBName="BARAKAT Khalil" PSCBShortName="BARAKAT Khalil" PSCBLongName="BARAKAT Khalil">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000009" Parent="9000009" Status="ENT" GivenName="Thabo" FamilyName="Keita" PassportGivenName="THABO" PassportFamilyName="KEITA" PrintName="KEITA Thabo" PrintInitialName="KEITA T" TVName="Thabo KEITA" TVInitialName="T. KEITA" TVFamilyName="KEITA" Gender="M" Organisation="MAD" BirthDate="2009-03-17" Nationality="MAD" MainFunctionId="AA01" PSCBName="KEITA Thabo" PSCBShortName="KEITA Thabo" PSCBLongName="KEITA Thabo">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000010" Parent="9000010" Status="ENT" GivenName="Maxime" FamilyName="Lefebvre" PassportGivenName="MAXIME" PassportFamilyName="LEFEBVRE" PrintName="LEFEBVRE Maxime" PrintInitialName="LEFEBVRE M" TVName="Maxime LEFEBVRE" TVInitialName="M. LEFEBVRE" TVFamilyName="LEFEBVRE" Gender="M" Organisation="SWZ" BirthDate="2010-12-01" Nationality="SWZ" MainFunctionId="AA01" PSCBName="LEFEBVRE Maxime" PSCBShortName="LEFEBVRE Maxime" PSCBLongName="LEFEBVRE Maxime">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000011" Parent="9000011" Status="ENT" GivenName="Davide" FamilyName="Rossi" PassportGivenName="DAVIDE" PassportFamilyName="ROSSI" PrintName="ROSSI Davide" PrintInitialName="ROSSI D" TVName="Davide ROSSI" TVInitialName="D. ROSSI" TVFamilyName="ROSSI" Gender="M" Organisation="KUW" BirthDate="2010-12-28" Nationality="KUW" MainFunctionId="AA01" PSCBName="ROSSI Davide" PSCBShortName="ROSSI Davide" PSCBLongName="ROSSI Davide">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000012" Parent="9000012" Status="ENT" GivenName="Kanat" FamilyName="Ergashev" PassportGivenName="KANAT" PassportFamilyName="ERGASHEV" PrintName="ERGASHEV Kanat" PrintInitialName="ERGASHEV K" TVName="Kanat ERGASHEV" TVInitialName="K. ERGASHEV" TVFamilyName="ERGASHEV" Gender="M" Organisation="LBR" BirthDate="2011-07-21" Nationality="LBR" MainFunctionId="AA01" PSCBName="ERGASHEV Kanat" PSCBShortName="ERGASHEV Kanat" PSCBLongName="ERGASHEV Kanat">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000013" Parent="9000013" Status="ENT" GivenName="Santiago" FamilyName="Martínez" PassportGivenName="SANTIAGO" PassportFamilyName="MARTINEZ" PrintName="MARTINEZ Santiago" PrintInitialName="MARTINEZ S" TVName="Santiago MARTINEZ" TVInitialName="S. MARTINEZ" TVFamilyName="MARTINEZ" Gender="M" Organisation="PUR" BirthDate="2011-04-01" Nationality="PUR" MainFunctionId="AA01" PSCBName="MARTINEZ Santiago" PSCBShortName="MARTINEZ S." PSCBLongName="MARTINEZ Santiago">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000014" Parent="9000014" Status="ENT" GivenName="Liam" FamilyName="Wright" PassportGivenName="LIAM" PassportFamilyName="WRIGHT" PrintName="WRIGHT Liam" PrintInitialName="WRIGHT L" TVName="Liam WRIGHT" TVInitialName="L. WRIGHT" TVFamilyName="WRIGHT" Gender="M" Organisation="IRI" BirthDate="2011-04-13" Nationality="IRI" MainFunctionId="AA01" PSCBName="WRIGHT Liam" PSCBShortName="WRIGHT Liam" PSCBLongName="WRIGHT Liam">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000015" Parent="9000015" Status="ENT" GivenName="Dovlet" FamilyName="Bekov" PassportGivenName="DOVLET" PassportFamilyName="BEKOV" PrintName="BEKOV Dovlet" PrintInitialName="BEKOV D" TVName="Dovlet BEKOV" TVInitialName="D. BEKOV" TVFamilyName="BEKOV" Gender="M" Organisation="TKM" BirthDate="2011-06-15" Nationality="TKM" MainFunctionId="AA01" PSCBName="BEKOV Dovlet" PSCBShortName="BEKOV Dovlet" PSCBLongName="BEKOV Dovlet">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000016" Parent="9000016" Status="ENT" GivenName="Junseo" FamilyName="Han" PassportGivenName="JUNSEO" PassportFamilyName="HAN" PrintName="HAN Junseo" PrintInitialName="HAN J" TVName="Junseo HAN" TVInitialName="J. HAN" TVFamilyName="HAN" Gender="M" Organisation="CUB" BirthDate="2011-10-24" Nationality="CUB" MainFunctionId="AA01" PSCBName="HAN Junseo" PSCBShortName="HAN Junseo" PSCBLongName="HAN Junseo">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000017" Parent="9000017" Status="ENT" GivenName="Abebe" FamilyName="Alemu" PassportGivenName="ABEBE" PassportFamilyName="ALEMU" PrintName="ALEMU Abebe" PrintInitialName="ALEMU A" TVName="Abebe ALEMU" TVInitialName="A. ALEMU" TVFamilyName="ALEMU" Gender="M" Organisation="BIZ" BirthDate="2011-09-26" Nationality="BIZ" MainFunctionId="AA01" PSCBName="ALEMU Abebe" PSCBShortName="ALEMU Abebe" PSCBLongName="ALEMU Abebe">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000018" Parent="9000018" Status="ENT" GivenName="Louis" FamilyName="Girard" PassportGivenName="LOUIS" PassportFamilyName="GIRARD" PrintName="GIRARD Louis" PrintInitialName="GIRARD L" TVName="Louis GIRARD" TVInitialName="L. GIRARD" TVFamilyName="GIRARD" Gender="M" Organisation="LTU" BirthDate="2011-04-14" Nationality="LTU" MainFunctionId="AA01" PSCBName="GIRARD Louis" PSCBShortName="GIRARD Louis" PSCBLongName="GIRARD Louis">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000019" Parent="9000019" Status="ENT" GivenName="Andre" FamilyName="Toussaint" PassportGivenName="ANDRE" PassportFamilyName="TOUSSAINT" PrintName="TOUSSAINT Andre" PrintInitialName="TOUSSAINT A" TVName="Andre TOUSSAINT" TVInitialName="A. TOUSSAINT" TVFamilyName="TOUSSAINT" Gender="M" Organisation="ANT" BirthDate="2010-10-18" Nationality="ANT" MainFunctionId="AA01" PSCBName="TOUSSAINT Andre" PSCBShortName="TOUSSAINT Andre" PSCBLongName="TOUSSAINT Andre">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000020" Parent="9000020" Status="ENT" GivenName="Nikola" FamilyName="Jurić" PassportGivenName="NIKOLA" PassportFamilyName="JURIC" PrintName="JURIC Nikola" PrintInitialName="JURIC N" TVName="Nikola JURIC" TVInitialName="N. JURIC" TVFamilyName="JURIC" Gender="M" Organisation="IRQ" BirthDate="2010-08-27" Nationality="IRQ" MainFunctionId="AA01" PSCBName="JURIC Nikola" PSCBShortName="JURIC Nikola" PSCBLongName="JURIC Nikola">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000021" Parent="9000021" Status="ENT" GivenName="Alisher" FamilyName="Toshev" PassportGivenName="ALISHER" PassportFamilyName="TOSHEV" PrintName="TOSHEV Alisher" PrintInitialName="TOSHEV A" TVName="Alisher TOSHEV" TVInitialName="A. TOSHEV" TVFamilyName="TOSHEV" Gender="M" Organisation="KGZ" BirthDate="2010-01-18" Nationality="KGZ" MainFunctionId="AA01" PSCBName="TOSHEV Alisher" PSCBShortName="TOSHEV Alisher" PSCBLongName="TOSHEV Alisher">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000022" Parent="9000022" Status="ENT" GivenName="Sovann" FamilyName="Santoso" PassportGivenName="SOVANN" PassportFamilyName="SANTOSO" PrintName="SANTOSO Sovann" PrintInitialName="SANTOSO S" TVName="Sovann SANTOSO" TVInitialName="S. SANTOSO" TVFamilyName="SANTOSO" Gender="M" Organisation="PAK" BirthDate="2011-06-15" Nationality="PAK" MainFunctionId="AA01" PSCBName="SANTOSO Sovann" PSCBShortName="SANTOSO Sovann" PSCBLongName="SANTOSO Sovann">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000023" Parent="9000023" Status="ENT" GivenName="Tanvir" FamilyName="Rahman" PassportGivenName="TANVIR" PassportFamilyName="RAHMAN" PrintName="RAHMAN Tanvir" PrintInitialName="RAHMAN T" TVName="Tanvir RAHMAN" TVInitialName="T. RAHMAN" TVFamilyName="RAHMAN" Gender="M" Organisation="VIN" BirthDate="2009-11-06" Nationality="VIN" MainFunctionId="AA01" PSCBName="RAHMAN Tanvir" PSCBShortName="RAHMAN Tanvir" PSCBLongName="RAHMAN Tanvir">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000024" Parent="9000024" Status="ENT" GivenName="Tyrese" FamilyName="Duncan" PassportGivenName="TYRESE" PassportFamilyName="DUNCAN" PrintName="DUNCAN Tyrese" PrintInitialName="DUNCAN T" TVName="Tyrese DUNCAN" TVInitialName="T. DUNCAN" TVFamilyName="DUNCAN" Gender="M" Organisation="TAN" BirthDate="2009-02-26" Nationality="TAN" MainFunctionId="AA01" PSCBName="DUNCAN Tyrese" PSCBShortName="DUNCAN Tyrese" PSCBLongName="DUNCAN Tyrese">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000025" Parent="9000025" Status="ENT" GivenName="Tomáš" FamilyName="Pavlović" PassportGivenName="TOMAS" PassportFamilyName="PAVLOVIC" PrintName="PAVLOVIC Tomáš" PrintInitialName="PAVLOVIC T" TVName="Tomáš PAVLOVIC" TVInitialName="T. PAVLOVIC" TVFamilyName="PAVLOVIC" Gender="M" Organisation="AFG" BirthDate="2010-01-27" Nationality="AFG" MainFunctionId="AA01" PSCBName="PAVLOVIC Tomáš" PSCBShortName="PAVLOVIC Tomáš" PSCBLongName="PAVLOVIC Tomáš">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000026" Parent="9000026" Status="ENT" GivenName="Mikkel" FamilyName="Johansson" PassportGivenName="MIKKEL" PassportFamilyName="JOHANSSON" PrintName="JOHANSSON Mikkel" PrintInitialName="JOHANSSON M" TVName="Mikkel JOHANSSON" TVInitialName="M. JOHANSSON" TVFamilyName="JOHANSSON" Gender="M" Organisation="SGP" BirthDate="2009-01-15" Nationality="SGP" MainFunctionId="AA01" PSCBName="JOHANSSON Mikkel" PSCBShortName="JOHANSSON M." PSCBLongName="JOHANSSON Mikkel">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000027" Parent="9000027" Status="ENT" GivenName="Omar" FamilyName="Sabbagh" PassportGivenName="OMAR" PassportFamilyName="SABBAGH" PrintName="SABBAGH Omar" PrintInitialName="SABBAGH O" TVName="Omar SABBAGH" TVInitialName="O. SABBAGH" TVFamilyName="SABBAGH" Gender="M" Organisation="KSA" BirthDate="2010-04-09" Nationality="KSA" MainFunctionId="AA01" PSCBName="SABBAGH Omar" PSCBShortName="SABBAGH Omar" PSCBLongName="SABBAGH Omar">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000028" Parent="9000028" Status="ENT" GivenName="Matteo" FamilyName="Barbieri" PassportGivenName="MATTEO" PassportFamilyName="BARBIERI" PrintName="BARBIERI Matteo" PrintInitialName="BARBIERI M" TVName="Matteo BARBIERI" TVInitialName="M. BARBIERI" TVFamilyName="BARBIERI" Gender="M" Organisation="EUN" BirthDate="2011-03-12" Nationality="EUN" MainFunctionId="AA01" PSCBName="BARBIERI Matteo" PSCBShortName="BARBIERI Matteo" PSCBLongName="BARBIERI Matteo">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000029" Parent="9000029" Status="ENT" GivenName="Ousmane" FamilyName="Osei" PassportGivenName="OUSMANE" PassportFamilyName="OSEI" PrintName="OSEI Ousmane" PrintInitialName="OSEI O" TVName="Ousmane OSEI" TVInitialName="O. OSEI" TVFamilyName="OSEI" Gender="M" Organisation="SOM" BirthDate="2009-03-09" Nationality="SOM" MainFunctionId="AA01" PSCBName="OSEI Ousmane" PSCBShortName="OSEI Ousmane" PSCBLongName="OSEI Ousmane">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000030" Parent="9000030" Status="ENT" GivenName="Moussa" FamilyName="Boateng" PassportGivenName="MOUSSA" PassportFamilyName="BOATENG" PrintName="BOATENG Moussa" PrintInitialName="BOATENG M" TVName="Moussa BOATENG" TVInitialName="M. BOATENG" TVFamilyName="BOATENG" Gender="M" Organisation="DMA" BirthDate="2011-05-21" Nationality="DMA" MainFunctionId="AA01" PSCBName="BOATENG Moussa" PSCBShortName="BOATENG Moussa" PSCBLongName="BOATENG Moussa">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000031" Parent="9000031" Status="ENT" GivenName="Mathis" FamilyName="Laurent" PassportGivenName="MATHIS" PassportFamilyName="LAURENT" PrintName="LAURENT Mathis" PrintInitialName="LAURENT M" TVName="Mathis LAURENT" TVInitialName="M. LAURENT" TVFamilyName="LAURENT" Gender="M" Organisation="NRU" BirthDate="2010-12-11" Nationality="NRU" MainFunctionId="AA01" PSCBName="LAURENT Mathis" PSCBShortName="LAURENT Mathis" PSCBLongName="LAURENT Mathis">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000032" Parent="9000032" Status="ENT" GivenName="Akeem" FamilyName="Toussaint" PassportGivenName="AKEEM" PassportFamilyName="TOUSSAINT" PrintName="TOUSSAINT Akeem" PrintInitialName="TOUSSAINT A" TVName="Akeem TOUSSAINT" TVInitialName="A. TOUSSAINT" TVFamilyName="TOUSSAINT" Gender="M" Organisation="BOC" BirthDate="2009-01-10" MainFunctionId="AA01" PSCBName="TOUSSAINT Akeem" PSCBShortName="TOUSSAINT Akeem" PSCBLongName="TOUSSAINT Akeem">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000033" Parent="9000033" Status="ENT" GivenName="Mahia" FamilyName="Sarkar" PassportGivenName="MAHIA" PassportFamilyName="SARKAR" PrintName="SARKAR Mahia" PrintInitialName="SARKAR M" TVName="Mahia SARKAR" TVInitialName="M. SARKAR" TVFamilyName="SARKAR" Gender="F" Organisation="GER" BirthDate="2011-06-09" Nationality="GER" MainFunctionId="AA01" PSCBName="SARKAR Mahia" PSCBShortName="SARKAR Mahia" PSCBLongName="SARKAR Mahia">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000034" Parent="9000034" Status="ENT" GivenName="Ketsana" FamilyName="Wijaya" PassportGivenName="KETSANA" PassportFamilyName="WIJAYA" PrintName="WIJAYA Ketsana" PrintInitialName="WIJAYA K" TVName="Ketsana WIJAYA" TVInitialName="K. WIJAYA" TVFamilyName="WIJAYA" Gender="F" Organisation="YEM" BirthDate="2009-05-07" Nationality="YEM" MainFunctionId="AA01" PSCBName="WIJAYA Ketsana" PSCBShortName="WIJAYA Ketsana" PSCBLongName="WIJAYA Ketsana">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000035" Parent="9000035" Status="ENT" GivenName="Isabella" FamilyName="Pérez" PassportGivenName="ISABELLA" PassportFamilyName="PEREZ" PrintName="PEREZ Isabella" PrintInitialName="PEREZ I" TVName="Isabella PEREZ" TVInitialName="I. PEREZ" TVFamilyName="PEREZ" Gender="F" Organisation="AND" BirthDate="2009-05-03" Nationality="AND" MainFunctionId="AA01" PSCBName="PEREZ Isabella" PSCBShortName="PEREZ Isabella" PSCBLongName="PEREZ Isabella">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000036" Parent="9000036" Status="ENT" GivenName="Mahlet" FamilyName="Bekele" PassportGivenName="MAHLET" PassportFamilyName="BEKELE" PrintName="BEKELE Mahlet" PrintInitialName="BEKELE M" TVName="Mahlet BEKELE" TVInitialName="M. BEKELE" TVFamilyName="BEKELE" Gender="F" Organisation="ANG" BirthDate="2011-10-21" Nationality="ANG" MainFunctionId="AA01" PSCBName="BEKELE Mahlet" PSCBShortName="BEKELE Mahlet" PSCBLongName="BEKELE Mahlet">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000037" Parent="9000037" Status="ENT" GivenName="Shakira" FamilyName="Baptiste" PassportGivenName="SHAKIRA" PassportFamilyName="BAPTISTE" PrintName="BAPTISTE Shakira" PrintInitialName="BAPTISTE S" TVName="Shakira BAPTISTE" TVInitialName="S. BAPTISTE" TVFamilyName="BAPTISTE" Gender="F" Organisation="UKR" BirthDate="2010-05-02" Nationality="UKR" MainFunctionId="AA01" PSCBName="BAPTISTE Shakira" PSCBShortName="BAPTISTE S." PSCBLongName="BAPTISTE Shakira">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000038" Parent="9000038" Status="ENT" GivenName="Gulnara" FamilyName="Nazarov" PassportGivenName="GULNARA" PassportFamilyName="NAZAROV" PrintName="NAZAROV Gulnara" PrintInitialName="NAZAROV G" TVName="Gulnara NAZAROV" TVInitialName="G. NAZAROV" TVFamilyName="NAZAROV" Gender="F" Organisation="MNE" BirthDate="2010-10-10" Nationality="MNE" MainFunctionId="AA01" PSCBName="NAZAROV Gulnara" PSCBShortName="NAZAROV Gulnara" PSCBLongName="NAZAROV Gulnara">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000039" Parent="9000039" Status="ENT" GivenName="Lena" FamilyName="Meyer" PassportGivenName="LENA" PassportFamilyName="MEYER" PrintName="MEYER Lena" PrintInitialName="MEYER L" TVName="Lena MEYER" TVInitialName="L. MEYER" TVFamilyName="MEYER" Gender="F" Organisation="AIN" BirthDate="2009-09-20" MainFunctionId="AA01" PSCBName="MEYER Lena" PSCBShortName="MEYER Lena" PSCBLongName="MEYER Lena">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000040" Parent="9000040" Status="ENT" GivenName="Dora" FamilyName="Pavlović" PassportGivenName="DORA" PassportFamilyName="PAVLOVIC" PrintName="PAVLOVIC Dora" PrintInitialName="PAVLOVIC D" TVName="Dora PAVLOVIC" TVInitialName="D. PAVLOVIC" TVFamilyName="PAVLOVIC" Gender="F" Organisation="UGA" BirthDate="2011-02-08" Nationality="UGA" MainFunctionId="AA01" PSCBName="PAVLOVIC Dora" PSCBShortName="PAVLOVIC Dora" PSCBLongName="PAVLOVIC Dora">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000041" Parent="9000041" Status="ENT" GivenName="Marija" FamilyName="Novák" PassportGivenName="MARIJA" PassportFamilyName="NOVAK" PrintName="NOVAK Marija" PrintInitialName="NOVAK M" TVName="Marija NOVAK" TVInitialName="M. NOVAK" TVFamilyName="NOVAK" Gender="F" Organisation="SCG" BirthDate="2009-07-03" Nationality="SCG" MainFunctionId="AA01" PSCBName="NOVAK Marija" PSCBShortName="NOVAK Marija" PSCBLongName="NOVAK Marija">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000042" Parent="9000042" Status="ENT" GivenName="Tereza" FamilyName="Jurić" PassportGivenName="TEREZA" PassportFamilyName="JURIC" PrintName="JURIC Tereza" PrintInitialName="JURIC T" TVName="Tereza JURIC" TVInitialName="T. JURIC" TVFamilyName="JURIC" Gender="F" Organisation="CZE" BirthDate="2009-12-03" Nationality="CZE" MainFunctionId="AA01" PSCBName="JURIC Tereza" PSCBShortName="JURIC Tereza" PSCBLongName="JURIC Tereza">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000043" Parent="9000043" Status="ENT" GivenName="Léa" FamilyName="Dupont" PassportGivenName="LEA" PassportFamilyName="DUPONT" PrintName="DUPONT Léa" PrintInitialName="DUPONT L" TVName="Léa DUPONT" TVInitialName="L. DUPONT" TVFamilyName="DUPONT" Gender="F" Organisation="KAZ" BirthDate="2009-05-25" Nationality="KAZ" MainFunctionId="AA01" PSCBName="DUPONT Léa" PSCBShortName="DUPONT Léa" PSCBLongName="DUPONT Léa">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000044" Parent="9000044" Status="ENT" GivenName="Rania" FamilyName="Saleh" PassportGivenName="RANIA" PassportFamilyName="SALEH" PrintName="SALEH Rania" PrintInitialName="SALEH R" TVName="Rania SALEH" TVInitialName="R. SALEH" TVFamilyName="SALEH" Gender="F" Organisation="SUI" BirthDate="2010-03-04" Nationality="SUI" MainFunctionId="AA01" PSCBName="SALEH Rania" PSCBShortName="SALEH Rania" PSCBLongName="SALEH Rania">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000045" Parent="9000045" Status="ENT" GivenName="Channary" FamilyName="Rattanavong" PassportGivenName="CHANNARY" PassportFamilyName="RATTANAVONG" PrintName="RATTANAVONG Channary" PrintInitialName="RATTANAVONG C" TVName="Channary RATTANAVONG" TVInitialName="C. RATTANAVONG" TVFamilyName="RATTANAVONG" Gender="F" Organisation="MKD" BirthDate="2010-02-17" Nationality="MKD" MainFunctionId="AA01" PSCBName="RATTANAVONG Channary" PSCBShortName="RATTANAVONG C." PSCBLongName="RATTANAVONG Channary">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000046" Parent="9000046" Status="ENT" GivenName="Océane" FamilyName="Dubois" PassportGivenName="OCEANE" PassportFamilyName="DUBOIS" PrintName="DUBOIS Océane" PrintInitialName="DUBOIS O" TVName="Océane DUBOIS" TVInitialName="O. DUBOIS" TVFamilyName="DUBOIS" Gender="F" Organisation="DEN" BirthDate="2009-03-05" Nationality="DEN" MainFunctionId="AA01" PSCBName="DUBOIS Océane" PSCBShortName="DUBOIS Océane" PSCBLongName="DUBOIS Océane">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000047" Parent="9000047" Status="ENT" GivenName="Haeun" FamilyName="Jung" PassportGivenName="HAEUN" PassportFamilyName="JUNG" PrintName="JUNG Haeun" PrintInitialName="JUNG H" TVName="Haeun JUNG" TVInitialName="H. JUNG" TVFamilyName="JUNG" Gender="F" Organisation="KOR" BirthDate="2009-12-17" Nationality="KOR" MainFunctionId="AA01" PSCBName="JUNG Haeun" PSCBShortName="JUNG Haeun" PSCBLongName="JUNG Haeun">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000048" Parent="9000048" Status="ENT" GivenName="Lina" FamilyName="Mansour" PassportGivenName="LINA" PassportFamilyName="MANSOUR" PrintName="MANSOUR Lina" PrintInitialName="MANSOUR L" TVName="Lina MANSOUR" TVInitialName="L. MANSOUR" TVFamilyName="MANSOUR" Gender="F" Organisation="UZB" BirthDate="2009-04-05" Nationality="UZB" MainFunctionId="AA01" PSCBName="MANSOUR Lina" PSCBShortName="MANSOUR Lina" PSCBLongName="MANSOUR Lina">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000049" Parent="9000049" Status="ENT" GivenName="Elisa" FamilyName="Colombo" PassportGivenName="ELISA" PassportFamilyName="COLOMBO" PrintName="COLOMBO Elisa" PrintInitialName="COLOMBO E" TVName="Elisa COLOMBO" TVInitialName="E. COLOMBO" TVFamilyName="COLOMBO" Gender="F" Organisation="MRI" BirthDate="2011-01-25" Nationality="MRI" MainFunctionId="AA01" PSCBName="COLOMBO Elisa" PSCBShortName="COLOMBO Elisa" PSCBLongName="COLOMBO Elisa">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000050" Parent="9000050" Status="ENT" GivenName="Gulnara" FamilyName="Berdiev" PassportGivenName="GULNARA" PassportFamilyName="BERDIEV" PrintName="BERDIEV Gulnara" PrintInitialName="BERDIEV G" TVName="Gulnara BERDIEV" TVInitialName="G. BERDIEV" TVFamilyName="BERDIEV" Gender="F" Organisation="DOM" BirthDate="2011-11-18" Nationality="DOM" MainFunctionId="AA01" PSCBName="BERDIEV Gulnara" PSCBShortName="BERDIEV Gulnara" PSCBLongName="BERDIEV Gulnara">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000051" Parent="9000051" Status="ENT" GivenName="Justine" FamilyName="Fontaine" PassportGivenName="JUSTINE" PassportFamilyName="FONTAINE" PrintName="FONTAINE Justine" PrintInitialName="FONTAINE J" TVName="Justine FONTAINE" TVInitialName="J. FONTAINE" TVFamilyName="FONTAINE" Gender="F" Organisation="GUY" BirthDate="2009-03-10" Nationality="GUY" MainFunctionId="AA01" PSCBName="FONTAINE Justine" PSCBShortName="FONTAINE J." PSCBLongName="FONTAINE Justine">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000052" Parent="9000052" Status="ENT" GivenName="Khady" FamilyName="Keita" PassportGivenName="KHADY" PassportFamilyName="KEITA" PrintName="KEITA Khady" PrintInitialName="KEITA K" TVName="Khady KEITA" TVInitialName="K. KEITA" TVFamilyName="KEITA" Gender="F" Organisation="SAM" BirthDate="2009-01-23" Nationality="SAM" MainFunctionId="AA01" PSCBName="KEITA Khady" PSCBShortName="KEITA Khady" PSCBLongName="KEITA Khady">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000053" Parent="9000053" Status="ENT" GivenName="Sari" FamilyName="Keomany" PassportGivenName="SARI" PassportFamilyName="KEOMANY" PrintName="KEOMANY Sari" PrintInitialName="KEOMANY S" TVName="Sari KEOMANY" TVInitialName="S. KEOMANY" TVFamilyName="KEOMANY" Gender="F" Organisation="TGA" BirthDate="2010-02-22" Nationality="TGA" MainFunctionId="AA01" PSCBName="KEOMANY Sari" PSCBShortName="KEOMANY Sari" PSCBLongName="KEOMANY Sari">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000054" Parent="9000054" Status="ENT" GivenName="Ndeye" FamilyName="Sarr" PassportGivenName="NDEYE" PassportFamilyName="SARR" PrintName="SARR Ndeye" PrintInitialName="SARR N" TVName="Ndeye SARR" TVInitialName="N. SARR" TVFamilyName="SARR" Gender="F" Organisation="LAT" BirthDate="2010-09-09" Nationality="LAT" MainFunctionId="AA01" PSCBName="SARR Ndeye" PSCBShortName="SARR Ndeye" PSCBLongName="SARR Ndeye">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000055" Parent="9000055" Status="ENT" GivenName="Elisa" FamilyName="Greco" PassportGivenName="ELISA" PassportFamilyName="GRECO" PrintName="GRECO Elisa" PrintInitialName="GRECO E" TVName="Elisa GRECO" TVInitialName="E. GRECO" TVFamilyName="GRECO" Gender="F" Organisation="GAB" BirthDate="2011-08-01" Nationality="GAB" MainFunctionId="AA01" PSCBName="GRECO Elisa" PSCBShortName="GRECO Elisa" PSCBLongName="GRECO Elisa">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000056" Parent="9000056" Status="ENT" GivenName="Adéla" FamilyName="Zeman" PassportGivenName="ADELA" PassportFamilyName="ZEMAN" PrintName="ZEMAN Adéla" PrintInitialName="ZEMAN A" TVName="Adéla ZEMAN" TVInitialName="A. ZEMAN" TVFamilyName="ZEMAN" Gender="F" Organisation="SUD" BirthDate="2010-03-09" Nationality="SUD" MainFunctionId="AA01" PSCBName="ZEMAN Adéla" PSCBShortName="ZEMAN Adéla" PSCBLongName="ZEMAN Adéla">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000057" Parent="9000057" Status="ENT" GivenName="Hala" FamilyName="Al-Sayed" PassportGivenName="HALA" PassportFamilyName="AL-SAYED" PrintName="AL-SAYED Hala" PrintInitialName="AL-SAYED H" TVName="Hala AL-SAYED" TVInitialName="H. AL-SAYED" TVFamilyName="AL-SAYED" Gender="F" Organisation="JOR" BirthDate="2011-07-19" Nationality="JOR" MainFunctionId="AA01" PSCBName="AL-SAYED Hala" PSCBShortName="AL-SAYED Hala" PSCBLongName="AL-SAYED Hala">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000058" Parent="9000058" Status="ENT" GivenName="Aigerim" FamilyName="Abdullaev" PassportGivenName="AIGERIM" PassportFamilyName="ABDULLAEV" PrintName="ABDULLAEV Aigerim" PrintInitialName="ABDULLAEV A" TVName="Aigerim ABDULLAEV" TVInitialName="A. ABDULLAEV" TVFamilyName="ABDULLAEV" Gender="F" Organisation="MTN" BirthDate="2011-06-19" Nationality="MTN" MainFunctionId="AA01" PSCBName="ABDULLAEV Aigerim" PSCBShortName="ABDULLAEV A." PSCBLongName="ABDULLAEV Aigerim">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000059" Parent="9000059" Status="ENT" GivenName="Yasmin" FamilyName="Qasem" PassportGivenName="YASMIN" PassportFamilyName="QASEM" PrintName="QASEM Yasmin" PrintInitialName="QASEM Y" TVName="Yasmin QASEM" TVInitialName="Y. QASEM" TVFamilyName="QASEM" Gender="F" Organisation="POR" BirthDate="2009-03-09" Nationality="POR" MainFunctionId="AA01" PSCBName="QASEM Yasmin" PSCBShortName="QASEM Yasmin" PSCBLongName="QASEM Yasmin">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000060" Parent="9000060" Status="ENT" GivenName="Zarina" FamilyName="Toshev" PassportGivenName="ZARINA" PassportFamilyName="TOSHEV" PrintName="TOSHEV Zarina" PrintInitialName="TOSHEV Z" TVName="Zarina TOSHEV" TVInitialName="Z. TOSHEV" TVFamilyName="TOSHEV" Gender="F" Organisation="BLR" BirthDate="2011-07-06" Nationality="BLR" MainFunctionId="AA01" PSCBName="TOSHEV Zarina" PSCBShortName="TOSHEV Zarina" PSCBLongName="TOSHEV Zarina">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000061" Parent="9000061" Status="ENT" GivenName="Francesca" FamilyName="Ferrari" PassportGivenName="FRANCESCA" PassportFamilyName="FERRARI" PrintName="FERRARI Francesca" PrintInitialName="FERRARI F" TVName="Francesca FERRARI" TVInitialName="F. FERRARI" TVFamilyName="FERRARI" Gender="F" Organisation="CAF" BirthDate="2009-08-01" Nationality="CAF" MainFunctionId="AA01" PSCBName="FERRARI Francesca" PSCBShortName="FERRARI F." PSCBLongName="FERRARI Francesca">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000062" Parent="9000062" Status="ENT" GivenName="Sofía" FamilyName="Flores" PassportGivenName="SOFIA" PassportFamilyName="FLORES" PrintName="FLORES Sofía" PrintInitialName="FLORES S" TVName="Sofía FLORES" TVInitialName="S. FLORES" TVFamilyName="FLORES" Gender="F" Organisation="NCA" BirthDate="2010-09-21" Nationality="NCA" MainFunctionId="AA01" PSCBName="FLORES Sofía" PSCBShortName="FLORES Sofía" PSCBLongName="FLORES Sofía">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000063" Parent="9000063" Status="ENT" GivenName="Mahlet" FamilyName="Wolde" PassportGivenName="MAHLET" PassportFamilyName="WOLDE" PrintName="WOLDE Mahlet" PrintInitialName="WOLDE M" TVName="Mahlet WOLDE" TVInitialName="M. WOLDE" TVFamilyName="WOLDE" Gender="F" Organisation="VAN" BirthDate="2011-11-24" Nationality="VAN" MainFunctionId="AA01" PSCBName="WOLDE Mahlet" PSCBShortName="WOLDE Mahlet" PSCBLongName="WOLDE Mahlet">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000064" Parent="9000064" Status="ENT" GivenName="Chiara" FamilyName="Romano" PassportGivenName="CHIARA" PassportFamilyName="ROMANO" PrintName="ROMANO Chiara" PrintInitialName="ROMANO C" TVName="Chiara ROMANO" TVInitialName="C. ROMANO" TVFamilyName="ROMANO" Gender="F" Organisation="TTO" BirthDate="2010-08-22" Nationality="TTO" MainFunctionId="AA01" PSCBName="ROMANO Chiara" PSCBShortName="ROMANO Chiara" PSCBLongName="ROMANO Chiara">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000065" Parent="9000065" Status="ENT" GivenName="Jan" FamilyName="Novák" PassportGivenName="JAN" PassportFamilyName="NOVAK" PrintName="NOVAK Jan" PrintInitialName="NOVAK J" TVName="Jan NOVAK" TVInitialName="J. NOVAK" TVFamilyName="NOVAK" Gender="M" Organisation="IRQ" BirthDate="1971-09-23" Nationality="IRQ" MainFunctionId="TSC">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000066" Parent="9000066" Status="ENT" GivenName="Camilla" FamilyName="Fontana" PassportGivenName="CAMILLA" PassportFamilyName="FONTANA" PrintName="FONTANA Camilla" PrintInitialName="FONTANA C" TVName="Camilla FONTANA" TVInitialName="C. FONTANA" TVFamilyName="FONTANA" Gender="F" Organisation="CAF" BirthDate="1978-10-10" Nationality="CAF" MainFunctionId="RE">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+    <Participant Code="9000067" Parent="9000067" Status="ENT" GivenName="Chloé" FamilyName="Marchand" PassportGivenName="CHLOE" PassportFamilyName="MARCHAND" PrintName="MARCHAND Chloé" PrintInitialName="MARCHAND C" TVName="Chloé MARCHAND" TVInitialName="C. MARCHAND" TVFamilyName="MARCHAND" Gender="F" Organisation="DEN" BirthDate="1982-05-03" Nationality="DEN" MainFunctionId="STR">
+      <Discipline Code="SWM-------------------------------"/>
+    </Participant>
+  </Competition>
+</OdfBody>

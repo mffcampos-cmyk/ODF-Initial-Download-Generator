@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ODF Message Generator</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script type="module" src="/static/app.js"></script>
+</head>
+<body>
+<header class="rig">
+  <div class="rig-inner">
+    <span class="plate">ODF</span>
+    <h1 class="wordmark">Message Generator</h1>
+  </div>
+</header>
+
+<main>
+  <noscript>
+    <p>This page needs JavaScript to talk to the generator service. With
+    JavaScript disabled, use the command line instead:
+    <code>python -m generator.export --discipline ARC</code></p>
+  </noscript>
+
+  <div id="default-error" class="notice" role="alert" hidden>
+    <p id="default-error-message"></p>
+  </div>
+
+  <!-- A pack that cannot generate yet is a pre-flight interlock, not a
+       failure: the device declines to arm and names what to create. It keeps
+       role="alert" because it appears in response to the operator's choice. -->
+  <div id="notready" class="interlock" role="alert" hidden>
+    <span class="eyebrow">Not ready</span>
+    <p class="interlock-line">This Games cannot generate yet. Add the following,
+    then restart the app.</p>
+    <ul id="reasons"></ul>
+  </div>
+
+  <!-- The signature. Idle it is an unlit readout; driven it lists one row per
+       document type, and selecting a row scopes the output pane below. -->
+  <section class="readout" id="readout" aria-labelledby="readout-title">
+    <div class="readout-head">
+      <h2 class="eyebrow" id="readout-title">Bundle</h2>
+      <span class="readout-scope" id="readout-scope"></span>
+    </div>
+    <p class="readout-idle" id="readout-idle">Not run yet. Choose a Games and a
+    discipline, then Generate.</p>
+    <div class="manifest" id="manifest" role="radiogroup"
+         aria-label="Scope the output to one document" hidden></div>
+    <p class="readout-foot" id="readout-foot" hidden></p>
+  </section>
+
+  <div class="work">
+    <section class="card" aria-labelledby="setup-title">
+      <h2 class="eyebrow" id="setup-title">Setup</h2>
+
+      <div class="row">
+        <div class="field">
+          <label class="field-label" for="pack">Games</label>
+          <select id="pack"></select>
+        </div>
+        <div class="field">
+          <label class="field-label" for="discipline">Discipline</label>
+          <select id="discipline"></select>
+        </div>
+      </div>
+
+      <form id="form">
+        <fieldset>
+          <legend class="eyebrow">Message fields
+            <span class="eyebrow-note">Blank uses the built-in default.</span>
+          </legend>
+          <div class="row">
+            <label class="field"><span class="field-label">CompetitionCode</span>
+              <input id="competition_code" type="text" placeholder="default (SYOG2026)" autocomplete="off" spellcheck="false"></label>
+            <label class="field"><span class="field-label">Source</span>
+              <input id="source" type="text" placeholder="default (per discipline)" autocomplete="off" spellcheck="false"></label>
+            <label class="field"><span class="field-label">Gen</span>
+              <input id="gen" type="text" placeholder="default (OWG-2026-GEN-V4.5)" autocomplete="off" spellcheck="false"></label>
+            <label class="field"><span class="field-label">Sport</span>
+              <input id="sport" type="text" placeholder="default (SYOG-2026-&lt;DISC&gt;-1.0)" autocomplete="off" spellcheck="false"></label>
+            <label class="field"><span class="field-label">Codes</span>
+              <input id="codes" type="text" placeholder="default (SYOG-2026-CC-V0.04)" autocomplete="off" spellcheck="false"></label>
+            <label class="field"><span class="field-label">Status</span>
+              <input id="status_ov" type="text" placeholder="default (ENT)" autocomplete="off" spellcheck="false"></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend class="eyebrow">Entry counts
+            <span class="eyebrow-note">Blank uses the discipline default.</span>
+          </legend>
+          <div class="row">
+            <label class="field"><span class="field-label">Athletes</span>
+              <input id="athletes" type="number" min="0" step="1" placeholder="default"></label>
+            <label class="field"><span class="field-label">Teams</span>
+              <input id="teams" type="number" min="0" step="1" placeholder="default"></label>
+            <label class="field"><span class="field-label">Coaches</span>
+              <input id="coaches" type="number" min="0" step="1" placeholder="default"></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend class="eyebrow">Live-operations realism
+            <span class="eyebrow-note">Off means strictly Common-Codes-driven.</span>
+          </legend>
+          <div class="stack switches">
+            <label><input type="checkbox" id="realistic_entries"> Realistic entry lists (qualification scale)</label>
+            <label><input type="checkbox" id="seeded_heats"> Seeded heats (heats = entries / 8 lanes)</label>
+            <label><input type="checkbox" id="victory_ceremonies"> Victory ceremony units</label>
+            <label><input type="checkbox" id="historical_athletes"> Historical athletes (Status=HIS)</label>
+          </div>
+        </fieldset>
+
+        <div class="controls">
+          <button id="go" class="btn btn-run" type="submit">Generate</button>
+          <button id="download" class="btn" type="button">Download .zip</button>
+          <button id="save" class="btn" type="button">Save to output/</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="outbox" aria-labelledby="out-title">
+      <h2 class="eyebrow" id="out-title" hidden>Output</h2>
+      <p id="status" role="status" aria-live="polite"></p>
+      <pre id="out" role="region" aria-label="Generated messages" tabindex="0"></pre>
+      <div class="written" id="written" hidden>
+        <h3 class="eyebrow">Written</h3>
+        <ul id="written-list"></ul>
+      </div>
+    </section>
+  </div>
+</main>
+</body>
+</html>

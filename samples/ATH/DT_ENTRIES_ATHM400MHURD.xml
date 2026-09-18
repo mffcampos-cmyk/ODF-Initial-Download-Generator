@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="ATHM400MHURD----------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000639266" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-ATH-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="9000006" Type="A" Organisation="BAN" SortOrder="1">
+      <Composition>
+        <Athlete Code="9000006" Order="1">
+          <Description GivenName="Habib" FamilyName="Karim" Gender="M" Organisation="BAN" BirthDate="2010-07-22" IFId="9000006"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000008" Type="A" Organisation="BRN" SortOrder="2">
+      <Composition>
+        <Athlete Code="9000008" Order="1">
+          <Description GivenName="Khalil" FamilyName="Barakat" Gender="M" Organisation="BRN" BirthDate="2010-02-15" IFId="9000008"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000011" Type="A" Organisation="KUW" SortOrder="3">
+      <Composition>
+        <Athlete Code="9000011" Order="1">
+          <Description GivenName="Davide" FamilyName="Rossi" Gender="M" Organisation="KUW" BirthDate="2010-12-28" IFId="9000011"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000012" Type="A" Organisation="LBR" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000012" Order="1">
+          <Description GivenName="Kanat" FamilyName="Ergashev" Gender="M" Organisation="LBR" BirthDate="2011-07-21" IFId="9000012"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000009" Type="A" Organisation="MAD" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000009" Order="1">
+          <Description GivenName="Thabo" FamilyName="Keita" Gender="M" Organisation="MAD" BirthDate="2009-03-17" IFId="9000009"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000005" Type="A" Organisation="SYR" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000005" Order="1">
+          <Description GivenName="Kanat" FamilyName="Berdiev" Gender="M" Organisation="SYR" BirthDate="2009-08-08" IFId="9000005"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000015" Type="A" Organisation="TKM" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000015" Order="1">
+          <Description GivenName="Dovlet" FamilyName="Bekov" Gender="M" Organisation="TKM" BirthDate="2011-06-15" IFId="9000015"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000003" Type="A" Organisation="VAN" SortOrder="8">
+      <Composition>
+        <Athlete Code="9000003" Order="1">
+          <Description GivenName="Girma" FamilyName="Worku" Gender="M" Organisation="VAN" BirthDate="2011-04-10" IFId="9000003"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

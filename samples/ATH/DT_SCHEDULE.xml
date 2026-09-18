@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="ATH-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-08-30" Time="000639310" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-ATH-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Session Venue="IMD" VenueName="Iba Mar Diop Stadium" SessionType="MOR" SessionCode="ATH01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
+      <SessionName Language="ENG" Value="Session 1"/>
+    </Session>
+    <Session Venue="IMD" VenueName="Iba Mar Diop Stadium" SessionType="AFT" SessionCode="ATH02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T17:28:00+00:00">
+      <SessionName Language="ENG" Value="Session 2"/>
+    </Session>
+    <Session Venue="IMD" VenueName="Iba Mar Diop Stadium" SessionType="MOR" SessionCode="ATH03" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T10:22:00+00:00">
+      <SessionName Language="ENG" Value="Session 3"/>
+    </Session>
+    <Unit Code="ATHM100M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Medal="1" Order="1" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 100m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM110MHURD----------FNL-000100--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Medal="1" Order="2" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 110m Hurdles Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM1500M-------------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Medal="1" Order="3" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 1500m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM2000MST-----------FNL-000100--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Medal="1" Order="4" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 2000m Steeplechase Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM200M--------------FNL-000100--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Medal="1" Order="5" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 200m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM3000M-------------FNL-000100--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Medal="1" Order="6" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 3000m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM400M--------------FNL-000100--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Medal="1" Order="7" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 400m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM400MHURD----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Medal="1" Order="8" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 400m Hurdles Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM5KMWALK-----------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Medal="1" Order="9" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 5km Race Walk Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM800M--------------FNL-000100--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Medal="1" Order="10" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 800m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMDISCUS------------FNL-000100--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Medal="1" Order="11" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's Discus Throw Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMHAMMER------------FNL-000100--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Medal="1" Order="12" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's Hammer Throw Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMHIGHJUMP----------FNL-000100--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Medal="1" Order="13" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's High Jump Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMJAVELIN-----------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Medal="1" Order="14" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's Javelin Throw Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMLONGJUMP----------FNL-000100--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Medal="1" Order="15" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's Long Jump Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMPLEVAULT----------FNL-000100--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Medal="1" Order="16" Venue="IMD" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's Pole Vault Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMSHOTPUT-----------FNL-000100--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Medal="1" Order="1" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Men's Shot Put Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMTRPLJUMP----------FNL-000100--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Medal="1" Order="2" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Men's Triple Jump Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW100M--------------FNL-000100--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Medal="1" Order="3" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's 100m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW100MHURD----------FNL-000100--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Medal="1" Order="4" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's 100m Hurdles Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW1500M-------------FNL-000100--" PhaseType="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Medal="1" Order="5" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's 1500m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW2000MST-----------FNL-000100--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Medal="1" Order="6" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's 2000m Steeplechase Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW200M--------------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Medal="1" Order="7" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's 200m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW3000M-------------FNL-000100--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Medal="1" Order="8" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's 3000m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW400M--------------FNL-000100--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Medal="1" Order="9" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's 400m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW400MHURD----------FNL-000100--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Medal="1" Order="10" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's 400m Hurdles Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW5KMWALK-----------FNL-000100--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Medal="1" Order="11" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's 5km Race Walk Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW800M--------------FNL-000100--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Medal="1" Order="12" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's 800m Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWDISCUS------------FNL-000100--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:36:00+00:00" EndDate="2026-11-01T16:49:00+00:00" Medal="1" Order="13" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's Discus Throw Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWHAMMER------------FNL-000100--" PhaseType="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:49:00+00:00" EndDate="2026-11-01T17:02:00+00:00" Medal="1" Order="14" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's Hammer Throw Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWHIGHJUMP----------FNL-000100--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:02:00+00:00" EndDate="2026-11-01T17:15:00+00:00" Medal="1" Order="15" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's High Jump Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWJAVELIN-----------FNL-000100--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:15:00+00:00" EndDate="2026-11-01T17:28:00+00:00" Medal="1" Order="16" Venue="IMD" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Women's Javelin Throw Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWLONGJUMP----------FNL-000100--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Medal="1" Order="1" Venue="IMD" Location="A01" SessionCode="ATH03">
+      <ItemName Language="ENG" Value="Women's Long Jump Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWPLEVAULT----------FNL-000100--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:43:00+00:00" EndDate="2026-11-02T09:56:00+00:00" Medal="1" Order="2" Venue="IMD" Location="A01" SessionCode="ATH03">
+      <ItemName Language="ENG" Value="Women's Pole Vault Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWSHOTPUT-----------FNL-000100--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:09:00+00:00" Medal="1" Order="3" Venue="IMD" Location="A01" SessionCode="ATH03">
+      <ItemName Language="ENG" Value="Women's Shot Put Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWTRPLJUMP----------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:09:00+00:00" EndDate="2026-11-02T10:22:00+00:00" Medal="1" Order="4" Venue="IMD" Location="A01" SessionCode="ATH03">
+      <ItemName Language="ENG" Value="Women's Triple Jump Final"/>
+      <VenueDescription VenueName="Iba Mar Diop Stadium" LocationName="IMD Stadium - Track"/>
+    </Unit>
+  </Competition>
+</OdfBody>

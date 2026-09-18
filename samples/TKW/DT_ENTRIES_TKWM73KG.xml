@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="TKWM73KG--------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-08-30" Time="000718129" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-TKW-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="9000060" Type="A" Organisation="BLR" SortOrder="1">
+      <Composition>
+        <Athlete Code="9000060" Order="1">
+          <Description GivenName="Alisher" FamilyName="Bekov" Gender="M" Organisation="BLR" BirthDate="2009-05-08" IFId="9000060"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000061" Type="A" Organisation="CAF" SortOrder="2">
+      <Composition>
+        <Athlete Code="9000061" Order="1">
+          <Description GivenName="Pietro" FamilyName="Barbieri" Gender="M" Organisation="CAF" BirthDate="2011-08-05" IFId="9000061"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000050" Type="A" Organisation="DOM" SortOrder="3">
+      <Composition>
+        <Athlete Code="9000050" Order="1">
+          <Description GivenName="Sanjar" FamilyName="Rakhimov" Gender="M" Organisation="DOM" BirthDate="2011-07-10" IFId="9000050"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000055" Type="A" Organisation="GAB" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000055" Order="1">
+          <Description GivenName="Nicolò" FamilyName="Ferrari" Gender="M" Organisation="GAB" BirthDate="2010-09-12" IFId="9000055"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000051" Type="A" Organisation="GUY" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000051" Order="1">
+          <Description GivenName="Quentin" FamilyName="Fournier" Gender="M" Organisation="GUY" BirthDate="2009-06-20" IFId="9000051"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000057" Type="A" Organisation="JOR" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000057" Order="1">
+          <Description GivenName="Youssef" FamilyName="Barakat" Gender="M" Organisation="JOR" BirthDate="2009-02-05" IFId="9000057"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000054" Type="A" Organisation="LAT" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000054" Order="1">
+          <Description GivenName="Sekou" FamilyName="Diop" Gender="M" Organisation="LAT" BirthDate="2010-04-09" IFId="9000054"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000049" Type="A" Organisation="MRI" SortOrder="8">
+      <Composition>
+        <Athlete Code="9000049" Order="1">
+          <Description GivenName="Nicolò" FamilyName="Colombo" Gender="M" Organisation="MRI" BirthDate="2010-10-07" IFId="9000049"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000058" Type="A" Organisation="MTN" SortOrder="9">
+      <Composition>
+        <Athlete Code="9000058" Order="1">
+          <Description GivenName="Rustam" FamilyName="Nazarov" Gender="M" Organisation="MTN" BirthDate="2011-04-09" IFId="9000058"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000062" Type="A" Organisation="NCA" SortOrder="10">
+      <Composition>
+        <Athlete Code="9000062" Order="1">
+          <Description GivenName="Rafael" FamilyName="Flores" Gender="M" Organisation="NCA" BirthDate="2009-06-02" IFId="9000062"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000059" Type="A" Organisation="POR" SortOrder="11">
+      <Composition>
+        <Athlete Code="9000059" Order="1">
+          <Description GivenName="Rashid" FamilyName="Qasem" Gender="M" Organisation="POR" BirthDate="2011-05-12" IFId="9000059"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000052" Type="A" Organisation="SAM" SortOrder="12">
+      <Composition>
+        <Athlete Code="9000052" Order="1">
+          <Description GivenName="Abdou" FamilyName="Cissé" Gender="M" Organisation="SAM" BirthDate="2010-01-06" IFId="9000052"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000056" Type="A" Organisation="SUD" SortOrder="13">
+      <Composition>
+        <Athlete Code="9000056" Order="1">
+          <Description GivenName="Ondřej" FamilyName="Jurić" Gender="M" Organisation="SUD" BirthDate="2010-09-08" IFId="9000056"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000053" Type="A" Organisation="TGA" SortOrder="14">
+      <Composition>
+        <Athlete Code="9000053" Order="1">
+          <Description GivenName="Bounmy" FamilyName="Inthavong" Gender="M" Organisation="TGA" BirthDate="2010-10-26" IFId="9000053"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000064" Type="A" Organisation="TTO" SortOrder="15">
+      <Composition>
+        <Athlete Code="9000064" Order="1">
+          <Description GivenName="Alessandro" FamilyName="Ricci" Gender="M" Organisation="TTO" BirthDate="2009-10-19" IFId="9000064"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000063" Type="A" Organisation="VAN" SortOrder="16">
+      <Composition>
+        <Athlete Code="9000063" Order="1">
+          <Description GivenName="Girma" FamilyName="Bekele" Gender="M" Organisation="VAN" BirthDate="2010-03-27" IFId="9000063"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

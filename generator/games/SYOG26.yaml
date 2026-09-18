@@ -1,0 +1,12 @@
+# Youth Olympic Games 2026. Values as observed in the real-life feed and
+# previously hardcoded in generator/envelope.py.
+label: Youth Olympic Games 2026
+gen: OWG-2026-GEN-V4.5
+codes: SYOG-2026-CC-V0.04
+sport_template: SYOG-2026-{disc}-1.0
+# SCGEN@Source: the system generating the message. Real-life feeds observed so
+# far: World Archery "AWAARC1" (ARC), CTO "CTO1" (SWM).
+sources:
+  ARC: AWAARC1
+  SWM: CTO1
+default_source: OGEN

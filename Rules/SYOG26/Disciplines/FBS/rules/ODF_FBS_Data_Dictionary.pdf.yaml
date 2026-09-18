@@ -1,0 +1,229 @@
+- id: FBS_VENUE_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@Venue]
+  attribute: Venue
+  params:
+    codeset: VENUE
+    allow:
+    - TBD
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 522: Venue where the session takes
+    place'
+  status: active
+- id: FBS_LOCATION_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@Location]
+  attribute: Location
+  params:
+    codeset: LOCATION
+    allow:
+    - TBD
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 628: Location where the unit takes
+    place.'
+  status: active
+- id: FBS_UNIT_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@Unit]
+  attribute: Unit
+  params:
+    codeset: EVENT_UNIT
+    exclude_tags:
+    - Precipitation
+    - Pressure
+    - Temperature
+    - Wind
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 704: The full RSC of the unit where
+    this competitor came from. This'
+  status: active
+- id: FBS_STATUS_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@Status]
+  attribute: Status
+  params:
+    codeset: PARTICIPANT_STATUS
+    exclude_tags:
+    - Protest
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 904: Participant''s sport entry status.'
+  status: active
+- id: FBS_FUNCTION_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@Function]
+  attribute: Function
+  params:
+    codeset: DISCIPLINE_FUNCTION
+    exclude_tags:
+    - Presenter
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 1372: Team Official function.'
+  status: active
+- id: FBS_VERSION_POSINT
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: value_format
+  target: .//*[@Version]
+  attribute: Version
+  params:
+    regex: ^[0-9]+$
+  severity: error
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 335: Version number (ascending) associated
+    to the message content.'
+  status: active
+- id: FBS_SESSIONTYPE_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@SessionType]
+  attribute: SessionType
+  params:
+    codeset: SESSION_TYPE
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 403: Id Session type of the Session.'
+  status: active
+- id: FBS_LANGUAGE_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@Language]
+  attribute: Language
+  params:
+    codeset: LANGUAGE
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 410: Id Language of the Session Description'
+  status: active
+- id: FBS_PHASETYPE_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@PhaseType]
+  attribute: PhaseType
+  params:
+    codeset: PHASE_TYPE
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 421: Id Phase type for the unit'
+  status: active
+- id: FBS_SCHEDULESTATUS_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@ScheduleStatus]
+  attribute: ScheduleStatus
+  params:
+    codeset: SCHEDULESTATUS
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 424: Id Unit Status'
+  status: active
+- id: FBS_ORGANISATION_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@Organisation]
+  attribute: Organisation
+  params:
+    codeset: ORGANISATION
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 493: Id Should be sent when known'
+  status: active
+- id: FBS_COUNTRYOFBIRTH_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@CountryofBirth]
+  attribute: CountryofBirth
+  params:
+    codeset: COUNTRY
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 613: Id Country ID of Birth'
+  status: active
+- id: FBS_COUNTRYOFRESIDENCE_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@CountryofResidence]
+  attribute: CountryofResidence
+  params:
+    codeset: COUNTRY
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 615: Id Country ID of Residence'
+  status: active
+- id: FBS_NATIONALITY_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@Nationality]
+  attribute: Nationality
+  params:
+    codeset: COUNTRY
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 616: ID Participant''s nationality.
+    Although this attribute is optional, in very exceptional situations it will not
+    be known, and for this reason not ready to be sent.'
+  status: active
+- id: FBS_MAINFUNCTIONID_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@MainFunctionId]
+  attribute: MainFunctionId
+  params:
+    codeset: DISCIPLINE_FUNCTION
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 617: Id Main function In the Case
+    of Current="true" this attribute is Mandatory.'
+  status: active
+- id: FBS_LASTUNIT_CODE
+  applies_to:
+    disciplines:
+    - FBS
+  primitive: code_membership
+  target: .//*[@LastUnit]
+  attribute: LastUnit
+  params:
+    codeset: EVENT_UNIT
+  severity: warning
+  scope: message
+  source_ref: 'ODF_FBS_Data_Dictionary.pdf line 1812: Code Send the full RSC of the
+    most recently unit made official for the pool included in this message.'
+  status: active

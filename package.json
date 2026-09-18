@@ -1,0 +1,13 @@
+{
+  "name": "odf-message-generator-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Front-end tests for web/static/app.js. The generator itself is Python; node is only needed to run these.",
+  "scripts": {
+    "test": "node --test \"tests/web/*.test.mjs\""
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}

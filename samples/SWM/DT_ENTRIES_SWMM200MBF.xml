@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="SWMM200MBF------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000715509" LogicalDate="2026-08-30" Source="CTO1">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-SWM-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="9000025" Type="A" Organisation="AFG" SortOrder="1">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:32.77"/>
+      <Composition>
+        <Athlete Code="9000025" Order="1">
+          <Description GivenName="Tomáš" FamilyName="Pavlović" Gender="M" Organisation="AFG" BirthDate="2010-01-27" IFId="9000025"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000006" Type="A" Organisation="BAN" SortOrder="2">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:15.16"/>
+      <Composition>
+        <Athlete Code="9000006" Order="1">
+          <Description GivenName="Habib" FamilyName="Karim" Gender="M" Organisation="BAN" BirthDate="2010-07-22" IFId="9000006"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000017" Type="A" Organisation="BIZ" SortOrder="3">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:09.58"/>
+      <Composition>
+        <Athlete Code="9000017" Order="1">
+          <Description GivenName="Abebe" FamilyName="Alemu" Gender="M" Organisation="BIZ" BirthDate="2011-09-26" IFId="9000017"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000032" Type="A" Organisation="BOC" SortOrder="4">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:00.66"/>
+      <Composition>
+        <Athlete Code="9000032" Order="1">
+          <Description GivenName="Akeem" FamilyName="Toussaint" Gender="M" Organisation="BOC" BirthDate="2009-01-10" IFId="9000032"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000001" Type="A" Organisation="CAF" SortOrder="5">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:13.76"/>
+      <Composition>
+        <Athlete Code="9000001" Order="1">
+          <Description GivenName="Alessandro" FamilyName="Fontana" Gender="M" Organisation="CAF" BirthDate="2011-05-04" IFId="9000001"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000016" Type="A" Organisation="CUB" SortOrder="6">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:32.98"/>
+      <Composition>
+        <Athlete Code="9000016" Order="1">
+          <Description GivenName="Junseo" FamilyName="Han" Gender="M" Organisation="CUB" BirthDate="2011-10-24" IFId="9000016"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000007" Type="A" Organisation="ESP" SortOrder="7">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="1:48.27"/>
+      <Composition>
+        <Athlete Code="9000007" Order="1">
+          <Description GivenName="Alessandro" FamilyName="Ricci" Gender="M" Organisation="ESP" BirthDate="2011-12-25" IFId="9000007"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000028" Type="A" Organisation="EUN" SortOrder="8">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:24.83"/>
+      <Composition>
+        <Athlete Code="9000028" Order="1">
+          <Description GivenName="Matteo" FamilyName="Barbieri" Gender="M" Organisation="EUN" BirthDate="2011-03-12" IFId="9000028"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000020" Type="A" Organisation="IRQ" SortOrder="9">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:26.56"/>
+      <Composition>
+        <Athlete Code="9000020" Order="1">
+          <Description GivenName="Nikola" FamilyName="Jurić" Gender="M" Organisation="IRQ" BirthDate="2010-08-27" IFId="9000020"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000011" Type="A" Organisation="KUW" SortOrder="10">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:29.65"/>
+      <Composition>
+        <Athlete Code="9000011" Order="1">
+          <Description GivenName="Davide" FamilyName="Rossi" Gender="M" Organisation="KUW" BirthDate="2010-12-28" IFId="9000011"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000022" Type="A" Organisation="PAK" SortOrder="11">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:22.80"/>
+      <Composition>
+        <Athlete Code="9000022" Order="1">
+          <Description GivenName="Sovann" FamilyName="Santoso" Gender="M" Organisation="PAK" BirthDate="2011-06-15" IFId="9000022"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000013" Type="A" Organisation="PUR" SortOrder="12">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:26.03"/>
+      <Composition>
+        <Athlete Code="9000013" Order="1">
+          <Description GivenName="Santiago" FamilyName="Martínez" Gender="M" Organisation="PUR" BirthDate="2011-04-01" IFId="9000013"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000029" Type="A" Organisation="SOM" SortOrder="13">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:12.38"/>
+      <Composition>
+        <Athlete Code="9000029" Order="1">
+          <Description GivenName="Ousmane" FamilyName="Osei" Gender="M" Organisation="SOM" BirthDate="2009-03-09" IFId="9000029"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000010" Type="A" Organisation="SWZ" SortOrder="14">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:14.38"/>
+      <Composition>
+        <Athlete Code="9000010" Order="1">
+          <Description GivenName="Maxime" FamilyName="Lefebvre" Gender="M" Organisation="SWZ" BirthDate="2010-12-01" IFId="9000010"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000024" Type="A" Organisation="TAN" SortOrder="15">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:08.03"/>
+      <Composition>
+        <Athlete Code="9000024" Order="1">
+          <Description GivenName="Tyrese" FamilyName="Duncan" Gender="M" Organisation="TAN" BirthDate="2009-02-26" IFId="9000024"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000004" Type="A" Organisation="TTO" SortOrder="16">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="1:50.64"/>
+      <Composition>
+        <Athlete Code="9000004" Order="1">
+          <Description GivenName="Riccardo" FamilyName="Costa" Gender="M" Organisation="TTO" BirthDate="2010-09-13" IFId="9000004"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

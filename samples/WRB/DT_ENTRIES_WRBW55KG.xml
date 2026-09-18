@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="WRBW55KG--------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000727417" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-WRB-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="9000035" Type="A" Organisation="AND" SortOrder="1">
+      <Composition>
+        <Athlete Code="9000035" Order="1">
+          <Description GivenName="Isabella" FamilyName="Salazar" Gender="F" Organisation="AND" BirthDate="2011-08-06" IFId="9000035"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000032" Type="A" Organisation="BOC" SortOrder="2">
+      <Composition>
+        <Athlete Code="9000032" Order="1">
+          <Description GivenName="Keisha" FamilyName="Francis" Gender="F" Organisation="BOC" BirthDate="2010-12-06" IFId="9000032"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000046" Type="A" Organisation="DEN" SortOrder="3">
+      <Composition>
+        <Athlete Code="9000046" Order="1">
+          <Description GivenName="Manon" FamilyName="Fontaine" Gender="F" Organisation="DEN" BirthDate="2009-02-05" IFId="9000046"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000028" Type="A" Organisation="EUN" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000028" Order="1">
+          <Description GivenName="Chiara" FamilyName="Gallo" Gender="F" Organisation="EUN" BirthDate="2011-01-13" IFId="9000028"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000043" Type="A" Organisation="KAZ" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000043" Order="1">
+          <Description GivenName="Camille" FamilyName="Lefebvre" Gender="F" Organisation="KAZ" BirthDate="2010-04-09" IFId="9000043"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000047" Type="A" Organisation="KOR" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000047" Order="1">
+          <Description GivenName="Minseo" FamilyName="Park" Gender="F" Organisation="KOR" BirthDate="2011-04-09" IFId="9000047"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000027" Type="A" Organisation="KSA" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000027" Order="1">
+          <Description GivenName="Nour" FamilyName="Zahran" Gender="F" Organisation="KSA" BirthDate="2011-09-15" IFId="9000027"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000026" Type="A" Organisation="SGP" SortOrder="8">
+      <Composition>
+        <Athlete Code="9000026" Order="1">
+          <Description GivenName="Thea" FamilyName="Dahl" Gender="F" Organisation="SGP" BirthDate="2010-09-27" IFId="9000026"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000029" Type="A" Organisation="SOM" SortOrder="9">
+      <Composition>
+        <Athlete Code="9000029" Order="1">
+          <Description GivenName="Naledi" FamilyName="Nkosi" Gender="F" Organisation="SOM" BirthDate="2010-11-21" IFId="9000029"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000037" Type="A" Organisation="UKR" SortOrder="10">
+      <Composition>
+        <Athlete Code="9000037" Order="1">
+          <Description GivenName="Tamara" FamilyName="Alexander" Gender="F" Organisation="UKR" BirthDate="2009-04-19" IFId="9000037"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000048" Type="A" Organisation="UZB" SortOrder="11">
+      <Composition>
+        <Athlete Code="9000048" Order="1">
+          <Description GivenName="Rania" FamilyName="Qasem" Gender="F" Organisation="UZB" BirthDate="2011-05-12" IFId="9000048"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000034" Type="A" Organisation="YEM" SortOrder="12">
+      <Composition>
+        <Athlete Code="9000034" Order="1">
+          <Description GivenName="Channary" FamilyName="Sayavong" Gender="F" Organisation="YEM" BirthDate="2009-10-27" IFId="9000034"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

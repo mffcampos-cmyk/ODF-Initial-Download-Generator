@@ -1,0 +1,656 @@
+/* Operator page styling.
+ *
+ * The visual system is the ODF Validator's, applied per docs/design-handoff-
+ * 2026-08-06.md. Two things carry over wholesale: the token block (Appendix A)
+ * and the rule that saturated colour only ever states a verdict about the
+ * operator's data — there is no brand accent anywhere in here.
+ *
+ * What does NOT carry over is the validator's tally rail. The generator has no
+ * severities; its verdict is "what came out, and did it self-check". That is
+ * the manifest readout (.readout), and it is the one place boldness is spent.
+ * Everything else — form, buttons, editor — is deliberately quiet.
+ *
+ * Dark mode is kept (see §3.4 of the handoff: a decision, not an accident).
+ * Both palettes are verified by scripts/check_contrast.py. Re-run it after any
+ * colour change.
+ */
+
+:root {
+  /* ground & ink — cool blue-grey, drafting paper rather than cream */
+  --ground:      #e4e9ef;
+  --panel:       #fbfcfd;
+  --panel-sunk:  #edf1f6;
+  --ink:         #10151c;
+  --ink-mid:     #56606e;
+  --ink-soft:    #5f6775;   /* 4.67:1 on ground — small-caps labels are text */
+  --rule:        #c6ceda;   /* decorative hairlines */
+  --rule-strong: #738296;   /* outlines real controls, so >=3:1 */
+
+  /* the readout is unlit until driven; dark is what lets fills clear 3:1 */
+  --readout:      #232a34;
+  --readout-line: #3b4553;
+  --readout-text: #98a2b0;
+  --readout-ink:  #eef1f5;  /* driven text inside the readout */
+
+  /* Row states inside the readout. Tokenised rather than inline rgba so
+     scripts/check_contrast.py can see them -- the selected-row treatment
+     failed 1.4.11 for months precisely because the checker only parses
+     #rrggbb and these were written as rgb(255 255 255 / .07). */
+  --hover-wash:   #272e39;   /* ~.04 white over --readout */
+  --select-wash:  #2b323d;   /* ~.07 white over --readout */
+
+  /* signals — the only saturated colour. -fill paints on the dark readout,
+     -tint backs a chip on paper, bare states a verdict in text.
+     -fill must clear 4.5:1 on --readout: it carries 12px state text
+     ("2 errors"), not just the 8px lamp, so 3:1 is not enough. */
+  --error:        #c0261b;  --error-fill:   #ec6a5c;  --error-tint:   #f9e6e4;
+  --warning:      #96580b;  --warning-fill: #e8a11c;  --warning-tint: #fbefdb;
+  --info:         #1f5ea8;  --info-fill:    #5e9bdd;  --info-tint:    #e5eefa;
+
+  /* type */
+  --font-display: "Bahnschrift", "DIN Alternate", "DIN Condensed",
+                  "Roboto Condensed", "Segoe UI", system-ui, sans-serif;
+  --font-data:    "Consolas", "Cascadia Mono", ui-monospace, "SF Mono",
+                  "Liberation Mono", Menlo, monospace;
+  --font-prose:   "Segoe UI Variable Text", "Segoe UI", system-ui,
+                  -apple-system, Roboto, sans-serif;
+  --code-lh: 1.55;
+
+  /* metrics */
+  --s1: .25rem; --s2: .5rem; --s3: .75rem; --s4: 1rem;
+  --s5: 1.5rem; --s6: 2rem;  --s7: 3rem;
+  --radius: 2px;            /* machined: neither 0 nor the SaaS 8-12px */
+  --measure: 1180px;
+  --ease: cubic-bezier(.2, .8, .2, 1);
+}
+
+/* Dark values. The readout stays the darkest surface on the page so it still
+   reads as recessed, and the bare signal colours move to their lighter
+   siblings — #c0261b on a dark ground is a smudge, not a verdict. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground:      #161b21;
+    --panel:       #1e242c;
+    --panel-sunk:  #12171d;
+    --ink:         #e8edf3;
+    --ink-mid:     #a9b4c2;
+    --ink-soft:    #99a4b2;
+    --rule:        #303945;
+    --rule-strong: #7e8c9d;
+
+    --readout:      #0d1116;
+    --readout-line: #29313b;
+    --readout-text: #909bab;
+    --readout-ink:  #d8dee7;
+
+    --hover-wash:   #131820;
+    --select-wash:  #181e27;
+
+    --error:   #ef6a5c;  --error-tint:   #2d1917;
+    --warning: #e2a53c;  --warning-tint: #2b2011;
+    --info:    #79b0ea;  --info-tint:    #15233a;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+
+/* `hidden` is toggled from app.js on elements this stylesheet gives a display
+   value to, and a `display` declaration beats the UA's [hidden] rule. Without
+   this, a not-ready pack would show its form. */
+[hidden] { display: none !important; }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--font-prose);
+  font-size: 1rem;
+  line-height: 1.5;
+  /* Tabular figures. Counts change between runs; numerals that jitter as they
+     change read as text, not as an instrument. */
+  font-feature-settings: "tnum" 1;
+}
+
+main {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 var(--s5) var(--s7);
+}
+
+/* Small-caps structural label. Used for every section eyebrow and <legend>. */
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.eyebrow-note {
+  display: block;
+  margin-top: var(--s1);
+  font-family: var(--font-prose);
+  font-size: .8125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink-mid);
+}
+
+/* Visually hidden, still focusable and still announced. Wraps the real
+   <input type="radio"> behind each manifest row. */
+.vh {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Never remove the focus ring without replacing it. Desaturated on purpose:
+   a blue ring would be the only non-verdict colour on the page. */
+:is(a, button, input, select, summary):focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.readout :is(a, button, input, select):focus-visible,
+.vh:focus-visible + .mrow-body {
+  outline: 3px solid var(--readout-ink);
+  outline-offset: -1px;
+}
+
+/* --------------------------------------------------------------------------
+   Nameplate
+   -------------------------------------------------------------------------- */
+
+.rig {
+  border-bottom: 1px solid var(--rule);
+  background: var(--panel);
+  margin-bottom: var(--s6);
+}
+
+.rig-inner {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--s4) var(--s5);
+  display: flex;
+  align-items: baseline;
+  gap: var(--s3);
+}
+
+.wordmark {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.plate {
+  font-family: var(--font-display);
+  font-size: .8125rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: var(--panel);
+  background: var(--ink);
+  padding: .15rem .4rem;
+  border-radius: var(--radius);
+}
+
+/* --------------------------------------------------------------------------
+   The manifest readout — the signature
+   -------------------------------------------------------------------------- */
+
+.readout {
+  background: var(--readout);
+  border: 1px solid var(--readout-line);
+  border-radius: var(--radius);
+  /* Recess: the top edge is in shadow, as a panel set into a surface is. */
+  box-shadow: inset 0 2px 6px rgb(0 0 0 / .45);
+  padding: var(--s4) var(--s5) var(--s5);
+  margin-bottom: var(--s5);
+}
+
+.readout-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s2);
+  padding-bottom: var(--s3);
+}
+
+.readout-head .eyebrow { color: var(--readout-text); }
+
+.readout-scope {
+  font-family: var(--font-data);
+  font-size: .8125rem;
+  color: var(--readout-text);
+}
+
+/* Idle: unlit, and it says so. An operator cannot tell "nothing yet" from
+   "broken" by looking at an empty box. */
+.readout-idle {
+  color: var(--readout-text);
+  font-size: .9375rem;
+  margin: 0;
+  padding: var(--s4) 0 var(--s2);
+}
+
+.manifest { display: block; }
+
+.mrow { display: block; cursor: pointer; }
+
+.mrow-body {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto minmax(6.5rem, auto);
+  align-items: center;
+  gap: 0 var(--s3);
+  min-height: 2.75rem;
+  padding: 0 var(--s2);
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+}
+
+.mrow:hover .mrow-body { background: var(--hover-wash); }
+
+/* The selected row. The old treatment was a .07 white wash plus a
+   --readout-line border: 1.24:1 and 1.20:1 against --readout, where WCAG
+   1.4.11 wants 3:1 for the state of a UI component. Since the real radio is
+   .vh (visually hidden), there was no native indicator to fall back on and
+   the operator could not tell which document the pane below was scoped to.
+
+   A solid left edge in --readout-ink carries it: 12.9:1 light, 11.4:1 dark,
+   and it reads as a marker rather than as a slightly different grey. The wash
+   stays, now doing only the job it is adequate for. */
+.vh:checked + .mrow-body {
+  background: var(--select-wash);
+  border-color: var(--readout-line);
+  box-shadow: inset 3px 0 0 0 var(--readout-ink);
+}
+
+/* The lamp is redundant with the state text beside it, deliberately: colour is
+   never the only channel carrying the verdict. */
+.lamp {
+  width: .5rem; height: .5rem;
+  border-radius: 1px;
+  background: var(--readout-line);
+}
+
+.lamp-clean { background: var(--readout-text); }
+.lamp-error { background: var(--error-fill); }
+
+.mcode {
+  font-family: var(--font-data);
+  font-size: .875rem;
+  color: var(--readout-ink);
+  overflow-wrap: anywhere;
+}
+
+.mall {
+  font-family: var(--font-display);
+  font-size: .875rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--readout-ink);
+}
+
+/* Condensed DIN numerals. Harmless on non-variable fallbacks. */
+.mnum {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-variation-settings: "wdth" 85, "wght" 700;
+  line-height: 1;
+  color: var(--readout-ink);
+  text-align: right;
+}
+
+.munit {
+  font-family: var(--font-display);
+  font-size: .6875rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--readout-text);
+}
+
+.mstate {
+  font-family: var(--font-display);
+  font-size: .75rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--readout-text);
+  text-align: right;
+}
+
+.mstate-error { color: var(--error-fill); }
+
+.mrow-all { border-top: 1px solid var(--readout-line); margin-top: var(--s2); padding-top: var(--s2); }
+
+/* A pass is a result. An empty list is not a sentence. */
+.readout-foot {
+  margin: var(--s3) 0 0;
+  padding-top: var(--s3);
+  border-top: 1px solid var(--readout-line);
+  font-size: .875rem;
+  color: var(--readout-text);
+}
+
+.readout-foot strong { color: var(--readout-ink); font-weight: 600; }
+
+/* One settle, then stillness: the rows print in once when a bundle lands.
+   Re-scoping the output does not re-render the manifest, so it never replays. */
+@keyframes settle {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.readout-fresh .mrow {
+  animation: settle .3s var(--ease) both;
+  animation-delay: calc(var(--i, 0) * 45ms);
+}
+
+/* --------------------------------------------------------------------------
+   Interlock — a pack that cannot generate yet is not an error
+   -------------------------------------------------------------------------- */
+
+.interlock {
+  background: var(--readout);
+  /* The amber eyebrow already says "not ready"; an amber edge alongside it was
+     the same signal twice, so it is gone. One accessory removed. */
+  border: 1px solid var(--readout-line);
+  border-radius: var(--radius);
+  box-shadow: inset 0 2px 6px rgb(0 0 0 / .45);
+  padding: var(--s4) var(--s5) var(--s5);
+  margin-bottom: var(--s5);
+}
+
+.interlock .eyebrow { color: var(--warning-fill); }
+
+.interlock-line {
+  margin: var(--s2) 0 var(--s3);
+  color: var(--readout-ink);
+  font-size: 1rem;
+}
+
+.interlock ul {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--readout-text);
+}
+
+.interlock li {
+  font-family: var(--font-data);
+  font-size: .8125rem;
+  line-height: var(--code-lh);
+  overflow-wrap: anywhere;
+}
+
+/* An error the operator has to act on, on paper rather than in the readout. */
+.notice {
+  background: var(--error-tint);
+  border: 1px solid var(--error);
+  border-radius: var(--radius);
+  padding: var(--s3) var(--s4);
+  margin-bottom: var(--s5);
+  color: var(--ink);
+}
+
+.notice p { margin: 0; }
+
+/* --------------------------------------------------------------------------
+   Work area: setup on the left, output on the right
+   -------------------------------------------------------------------------- */
+
+.work {
+  display: grid;
+  grid-template-columns: minmax(0, 23rem) minmax(0, 1fr);
+  gap: var(--s5);
+  align-items: start;
+}
+
+@media (max-width: 60rem) {
+  .work { grid-template-columns: minmax(0, 1fr); }
+}
+
+.card {
+  background: var(--panel-sunk);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: var(--s5);
+}
+
+.card > .eyebrow { display: block; margin-bottom: var(--s3); }
+
+/* --------------------------------------------------------------------------
+   Form
+   -------------------------------------------------------------------------- */
+
+fieldset {
+  margin: 0 0 var(--s5);
+  padding: 0;
+  border: 0;
+}
+
+legend { padding: 0; margin-bottom: var(--s3); }
+
+.field { display: block; }
+
+.field-label {
+  display: block;
+  font-family: var(--font-display);
+  font-size: .8125rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+  color: var(--ink-mid);
+  margin-bottom: var(--s1);
+}
+
+/* Wrapping rows of labelled controls, so nothing overflows on a narrow window
+   and the layout survives a 200% text zoom. */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3) var(--s4);
+}
+
+.row > label,
+.row > .field { flex: 1 1 8rem; min-width: 0; }
+
+.stack > * + * { margin-top: var(--s2); }
+
+input, select, button { font: inherit; }
+
+/* Every text field on this page holds a machine code, so the fields are
+   monospace and the chrome around them is the characterful face. That is the
+   inversion of the usual arrangement, and it is what the subject asks for. */
+input[type="text"], input[type="number"], input:not([type]), select {
+  width: 100%;
+  min-width: 0;
+  font-family: var(--font-data);
+  font-size: .875rem;
+  color: var(--ink);
+  background: var(--panel);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  padding: .5rem .55rem;
+  min-height: 2.5rem;
+}
+
+select { font-family: var(--font-display); font-size: .9375rem; letter-spacing: .02em; }
+
+input::placeholder { color: var(--ink-soft); }
+
+.switches label {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s2);
+  font-size: .9375rem;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 1.15rem;
+  height: 1.15rem;
+  margin: .1rem 0 0;
+  flex: none;
+  /* Neutral, not branded: saturation on this page means a verdict. */
+  accent-color: var(--ink);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+}
+
+.btn {
+  font-family: var(--font-display);
+  font-size: .875rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  min-height: 2.75rem;
+  padding: 0 var(--s4);
+  color: var(--ink);
+  background: var(--panel);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.btn-run {
+  color: var(--panel);
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+.btn:hover:not(:disabled) { border-color: var(--ink); }
+
+.btn:disabled { cursor: progress; opacity: .55; }
+
+/* --------------------------------------------------------------------------
+   Output
+   -------------------------------------------------------------------------- */
+
+.outbox { display: block; }
+
+.outbox > .eyebrow { display: block; margin-bottom: var(--s3); }
+
+#status {
+  font-size: .9375rem;
+  color: var(--ink-mid);
+  margin: 0 0 var(--s3);
+  min-height: 1.4rem;
+  white-space: pre-wrap;
+}
+
+#status.is-error { color: var(--error); }
+
+/* Generated ODF XML has long lines. Without pre-wrap the <pre> widens the whole
+   document and the form scrolls off to the left. */
+#out {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  overflow: auto;
+  max-height: 60vh;
+  margin: 0;
+  padding: 0;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  font-family: var(--font-data);
+  font-size: .8125rem;
+  line-height: var(--code-lh);
+  color: var(--ink);
+}
+
+#out:empty { display: none; }
+
+/* Which message you are reading, pinned while you scroll through it. */
+.doc-head {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--panel-sunk);
+  border-bottom: 1px solid var(--rule);
+  padding: var(--s2) var(--s3);
+  font-family: var(--font-display);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+}
+
+.doc + .doc .doc-head { border-top: 1px solid var(--rule); }
+
+/* Findings cite line numbers, so the gutter is the thing that gets you to the
+   line. Absolute positioning inside a relative line keeps the number attached
+   to the first visual row when a long line wraps. */
+.ln {
+  display: block;
+  position: relative;
+  padding: 0 var(--s3) 0 4.75rem;
+}
+
+.ln::before {
+  content: counter(ln);
+  counter-increment: ln;
+  position: absolute;
+  left: 0;
+  width: 3.75rem;
+  padding-right: var(--s2);
+  text-align: right;
+  color: var(--ink-soft);
+  background: var(--panel-sunk);
+  user-select: none;
+}
+
+.doc { counter-reset: ln; display: block; }
+
+/* Saved paths: the third question a bundle raises after what and whether. */
+.written { margin-top: var(--s4); }
+
+.written > .eyebrow { display: block; margin-bottom: var(--s2); }
+
+.written ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-data);
+  font-size: .8125rem;
+  line-height: var(--code-lh);
+  color: var(--ink-mid);
+}
+
+.written li { overflow-wrap: anywhere; }
+
+noscript p {
+  background: var(--panel);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  padding: var(--s3) var(--s4);
+}
+
+noscript code { font-family: var(--font-data); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

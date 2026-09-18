@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="RU7-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-08-30" Time="000708934" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-RU7-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Session Venue="CID" VenueName="Complexe Iba Mar Diop" SessionType="MOR" SessionCode="RU701" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
+      <SessionName Language="ENG" Value="Session 1"/>
+    </Session>
+    <Session Venue="CID" VenueName="Complexe Iba Mar Diop" SessionType="AFT" SessionCode="RU702" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T17:28:00+00:00">
+      <SessionName Language="ENG" Value="Session 2"/>
+    </Session>
+    <Session Venue="CID" VenueName="Complexe Iba Mar Diop" SessionType="MOR" SessionCode="RU703" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T11:14:00+00:00">
+      <SessionName Language="ENG" Value="Session 3"/>
+    </Session>
+    <Unit Code="RU7MTEAM7-------------GPA-000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPA-000200--" PhaseType="7" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPB-000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPA-000300--" PhaseType="8" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPB-000300--" PhaseType="6" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPA-000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPB-000400--" PhaseType="2" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPA-000500--" PhaseType="7" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPB-000500--" PhaseType="9" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPA-000600--" PhaseType="8" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------SF5-000100--" PhaseType="5" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Placing 5-8"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------SF5-000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Placing 5-8"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------SFNL000100--" PhaseType="0" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Semi-final"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------SFNL000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="RU701">
+      <ItemName Language="ENG" Value="Men's Semi-final"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------FNL-000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Medal="1" Order="1" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Men's Gold Medal Match"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------FNL-000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Medal="3" Order="2" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Men's Bronze Medal Match"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------FNL-000300--" PhaseType="6" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Men's Placing 5-6"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7MTEAM7-------------FNL-000400--" PhaseType="5" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Men's Placing 7-8"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPA-000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPB-000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPA-000200--" PhaseType="1" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPB-000200--" PhaseType="7" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPB-000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPA-000400--" PhaseType="0" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPB-000400--" PhaseType="6" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPA-000500--" PhaseType="2" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:36:00+00:00" EndDate="2026-11-01T16:49:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPB-000500--" PhaseType="6" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:49:00+00:00" EndDate="2026-11-01T17:02:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPA-000600--" PhaseType="4" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:02:00+00:00" EndDate="2026-11-01T17:15:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool A"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------GPB-000600--" PhaseType="2" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:15:00+00:00" EndDate="2026-11-01T17:28:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="RU702">
+      <ItemName Language="ENG" Value="Women's Pool B"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------SF5-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="RU703">
+      <ItemName Language="ENG" Value="Women's Placing 5-8"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------SF5-000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:43:00+00:00" EndDate="2026-11-02T09:56:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="RU703">
+      <ItemName Language="ENG" Value="Women's Placing 5-8"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------SFNL000100--" PhaseType="0" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:09:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="RU703">
+      <ItemName Language="ENG" Value="Women's Semi-final"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------SFNL000200--" PhaseType="5" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:09:00+00:00" EndDate="2026-11-02T10:22:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="RU703">
+      <ItemName Language="ENG" Value="Women's Semi-final"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------FNL-000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:22:00+00:00" EndDate="2026-11-02T10:35:00+00:00" Medal="1" Order="5" Venue="CID" Location="CID" SessionCode="RU703">
+      <ItemName Language="ENG" Value="Women's Gold Medal Match"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------FNL-000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:35:00+00:00" EndDate="2026-11-02T10:48:00+00:00" Medal="3" Order="6" Venue="CID" Location="CID" SessionCode="RU703">
+      <ItemName Language="ENG" Value="Women's Bronze Medal Match"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------FNL-000300--" PhaseType="8" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:48:00+00:00" EndDate="2026-11-02T11:01:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="RU703">
+      <ItemName Language="ENG" Value="Women's Placing 5-6"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+    <Unit Code="RU7WTEAM7-------------FNL-000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:01:00+00:00" EndDate="2026-11-02T11:14:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="RU703">
+      <ItemName Language="ENG" Value="Women's Placing 7-8"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
+    </Unit>
+  </Competition>
+</OdfBody>

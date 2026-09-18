@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="ARCXTEAM2-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000636550" LogicalDate="2026-08-30" Source="AWAARC1">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-ARC-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="ARCXTEAM2---ASA01" Type="T" Organisation="ASA" SortOrder="1">
+      <Description TeamName="American Samoa"/>
+      <Composition>
+        <Athlete Code="9000001" Order="1">
+          <Description GivenName="Ethan" FamilyName="Mitchell" Gender="M" Organisation="ASA" BirthDate="2009-05-04" IFId="9000001"/>
+        </Athlete>
+        <Athlete Code="9000035" Order="2">
+          <Description GivenName="Freya" FamilyName="Smith" Gender="F" Organisation="ASA" BirthDate="2009-11-06" IFId="9000035"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---BAH01" Type="T" Organisation="BAH" SortOrder="2">
+      <Description TeamName="Bahamas"/>
+      <Composition>
+        <Athlete Code="9000002" Order="1">
+          <Description GivenName="Akeem" FamilyName="Greaves" Gender="M" Organisation="BAH" BirthDate="2010-08-21" IFId="9000002"/>
+        </Athlete>
+        <Athlete Code="9000037" Order="2">
+          <Description GivenName="Danielle" FamilyName="Greaves" Gender="F" Organisation="BAH" BirthDate="2010-01-27" IFId="9000037"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---BDI01" Type="T" Organisation="BDI" SortOrder="3">
+      <Description TeamName="Burundi"/>
+      <Composition>
+        <Athlete Code="9000004" Order="1">
+          <Description GivenName="Kwame" FamilyName="Cissé" Gender="M" Organisation="BDI" BirthDate="2010-07-20" IFId="9000004"/>
+        </Athlete>
+        <Athlete Code="9000039" Order="2">
+          <Description GivenName="Ama" FamilyName="Sarr" Gender="F" Organisation="BDI" BirthDate="2010-04-09" IFId="9000039"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---CRC01" Type="T" Organisation="CRC" SortOrder="4">
+      <Description TeamName="Costa Rica"/>
+      <Composition>
+        <Athlete Code="9000008" Order="1">
+          <Description GivenName="Javier" FamilyName="Castillo" Gender="M" Organisation="CRC" BirthDate="2009-07-24" IFId="9000008"/>
+        </Athlete>
+        <Athlete Code="9000044" Order="2">
+          <Description GivenName="Gabriela" FamilyName="Ramírez" Gender="F" Organisation="CRC" BirthDate="2009-01-10" IFId="9000044"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---CZE01" Type="T" Organisation="CZE" SortOrder="5">
+      <Description TeamName="Czechia"/>
+      <Composition>
+        <Athlete Code="9000010" Order="1">
+          <Description GivenName="Tomáš" FamilyName="Černý" Gender="M" Organisation="CZE" BirthDate="2010-04-22" IFId="9000010"/>
+        </Athlete>
+        <Athlete Code="9000045" Order="2">
+          <Description GivenName="Adéla" FamilyName="Horvat" Gender="F" Organisation="CZE" BirthDate="2010-04-09" IFId="9000045"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---EGY01" Type="T" Organisation="EGY" SortOrder="6">
+      <Description TeamName="Egypt"/>
+      <Composition>
+        <Athlete Code="9000011" Order="1">
+          <Description GivenName="Tariq" FamilyName="Sabbagh" Gender="M" Organisation="EGY" BirthDate="2010-05-01" IFId="9000011"/>
+        </Athlete>
+        <Athlete Code="9000046" Order="2">
+          <Description GivenName="Amira" FamilyName="Mansour" Gender="F" Organisation="EGY" BirthDate="2011-09-07" IFId="9000046"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---FRG01" Type="T" Organisation="FRG" SortOrder="7">
+      <Description TeamName="Federal Republic of Germany"/>
+      <Composition>
+        <Athlete Code="9000013" Order="1">
+          <Description GivenName="Jonas" FamilyName="Koch" Gender="M" Organisation="FRG" BirthDate="2011-05-04" IFId="9000013"/>
+        </Athlete>
+        <Athlete Code="9000047" Order="2">
+          <Description GivenName="Laura" FamilyName="Wagner" Gender="F" Organisation="FRG" BirthDate="2009-04-01" IFId="9000047"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---GHA01" Type="T" Organisation="GHA" SortOrder="8">
+      <Description TeamName="Ghana"/>
+      <Composition>
+        <Athlete Code="9000014" Order="1">
+          <Description GivenName="Juma" FamilyName="Diop" Gender="M" Organisation="GHA" BirthDate="2011-12-17" IFId="9000014"/>
+        </Athlete>
+        <Athlete Code="9000048" Order="2">
+          <Description GivenName="Khady" FamilyName="Boateng" Gender="F" Organisation="GHA" BirthDate="2009-12-06" IFId="9000048"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---ITA01" Type="T" Organisation="ITA" SortOrder="9">
+      <Description TeamName="Italy"/>
+      <Composition>
+        <Athlete Code="9000018" Order="1">
+          <Description GivenName="Edoardo" FamilyName="Barbieri" Gender="M" Organisation="ITA" BirthDate="2010-07-22" IFId="9000018"/>
+        </Athlete>
+        <Athlete Code="9000052" Order="2">
+          <Description GivenName="Vittoria" FamilyName="Rossi" Gender="F" Organisation="ITA" BirthDate="2010-11-19" IFId="9000052"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---JOR01" Type="T" Organisation="JOR" SortOrder="10">
+      <Description TeamName="Jordan"/>
+      <Composition>
+        <Athlete Code="9000019" Order="1">
+          <Description GivenName="Karim" FamilyName="Awad" Gender="M" Organisation="JOR" BirthDate="2011-12-25" IFId="9000019"/>
+        </Athlete>
+        <Athlete Code="9000053" Order="2">
+          <Description GivenName="Rania" FamilyName="Zahran" Gender="F" Organisation="JOR" BirthDate="2011-07-02" IFId="9000053"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---KOR01" Type="T" Organisation="KOR" SortOrder="11">
+      <Description TeamName="Republic of Korea"/>
+      <Composition>
+        <Athlete Code="9000020" Order="1">
+          <Description GivenName="Yejun" FamilyName="Shin" Gender="M" Organisation="KOR" BirthDate="2010-02-15" IFId="9000020"/>
+        </Athlete>
+        <Athlete Code="9000055" Order="2">
+          <Description GivenName="Yuna" FamilyName="Lee" Gender="F" Organisation="KOR" BirthDate="2009-05-10" IFId="9000055"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---LAO01" Type="T" Organisation="LAO" SortOrder="12">
+      <Description TeamName="Lao People's Democratic Republic"/>
+      <Composition>
+        <Athlete Code="9000021" Order="1">
+          <Description GivenName="Putra" FamilyName="Wijaya" Gender="M" Organisation="LAO" BirthDate="2009-03-17" IFId="9000021"/>
+        </Athlete>
+        <Athlete Code="9000057" Order="2">
+          <Description GivenName="Ketsana" FamilyName="Vongsa" Gender="F" Organisation="LAO" BirthDate="2011-01-19" IFId="9000057"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---PLE01" Type="T" Organisation="PLE" SortOrder="13">
+      <Description TeamName="Palestine"/>
+      <Composition>
+        <Athlete Code="9000027" Order="1">
+          <Description GivenName="Sami" FamilyName="Awad" Gender="M" Organisation="PLE" BirthDate="2011-06-15" IFId="9000027"/>
+        </Athlete>
+        <Athlete Code="9000058" Order="2">
+          <Description GivenName="Nour" FamilyName="Karam" Gender="F" Organisation="PLE" BirthDate="2011-08-06" IFId="9000058"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---PUR01" Type="T" Organisation="PUR" SortOrder="14">
+      <Description TeamName="Puerto Rico"/>
+      <Composition>
+        <Athlete Code="9000028" Order="1">
+          <Description GivenName="Alejandro" FamilyName="Castillo" Gender="M" Organisation="PUR" BirthDate="2011-10-24" IFId="9000028"/>
+        </Athlete>
+        <Athlete Code="9000059" Order="2">
+          <Description GivenName="Elena" FamilyName="Vargas" Gender="F" Organisation="PUR" BirthDate="2011-01-13" IFId="9000059"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---SWE01" Type="T" Organisation="SWE" SortOrder="15">
+      <Description TeamName="Sweden"/>
+      <Composition>
+        <Athlete Code="9000029" Order="1">
+          <Description GivenName="Emil" FamilyName="Olsen" Gender="M" Organisation="SWE" BirthDate="2011-09-26" IFId="9000029"/>
+        </Athlete>
+        <Athlete Code="9000062" Order="2">
+          <Description GivenName="Signe" FamilyName="Johansson" Gender="F" Organisation="SWE" BirthDate="2011-07-10" IFId="9000062"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---URS01" Type="T" Organisation="URS" SortOrder="16">
+      <Description TeamName="USSR"/>
+      <Composition>
+        <Athlete Code="9000031" Order="1">
+          <Description GivenName="Luka" FamilyName="Babić" Gender="M" Organisation="URS" BirthDate="2010-10-18" IFId="9000031"/>
+        </Athlete>
+        <Athlete Code="9000063" Order="2">
+          <Description GivenName="Nikolina" FamilyName="Babić" Gender="F" Organisation="URS" BirthDate="2009-06-20" IFId="9000063"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="ARCXTEAM2---USA01" Type="T" Organisation="USA" SortOrder="17">
+      <Description TeamName="United States of America"/>
+      <Composition>
+        <Athlete Code="9000032" Order="1">
+          <Description GivenName="Liam" FamilyName="Wright" Gender="M" Organisation="USA" BirthDate="2010-08-27" IFId="9000032"/>
+        </Athlete>
+        <Athlete Code="9000064" Order="2">
+          <Description GivenName="Ella" FamilyName="Bishop" Gender="F" Organisation="USA" BirthDate="2010-01-06" IFId="9000064"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="CRD-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-08-30" Time="000653377" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-CRD-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Session Venue="COR" VenueName="Corniche West " SessionType="MOR" SessionCode="CRD01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T10:22:00+00:00">
+      <SessionName Language="ENG" Value="Session 1"/>
+    </Session>
+    <Unit Code="CRDMRR----------------FNL-000100--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Medal="1" Order="1" Venue="COR" Location="COR" SessionCode="CRD01">
+      <ItemName Language="ENG" Value="Men's Road Race"/>
+      <VenueDescription VenueName="Corniche West " LocationName="Corniche West "/>
+    </Unit>
+    <Unit Code="CRDMTT----------------FNL-000100--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Medal="1" Order="2" Venue="COR" Location="COR" SessionCode="CRD01">
+      <ItemName Language="ENG" Value="Men's Individual Time Trial"/>
+      <VenueDescription VenueName="Corniche West " LocationName="Corniche West "/>
+    </Unit>
+    <Unit Code="CRDWRR----------------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Medal="1" Order="3" Venue="COR" Location="COR" SessionCode="CRD01">
+      <ItemName Language="ENG" Value="Women's Road Race"/>
+      <VenueDescription VenueName="Corniche West " LocationName="Corniche West "/>
+    </Unit>
+    <Unit Code="CRDWTT----------------FNL-000100--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Medal="1" Order="4" Venue="COR" Location="COR" SessionCode="CRD01">
+      <ItemName Language="ENG" Value="Women's Individual Time Trial"/>
+      <VenueDescription VenueName="Corniche West " LocationName="Corniche West "/>
+    </Unit>
+  </Competition>
+</OdfBody>

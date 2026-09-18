@@ -1,0 +1,11 @@
+# LA 2028. No official LA2028 source documents exist yet.
+#
+# gen, codes and sport_template are published in the LA2028 GEN document and
+# cannot be derived from the rule pack. Until they are filled in here, this
+# pack is reported not-ready and the generator refuses to emit LA2028 messages
+# rather than inventing version strings. Do not guess these values.
+label: LA 2028
+gen:
+codes:
+sport_template:
+default_source: OGEN

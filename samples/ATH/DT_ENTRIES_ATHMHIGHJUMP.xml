@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="ATHMHIGHJUMP----------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000639267" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-ATH-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="9000006" Type="A" Organisation="BAN" SortOrder="1">
+      <Composition>
+        <Athlete Code="9000006" Order="1">
+          <Description GivenName="Habib" FamilyName="Karim" Gender="M" Organisation="BAN" BirthDate="2010-07-22" IFId="9000006"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000001" Type="A" Organisation="CAF" SortOrder="2">
+      <Composition>
+        <Athlete Code="9000001" Order="1">
+          <Description GivenName="Alessandro" FamilyName="Fontana" Gender="M" Organisation="CAF" BirthDate="2011-05-04" IFId="9000001"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000007" Type="A" Organisation="ESP" SortOrder="3">
+      <Composition>
+        <Athlete Code="9000007" Order="1">
+          <Description GivenName="Alessandro" FamilyName="Ricci" Gender="M" Organisation="ESP" BirthDate="2011-12-25" IFId="9000007"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000011" Type="A" Organisation="KUW" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000011" Order="1">
+          <Description GivenName="Davide" FamilyName="Rossi" Gender="M" Organisation="KUW" BirthDate="2010-12-28" IFId="9000011"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000009" Type="A" Organisation="MAD" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000009" Order="1">
+          <Description GivenName="Thabo" FamilyName="Keita" Gender="M" Organisation="MAD" BirthDate="2009-03-17" IFId="9000009"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000010" Type="A" Organisation="SWZ" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000010" Order="1">
+          <Description GivenName="Maxime" FamilyName="Lefebvre" Gender="M" Organisation="SWZ" BirthDate="2010-12-01" IFId="9000010"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000015" Type="A" Organisation="TKM" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000015" Order="1">
+          <Description GivenName="Dovlet" FamilyName="Bekov" Gender="M" Organisation="TKM" BirthDate="2011-06-15" IFId="9000015"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000004" Type="A" Organisation="TTO" SortOrder="8">
+      <Composition>
+        <Athlete Code="9000004" Order="1">
+          <Description GivenName="Riccardo" FamilyName="Costa" Gender="M" Organisation="TTO" BirthDate="2010-09-13" IFId="9000004"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

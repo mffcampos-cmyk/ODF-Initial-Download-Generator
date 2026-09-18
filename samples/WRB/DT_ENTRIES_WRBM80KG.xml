@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="WRBM80KG--------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000727415" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-WRB-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="9000006" Type="A" Organisation="BAN" SortOrder="1">
+      <Composition>
+        <Athlete Code="9000006" Order="1">
+          <Description GivenName="Habib" FamilyName="Karim" Gender="M" Organisation="BAN" BirthDate="2010-07-22" IFId="9000006"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000001" Type="A" Organisation="CAF" SortOrder="2">
+      <Composition>
+        <Athlete Code="9000001" Order="1">
+          <Description GivenName="Alessandro" FamilyName="Fontana" Gender="M" Organisation="CAF" BirthDate="2011-05-04" IFId="9000001"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000016" Type="A" Organisation="CUB" SortOrder="3">
+      <Composition>
+        <Athlete Code="9000016" Order="1">
+          <Description GivenName="Junseo" FamilyName="Han" Gender="M" Organisation="CUB" BirthDate="2011-10-24" IFId="9000016"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000007" Type="A" Organisation="ESP" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000007" Order="1">
+          <Description GivenName="Alessandro" FamilyName="Ricci" Gender="M" Organisation="ESP" BirthDate="2011-12-25" IFId="9000007"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000020" Type="A" Organisation="IRQ" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000020" Order="1">
+          <Description GivenName="Nikola" FamilyName="Jurić" Gender="M" Organisation="IRQ" BirthDate="2010-08-27" IFId="9000020"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000011" Type="A" Organisation="KUW" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000011" Order="1">
+          <Description GivenName="Davide" FamilyName="Rossi" Gender="M" Organisation="KUW" BirthDate="2010-12-28" IFId="9000011"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000022" Type="A" Organisation="PAK" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000022" Order="1">
+          <Description GivenName="Sovann" FamilyName="Santoso" Gender="M" Organisation="PAK" BirthDate="2011-06-15" IFId="9000022"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000010" Type="A" Organisation="SWZ" SortOrder="8">
+      <Composition>
+        <Athlete Code="9000010" Order="1">
+          <Description GivenName="Maxime" FamilyName="Lefebvre" Gender="M" Organisation="SWZ" BirthDate="2010-12-01" IFId="9000010"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000024" Type="A" Organisation="TAN" SortOrder="9">
+      <Composition>
+        <Athlete Code="9000024" Order="1">
+          <Description GivenName="Tyrese" FamilyName="Duncan" Gender="M" Organisation="TAN" BirthDate="2009-02-26" IFId="9000024"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000015" Type="A" Organisation="TKM" SortOrder="10">
+      <Composition>
+        <Athlete Code="9000015" Order="1">
+          <Description GivenName="Dovlet" FamilyName="Bekov" Gender="M" Organisation="TKM" BirthDate="2011-06-15" IFId="9000015"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000004" Type="A" Organisation="TTO" SortOrder="11">
+      <Composition>
+        <Athlete Code="9000004" Order="1">
+          <Description GivenName="Riccardo" FamilyName="Costa" Gender="M" Organisation="TTO" BirthDate="2010-09-13" IFId="9000004"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000023" Type="A" Organisation="VIN" SortOrder="12">
+      <Composition>
+        <Athlete Code="9000023" Order="1">
+          <Description GivenName="Tanvir" FamilyName="Rahman" Gender="M" Organisation="VIN" BirthDate="2009-11-06" IFId="9000023"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

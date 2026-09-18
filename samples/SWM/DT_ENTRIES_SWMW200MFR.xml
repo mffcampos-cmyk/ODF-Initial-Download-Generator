@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="SWMW200MFR------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000715520" LogicalDate="2026-08-30" Source="CTO1">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-SWM-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="9000039" Type="A" Organisation="AIN" SortOrder="1">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:13.26"/>
+      <Composition>
+        <Athlete Code="9000039" Order="1">
+          <Description GivenName="Lena" FamilyName="Meyer" Gender="F" Organisation="AIN" BirthDate="2009-09-20" IFId="9000039"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000035" Type="A" Organisation="AND" SortOrder="2">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="1:50.28"/>
+      <Composition>
+        <Athlete Code="9000035" Order="1">
+          <Description GivenName="Isabella" FamilyName="Pérez" Gender="F" Organisation="AND" BirthDate="2009-05-03" IFId="9000035"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000036" Type="A" Organisation="ANG" SortOrder="3">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:28.52"/>
+      <Composition>
+        <Athlete Code="9000036" Order="1">
+          <Description GivenName="Mahlet" FamilyName="Bekele" Gender="F" Organisation="ANG" BirthDate="2011-10-21" IFId="9000036"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000061" Type="A" Organisation="CAF" SortOrder="4">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="1:59.62"/>
+      <Composition>
+        <Athlete Code="9000061" Order="1">
+          <Description GivenName="Francesca" FamilyName="Ferrari" Gender="F" Organisation="CAF" BirthDate="2009-08-01" IFId="9000061"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000042" Type="A" Organisation="CZE" SortOrder="5">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:24.56"/>
+      <Composition>
+        <Athlete Code="9000042" Order="1">
+          <Description GivenName="Tereza" FamilyName="Jurić" Gender="F" Organisation="CZE" BirthDate="2009-12-03" IFId="9000042"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000050" Type="A" Organisation="DOM" SortOrder="6">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:20.06"/>
+      <Composition>
+        <Athlete Code="9000050" Order="1">
+          <Description GivenName="Gulnara" FamilyName="Berdiev" Gender="F" Organisation="DOM" BirthDate="2011-11-18" IFId="9000050"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000033" Type="A" Organisation="GER" SortOrder="7">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:08.99"/>
+      <Composition>
+        <Athlete Code="9000033" Order="1">
+          <Description GivenName="Mahia" FamilyName="Sarkar" Gender="F" Organisation="GER" BirthDate="2011-06-09" IFId="9000033"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000051" Type="A" Organisation="GUY" SortOrder="8">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:08.22"/>
+      <Composition>
+        <Athlete Code="9000051" Order="1">
+          <Description GivenName="Justine" FamilyName="Fontaine" Gender="F" Organisation="GUY" BirthDate="2009-03-10" IFId="9000051"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000057" Type="A" Organisation="JOR" SortOrder="9">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="1:59.76"/>
+      <Composition>
+        <Athlete Code="9000057" Order="1">
+          <Description GivenName="Hala" FamilyName="Al-Sayed" Gender="F" Organisation="JOR" BirthDate="2011-07-19" IFId="9000057"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000045" Type="A" Organisation="MKD" SortOrder="10">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:08.65"/>
+      <Composition>
+        <Athlete Code="9000045" Order="1">
+          <Description GivenName="Channary" FamilyName="Rattanavong" Gender="F" Organisation="MKD" BirthDate="2010-02-17" IFId="9000045"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000058" Type="A" Organisation="MTN" SortOrder="11">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:13.29"/>
+      <Composition>
+        <Athlete Code="9000058" Order="1">
+          <Description GivenName="Aigerim" FamilyName="Abdullaev" Gender="F" Organisation="MTN" BirthDate="2011-06-19" IFId="9000058"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000062" Type="A" Organisation="NCA" SortOrder="12">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="1:48.51"/>
+      <Composition>
+        <Athlete Code="9000062" Order="1">
+          <Description GivenName="Sofía" FamilyName="Flores" Gender="F" Organisation="NCA" BirthDate="2010-09-21" IFId="9000062"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000056" Type="A" Organisation="SUD" SortOrder="13">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:27.31"/>
+      <Composition>
+        <Athlete Code="9000056" Order="1">
+          <Description GivenName="Adéla" FamilyName="Zeman" Gender="F" Organisation="SUD" BirthDate="2010-03-09" IFId="9000056"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000040" Type="A" Organisation="UGA" SortOrder="14">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="1:56.06"/>
+      <Composition>
+        <Athlete Code="9000040" Order="1">
+          <Description GivenName="Dora" FamilyName="Pavlović" Gender="F" Organisation="UGA" BirthDate="2011-02-08" IFId="9000040"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000037" Type="A" Organisation="UKR" SortOrder="15">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:10.83"/>
+      <Composition>
+        <Athlete Code="9000037" Order="1">
+          <Description GivenName="Shakira" FamilyName="Baptiste" Gender="F" Organisation="UKR" BirthDate="2010-05-02" IFId="9000037"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000063" Type="A" Organisation="VAN" SortOrder="16">
+      <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="2:25.27"/>
+      <Composition>
+        <Athlete Code="9000063" Order="1">
+          <Description GivenName="Mahlet" FamilyName="Wolde" Gender="F" Organisation="VAN" BirthDate="2011-11-24" IFId="9000063"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

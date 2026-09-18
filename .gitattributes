@@ -1,0 +1,3 @@
+# Generated ODF messages and committed reference samples are LF, always.
+# A CRLF checkout artifact once produced a spurious 700-line diff on a compliance sample.
+*.xml text eol=lf

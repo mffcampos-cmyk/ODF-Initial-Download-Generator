@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="FBS-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-08-30" Time="000657557" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-FBS-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Team Code="FBSMTEAM5---BAN01" Status="ENT" Organisation="BAN" Name="Bangladesh" ShortName="Bangladesh" TVTeamName="Bangladesh" PSCBName="BANGLADESH" PSCBShortName="BANGLADESH" PSCBLongName="BANGLADESH" Gender="M" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSMTEAM5---BRN01" Status="ENT" Organisation="BRN" Name="Bahrain" ShortName="Bahrain" TVTeamName="Bahrain" PSCBName="BAHRAIN" PSCBShortName="BAHRAIN" PSCBLongName="BAHRAIN" Gender="M" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSMTEAM5---CAF01" Status="ENT" Organisation="CAF" Name="Central African Republic" ShortName="Centr Afric Rep" TVTeamName="Central African Repub" PSCBName="CENTRAL AFRICAN REPUBLIC" PSCBShortName="CENTR AFRIC REP" PSCBLongName="CENTRAL AFRICAN REPUBLIC" Gender="M" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSMTEAM5---ESP01" Status="ENT" Organisation="ESP" Name="Spain" ShortName="Spain" TVTeamName="Spain" PSCBName="SPAIN" PSCBShortName="SPAIN" PSCBLongName="SPAIN" Gender="M" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSMTEAM5---NCA01" Status="ENT" Organisation="NCA" Name="Nicaragua" ShortName="Nicaragua" TVTeamName="Nicaragua" PSCBName="NICARAGUA" PSCBShortName="NICARAGUA" PSCBLongName="NICARAGUA" Gender="M" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSMTEAM5---SYR01" Status="ENT" Organisation="SYR" Name="Syrian Arab Republic" ShortName="Syria" TVTeamName="Syrian Arab Republic" PSCBName="SYRIAN ARAB REPUBLIC" PSCBShortName="SYRIA" PSCBLongName="SYRIAN ARAB REPUBLIC" Gender="M" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSMTEAM5---TTO01" Status="ENT" Organisation="TTO" Name="Trinidad and Tobago" ShortName="Trinidad and Tobago" TVTeamName="Trinidad and Tobago" PSCBName="TRINIDAD AND TOBAGO" PSCBShortName="TRINIDAD AND TOBAGO" PSCBLongName="TRINIDAD AND TOBAGO" Gender="M" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSMTEAM5---VAN01" Status="ENT" Organisation="VAN" Name="Vanuatu" ShortName="Vanuatu" TVTeamName="Vanuatu" PSCBName="VANUATU" PSCBShortName="VANUATU" PSCBLongName="VANUATU" Gender="M" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSWTEAM5---CUB01" Status="ENT" Organisation="CUB" Name="Cuba" ShortName="Cuba" TVTeamName="Cuba" PSCBName="CUBA" PSCBShortName="CUBA" PSCBLongName="CUBA" Gender="W" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSWTEAM5---IRI01" Status="ENT" Organisation="IRI" Name="Islamic Republic of Iran" ShortName="IR Iran" TVTeamName="Islamic Republic of I" PSCBName="ISLAMIC REPUBLIC OF IRAN" PSCBShortName="IR IRAN" PSCBLongName="ISLAMIC REPUBLIC OF IRAN" Gender="W" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSWTEAM5---KUW01" Status="ENT" Organisation="KUW" Name="Kuwait" ShortName="Kuwait" TVTeamName="Kuwait" PSCBName="KUWAIT" PSCBShortName="KUWAIT" PSCBLongName="KUWAIT" Gender="W" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSWTEAM5---LBR01" Status="ENT" Organisation="LBR" Name="Liberia" ShortName="Liberia" TVTeamName="Liberia" PSCBName="LIBERIA" PSCBShortName="LIBERIA" PSCBLongName="LIBERIA" Gender="W" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSWTEAM5---MAD01" Status="ENT" Organisation="MAD" Name="Madagascar" ShortName="Madagascar" TVTeamName="Madagascar" PSCBName="MADAGASCAR" PSCBShortName="MADAGASCAR" PSCBLongName="MADAGASCAR" Gender="W" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSWTEAM5---PUR01" Status="ENT" Organisation="PUR" Name="Puerto Rico" ShortName="Puerto Rico" TVTeamName="Puerto Rico" PSCBName="PUERTO RICO" PSCBShortName="PUERTO RICO" PSCBLongName="PUERTO RICO" Gender="W" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSWTEAM5---SWZ01" Status="ENT" Organisation="SWZ" Name="Eswatini" ShortName="Eswatini" TVTeamName="Eswatini" PSCBName="ESWATINI" PSCBShortName="ESWATINI" PSCBLongName="ESWATINI" Gender="W" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+    <Team Code="FBSWTEAM5---TKM01" Status="ENT" Organisation="TKM" Name="Turkmenistan" ShortName="Turkmenistan" TVTeamName="Turkmenistan" PSCBName="TURKMENISTAN" PSCBShortName="TURKMENISTAN" PSCBLongName="TURKMENISTAN" Gender="W" TeamType="ORG">
+      <Discipline Code="FBS-------------------------------"/>
+    </Team>
+  </Competition>
+</OdfBody>

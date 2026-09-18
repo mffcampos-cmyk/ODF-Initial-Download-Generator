@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="BKGWINDIVID-----------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-08-30" Time="000646699" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-BKG-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="9000019" Type="A" Organisation="ANT" SortOrder="1">
+      <Composition>
+        <Athlete Code="9000019" Order="1">
+          <Description GivenName="Shanice" FamilyName="Toussaint" Gender="F" Organisation="ANT" BirthDate="2010-10-18" IFId="9000019"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000017" Type="A" Organisation="BIZ" SortOrder="2">
+      <Composition>
+        <Athlete Code="9000017" Order="1">
+          <Description GivenName="Hana" FamilyName="Alemu" Gender="F" Organisation="BIZ" BirthDate="2011-09-26" IFId="9000017"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000016" Type="A" Organisation="CUB" SortOrder="3">
+      <Composition>
+        <Athlete Code="9000016" Order="1">
+          <Description GivenName="Yuna" FamilyName="Han" Gender="F" Organisation="CUB" BirthDate="2011-10-24" IFId="9000016"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000014" Type="A" Organisation="IRI" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000014" Order="1">
+          <Description GivenName="Sophie" FamilyName="Wright" Gender="F" Organisation="IRI" BirthDate="2011-04-13" IFId="9000014"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000020" Type="A" Organisation="IRQ" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000020" Order="1">
+          <Description GivenName="Marija" FamilyName="Jurić" Gender="F" Organisation="IRQ" BirthDate="2010-08-27" IFId="9000020"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000021" Type="A" Organisation="KGZ" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000021" Order="1">
+          <Description GivenName="Gulnara" FamilyName="Toshev" Gender="F" Organisation="KGZ" BirthDate="2010-01-18" IFId="9000021"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000018" Type="A" Organisation="LTU" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000018" Order="1">
+          <Description GivenName="Camille" FamilyName="Girard" Gender="F" Organisation="LTU" BirthDate="2011-04-14" IFId="9000018"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000022" Type="A" Organisation="PAK" SortOrder="8">
+      <Composition>
+        <Athlete Code="9000022" Order="1">
+          <Description GivenName="Channary" FamilyName="Santoso" Gender="F" Organisation="PAK" BirthDate="2011-06-15" IFId="9000022"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000013" Type="A" Organisation="PUR" SortOrder="9">
+      <Composition>
+        <Athlete Code="9000013" Order="1">
+          <Description GivenName="Sofía" FamilyName="Martínez" Gender="F" Organisation="PUR" BirthDate="2011-04-01" IFId="9000013"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000024" Type="A" Organisation="TAN" SortOrder="10">
+      <Composition>
+        <Athlete Code="9000024" Order="1">
+          <Description GivenName="Danielle" FamilyName="Duncan" Gender="F" Organisation="TAN" BirthDate="2009-02-26" IFId="9000024"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000015" Type="A" Organisation="TKM" SortOrder="11">
+      <Composition>
+        <Athlete Code="9000015" Order="1">
+          <Description GivenName="Saltanat" FamilyName="Bekov" Gender="F" Organisation="TKM" BirthDate="2011-06-15" IFId="9000015"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000023" Type="A" Organisation="VIN" SortOrder="12">
+      <Composition>
+        <Athlete Code="9000023" Order="1">
+          <Description GivenName="Lamia" FamilyName="Rahman" Gender="F" Organisation="VIN" BirthDate="2009-11-06" IFId="9000023"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

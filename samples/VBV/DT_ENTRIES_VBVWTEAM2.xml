@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="VBVWTEAM2-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-08-30" Time="000725127" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-VBV-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="VBVWTEAM2---AFG01" Type="T" Organisation="AFG" SortOrder="1">
+      <Description TeamName="Afghanistan"/>
+      <Composition>
+        <Athlete Code="9000049" Order="1">
+          <Description GivenName="Lucie" FamilyName="Krejčí" Gender="F" Organisation="AFG" BirthDate="2010-10-07" IFId="9000049"/>
+        </Athlete>
+        <Athlete Code="9000050" Order="2">
+          <Description GivenName="Veronika" FamilyName="Svoboda" Gender="F" Organisation="AFG" BirthDate="2011-07-10" IFId="9000050"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---ANT01" Type="T" Organisation="ANT" SortOrder="2">
+      <Description TeamName="Antigua and Barbuda"/>
+      <Composition>
+        <Athlete Code="9000037" Order="1">
+          <Description GivenName="Alicia" FamilyName="Springer" Gender="F" Organisation="ANT" BirthDate="2011-11-14" IFId="9000037"/>
+        </Athlete>
+        <Athlete Code="9000038" Order="2">
+          <Description GivenName="Danielle" FamilyName="Hackett" Gender="F" Organisation="ANT" BirthDate="2009-11-26" IFId="9000038"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---BIZ01" Type="T" Organisation="BIZ" SortOrder="3">
+      <Description TeamName="Belize"/>
+      <Composition>
+        <Athlete Code="9000033" Order="1">
+          <Description GivenName="Sara" FamilyName="Kebede" Gender="F" Organisation="BIZ" BirthDate="2010-04-09" IFId="9000033"/>
+        </Athlete>
+        <Athlete Code="9000034" Order="2">
+          <Description GivenName="Selam" FamilyName="Girma" Gender="F" Organisation="BIZ" BirthDate="2011-09-07" IFId="9000034"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---BOC01" Type="T" Organisation="BOC" SortOrder="4">
+      <Description TeamName="BOC"/>
+      <Composition>
+        <Athlete Code="9000063" Order="1">
+          <Description GivenName="Renee" FamilyName="Joseph" Gender="F" Organisation="BOC" BirthDate="2010-03-27" IFId="9000063"/>
+        </Athlete>
+        <Athlete Code="9000064" Order="2">
+          <Description GivenName="Aaliyah" FamilyName="Alexander" Gender="F" Organisation="BOC" BirthDate="2009-10-19" IFId="9000064"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---DMA01" Type="T" Organisation="DMA" SortOrder="5">
+      <Description TeamName="Dominica"/>
+      <Composition>
+        <Athlete Code="9000059" Order="1">
+          <Description GivenName="Aminata" FamilyName="Nkosi" Gender="F" Organisation="DMA" BirthDate="2011-05-12" IFId="9000059"/>
+        </Athlete>
+        <Athlete Code="9000060" Order="2">
+          <Description GivenName="Aminata" FamilyName="Diop" Gender="F" Organisation="DMA" BirthDate="2009-05-08" IFId="9000060"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---EUN01" Type="T" Organisation="EUN" SortOrder="6">
+      <Description TeamName="Unified Team"/>
+      <Composition>
+        <Athlete Code="9000055" Order="1">
+          <Description GivenName="Vittoria" FamilyName="Ferrari" Gender="F" Organisation="EUN" BirthDate="2010-09-12" IFId="9000055"/>
+        </Athlete>
+        <Athlete Code="9000056" Order="2">
+          <Description GivenName="Vittoria" FamilyName="Gallo" Gender="F" Organisation="EUN" BirthDate="2010-09-08" IFId="9000056"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---IRQ01" Type="T" Organisation="IRQ" SortOrder="7">
+      <Description TeamName="Iraq"/>
+      <Composition>
+        <Athlete Code="9000039" Order="1">
+          <Description GivenName="Karolína" FamilyName="Jurić" Gender="F" Organisation="IRQ" BirthDate="2010-04-17" IFId="9000039"/>
+        </Athlete>
+        <Athlete Code="9000040" Order="2">
+          <Description GivenName="Lucie" FamilyName="Novák" Gender="F" Organisation="IRQ" BirthDate="2010-11-19" IFId="9000040"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---KGZ01" Type="T" Organisation="KGZ" SortOrder="8">
+      <Description TeamName="Kyrgyzstan"/>
+      <Composition>
+        <Athlete Code="9000041" Order="1">
+          <Description GivenName="Gulnara" FamilyName="Mamedov" Gender="F" Organisation="KGZ" BirthDate="2011-07-02" IFId="9000041"/>
+        </Athlete>
+        <Athlete Code="9000042" Order="2">
+          <Description GivenName="Altynay" FamilyName="Karimov" Gender="F" Organisation="KGZ" BirthDate="2009-04-02" IFId="9000042"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---KSA01" Type="T" Organisation="KSA" SortOrder="9">
+      <Description TeamName="Saudi Arabia"/>
+      <Composition>
+        <Athlete Code="9000053" Order="1">
+          <Description GivenName="Nour" FamilyName="Attar" Gender="F" Organisation="KSA" BirthDate="2010-10-26" IFId="9000053"/>
+        </Athlete>
+        <Athlete Code="9000054" Order="2">
+          <Description GivenName="Yasmin" FamilyName="Awad" Gender="F" Organisation="KSA" BirthDate="2010-04-09" IFId="9000054"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---LTU01" Type="T" Organisation="LTU" SortOrder="10">
+      <Description TeamName="Lithuania"/>
+      <Composition>
+        <Athlete Code="9000035" Order="1">
+          <Description GivenName="Clara" FamilyName="Roux" Gender="F" Organisation="LTU" BirthDate="2009-04-01" IFId="9000035"/>
+        </Athlete>
+        <Athlete Code="9000036" Order="2">
+          <Description GivenName="Louise" FamilyName="Dubois" Gender="F" Organisation="LTU" BirthDate="2009-12-06" IFId="9000036"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---NRU01" Type="T" Organisation="NRU" SortOrder="11">
+      <Description TeamName="Nauru"/>
+      <Composition>
+        <Athlete Code="9000061" Order="1">
+          <Description GivenName="Clara" FamilyName="Chevalier" Gender="F" Organisation="NRU" BirthDate="2011-08-05" IFId="9000061"/>
+        </Athlete>
+        <Athlete Code="9000062" Order="2">
+          <Description GivenName="Clara" FamilyName="Girard" Gender="F" Organisation="NRU" BirthDate="2009-06-02" IFId="9000062"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---PAK01" Type="T" Organisation="PAK" SortOrder="12">
+      <Description TeamName="Pakistan"/>
+      <Composition>
+        <Athlete Code="9000043" Order="1">
+          <Description GivenName="Noy" FamilyName="Phommachanh" Gender="F" Organisation="PAK" BirthDate="2009-05-10" IFId="9000043"/>
+        </Athlete>
+        <Athlete Code="9000044" Order="2">
+          <Description GivenName="Putri" FamilyName="Sisouphanh" Gender="F" Organisation="PAK" BirthDate="2010-10-09" IFId="9000044"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---SGP01" Type="T" Organisation="SGP" SortOrder="13">
+      <Description TeamName="Singapore"/>
+      <Composition>
+        <Athlete Code="9000051" Order="1">
+          <Description GivenName="Thea" FamilyName="Hansen" Gender="F" Organisation="SGP" BirthDate="2009-06-20" IFId="9000051"/>
+        </Athlete>
+        <Athlete Code="9000052" Order="2">
+          <Description GivenName="Nora" FamilyName="Lindqvist" Gender="F" Organisation="SGP" BirthDate="2010-01-06" IFId="9000052"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---SOM01" Type="T" Organisation="SOM" SortOrder="14">
+      <Description TeamName="Somalia"/>
+      <Composition>
+        <Athlete Code="9000057" Order="1">
+          <Description GivenName="Abena" FamilyName="Banda" Gender="F" Organisation="SOM" BirthDate="2009-02-05" IFId="9000057"/>
+        </Athlete>
+        <Athlete Code="9000058" Order="2">
+          <Description GivenName="Aissatou" FamilyName="Boateng" Gender="F" Organisation="SOM" BirthDate="2011-04-09" IFId="9000058"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---TAN01" Type="T" Organisation="TAN" SortOrder="15">
+      <Description TeamName="United Republic of Tanzania"/>
+      <Composition>
+        <Athlete Code="9000047" Order="1">
+          <Description GivenName="Nakita" FamilyName="Duncan" Gender="F" Organisation="TAN" BirthDate="2011-01-13" IFId="9000047"/>
+        </Athlete>
+        <Athlete Code="9000048" Order="2">
+          <Description GivenName="Tamara" FamilyName="Alexander" Gender="F" Organisation="TAN" BirthDate="2009-04-19" IFId="9000048"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="VBVWTEAM2---VIN01" Type="T" Organisation="VIN" SortOrder="16">
+      <Description TeamName="St Vincent and the Grenadines"/>
+      <Composition>
+        <Athlete Code="9000045" Order="1">
+          <Description GivenName="Sadia" FamilyName="Rahman" Gender="F" Organisation="VIN" BirthDate="2011-01-19" IFId="9000045"/>
+        </Athlete>
+        <Athlete Code="9000046" Order="2">
+          <Description GivenName="Tasnim" FamilyName="Haque" Gender="F" Organisation="VIN" BirthDate="2011-08-06" IFId="9000046"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

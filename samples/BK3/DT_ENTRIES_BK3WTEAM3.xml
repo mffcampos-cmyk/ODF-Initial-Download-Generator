@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="BK3WTEAM3-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-08-30" Time="000644351" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-BK3-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="BK3WTEAM3---AFG01" Type="T" Organisation="AFG" SortOrder="1">
+      <Description TeamName="Afghanistan"/>
+      <Composition>
+        <Athlete Code="9000073" Order="1">
+          <Description GivenName="Tereza" FamilyName="Jurić" Gender="F" Organisation="AFG" BirthDate="2010-12-16" IFId="9000073"/>
+        </Athlete>
+        <Athlete Code="9000074" Order="2">
+          <Description GivenName="Eliška" FamilyName="Svoboda" Gender="F" Organisation="AFG" BirthDate="2009-11-11" IFId="9000074"/>
+        </Athlete>
+        <Athlete Code="9000075" Order="3">
+          <Description GivenName="Ana" FamilyName="Novák" Gender="F" Organisation="AFG" BirthDate="2009-05-24" IFId="9000075"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---ANT01" Type="T" Organisation="ANT" SortOrder="2">
+      <Description TeamName="Antigua and Barbuda"/>
+      <Composition>
+        <Athlete Code="9000055" Order="1">
+          <Description GivenName="Jada" FamilyName="Regis" Gender="F" Organisation="ANT" BirthDate="2010-09-08" IFId="9000055"/>
+        </Athlete>
+        <Athlete Code="9000056" Order="2">
+          <Description GivenName="Keisha" FamilyName="Springer" Gender="F" Organisation="ANT" BirthDate="2009-02-05" IFId="9000056"/>
+        </Athlete>
+        <Athlete Code="9000057" Order="3">
+          <Description GivenName="Aaliyah" FamilyName="Charles" Gender="F" Organisation="ANT" BirthDate="2011-04-09" IFId="9000057"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---BIZ01" Type="T" Organisation="BIZ" SortOrder="3">
+      <Description TeamName="Belize"/>
+      <Composition>
+        <Athlete Code="9000049" Order="1">
+          <Description GivenName="Mahlet" FamilyName="Bekele" Gender="F" Organisation="BIZ" BirthDate="2011-07-10" IFId="9000049"/>
+        </Athlete>
+        <Athlete Code="9000050" Order="2">
+          <Description GivenName="Lily" FamilyName="Desta" Gender="F" Organisation="BIZ" BirthDate="2009-06-20" IFId="9000050"/>
+        </Athlete>
+        <Athlete Code="9000051" Order="3">
+          <Description GivenName="Sara" FamilyName="Wolde" Gender="F" Organisation="BIZ" BirthDate="2010-01-06" IFId="9000051"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---BOC01" Type="T" Organisation="BOC" SortOrder="4">
+      <Description TeamName="BOC"/>
+      <Composition>
+        <Athlete Code="9000094" Order="1">
+          <Description GivenName="Shakira" FamilyName="Francis" Gender="F" Organisation="BOC" BirthDate="2009-12-17" IFId="9000094"/>
+        </Athlete>
+        <Athlete Code="9000095" Order="2">
+          <Description GivenName="Kimora" FamilyName="Francis" Gender="F" Organisation="BOC" BirthDate="2009-04-05" IFId="9000095"/>
+        </Athlete>
+        <Athlete Code="9000096" Order="3">
+          <Description GivenName="Danielle" FamilyName="Providence" Gender="F" Organisation="BOC" BirthDate="2011-01-25" IFId="9000096"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---DMA01" Type="T" Organisation="DMA" SortOrder="5">
+      <Description TeamName="Dominica"/>
+      <Composition>
+        <Athlete Code="9000088" Order="1">
+          <Description GivenName="Fatou" FamilyName="Mensah" Gender="F" Organisation="DMA" BirthDate="2009-07-03" IFId="9000088"/>
+        </Athlete>
+        <Athlete Code="9000089" Order="2">
+          <Description GivenName="Mariama" FamilyName="Keita" Gender="F" Organisation="DMA" BirthDate="2009-12-03" IFId="9000089"/>
+        </Athlete>
+        <Athlete Code="9000090" Order="3">
+          <Description GivenName="Ama" FamilyName="Moyo" Gender="F" Organisation="DMA" BirthDate="2009-05-25" IFId="9000090"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---EUN01" Type="T" Organisation="EUN" SortOrder="6">
+      <Description TeamName="Unified Team"/>
+      <Composition>
+        <Athlete Code="9000082" Order="1">
+          <Description GivenName="Sofia" FamilyName="Rinaldi" Gender="F" Organisation="EUN" BirthDate="2010-02-25" IFId="9000082"/>
+        </Athlete>
+        <Athlete Code="9000083" Order="2">
+          <Description GivenName="Aurora" FamilyName="Ferrari" Gender="F" Organisation="EUN" BirthDate="2011-10-21" IFId="9000083"/>
+        </Athlete>
+        <Athlete Code="9000084" Order="3">
+          <Description GivenName="Beatrice" FamilyName="Romano" Gender="F" Organisation="EUN" BirthDate="2010-05-02" IFId="9000084"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---IRQ01" Type="T" Organisation="IRQ" SortOrder="7">
+      <Description TeamName="Iraq"/>
+      <Composition>
+        <Athlete Code="9000058" Order="1">
+          <Description GivenName="Eliška" FamilyName="Vuković" Gender="F" Organisation="IRQ" BirthDate="2011-05-12" IFId="9000058"/>
+        </Athlete>
+        <Athlete Code="9000059" Order="2">
+          <Description GivenName="Eliška" FamilyName="Horvat" Gender="F" Organisation="IRQ" BirthDate="2009-05-08" IFId="9000059"/>
+        </Athlete>
+        <Athlete Code="9000060" Order="3">
+          <Description GivenName="Dora" FamilyName="Pavlović" Gender="F" Organisation="IRQ" BirthDate="2011-08-05" IFId="9000060"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---KGZ01" Type="T" Organisation="KGZ" SortOrder="8">
+      <Description TeamName="Kyrgyzstan"/>
+      <Composition>
+        <Athlete Code="9000061" Order="1">
+          <Description GivenName="Jamilya" FamilyName="Umarov" Gender="F" Organisation="KGZ" BirthDate="2009-06-02" IFId="9000061"/>
+        </Athlete>
+        <Athlete Code="9000062" Order="2">
+          <Description GivenName="Aisha" FamilyName="Rakhimov" Gender="F" Organisation="KGZ" BirthDate="2010-03-27" IFId="9000062"/>
+        </Athlete>
+        <Athlete Code="9000063" Order="3">
+          <Description GivenName="Madina" FamilyName="Bekov" Gender="F" Organisation="KGZ" BirthDate="2009-10-19" IFId="9000063"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---KSA01" Type="T" Organisation="KSA" SortOrder="9">
+      <Description TeamName="Saudi Arabia"/>
+      <Composition>
+        <Athlete Code="9000079" Order="1">
+          <Description GivenName="Lina" FamilyName="Sabbagh" Gender="F" Organisation="KSA" BirthDate="2011-12-16" IFId="9000079"/>
+        </Athlete>
+        <Athlete Code="9000080" Order="2">
+          <Description GivenName="Maha" FamilyName="Awad" Gender="F" Organisation="KSA" BirthDate="2010-03-18" IFId="9000080"/>
+        </Athlete>
+        <Athlete Code="9000081" Order="3">
+          <Description GivenName="Nour" FamilyName="Mansour" Gender="F" Organisation="KSA" BirthDate="2009-04-12" IFId="9000081"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---LTU01" Type="T" Organisation="LTU" SortOrder="10">
+      <Description TeamName="Lithuania"/>
+      <Composition>
+        <Athlete Code="9000052" Order="1">
+          <Description GivenName="Chloé" FamilyName="Renard" Gender="F" Organisation="LTU" BirthDate="2010-10-26" IFId="9000052"/>
+        </Athlete>
+        <Athlete Code="9000053" Order="2">
+          <Description GivenName="Camille" FamilyName="Lefebvre" Gender="F" Organisation="LTU" BirthDate="2010-04-09" IFId="9000053"/>
+        </Athlete>
+        <Athlete Code="9000054" Order="3">
+          <Description GivenName="Océane" FamilyName="Bernard" Gender="F" Organisation="LTU" BirthDate="2010-09-12" IFId="9000054"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---NRU01" Type="T" Organisation="NRU" SortOrder="11">
+      <Description TeamName="Nauru"/>
+      <Composition>
+        <Athlete Code="9000091" Order="1">
+          <Description GivenName="Jade" FamilyName="Fournier" Gender="F" Organisation="NRU" BirthDate="2010-03-04" IFId="9000091"/>
+        </Athlete>
+        <Athlete Code="9000092" Order="2">
+          <Description GivenName="Margaux" FamilyName="Chevalier" Gender="F" Organisation="NRU" BirthDate="2010-02-17" IFId="9000092"/>
+        </Athlete>
+        <Athlete Code="9000093" Order="3">
+          <Description GivenName="Océane" FamilyName="Dubois" Gender="F" Organisation="NRU" BirthDate="2009-03-05" IFId="9000093"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---PAK01" Type="T" Organisation="PAK" SortOrder="12">
+      <Description TeamName="Pakistan"/>
+      <Composition>
+        <Athlete Code="9000064" Order="1">
+          <Description GivenName="Sreyneang" FamilyName="Phommachanh" Gender="F" Organisation="PAK" BirthDate="2011-09-08" IFId="9000064"/>
+        </Athlete>
+        <Athlete Code="9000065" Order="2">
+          <Description GivenName="Dewi" FamilyName="Phommachanh" Gender="F" Organisation="PAK" BirthDate="2010-06-10" IFId="9000065"/>
+        </Athlete>
+        <Athlete Code="9000066" Order="3">
+          <Description GivenName="Dewi" FamilyName="Wijaya" Gender="F" Organisation="PAK" BirthDate="2009-08-09" IFId="9000066"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---SGP01" Type="T" Organisation="SGP" SortOrder="13">
+      <Description TeamName="Singapore"/>
+      <Composition>
+        <Athlete Code="9000076" Order="1">
+          <Description GivenName="Hedda" FamilyName="Larsson" Gender="F" Organisation="SGP" BirthDate="2010-07-11" IFId="9000076"/>
+        </Athlete>
+        <Athlete Code="9000077" Order="2">
+          <Description GivenName="Nora" FamilyName="Johansson" Gender="F" Organisation="SGP" BirthDate="2009-06-20" IFId="9000077"/>
+        </Athlete>
+        <Athlete Code="9000078" Order="3">
+          <Description GivenName="Signe" FamilyName="Johansson" Gender="F" Organisation="SGP" BirthDate="2010-04-26" IFId="9000078"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---SOM01" Type="T" Organisation="SOM" SortOrder="14">
+      <Description TeamName="Somalia"/>
+      <Composition>
+        <Athlete Code="9000085" Order="1">
+          <Description GivenName="Aminata" FamilyName="Boateng" Gender="F" Organisation="SOM" BirthDate="2010-10-10" IFId="9000085"/>
+        </Athlete>
+        <Athlete Code="9000086" Order="2">
+          <Description GivenName="Fatou" FamilyName="Diop" Gender="F" Organisation="SOM" BirthDate="2009-09-20" IFId="9000086"/>
+        </Athlete>
+        <Athlete Code="9000087" Order="3">
+          <Description GivenName="Zanele" FamilyName="Sarr" Gender="F" Organisation="SOM" BirthDate="2011-02-08" IFId="9000087"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---TAN01" Type="T" Organisation="TAN" SortOrder="15">
+      <Description TeamName="United Republic of Tanzania"/>
+      <Composition>
+        <Athlete Code="9000070" Order="1">
+          <Description GivenName="Kimora" FamilyName="Phillip" Gender="F" Organisation="TAN" BirthDate="2009-02-15" IFId="9000070"/>
+        </Athlete>
+        <Athlete Code="9000071" Order="2">
+          <Description GivenName="Aaliyah" FamilyName="Cummings" Gender="F" Organisation="TAN" BirthDate="2009-03-24" IFId="9000071"/>
+        </Athlete>
+        <Athlete Code="9000072" Order="3">
+          <Description GivenName="Keisha" FamilyName="Phillip" Gender="F" Organisation="TAN" BirthDate="2010-09-27" IFId="9000072"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="BK3WTEAM3---VIN01" Type="T" Organisation="VIN" SortOrder="16">
+      <Description TeamName="St Vincent and the Grenadines"/>
+      <Composition>
+        <Athlete Code="9000067" Order="1">
+          <Description GivenName="Farzana" FamilyName="Karim" Gender="F" Organisation="VIN" BirthDate="2009-05-01" IFId="9000067"/>
+        </Athlete>
+        <Athlete Code="9000068" Order="2">
+          <Description GivenName="Lamia" FamilyName="Mia" Gender="F" Organisation="VIN" BirthDate="2009-02-14" IFId="9000068"/>
+        </Athlete>
+        <Athlete Code="9000069" Order="3">
+          <Description GivenName="Farzana" FamilyName="Mollah" Gender="F" Organisation="VIN" BirthDate="2009-04-08" IFId="9000069"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

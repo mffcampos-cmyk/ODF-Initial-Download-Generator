@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="TTEXDOUBLES-----------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000722731" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-TTE-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="TTEXDOUBLES-AIN01" Type="T" Organisation="AIN" SortOrder="1">
+      <Description TeamName="AIN"/>
+      <Composition>
+        <Athlete Code="9000045" Order="1">
+          <Description GivenName="Jonas" FamilyName="Müller" Gender="M" Organisation="AIN" BirthDate="2011-01-19" IFId="9000045"/>
+        </Athlete>
+        <Athlete Code="9000046" Order="2">
+          <Description GivenName="Lena" FamilyName="Neumann" Gender="F" Organisation="AIN" BirthDate="2011-08-06" IFId="9000046"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-AND01" Type="T" Organisation="AND" SortOrder="2">
+      <Description TeamName="Andorra"/>
+      <Composition>
+        <Athlete Code="9000037" Order="1">
+          <Description GivenName="Emilio" FamilyName="Morales" Gender="M" Organisation="AND" BirthDate="2011-11-14" IFId="9000037"/>
+        </Athlete>
+        <Athlete Code="9000038" Order="2">
+          <Description GivenName="Renata" FamilyName="Mendoza" Gender="F" Organisation="AND" BirthDate="2009-11-26" IFId="9000038"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-ANG01" Type="T" Organisation="ANG" SortOrder="3">
+      <Description TeamName="Angola"/>
+      <Composition>
+        <Athlete Code="9000039" Order="1">
+          <Description GivenName="Tadesse" FamilyName="Worku" Gender="M" Organisation="ANG" BirthDate="2010-04-17" IFId="9000039"/>
+        </Athlete>
+        <Athlete Code="9000040" Order="2">
+          <Description GivenName="Hiwot" FamilyName="Abebe" Gender="F" Organisation="ANG" BirthDate="2010-11-19" IFId="9000040"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-BLR01" Type="T" Organisation="BLR" SortOrder="4">
+      <Description TeamName="Belarus"/>
+      <Composition>
+        <Athlete Code="9000087" Order="1">
+          <Description GivenName="Timur" FamilyName="Bekov" Gender="M" Organisation="BLR" BirthDate="2009-09-20" IFId="9000087"/>
+        </Athlete>
+        <Athlete Code="9000088" Order="2">
+          <Description GivenName="Jamilya" FamilyName="Orazov" Gender="F" Organisation="BLR" BirthDate="2011-02-08" IFId="9000088"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-CAF01" Type="T" Organisation="CAF" SortOrder="5">
+      <Description TeamName="Central African Republic"/>
+      <Composition>
+        <Athlete Code="9000089" Order="1">
+          <Description GivenName="Gabriele" FamilyName="Rossi" Gender="M" Organisation="CAF" BirthDate="2009-07-03" IFId="9000089"/>
+        </Athlete>
+        <Athlete Code="9000090" Order="2">
+          <Description GivenName="Alessia" FamilyName="Gallo" Gender="F" Organisation="CAF" BirthDate="2009-12-03" IFId="9000090"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-CZE01" Type="T" Organisation="CZE" SortOrder="6">
+      <Description TeamName="Czechia"/>
+      <Composition>
+        <Athlete Code="9000051" Order="1">
+          <Description GivenName="Tomáš" FamilyName="Babić" Gender="M" Organisation="CZE" BirthDate="2009-06-20" IFId="9000051"/>
+        </Athlete>
+        <Athlete Code="9000052" Order="2">
+          <Description GivenName="Adéla" FamilyName="Krejčí" Gender="F" Organisation="CZE" BirthDate="2010-01-06" IFId="9000052"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-DEN01" Type="T" Organisation="DEN" SortOrder="7">
+      <Description TeamName="Denmark"/>
+      <Composition>
+        <Athlete Code="9000059" Order="1">
+          <Description GivenName="Baptiste" FamilyName="Bonnet" Gender="M" Organisation="DEN" BirthDate="2011-05-12" IFId="9000059"/>
+        </Athlete>
+        <Athlete Code="9000060" Order="2">
+          <Description GivenName="Jade" FamilyName="Lefebvre" Gender="F" Organisation="DEN" BirthDate="2009-05-08" IFId="9000060"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-DOM01" Type="T" Organisation="DOM" SortOrder="8">
+      <Description TeamName="Dominican Republic"/>
+      <Composition>
+        <Athlete Code="9000067" Order="1">
+          <Description GivenName="Kanat" FamilyName="Umarov" Gender="M" Organisation="DOM" BirthDate="2009-08-09" IFId="9000067"/>
+        </Athlete>
+        <Athlete Code="9000068" Order="2">
+          <Description GivenName="Dinara" FamilyName="Orazov" Gender="F" Organisation="DOM" BirthDate="2009-05-01" IFId="9000068"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-GAB01" Type="T" Organisation="GAB" SortOrder="9">
+      <Description TeamName="Gabon"/>
+      <Composition>
+        <Athlete Code="9000077" Order="1">
+          <Description GivenName="Pietro" FamilyName="Ricci" Gender="M" Organisation="GAB" BirthDate="2010-07-11" IFId="9000077"/>
+        </Athlete>
+        <Athlete Code="9000078" Order="2">
+          <Description GivenName="Camilla" FamilyName="Ferrari" Gender="F" Organisation="GAB" BirthDate="2009-06-20" IFId="9000078"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-GER01" Type="T" Organisation="GER" SortOrder="10">
+      <Description TeamName="Germany"/>
+      <Composition>
+        <Athlete Code="9000033" Order="1">
+          <Description GivenName="Imran" FamilyName="Khan" Gender="M" Organisation="GER" BirthDate="2010-04-09" IFId="9000033"/>
+        </Athlete>
+        <Athlete Code="9000034" Order="2">
+          <Description GivenName="Farzana" FamilyName="Chowdhury" Gender="F" Organisation="GER" BirthDate="2011-09-07" IFId="9000034"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-GUY01" Type="T" Organisation="GUY" SortOrder="11">
+      <Description TeamName="Guyana"/>
+      <Composition>
+        <Athlete Code="9000069" Order="1">
+          <Description GivenName="Julien" FamilyName="Dupont" Gender="M" Organisation="GUY" BirthDate="2009-02-14" IFId="9000069"/>
+        </Athlete>
+        <Athlete Code="9000070" Order="2">
+          <Description GivenName="Manon" FamilyName="Renard" Gender="F" Organisation="GUY" BirthDate="2009-04-08" IFId="9000070"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-JOR01" Type="T" Organisation="JOR" SortOrder="12">
+      <Description TeamName="Jordan"/>
+      <Composition>
+        <Athlete Code="9000081" Order="1">
+          <Description GivenName="Khalil" FamilyName="Awad" Gender="M" Organisation="JOR" BirthDate="2010-03-18" IFId="9000081"/>
+        </Athlete>
+        <Athlete Code="9000082" Order="2">
+          <Description GivenName="Nour" FamilyName="Mansour" Gender="F" Organisation="JOR" BirthDate="2009-04-12" IFId="9000082"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-KAZ01" Type="T" Organisation="KAZ" SortOrder="13">
+      <Description TeamName="Kazakhstan"/>
+      <Composition>
+        <Athlete Code="9000053" Order="1">
+          <Description GivenName="Théo" FamilyName="Renard" Gender="M" Organisation="KAZ" BirthDate="2010-10-26" IFId="9000053"/>
+        </Athlete>
+        <Athlete Code="9000054" Order="2">
+          <Description GivenName="Camille" FamilyName="Lefebvre" Gender="F" Organisation="KAZ" BirthDate="2010-04-09" IFId="9000054"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-KOR01" Type="T" Organisation="KOR" SortOrder="14">
+      <Description TeamName="Republic of Korea"/>
+      <Composition>
+        <Athlete Code="9000061" Order="1">
+          <Description GivenName="Jaehyun" FamilyName="Oh" Gender="M" Organisation="KOR" BirthDate="2011-08-05" IFId="9000061"/>
+        </Athlete>
+        <Athlete Code="9000062" Order="2">
+          <Description GivenName="Hyejin" FamilyName="Jang" Gender="F" Organisation="KOR" BirthDate="2009-06-02" IFId="9000062"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-LAT01" Type="T" Organisation="LAT" SortOrder="15">
+      <Description TeamName="Latvia"/>
+      <Composition>
+        <Athlete Code="9000075" Order="1">
+          <Description GivenName="Ibrahima" FamilyName="Osei" Gender="M" Organisation="LAT" BirthDate="2009-11-11" IFId="9000075"/>
+        </Athlete>
+        <Athlete Code="9000076" Order="2">
+          <Description GivenName="Ama" FamilyName="Mensah" Gender="F" Organisation="LAT" BirthDate="2009-05-24" IFId="9000076"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-MKD01" Type="T" Organisation="MKD" SortOrder="16">
+      <Description TeamName="North Macedonia"/>
+      <Composition>
+        <Athlete Code="9000057" Order="1">
+          <Description GivenName="Anong" FamilyName="Susanto" Gender="M" Organisation="MKD" BirthDate="2009-02-05" IFId="9000057"/>
+        </Athlete>
+        <Athlete Code="9000058" Order="2">
+          <Description GivenName="Ketsana" FamilyName="Sisouphanh" Gender="F" Organisation="MKD" BirthDate="2011-04-09" IFId="9000058"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-MNE01" Type="T" Organisation="MNE" SortOrder="17">
+      <Description TeamName="Montenegro"/>
+      <Composition>
+        <Athlete Code="9000043" Order="1">
+          <Description GivenName="Nursultan" FamilyName="Rakhimov" Gender="M" Organisation="MNE" BirthDate="2009-05-10" IFId="9000043"/>
+        </Athlete>
+        <Athlete Code="9000044" Order="2">
+          <Description GivenName="Altynay" FamilyName="Nazarov" Gender="F" Organisation="MNE" BirthDate="2010-10-09" IFId="9000044"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-MRI01" Type="T" Organisation="MRI" SortOrder="18">
+      <Description TeamName="Mauritius"/>
+      <Composition>
+        <Athlete Code="9000065" Order="1">
+          <Description GivenName="Federico" FamilyName="Ferrari" Gender="M" Organisation="MRI" BirthDate="2011-09-08" IFId="9000065"/>
+        </Athlete>
+        <Athlete Code="9000066" Order="2">
+          <Description GivenName="Francesca" FamilyName="Ferrari" Gender="F" Organisation="MRI" BirthDate="2010-06-10" IFId="9000066"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-MTN01" Type="T" Organisation="MTN" SortOrder="19">
+      <Description TeamName="Mauritania"/>
+      <Composition>
+        <Athlete Code="9000083" Order="1">
+          <Description GivenName="Aziz" FamilyName="Berdiev" Gender="M" Organisation="MTN" BirthDate="2010-02-25" IFId="9000083"/>
+        </Athlete>
+        <Athlete Code="9000084" Order="2">
+          <Description GivenName="Kamila" FamilyName="Rakhimov" Gender="F" Organisation="MTN" BirthDate="2011-10-21" IFId="9000084"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-NCA01" Type="T" Organisation="NCA" SortOrder="20">
+      <Description TeamName="Nicaragua"/>
+      <Composition>
+        <Athlete Code="9000091" Order="1">
+          <Description GivenName="Diego" FamilyName="Castillo" Gender="M" Organisation="NCA" BirthDate="2009-05-25" IFId="9000091"/>
+        </Athlete>
+        <Athlete Code="9000092" Order="2">
+          <Description GivenName="Mariana" FamilyName="Ramírez" Gender="F" Organisation="NCA" BirthDate="2010-03-04" IFId="9000092"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-POR01" Type="T" Organisation="POR" SortOrder="21">
+      <Description TeamName="Portugal"/>
+      <Composition>
+        <Athlete Code="9000085" Order="1">
+          <Description GivenName="Rashid" FamilyName="Khalil" Gender="M" Organisation="POR" BirthDate="2010-05-02" IFId="9000085"/>
+        </Athlete>
+        <Athlete Code="9000086" Order="2">
+          <Description GivenName="Rania" FamilyName="Nasser" Gender="F" Organisation="POR" BirthDate="2010-10-10" IFId="9000086"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-SAM01" Type="T" Organisation="SAM" SortOrder="22">
+      <Description TeamName="Samoa"/>
+      <Composition>
+        <Athlete Code="9000071" Order="1">
+          <Description GivenName="Tendai" FamilyName="Sow" Gender="M" Organisation="SAM" BirthDate="2009-02-15" IFId="9000071"/>
+        </Athlete>
+        <Athlete Code="9000072" Order="2">
+          <Description GivenName="Aissatou" FamilyName="Moyo" Gender="F" Organisation="SAM" BirthDate="2009-03-24" IFId="9000072"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-SCG01" Type="T" Organisation="SCG" SortOrder="23">
+      <Description TeamName="Serbia and Montenegro"/>
+      <Composition>
+        <Athlete Code="9000049" Order="1">
+          <Description GivenName="Ondřej" FamilyName="Krejčí" Gender="M" Organisation="SCG" BirthDate="2010-10-07" IFId="9000049"/>
+        </Athlete>
+        <Athlete Code="9000050" Order="2">
+          <Description GivenName="Veronika" FamilyName="Svoboda" Gender="F" Organisation="SCG" BirthDate="2011-07-10" IFId="9000050"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-SUD01" Type="T" Organisation="SUD" SortOrder="24">
+      <Description TeamName="Sudan"/>
+      <Composition>
+        <Athlete Code="9000079" Order="1">
+          <Description GivenName="Jan" FamilyName="Svoboda" Gender="M" Organisation="SUD" BirthDate="2010-04-26" IFId="9000079"/>
+        </Athlete>
+        <Athlete Code="9000080" Order="2">
+          <Description GivenName="Dora" FamilyName="Pavlović" Gender="F" Organisation="SUD" BirthDate="2011-12-16" IFId="9000080"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-SUI01" Type="T" Organisation="SUI" SortOrder="25">
+      <Description TeamName="Switzerland"/>
+      <Composition>
+        <Athlete Code="9000055" Order="1">
+          <Description GivenName="Khalil" FamilyName="Haddad" Gender="M" Organisation="SUI" BirthDate="2010-09-12" IFId="9000055"/>
+        </Athlete>
+        <Athlete Code="9000056" Order="2">
+          <Description GivenName="Maha" FamilyName="Farah" Gender="F" Organisation="SUI" BirthDate="2010-09-08" IFId="9000056"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-TGA01" Type="T" Organisation="TGA" SortOrder="26">
+      <Description TeamName="Tonga"/>
+      <Composition>
+        <Athlete Code="9000073" Order="1">
+          <Description GivenName="Anong" FamilyName="Chea" Gender="M" Organisation="TGA" BirthDate="2010-09-27" IFId="9000073"/>
+        </Athlete>
+        <Athlete Code="9000074" Order="2">
+          <Description GivenName="Noy" FamilyName="Wijaya" Gender="F" Organisation="TGA" BirthDate="2010-12-16" IFId="9000074"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-TTO01" Type="T" Organisation="TTO" SortOrder="27">
+      <Description TeamName="Trinidad and Tobago"/>
+      <Composition>
+        <Athlete Code="9000095" Order="1">
+          <Description GivenName="Tommaso" FamilyName="Conti" Gender="M" Organisation="TTO" BirthDate="2009-12-17" IFId="9000095"/>
+        </Athlete>
+        <Athlete Code="9000096" Order="2">
+          <Description GivenName="Francesca" FamilyName="Conti" Gender="F" Organisation="TTO" BirthDate="2009-04-05" IFId="9000096"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-UGA01" Type="T" Organisation="UGA" SortOrder="28">
+      <Description TeamName="Uganda"/>
+      <Composition>
+        <Athlete Code="9000047" Order="1">
+          <Description GivenName="Vojtěch" FamilyName="Vuković" Gender="M" Organisation="UGA" BirthDate="2011-01-13" IFId="9000047"/>
+        </Athlete>
+        <Athlete Code="9000048" Order="2">
+          <Description GivenName="Marija" FamilyName="Horvat" Gender="F" Organisation="UGA" BirthDate="2009-04-19" IFId="9000048"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-UKR01" Type="T" Organisation="UKR" SortOrder="29">
+      <Description TeamName="Ukraine"/>
+      <Composition>
+        <Athlete Code="9000041" Order="1">
+          <Description GivenName="Shaquille" FamilyName="Cummings" Gender="M" Organisation="UKR" BirthDate="2011-07-02" IFId="9000041"/>
+        </Athlete>
+        <Athlete Code="9000042" Order="2">
+          <Description GivenName="Nakita" FamilyName="Francis" Gender="F" Organisation="UKR" BirthDate="2009-04-02" IFId="9000042"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-UZB01" Type="T" Organisation="UZB" SortOrder="30">
+      <Description TeamName="Uzbekistan"/>
+      <Composition>
+        <Athlete Code="9000063" Order="1">
+          <Description GivenName="Faisal" FamilyName="Haddad" Gender="M" Organisation="UZB" BirthDate="2010-03-27" IFId="9000063"/>
+        </Athlete>
+        <Athlete Code="9000064" Order="2">
+          <Description GivenName="Yasmin" FamilyName="Awad" Gender="F" Organisation="UZB" BirthDate="2009-10-19" IFId="9000064"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-VAN01" Type="T" Organisation="VAN" SortOrder="31">
+      <Description TeamName="Vanuatu"/>
+      <Composition>
+        <Athlete Code="9000093" Order="1">
+          <Description GivenName="Elias" FamilyName="Tadesse" Gender="M" Organisation="VAN" BirthDate="2010-02-17" IFId="9000093"/>
+        </Athlete>
+        <Athlete Code="9000094" Order="2">
+          <Description GivenName="Hiwot" FamilyName="Tesfaye" Gender="F" Organisation="VAN" BirthDate="2009-03-05" IFId="9000094"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TTEXDOUBLES-YEM01" Type="T" Organisation="YEM" SortOrder="32">
+      <Description TeamName="Yemen"/>
+      <Composition>
+        <Athlete Code="9000035" Order="1">
+          <Description GivenName="Dara" FamilyName="Chea" Gender="M" Organisation="YEM" BirthDate="2009-04-01" IFId="9000035"/>
+        </Athlete>
+        <Athlete Code="9000036" Order="2">
+          <Description GivenName="Sreyneang" FamilyName="Sisouphanh" Gender="F" Organisation="YEM" BirthDate="2009-12-06" IFId="9000036"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

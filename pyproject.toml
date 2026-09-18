@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odf-message-generator"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "lxml>=5.0",
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "openpyxl>=3.1",
+    "pyyaml>=6.0",
+    # The validation engine. Pinned to one commit on purpose: "this bundle
+    # validates clean" is a statement about a specific revision of the rules
+    # and the pipeline, not about the validator in general. Two revisions
+    # changed what clean means (see Rules/SYOG26/PROVENANCE.md), and before this pin the
+    # revision was recorded nowhere pip could see.
+    #
+    # Rules/SYOG26/PROVENANCE.md names the same commit, because the vendored
+    # pack was taken from it. Change one, change the other.
+    "odf-validator @ git+https://github.com/mffcampos-cmyk/ODF-Validator.git@c9a5b8dbe1e25d3f1a70fc786eb84353cee918e9",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.optional-dependencies]
+# httpx is required by fastapi.testclient.TestClient, which every
+# tests/integration/test_api*.py imports. Without it the documented
+# `pip install -e ".[dev]"` -> `pytest` path fails on four files.
+dev = ["pytest>=8.0", "httpx>=0.27"]
+
+[tool.setuptools.packages.find]
+# Flat layout with several top-level dirs: only these are Python packages.
+# web/ is data (templates/ + static/) read from disk at runtime by api.app,
+# not an importable package; tests/ is not shipped.
+include = ["generator*", "api*"]
+
+[tool.setuptools.package-data]
+generator = ["games/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

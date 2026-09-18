@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="WSTWCHANGCOM----------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000729644" LogicalDate="2026-08-30" Source="OGEN">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-WST-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Entry Code="9000025" Type="A" Organisation="AFG" SortOrder="1">
+      <Composition>
+        <Athlete Code="9000025" Order="1">
+          <Description GivenName="Tereza" FamilyName="Svoboda" Gender="F" Organisation="AFG" BirthDate="2009-03-09" IFId="9000025"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000030" Type="A" Organisation="DMA" SortOrder="2">
+      <Composition>
+        <Athlete Code="9000030" Order="1">
+          <Description GivenName="Abena" FamilyName="Ndiaye" Gender="F" Organisation="DMA" BirthDate="2011-09-07" IFId="9000030"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000028" Type="A" Organisation="EUN" SortOrder="3">
+      <Composition>
+        <Athlete Code="9000028" Order="1">
+          <Description GivenName="Aurora" FamilyName="Greco" Gender="F" Organisation="EUN" BirthDate="2009-01-10" IFId="9000028"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000020" Type="A" Organisation="IRQ" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000020" Order="1">
+          <Description GivenName="Marija" FamilyName="Novotný" Gender="F" Organisation="IRQ" BirthDate="2009-09-19" IFId="9000020"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000027" Type="A" Organisation="KSA" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000027" Order="1">
+          <Description GivenName="Reem" FamilyName="Mansour" Gender="F" Organisation="KSA" BirthDate="2010-12-11" IFId="9000027"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000031" Type="A" Organisation="NRU" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000031" Order="1">
+          <Description GivenName="Clara" FamilyName="Roux" Gender="F" Organisation="NRU" BirthDate="2009-04-01" IFId="9000031"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000029" Type="A" Organisation="SOM" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000029" Order="1">
+          <Description GivenName="Khady" FamilyName="Diop" Gender="F" Organisation="SOM" BirthDate="2010-04-09" IFId="9000029"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000023" Type="A" Organisation="VIN" SortOrder="8">
+      <Composition>
+        <Athlete Code="9000023" Order="1">
+          <Description GivenName="Nusrat" FamilyName="Sarkar" Gender="F" Organisation="VIN" BirthDate="2009-05-08" IFId="9000023"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+  </Competition>
+</OdfBody>

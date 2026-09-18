@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="SWM-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-08-30" Time="000715572" LogicalDate="2026-08-30" Source="CTO1">
+  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-SWM-1.0" Codes="SYOG-2026-CC-V0.04">
+    <Session Venue="CAD" VenueName="CTO Dakar Aquatic Centre" SessionType="MOR" SessionCode="SWM01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
+      <SessionName Language="ENG" Value="Session 1"/>
+    </Session>
+    <Session Venue="CAD" VenueName="CTO Dakar Aquatic Centre" SessionType="AFT" SessionCode="SWM02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T17:28:00+00:00">
+      <SessionName Language="ENG" Value="Session 2"/>
+    </Session>
+    <Session Venue="CAD" VenueName="CTO Dakar Aquatic Centre" SessionType="MOR" SessionCode="SWM03" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T12:58:00+00:00">
+      <SessionName Language="ENG" Value="Session 3"/>
+    </Session>
+    <Session Venue="CAD" VenueName="CTO Dakar Aquatic Centre" SessionType="AFT" SessionCode="SWM04" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T17:28:00+00:00">
+      <SessionName Language="ENG" Value="Session 4"/>
+    </Session>
+    <Session Venue="CAD" VenueName="CTO Dakar Aquatic Centre" SessionType="MOR" SessionCode="SWM05" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T12:58:00+00:00">
+      <SessionName Language="ENG" Value="Session 5"/>
+    </Session>
+    <Session Venue="CAD" VenueName="CTO Dakar Aquatic Centre" SessionType="AFT" SessionCode="SWM06" StartDate="2026-11-03T14:00:00+00:00" EndDate="2026-11-03T17:02:00+00:00">
+      <SessionName Language="ENG" Value="Session 6"/>
+    </Session>
+    <Unit Code="SWMM100MBA------------HEAT0001RR--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Backstroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MBA------------HEAT0002RR--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Backstroke Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MBA------------FNL-000100--" PhaseType="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Medal="1" Order="3" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Backstroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MBF------------HEAT0001RR--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Butterfly Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MBF------------HEAT0002RR--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Butterfly Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MBF------------FNL-000100--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Medal="1" Order="6" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Butterfly Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MBR------------HEAT0001RR--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Breaststroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MBR------------HEAT0002RR--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Breaststroke Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MBR------------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Medal="1" Order="9" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Breaststroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MFR------------HEAT0001RR--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Freestyle Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MFR------------HEAT0002RR--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Freestyle Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM100MFR------------FNL-000100--" PhaseType="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Medal="1" Order="12" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 100m Freestyle Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MBA------------HEAT0001RR--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 200m Backstroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MBA------------HEAT0002RR--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 200m Backstroke Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MBA------------FNL-000100--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Medal="1" Order="15" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 200m Backstroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MBF------------HEAT0001RR--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="CAD" Location="CAD" SessionCode="SWM01">
+      <ItemName Language="ENG" Value="Men's 200m Butterfly Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MBF------------HEAT0002RR--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Order="1" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Butterfly Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MBF------------FNL-000100--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Medal="1" Order="2" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Butterfly Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MBR------------HEAT0001RR--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Breaststroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MBR------------HEAT0002RR--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Order="4" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Breaststroke Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MBR------------FNL-000100--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Medal="1" Order="5" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Breaststroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MFR------------HEAT0001RR--" PhaseType="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Order="6" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Freestyle Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MFR------------HEAT0002RR--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Freestyle Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MFR------------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Medal="1" Order="8" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Freestyle Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MIM------------HEAT0001RR--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Order="9" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Ind. Medley Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MIM------------HEAT0002RR--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Order="10" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Ind. Medley Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM200MIM------------FNL-000100--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Medal="1" Order="11" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 200m Individual Medley Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM400MFR------------FNL-0001FA--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Medal="1" Order="12" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 400m Freestyle Fastest Heat"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM400MFR------------FNL-0001SL--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:36:00+00:00" EndDate="2026-11-01T16:49:00+00:00" Order="13" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 400m Freestyle Slowest Heat 1"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM400MFR------------FNL-0002SL--" PhaseType="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:49:00+00:00" EndDate="2026-11-01T17:02:00+00:00" Order="14" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 400m Freestyle Slowest Heat 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM400MFR------------FNL-0003SL--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:02:00+00:00" EndDate="2026-11-01T17:15:00+00:00" Order="15" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 400m Freestyle Slowest Heat 3"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MBA-------------HEAT0001RR--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:15:00+00:00" EndDate="2026-11-01T17:28:00+00:00" Order="16" Venue="CAD" Location="CAD" SessionCode="SWM02">
+      <ItemName Language="ENG" Value="Men's 50m Backstroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MBA-------------HEAT0002RR--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Order="1" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Backstroke Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MBA-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:43:00+00:00" EndDate="2026-11-02T09:56:00+00:00" Medal="1" Order="2" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Backstroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MBF-------------HEAT0001RR--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:09:00+00:00" Order="3" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Butterfly Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MBF-------------HEAT0002RR--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:09:00+00:00" EndDate="2026-11-02T10:22:00+00:00" Order="4" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Butterfly Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MBF-------------FNL-000100--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:22:00+00:00" EndDate="2026-11-02T10:35:00+00:00" Medal="1" Order="5" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Butterfly Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MBR-------------HEAT0001RR--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:35:00+00:00" EndDate="2026-11-02T10:48:00+00:00" Order="6" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Breaststroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MBR-------------HEAT0002RR--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:48:00+00:00" EndDate="2026-11-02T11:01:00+00:00" Order="7" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Breaststroke Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MBR-------------FNL-000100--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:01:00+00:00" EndDate="2026-11-02T11:14:00+00:00" Medal="1" Order="8" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Breaststroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MFR-------------HEAT0001RR--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:14:00+00:00" EndDate="2026-11-02T11:27:00+00:00" Order="9" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Freestyle Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MFR-------------HEAT0002RR--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:27:00+00:00" EndDate="2026-11-02T11:40:00+00:00" Order="10" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Freestyle Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM50MFR-------------FNL-000100--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:40:00+00:00" EndDate="2026-11-02T11:53:00+00:00" Medal="1" Order="11" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 50m Freestyle Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM800MFR------------FNL-0001FA--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:53:00+00:00" EndDate="2026-11-02T12:06:00+00:00" Medal="1" Order="12" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 800m Freestyle Fastest Heat"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM800MFR------------FNL-0001SL--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:06:00+00:00" EndDate="2026-11-02T12:19:00+00:00" Order="13" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 800m Freestyle Slowest Heat 1"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM800MFR------------FNL-0002SL--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:19:00+00:00" EndDate="2026-11-02T12:32:00+00:00" Order="14" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 800m Freestyle Slowest Heat 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMM800MFR------------FNL-0003SL--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:32:00+00:00" EndDate="2026-11-02T12:45:00+00:00" Order="15" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Men's 800m Freestyle Slowest Heat 3"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MBA------------HEAT0001RR--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:45:00+00:00" EndDate="2026-11-02T12:58:00+00:00" Order="16" Venue="CAD" Location="CAD" SessionCode="SWM03">
+      <ItemName Language="ENG" Value="Women's 100m Backstroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MBA------------HEAT0002RR--" PhaseType="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T14:13:00+00:00" Order="1" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Backstroke Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MBA------------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:13:00+00:00" EndDate="2026-11-02T14:26:00+00:00" Medal="1" Order="2" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Backstroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MBF------------HEAT0001RR--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:26:00+00:00" EndDate="2026-11-02T14:39:00+00:00" Order="3" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Butterfly Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MBF------------HEAT0002RR--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:39:00+00:00" EndDate="2026-11-02T14:52:00+00:00" Order="4" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Butterfly Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MBF------------FNL-000100--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:52:00+00:00" EndDate="2026-11-02T15:05:00+00:00" Medal="1" Order="5" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Butterfly Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MBR------------HEAT0001RR--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:05:00+00:00" EndDate="2026-11-02T15:18:00+00:00" Order="6" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Breaststroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MBR------------HEAT0002RR--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:18:00+00:00" EndDate="2026-11-02T15:31:00+00:00" Order="7" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Breaststroke Hts Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MBR------------FNL-000100--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:31:00+00:00" EndDate="2026-11-02T15:44:00+00:00" Medal="1" Order="8" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Breaststroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MFR------------HEAT0001RR--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:44:00+00:00" EndDate="2026-11-02T15:57:00+00:00" Order="9" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Freestyle Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MFR------------HEAT0002RR--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:57:00+00:00" EndDate="2026-11-02T16:10:00+00:00" Order="10" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Freestyle Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW100MFR------------FNL-000100--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:10:00+00:00" EndDate="2026-11-02T16:23:00+00:00" Medal="1" Order="11" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 100m Freestyle Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MBA------------HEAT0001RR--" PhaseType="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:23:00+00:00" EndDate="2026-11-02T16:36:00+00:00" Order="12" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 200m Backstroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MBA------------HEAT0002RR--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:36:00+00:00" EndDate="2026-11-02T16:49:00+00:00" Order="13" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 200m Backstroke Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MBA------------FNL-000100--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:49:00+00:00" EndDate="2026-11-02T17:02:00+00:00" Medal="1" Order="14" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 200m Backstroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MBF------------HEAT0001RR--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:02:00+00:00" EndDate="2026-11-02T17:15:00+00:00" Order="15" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 200m Butterfly Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MBF------------HEAT0002RR--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:15:00+00:00" EndDate="2026-11-02T17:28:00+00:00" Order="16" Venue="CAD" Location="CAD" SessionCode="SWM04">
+      <ItemName Language="ENG" Value="Women's 200m Butterfly Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MBF------------FNL-000100--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T09:43:00+00:00" Medal="1" Order="1" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 200m Butterfly Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MBR------------HEAT0001RR--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:43:00+00:00" EndDate="2026-11-03T09:56:00+00:00" Order="2" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 200m Breaststroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MBR------------HEAT0002RR--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:56:00+00:00" EndDate="2026-11-03T10:09:00+00:00" Order="3" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 200m Breaststroke Hts Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MBR------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:09:00+00:00" EndDate="2026-11-03T10:22:00+00:00" Medal="1" Order="4" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 200m Breaststroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MFR------------HEAT0001RR--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:22:00+00:00" EndDate="2026-11-03T10:35:00+00:00" Order="5" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 200m Freestyle Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MFR------------HEAT0002RR--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:35:00+00:00" EndDate="2026-11-03T10:48:00+00:00" Order="6" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 200m Freestyle Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MFR------------FNL-000100--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:48:00+00:00" EndDate="2026-11-03T11:01:00+00:00" Medal="1" Order="7" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 200m Freestyle Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MIM------------HEAT0001RR--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:01:00+00:00" EndDate="2026-11-03T11:14:00+00:00" Order="8" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 200m Ind. Medley Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MIM------------HEAT0002RR--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:14:00+00:00" EndDate="2026-11-03T11:27:00+00:00" Order="9" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 200m Ind. Medley Hts Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW200MIM------------FNL-000100--" PhaseType="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:27:00+00:00" EndDate="2026-11-03T11:40:00+00:00" Medal="1" Order="10" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 200m Individual Medley Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW400MFR------------FNL-0001FA--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:40:00+00:00" EndDate="2026-11-03T11:53:00+00:00" Medal="1" Order="11" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 400m Freestyle Fastest Heat"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW400MFR------------FNL-0001SL--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:53:00+00:00" EndDate="2026-11-03T12:06:00+00:00" Order="12" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 400m Freestyle Slowest Heat 1"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW400MFR------------FNL-0002SL--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:06:00+00:00" EndDate="2026-11-03T12:19:00+00:00" Order="13" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 400m Freestyle Slowest Heat 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW400MFR------------FNL-0003SL--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:19:00+00:00" EndDate="2026-11-03T12:32:00+00:00" Order="14" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 400m Freestyle Slowest Heat 3"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MBA-------------HEAT0001RR--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:32:00+00:00" EndDate="2026-11-03T12:45:00+00:00" Order="15" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 50m Backstroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MBA-------------HEAT0002RR--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:45:00+00:00" EndDate="2026-11-03T12:58:00+00:00" Order="16" Venue="CAD" Location="CAD" SessionCode="SWM05">
+      <ItemName Language="ENG" Value="Women's 50m Backstroke Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MBA-------------FNL-000100--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:00:00+00:00" EndDate="2026-11-03T14:13:00+00:00" Medal="1" Order="1" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 50m Backstroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MBF-------------HEAT0001RR--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:13:00+00:00" EndDate="2026-11-03T14:26:00+00:00" Order="2" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 50m Butterfly Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MBF-------------HEAT0002RR--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:26:00+00:00" EndDate="2026-11-03T14:39:00+00:00" Order="3" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 50m Butterfly Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MBF-------------FNL-000100--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:39:00+00:00" EndDate="2026-11-03T14:52:00+00:00" Medal="1" Order="4" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 50m Butterfly Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MBR-------------HEAT0001RR--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:52:00+00:00" EndDate="2026-11-03T15:05:00+00:00" Order="5" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 50m Breaststroke Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MBR-------------HEAT0002RR--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:05:00+00:00" EndDate="2026-11-03T15:18:00+00:00" Order="6" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 50m Breaststroke Heats Swim-Off "/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MBR-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:18:00+00:00" EndDate="2026-11-03T15:31:00+00:00" Medal="1" Order="7" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 50m Breaststroke Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MFR-------------HEAT0001RR--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:31:00+00:00" EndDate="2026-11-03T15:44:00+00:00" Order="8" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 50m Freestyle Heats Swim-Off"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MFR-------------HEAT0002RR--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:44:00+00:00" EndDate="2026-11-03T15:57:00+00:00" Order="9" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 50m Freestyle Heats Swim-Off 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW50MFR-------------FNL-000100--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:57:00+00:00" EndDate="2026-11-03T16:10:00+00:00" Medal="1" Order="10" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 50m Freestyle Final"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW800MFR------------FNL-0001FA--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:10:00+00:00" EndDate="2026-11-03T16:23:00+00:00" Medal="1" Order="11" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 800m Freestyle Fastest Heat"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW800MFR------------FNL-0001SL--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:23:00+00:00" EndDate="2026-11-03T16:36:00+00:00" Order="12" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 800m Freestyle Slowest Heat 1"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW800MFR------------FNL-0002SL--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:36:00+00:00" EndDate="2026-11-03T16:49:00+00:00" Order="13" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 800m Freestyle Slowest Heat 2"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+    <Unit Code="SWMW800MFR------------FNL-0003SL--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:49:00+00:00" EndDate="2026-11-03T17:02:00+00:00" Order="14" Venue="CAD" Location="CAD" SessionCode="SWM06">
+      <ItemName Language="ENG" Value="Women's 800m Freestyle Slowest Heat 3"/>
+      <VenueDescription VenueName="CTO Dakar Aquatic Centre" LocationName="CTO Dakar Aquatic Centre"/>
+    </Unit>
+  </Competition>
+</OdfBody>

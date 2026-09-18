@@ -1,0 +1,174 @@
+- id: CRD_STATUS_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@Status]
+  attribute: Status
+  params:
+    codeset: PARTICIPANT_STATUS
+    exclude_tags:
+    - Protest
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 433: Participant''s accreditation
+    status this attribute is Mandatory in'
+  status: active
+- id: CRD_VENUE_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@Venue]
+  attribute: Venue
+  params:
+    codeset: VENUE
+    allow:
+    - TBD
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 1196: Venue Code'
+  status: active
+- id: CRD_LOCATION_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@Location]
+  attribute: Location
+  params:
+    codeset: LOCATION
+    allow:
+    - TBD
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 1200: Location code'
+  status: active
+- id: CRD_UNIT_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@Unit]
+  attribute: Unit
+  params:
+    codeset: EVENT_UNIT
+    exclude_tags:
+    - Precipitation
+    - Pressure
+    - Temperature
+    - Wind
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 2257: Full RSC of the Unit'
+  status: active
+- id: CRD_VERSION_POSINT
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: value_format
+  target: .//*[@Version]
+  attribute: Version
+  params:
+    regex: ^[0-9]+$
+  severity: error
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 257: Version number (ascending) associated
+    to the message content.'
+  status: active
+- id: CRD_ORGANISATION_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@Organisation]
+  attribute: Organisation
+  params:
+    codeset: ORGANISATION
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 337: Id'
+  status: active
+- id: CRD_COUNTRYOFBIRTH_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@CountryofBirth]
+  attribute: CountryofBirth
+  params:
+    codeset: COUNTRY
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 340: Id'
+  status: active
+- id: CRD_COUNTRYOFRESIDENCE_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@CountryofResidence]
+  attribute: CountryofResidence
+  params:
+    codeset: COUNTRY
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 353: Id Country ID of Residence'
+  status: active
+- id: CRD_NATIONALITY_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@Nationality]
+  attribute: Nationality
+  params:
+    codeset: COUNTRY
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 355: ID Participant''s nationality.
+    Although this attribute is optional, in very exceptional situations it will not
+    be known, and for this reason not ready to be sent.'
+  status: active
+- id: CRD_MAINFUNCTIONID_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@MainFunctionId]
+  attribute: MainFunctionId
+  params:
+    codeset: DISCIPLINE_FUNCTION
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 356: Id Main function In the Case
+    of Current="true" this attribute is Mandatory.'
+  status: active
+- id: CRD_TEAMTYPE_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@TeamType]
+  attribute: TeamType
+  params:
+    codeset: SC@TeamType@GEN
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 441: Gender Send the team type. This
+    is how the name is constructed to allow clients to build in other languages. Use
+    ORG'
+  status: active
+- id: CRD_WIND_DIRECTION_CODE
+  applies_to:
+    disciplines:
+    - CRD
+  primitive: code_membership
+  target: .//*[@Wind_Direction]
+  attribute: Wind_Direction
+  params:
+    codeset: WIND_DIRECTION
+  severity: warning
+  scope: message
+  source_ref: 'ODF_CRD_Data_Dictionary.pdf line 1465: Id Wind direction'
+  status: active
