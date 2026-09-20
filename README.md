@@ -58,13 +58,13 @@ truncates, which satisfies the stated limit and is safe while no rule checks
 `ItemName` against the description — unlike `VenueName`, which has one.
 
 But truncation is a blunt instrument on this field, and the damage is
-measurable. 150 of the 4,700 `EVENT_UNIT` descriptions exceed 40 characters
-(JUD 36, RCB 26, SWM 3, TTE 56, WST 28, PCO 1). Cutting them does two things:
+measurable. 149 of the 4,709 `EVENT_UNIT` descriptions exceed 40 characters
+(TTE 56, JUD 36, WST 27, RCB 26, SWM 3, PCO 1). Cutting them does two things:
 
 - It can change the meaning. `"Women -44 kg Repechage Second Round of 16"` (41)
   becomes `"...Second Round of 1"` — a different round, stated confidently.
-- Worse, it can **merge units that were distinct**. Truncation collapses 14
-  description groups covering 86 unit codes. The clearest case is rowing:
+- Worse, it can **merge units that were distinct**. Truncation collapses 16
+  description groups covering 124 unit codes. The clearest case is rowing:
   `"Mixed Double Sculls Last 16 - Knockout 1"` and
   `"Mixed Double Sculls Last 16 - Knockout 1 - Re-Row"` truncate to the same
   string, so a race and its re-row become indistinguishable by name. (They
@@ -140,7 +140,7 @@ the ODF data dictionaries:
   (115 participants), 17 mixed teams, and the real 9-session / 83-unit
   schedule — counts match the Common Codes EVENT_UNIT tables. Venue/Location
   use the Common Codes members `SAW` / `AR1` (the real feed's `AWA` is not in
-  Common Codes v1.9.1).
+  Common Codes).
 - **Every other discipline** is derived from the Common Codes tables
   (`generator/eventstructure.py`): the schedule contains exactly the
   scheduled competitive units from EVENT_UNIT (real unit RSCs, item names,
@@ -191,10 +191,11 @@ visible in the UI, so they are worth knowing:
   previously looked like it worked, because every entry went into one
   discipline-level message whose `@DocumentCode` was the discipline RSC, which
   GEN 2.1.5.2 does not permit.)
-- **`coaches` in a discipline that defines no coach role.** 15 of the 25
+- **`coaches` in a discipline that defines no coach role.** 21 of the 25
   disciplines publish no `Category="C"` row in CC@DISCIPLINE_FUNCTION, so there
-  is no valid function code to assign and the field does nothing. ATH, CRD and
-  RCB define no officials at all.
+  is no valid function code to assign and the field does nothing — only BS5,
+  FBS, RU7 and TTE define one. ATH, CRD, JUD, RCB and SKB define no officials
+  at all.
 
 ## Multiple Games
 
@@ -306,10 +307,13 @@ used to be lost the moment the files hit disk:
   documents behind the pack, lifted from the validator's own `.sources.json`.
   "Which Common Codes version produced this sample" then has an answer that
   does not depend on anyone remembering.
-- **`validator.revision`** — read from the sibling checkout's git HEAD, with
-  `dirty` set when the working tree has uncommitted changes. When it cannot be
-  read the value is `null` and `reason` says why; a manifest asserting a SHA it
-  never read would be worse than one admitting it does not know.
+- **`validator.revision`** — the commit pip recorded when it installed the
+  validator from the pinned VCS reference, with `source` naming where the
+  answer came from. Against a validator checkout instead, it is that
+  checkout's HEAD, with `dirty` set when its working tree has uncommitted
+  changes. When neither applies the value is `null` and `reason` says why; a
+  manifest asserting a SHA it never read would be worse than one admitting it
+  does not know.
 
 Plus `options` (the overrides in force) and a SHA-256 per message, so a file
 edited after export stops matching its own manifest.
@@ -317,7 +321,7 @@ edited after export stops matching its own manifest.
 `--no-manifest` skips it. Use that when regenerating `samples/`, where a
 timestamp changing on every run is diff noise.
 
-Export one discipline, or every discipline (requires `ODF_PACK_DIR`, see Setup):
+Export one discipline, or every discipline:
 
 ```powershell
 python -m generator.export --discipline ARC

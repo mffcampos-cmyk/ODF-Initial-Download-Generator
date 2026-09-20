@@ -52,44 +52,106 @@ def _sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def validator_revision() -> dict:
-    """The validator checkout's git revision, or why it is unknown.
+def _direct_url() -> dict | None:
+    """What pip recorded about where odf-validator was installed from.
 
-    Best effort by design. The validator is imported from a sibling checkout on
-    PYTHONPATH rather than installed (see the README), so there is no package
-    version to read and `git` is the only thing that knows. Every failure path
-    returns None with a reason rather than a guess.
+    A `name @ git+https://...@<sha>` install -- the one pyproject.toml declares
+    and the README documents -- makes pip write direct_url.json with the
+    resolved commit. That is authoritative: it is the revision that WAS
+    installed, not an inference from the filesystem.
     """
     try:
-        import odf_validator
+        from importlib.metadata import Distribution
+        dist = Distribution.from_name("odf-validator")
+        raw = dist.read_text("direct_url.json")
+    except Exception:
+        return None
+    if not raw:
+        return None
+    try:
+        return json.loads(raw)
+    except ValueError:
+        return None
+
+
+def _checkout_root(module_file=None) -> Path | None:
+    """The validator's own git checkout, or None.
+
+    The package directory's parent counts only when IT is a repository. The
+    previous version resolved a root and let `git -C` answer, but git
+    discovers a repository by walking UP: after the documented install the root
+    is `site-packages`, and the documented layout puts `.venv/` inside the
+    project, so git cheerfully returned the GENERATOR clone's HEAD and the
+    manifest recorded it as the validator's. An enclosing repository is not
+    this package's repository, and only a `.git` directly at the root proves
+    the difference.
+    """
+    if module_file is None:
+        try:
+            import odf_validator
+        except ImportError:
+            return None
+        module_file = odf_validator.__file__
+    root = Path(module_file).resolve().parent.parent
+    return root if (root / ".git").exists() else None
+
+
+def validator_revision() -> dict:
+    """Which validator engine ran, and how we know.
+
+    Three answers, in descending order of authority: the commit pip recorded
+    for a VCS install, the HEAD of a real validator checkout, or None with a
+    reason. Never a guess -- a manifest asserting a revision it did not read
+    is worse than one admitting it does not know, and this one spent a while
+    asserting a revision it had read from the wrong repository entirely.
+    """
+    try:
+        import odf_validator  # noqa: F401
     except ImportError as exc:                              # pragma: no cover
         return {"revision": None, "reason": f"odf_validator not importable: {exc}"}
 
-    root = Path(odf_validator.__file__).resolve().parent.parent
-    try:
-        out = subprocess.run(
-            ["git", "-C", str(root), "rev-parse", "HEAD"],
-            capture_output=True, text=True, timeout=10, check=False)
-    except (OSError, subprocess.SubprocessError) as exc:
-        return {"revision": None, "path": str(root),
-                "reason": f"could not run git: {exc}"}
-    if out.returncode != 0:
-        return {"revision": None, "path": str(root),
-                "reason": (out.stderr.strip()
-                           or f"git rev-parse exited {out.returncode}")}
+    direct = _direct_url()
+    if direct:
+        commit = (direct.get("vcs_info") or {}).get("commit_id")
+        if commit:
+            return {"revision": commit, "source": "installed distribution",
+                    "url": direct.get("url")}
 
-    revision = out.stdout.strip()
-    dirty = subprocess.run(
-        ["git", "-C", str(root), "status", "--porcelain"],
-        capture_output=True, text=True, timeout=10, check=False)
-    return {
-        "revision": revision,
-        "path": str(root),
-        # An uncommitted change means the revision does not fully describe the
-        # engine that ran. Say so rather than letting the SHA imply more than
-        # it can.
-        "dirty": bool(dirty.stdout.strip()) if dirty.returncode == 0 else None,
-    }
+    root = _checkout_root()
+    if root is not None:
+        try:
+            out = subprocess.run(
+                ["git", "-C", str(root), "rev-parse", "HEAD"],
+                capture_output=True, text=True, timeout=10, check=False)
+        except (OSError, subprocess.SubprocessError) as exc:
+            return {"revision": None, "path": str(root),
+                    "reason": f"could not run git: {exc}"}
+        if out.returncode != 0:
+            return {"revision": None, "path": str(root),
+                    "reason": (out.stderr.strip()
+                               or f"git rev-parse exited {out.returncode}")}
+        dirty = subprocess.run(
+            ["git", "-C", str(root), "status", "--porcelain"],
+            capture_output=True, text=True, timeout=10, check=False)
+        return {
+            "revision": out.stdout.strip(),
+            "source": "checkout",
+            "path": str(root),
+            # An uncommitted change means the revision does not fully describe
+            # the engine that ran. Say so rather than letting the SHA imply
+            # more than it can.
+            "dirty": bool(dirty.stdout.strip()) if dirty.returncode == 0 else None,
+        }
+
+    version = None
+    try:
+        from importlib.metadata import version as _version
+        version = _version("odf-validator")
+    except Exception:
+        pass
+    return {"revision": None, "version": version,
+            "reason": ("odf-validator was not installed from a VCS reference "
+                       "and is not a git checkout, so no commit is recorded")}
 
 
 def pack_sources(pack_dir) -> dict:

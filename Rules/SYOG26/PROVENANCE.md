@@ -1,7 +1,7 @@
 # Where this pack came from
 
 Copied from `github.com/mffcampos-cmyk/ODF-Validator` at commit
-`3cccfd3707e0999f46ddb4aa93408c31a98e50b2`, taking exactly the files git tracks under `Rules/`.
+`e0a71e4f6c0d0f6e504fcd004a3acacbc4a4f520`, taking exactly the files git tracks under `Rules/`.
 `pyproject.toml` pins the same commit for the engine; if you change one,
 change the other.
 
