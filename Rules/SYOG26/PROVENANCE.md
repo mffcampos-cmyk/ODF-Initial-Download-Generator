@@ -1,9 +1,16 @@
 # Where this pack came from
 
 Copied from `github.com/mffcampos-cmyk/ODF-Validator` at commit
-`c9a5b8dbe1e25d3f1a70fc786eb84353cee918e9`, taking exactly the files git tracks under `Rules/`.
+`3cccfd3707e0999f46ddb4aa93408c31a98e50b2`, taking exactly the files git tracks under `Rules/`.
 `pyproject.toml` pins the same commit for the engine; if you change one,
 change the other.
+
+The pack's own files have not changed since `c9a5b8db`, the commit they were
+first taken from. The pin moved because the engine's Data Dictionary parser
+was fixed: a message section that never states its DocumentType no longer
+inherits the previous message, which is what made ARC's teams table read as
+"DT_PARTIC requires Competition/Team (1,N)" and made every conforming
+DT_PARTIC message fail.
 
 ## What is here
 

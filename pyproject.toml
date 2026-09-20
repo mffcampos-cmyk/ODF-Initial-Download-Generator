@@ -20,7 +20,7 @@ dependencies = [
     #
     # Rules/SYOG26/PROVENANCE.md names the same commit, because the vendored
     # pack was taken from it. Change one, change the other.
-    "odf-validator @ git+https://github.com/mffcampos-cmyk/ODF-Validator.git@c9a5b8dbe1e25d3f1a70fc786eb84353cee918e9",
+    "odf-validator @ git+https://github.com/mffcampos-cmyk/ODF-Validator.git@3cccfd3707e0999f46ddb4aa93408c31a98e50b2",
 ]
 license = "MIT"
 license-files = ["LICENSE"]
