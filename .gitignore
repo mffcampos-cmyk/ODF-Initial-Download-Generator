@@ -38,8 +38,13 @@ Rules/*/*.md
 # ingested, what was parsed out of it, the provenance record, and the download
 # staging area. All rebuilt from the documents; none of them describe anything
 # a fresh clone holds.
-Rules/*/.incoming/
-Rules/*/.drafts/
-Rules/*/.sources.json
-Rules/*/.ingestion_state.json
-Rules/*/.dd_obligations.json
+# Depth-agnostic on purpose. Drafts are written per DISCIPLINE, at
+# Rules/<pack>/Disciplines/<CODE>/.drafts/, so a Rules/*/ pattern misses all 25
+# of them: following the README left `git status` showing 25 untracked
+# directories of generated, IOC-derived rules, one `git add -A` away from being
+# committed.
+Rules/**/.incoming/
+Rules/**/.drafts/
+Rules/**/.sources.json
+Rules/**/.ingestion_state.json
+Rules/**/.dd_obligations.json

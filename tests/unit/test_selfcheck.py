@@ -1,4 +1,5 @@
-from generator.selfcheck import errors, generate_clean
+from generator import selfcheck
+from generator.selfcheck import errors
 from tests.conftest import PACK
 
 CLEAN = (b'<?xml version="1.0" encoding="UTF-8"?>'
@@ -14,31 +15,48 @@ def test_errors_returns_list_of_strings():
     assert all(isinstance(s, str) for s in result)
 
 
-def test_generate_clean_returns_first_clean():
+def test_generate_clean_returns_first_clean(monkeypatch):
+    """It stops at the first seed that validates clean.
+
+    `errors` is stubbed rather than run for real. This test used to carry a
+    hand-written "clean" DT_PARTIC and assert the real engine accepted it --
+    which held until the engine learned to check child cardinalities, at which
+    point the fixture was rejected for having no <Participant> and the test
+    failed for a reason that had nothing to do with what it was testing. The
+    control flow here is independent of any rule set, so it should not be
+    re-broken by every rule the validator gains.
+
+    `test_errors_returns_list_of_strings` still exercises the real pack.
+    """
     calls = []
 
     def make(seed):
         calls.append(seed)
-        # Only seed 2 yields a message with valid codes.
-        good = seed == 2
-        if good:
-            return (b'<?xml version="1.0"?><OdfBody CompetitionCode="SYOG2026" '
-                    b'DocumentCode="ARC0000000000000000000000000000000" '
-                    b'DocumentType="DT_PARTIC" Version="1" FeedFlag="P" '
-                    b'Date="2026-01-01" Time="000000000" LogicalDate="2026-01-01" '
-                    b'Source="S"><Competition Gen="G" Codes="C">'
-                    b'<Discipline Code="ARC-------------------------------">'
-                    b'<Event Code="ARCG------------------------------"><Medal Code="ME_GOLD"/></Event>'
-                    b'</Discipline></Competition></OdfBody>')
-        else:
-            # Bad: empty CompetitionCode
-            return (b'<?xml version="1.0"?><OdfBody CompetitionCode="" '
-                    b'DocumentCode="ARC0000000000000000000000000000000" '
-                    b'DocumentType="DT_PARTIC" Version="1" FeedFlag="P" '
-                    b'Date="2026-01-01" Time="000000000" LogicalDate="2026-01-01" '
-                    b'Source="S"><Competition Gen="G" Codes="C"><Discipline Code="ARC"/>'
-                    b'</Competition></OdfBody>')
+        return f"<seed-{seed}/>".encode()
 
-    xml, findings = generate_clean(make, PACK, seeds=[1, 2, 3])
-    # It should stop at the first clean seed and not try seed 3.
-    assert 3 not in calls
+    def fake_errors(xml, pack):
+        return [] if xml == b"<seed-2/>" else ["not clean"]
+
+    monkeypatch.setattr(selfcheck, "errors", fake_errors)
+
+    xml, findings = selfcheck.generate_clean(make, PACK, seeds=[1, 2, 3])
+
+    assert calls == [1, 2], "it must stop at the first clean seed"
+    assert xml == b"<seed-2/>"
+    assert findings == []
+
+
+def test_generate_clean_reports_the_last_failure_when_nothing_is_clean(monkeypatch):
+    calls = []
+
+    def make(seed):
+        calls.append(seed)
+        return f"<seed-{seed}/>".encode()
+
+    monkeypatch.setattr(selfcheck, "errors", lambda xml, pack: [f"bad {xml!r}"])
+
+    xml, findings = selfcheck.generate_clean(make, PACK, seeds=[1, 2, 3])
+
+    assert calls == [1, 2, 3], "every seed must be tried before giving up"
+    assert xml == b"<seed-3/>"
+    assert findings == ["bad b'<seed-3/>'"]

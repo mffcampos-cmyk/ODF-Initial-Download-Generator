@@ -6,8 +6,10 @@ first test; a pack whose pack.yaml loses its source.index_url still loads and
 still validates, but `python -m generator.sources` has nowhere to fetch from,
 and the failure surfaces only on a fresh clone."""
 import re
+import subprocess
 from pathlib import Path
 
+import pytest
 import yaml
 
 from generator.packload import PROJECT_ROOT, looks_like_pack
@@ -30,17 +32,26 @@ def test_vendored_pack_declares_its_upstream_index():
 def test_vendored_pack_ships_no_ioc_documents():
     """The workbook and the Data Dictionaries are fetched, never committed.
 
-    Checked as a property of the tree rather than of .gitignore: an ignore
-    rule that stops matching is silent, and a file added with `git add -f` is
-    not ignored at all. Converted Data Dictionaries count -- a .md rendering
-    of a Data Dictionary is the same IOC content in another format, and it is
-    what the import produces from the PDFs."""
-    by_suffix = [p for p in VENDORED.rglob("*")
-                 if p.suffix.lower() in {".pdf", ".xlsx"}]
-    converted = [p for p in VENDORED.rglob("*")
-                 if p.name.endswith("Data_Dictionary.md")]
-    assert not by_suffix + converted, (
-        f"IOC documents in the shipped pack: {by_suffix + converted}")
+    Asked of git, not of the filesystem. The first version of this test walked
+    the pack directory -- which is right only until someone follows the README:
+    `python -m generator.sources` fills that directory with precisely the
+    documents the test forbids, so it passed on a fresh clone and failed on
+    every working one. The property that matters is that none of them are
+    COMMITTED.
+
+    `git ls-files` rather than `.gitignore`: an ignore rule that stops matching
+    is silent, and a file added with `git add -f` is not ignored at all. The
+    index is what decides what a clone receives."""
+    try:
+        tracked = subprocess.run(
+            ["git", "-C", str(PROJECT_ROOT), "ls-files", "Rules"],
+            capture_output=True, text=True, check=True).stdout.split()
+    except (OSError, subprocess.CalledProcessError) as exc:
+        pytest.skip(f"not a git checkout ({exc}); nothing to ask about commits")
+    offenders = [f for f in tracked
+                 if f.lower().endswith((".pdf", ".xlsx"))
+                 or f.endswith("Data_Dictionary.md")]
+    assert not offenders, f"IOC documents committed to the pack: {offenders}"
 
 
 def test_provenance_records_a_real_commit_sha():
