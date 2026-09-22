@@ -37,6 +37,18 @@ as "CC@VENUE ENG Description (not code)", and active code_membership rules
 the code's description exactly. Truncating one would turn passing output into
 failing output. Any attribute whose DD entry names a description rather than a
 length belongs in that category -- check before adding.
+
+``Unit/ItemName@Value`` is the one row that states both. Its DD cell reads
+"M | S(40) CC@EVENT_UNIT CC@PHASE CC@EVENT ENG Description", demanding a
+40-character field and the Common Codes description in the same breath, and
+Common Codes ships descriptions longer than 40 ("Women -44 kg Repechage Second
+Round of 16" is 41). The description governs, for the same reason it governs
+the two above: truncation merged units that Common Codes keeps apart -- a race
+and its re-row cut to the same string -- and a name that is wrong is worse than
+a name that is long. Consumers key on ``@Code`` and ``@UnitNum``; the name is
+what a human reads. ``Rules/SYOG26/pack.yaml`` records the same decision as a
+``length_exempt`` entry, so the unenforced width is documented rather than
+forgotten.
 """
 from __future__ import annotations
 
@@ -44,17 +56,6 @@ from __future__ import annotations
 MAX_LENGTHS: dict[tuple[str, str], int] = {
     # GEN DD: "TVTeamName | M | S(21) | TV Team Name".
     ("Team", "TVTeamName"): 21,
-    # GEN DD, Competition/Unit/ItemName: "Value | M | S(40) CC@EVENT_UNIT
-    # CC@PHASE CC@EVENT ENG Description".
-    #
-    # This one is a genuine conflict in the source, not an oversight: the same
-    # cell demands both a 40-character maximum and the Common Codes
-    # description, and Common Codes ships descriptions longer than that
-    # ("Women -44 kg Repechage Second Round of 16" is 41). Something has to
-    # give. Truncating is safe today because no active rule checks ItemName
-    # against the description -- unlike VenueName, which has one. If such a
-    # rule ever appears, this entry is the first thing to revisit.
-    ("ItemName", "Value"): 40,
 }
 
 

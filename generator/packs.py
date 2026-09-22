@@ -102,9 +102,9 @@ def _readiness(pack, profile: GamesProfile | None,
     purely so callers that only need to *read* a pack (list its disciplines)
     can tell that failure apart from one where there is no content at all.
 
-    The wording mirrors the numbered drop-in steps in
-    ``Rules/<PACK>/_reference/README.md`` so an operator who has never read
-    that file still learns exactly what to do."""
+    The wording mirrors the numbered drop-in steps under "To bring SOLG28
+    online" in this repository's README, so an operator who has never read
+    that section still learns exactly what to do."""
     name = pack.name
     content_reasons: list[str] = []
     if getattr(pack, "schema", None) is None:

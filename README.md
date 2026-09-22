@@ -43,38 +43,43 @@ enforces these itself:
 
 - **Lengths** — `generator/lengths.py`, keyed on (element, attribute) because
   `Value`, `Name` and `Code` each have several limits depending on the element.
-  Description-matched attributes (`VenueName`, `LocationName`) are deliberately
-  excluded: they carry no `S(n)` and must equal the code's ENG_Description
-  exactly, so truncating one would *break* a rule that does exist.
+  Description-matched attributes (`VenueName`, `LocationName`,
+  `Unit/ItemName`) are deliberately excluded: they must equal the code's
+  ENG_Description exactly, so truncating one would either *break* a rule that
+  does exist or hand the reader a wrong name.
 - **Datetime coherence** — real `datetime` arithmetic, asserted by
   `tests/unit/test_schedule_times_are_coherent.py`.
 - **Sort order** — `DT_PARTIC_TEAMS` sorts by `Team@Code` per GEN 2.1.3.6.
 
-One known conflict is left in place deliberately, and it is worth
+One conflict in the source is resolved deliberately, and it is worth
 understanding before trusting the output. The DD specifies
 `Unit/ItemName@Value` as both `S(40)` *and* the Common Codes ENG description,
 and Common Codes ships descriptions longer than 40 characters. The generator
-truncates, which satisfies the stated limit and is safe while no rule checks
-`ItemName` against the description — unlike `VenueName`, which has one.
+keeps the description whole and leaves the width unenforced;
+`Rules/SYOG26/pack.yaml` records that as a `length_exempt` entry, so the
+decision is visible from the pack rather than buried in code.
 
-But truncation is a blunt instrument on this field, and the damage is
-measurable. 149 of the 4,709 `EVENT_UNIT` descriptions exceed 40 characters
-(TTE 56, JUD 36, WST 27, RCB 26, SWM 3, PCO 1). Cutting them does two things:
+Measurement decided it. 149 of the 4,709 `EVENT_UNIT` descriptions exceed 40
+characters (TTE 56, JUD 36, WST 27, RCB 26, SWM 3, PCO 1), and cutting them
+does two things:
 
-- It can change the meaning. `"Women -44 kg Repechage Second Round of 16"` (41)
+- It changes the meaning. `"Women -44 kg Repechage Second Round of 16"` (41)
   becomes `"...Second Round of 1"` — a different round, stated confidently.
-- Worse, it can **merge units that were distinct**. Truncation collapses 16
+- Worse, it **merges units that were distinct**. Truncation collapses 16
   description groups covering 124 unit codes. The clearest case is rowing:
   `"Mixed Double Sculls Last 16 - Knockout 1"` and
   `"Mixed Double Sculls Last 16 - Knockout 1 - Re-Row"` truncate to the same
-  string, so a race and its re-row become indistinguishable by name. (They
-  remain distinguishable by `@Code` and `@UnitNum`, which is what a consumer
-  should key on — but the display name no longer tells them apart.)
+  string, so a race and its re-row become indistinguishable by name.
 
-If that trade is wrong for your consumer, the alternatives are to keep the full
-description and accept the `S(40)` violation, or to shorten these descriptions
-deliberately rather than mechanically. One entry in `generator/lengths.py`
-controls it.
+Against that, the `S(40)` violation is the lesser fault. A consumer keys on
+`@Code` and `@UnitNum`, which stay distinct either way; the name is what a
+human reads, and a name that is wrong reads as authoritative in a way a name
+that is long does not. `tests/unit/test_lengths.py` asserts that every
+generated `ItemName` equals its code's description in full, so the output
+cannot drift back into truncation unnoticed.
+
+If your consumer enforces the width, shorten these descriptions deliberately
+rather than mechanically — the generator will not do it for you.
 
 ### Data Dictionary obligations
 
@@ -214,11 +219,11 @@ other constraint is derived from the pack itself.
 To bring SOLG28 online:
 
 1. Drop the LA2028 XSD, Common Codes workbook, and per-discipline Data
-   Dictionaries into `Rules/SOLG28/`. `Rules/SOLG28/_reference/README.md`
-   travels with the pack and is the validator's own onboarding note: it
-   describes that application's layout, its rulesets and drafts pages, and
-   its test corpus, none of which exist here. Read it for what a ruleset
-   needs to contain, not for where to put things in this repository.
+   Dictionaries into `Rules/SOLG28/`, laid out as `Rules/SYOG26/` already is:
+   the workbook under `codes/`, each discipline's Data Dictionary under
+   `Disciplines/<CODE>/`, the schema under `xsd/`. Authored rules go under
+   `rules/` and `Disciplines/<CODE>/rules/`; `Rules/SYOG26/` is the worked
+   example to copy the shape from.
 2. Copy `Gen`, `Codes` and the `Sport` template from the LA2028 GEN document
    into `generator/games/SOLG28.yaml`. These cannot be derived — do not guess
    them. The `sport_template` value must contain the literal placeholder

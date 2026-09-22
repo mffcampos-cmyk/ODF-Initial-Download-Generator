@@ -59,6 +59,12 @@ measured against. That is the whole reason it is pinned rather than tracked.
 
 ## What is NOT here
 
+The validator's own `_reference/` notes. They document that application --
+its rulesets and drafts pages, its test corpus, its `docs/adding-*.md` guides
+-- and none of it exists in this repository, so a copy here would only send
+readers looking for directories that are not there. This repository's README
+carries the equivalent guidance for this repository.
+
 The Common Codes workbook and the 25 Data Dictionaries. They are published by
 the IOC, they change, and they are not ours to redistribute. Fetch them:
 
@@ -73,7 +79,12 @@ dropdown.
 From a checkout of the validator, extract the pack from a **commit**, never
 from the working tree:
 
-    git archive <new-commit> Rules | tar -x -C <this-repository>
+    git archive <new-commit> -- Rules ':(exclude,glob)Rules/*/_reference/*' \
+        | tar -x -C <this-repository>
+
+The exclusion is what keeps the previous section true: the validator tracks
+`_reference/` under `Rules/`, so a plain `git archive <new-commit> Rules`
+vendors those notes straight back in, and nothing would say so.
 
 The distinction is not pedantry. A validator checkout in normal use carries
 uncommitted work — when this pack was vendored, four files under `Rules/`

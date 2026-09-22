@@ -33,6 +33,9 @@ Rules/*/*.xlsx
 # PROVENANCE.md sits here too and is ours, not the IOC's.
 Rules/*/*.md
 !Rules/*/PROVENANCE.md
+# The validator's own onboarding notes travel under Rules/ in its repository
+# and document that application, not this one. See PROVENANCE.md.
+Rules/*/_reference/
 
 # Per-pack ingestion by-products and staging: the hash of each document last
 # ingested, what was parsed out of it, the provenance record, and the download

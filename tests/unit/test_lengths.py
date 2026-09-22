@@ -52,6 +52,58 @@ def test_description_matched_attributes_are_never_truncated():
     assert lengths.clamp("Session", "VenueName", long_venue) == long_venue
 
 
+def test_item_name_is_never_truncated():
+    """Unit/ItemName@Value's DD cell states both S(40) and the Common Codes
+    ENG description. The description governs: truncating merged 124 unit codes
+    into 16 name collisions, and Rules/SYOG26/pack.yaml records the field as
+    length-exempt. A limit here would be the repository contradicting its own
+    pack."""
+    assert ("ItemName", "Value") not in lengths.MAX_LENGTHS, (
+        "ItemName carries the Common Codes description; a length limit here "
+        "would merge units that Common Codes keeps distinct")
+    whole = "Women's Changquan Combined Preliminary Round - Changquan"  # 56
+    assert lengths.clamp("ItemName", "Value", whole) == whole
+
+
+def test_generated_item_names_are_the_whole_description():
+    """Every generated Unit/ItemName@Value equals its unit code's EVENT_UNIT
+    ENG description character for character -- including the ones past S(40),
+    which is the point. Asserted over every generated message rather than a
+    sample, because a limit reintroduced anywhere in the serializer would show
+    up as a prefix here and nowhere else."""
+    refdata = rd()
+    table = PACK.codes.table("EVENT_UNIT")
+    described = {row.id: (row.fields.get("ENG_Description") or "")
+                 for row in table._rows.values()}
+    cut, unknown, checked, over_limit = [], [], 0, 0
+    for disc in refdata.disciplines():
+        if disc in REFUSED_DISCIPLINES:
+            continue
+        for _key, (xml, _errs) in build_bundle(refdata, disc, seed=1).items():
+            for unit in etree.fromstring(xml).iter("Unit"):
+                code = unit.get("Code")
+                for item in unit.iter("ItemName"):
+                    value = item.get("Value") or ""
+                    if code not in described:
+                        unknown.append(f"{disc} {code}")
+                        continue
+                    checked += 1
+                    if len(value) > 40:
+                        over_limit += 1
+                    if described[code] != value:
+                        cut.append(f"{disc} {code}: {described[code]!r} "
+                                   f"-> {value!r}")
+    assert not unknown, "units whose code is not in EVENT_UNIT: " + ", ".join(
+        unknown[:10])
+    assert not cut, "ItemName no longer matches the description:\n" + "\n".join(
+        cut[:20])
+    assert checked, "no ItemName values were checked -- the loop found nothing"
+    assert over_limit, (
+        "no generated ItemName exceeds S(40) any more. Either Common Codes "
+        "shortened its descriptions or something is truncating again; this "
+        "test exists because the long ones must survive.")
+
+
 def test_no_generated_attribute_exceeds_its_limit():
     refdata = rd()
     over = []
