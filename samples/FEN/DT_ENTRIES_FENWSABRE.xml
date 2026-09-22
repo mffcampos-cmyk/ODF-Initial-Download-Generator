@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="FENWSABRE-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000659707" LogicalDate="2026-08-30" Source="OGEN">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="FENWSABRE-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-09-22" Time="205848766" LogicalDate="2026-09-22" Source="OGEN">
   <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-FEN-1.0" Codes="SYOG-2026-CC-V0.04">
     <Entry Code="9000085" Type="A" Organisation="AFG" SortOrder="1">
       <Composition>
@@ -64,10 +64,10 @@
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="9000091" Type="A" Organisation="NRU" SortOrder="10">
+    <Entry Code="9000091" Type="A" Organisation="NRO" SortOrder="10">
       <Composition>
         <Athlete Code="9000091" Order="1">
-          <Description GivenName="Léa" FamilyName="Dupont" Gender="F" Organisation="NRU" BirthDate="2009-05-25" IFId="9000091"/>
+          <Description GivenName="Aigerim" FamilyName="Mamedov" Gender="F" Organisation="NRO" BirthDate="2009-05-25" IFId="9000091"/>
         </Athlete>
       </Composition>
     </Entry>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="FBSMTEAM5-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-08-30" Time="000657563" LogicalDate="2026-08-30" Source="OGEN">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="FBSMTEAM5-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-22" Time="205846684" LogicalDate="2026-09-22" Source="OGEN">
   <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-FBS-1.0" Codes="SYOG-2026-CC-V0.04">
     <Entry Code="FBSMTEAM5---BAN01" Type="T" Organisation="BAN" SortOrder="1">
       <Description TeamName="Bangladesh"/>

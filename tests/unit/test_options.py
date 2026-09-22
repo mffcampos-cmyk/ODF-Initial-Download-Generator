@@ -5,6 +5,7 @@ import math
 
 from lxml import etree
 
+from generator import eventstructure
 from generator.builders import entries, partic, schedule
 from generator.bundle import build_bundle
 from generator.dataset import build_dataset
@@ -22,9 +23,36 @@ def _entry_counts(msgs):
             for rsc, xml in msgs}
 
 
+def _scheduled_unit_codes(discipline: str) -> set[str]:
+    """The unit codes Common Codes says belong on a schedule, read from the
+    table rather than from eventstructure, so this is a second opinion on the
+    same rule and not a restatement of the implementation."""
+    table = PACK.codes.table("EVENT_UNIT")
+    return {code for code, row in table._rows.items()
+            if row.fields.get("Discipline") == discipline
+            and row.fields.get("Level") == "Unit"
+            and row.fields.get("Schedule") == "Y"
+            and row.fields.get("Phase") != "VICT"
+            and row.fields.get("Event") not in eventstructure.GEN_EVENTS}
+
+
 def test_defaults_unchanged_without_options():
+    """With every option off, the schedule is exactly what Common Codes marks
+    scheduled -- no invented units, none dropped.
+
+    Derived rather than hardcoded, and the reason is on the record. This
+    assertion read `== 94` until Common Codes v_2_4, which retired the
+    `Schedule = "S"` flag: 463 unit rows carried it (SWM 416, ATH 42, SKB 4,
+    ARC 1) and the generator schedules only `Y`, so SWM's heats had never been
+    emitted. v_2_4 resolved each row to `Y` or `N` and SWM went from 94 units
+    to 492 overnight. A constant could only ever record what the workbook said
+    on the day it was written; what this test means is the relationship."""
+    expected = _scheduled_unit_codes("SWM")
+    assert expected, "no scheduled SWM units in the pack -- check the workbook"
     xml = schedule.build(rd(), "SWM", seed=1)
-    assert len(list(etree.fromstring(xml).iter("Unit"))) == 94
+    emitted = [u.get("Code") for u in etree.fromstring(xml).iter("Unit")]
+    assert len(emitted) == len(set(emitted)), "a unit was emitted twice"
+    assert set(emitted) == expected
 
 
 def test_realistic_entries_scale_up_pooled_events():

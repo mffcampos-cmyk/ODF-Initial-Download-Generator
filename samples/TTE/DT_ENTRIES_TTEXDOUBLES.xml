@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="TTEXDOUBLES-----------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-08-30" Time="000722731" LogicalDate="2026-08-30" Source="OGEN">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="TTEXDOUBLES-----------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-09-22" Time="205910914" LogicalDate="2026-09-22" Source="OGEN">
   <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-TTE-1.0" Codes="SYOG-2026-CC-V0.04">
     <Entry Code="TTEXDOUBLES-AIN01" Type="T" Organisation="AIN" SortOrder="1">
       <Description TeamName="AIN"/>

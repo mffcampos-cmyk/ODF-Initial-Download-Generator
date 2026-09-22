@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="VBV-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-08-30" Time="000725118" LogicalDate="2026-08-30" Source="OGEN">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="VBV-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-22" Time="205912971" LogicalDate="2026-09-22" Source="OGEN">
   <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-VBV-1.0" Codes="SYOG-2026-CC-V0.04">
     <Team Code="VBVMTEAM2---BAN01" Status="ENT" Organisation="BAN" Name="Bangladesh" ShortName="Bangladesh" TVTeamName="Bangladesh" PSCBName="BANGLADESH" PSCBShortName="BANGLADESH" PSCBLongName="BANGLADESH" Gender="M" TeamType="CUSTOM">
       <Discipline Code="VBV-------------------------------"/>
@@ -79,7 +79,7 @@
     <Team Code="VBVWTEAM2---LTU01" Status="ENT" Organisation="LTU" Name="Lithuania" ShortName="Lithuania" TVTeamName="Lithuania" PSCBName="LITHUANIA" PSCBShortName="LITHUANIA" PSCBLongName="LITHUANIA" Gender="W" TeamType="CUSTOM">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---NRU01" Status="ENT" Organisation="NRU" Name="Nauru" ShortName="Nauru" TVTeamName="Nauru" PSCBName="NAURU" PSCBShortName="NAURU" PSCBLongName="NAURU" Gender="W" TeamType="CUSTOM">
+    <Team Code="VBVWTEAM2---NRO01" Status="ENT" Organisation="NRO" Name="Naoero" ShortName="Naoero" TVTeamName="Naoero" PSCBName="NAOERO" PSCBShortName="NAOERO" PSCBLongName="NAOERO" Gender="W" TeamType="CUSTOM">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
     <Team Code="VBVWTEAM2---PAK01" Status="ENT" Organisation="PAK" Name="Pakistan" ShortName="Pakistan" TVTeamName="Pakistan" PSCBName="PAKISTAN" PSCBShortName="PAKISTAN" PSCBLongName="PAKISTAN" Gender="W" TeamType="CUSTOM">

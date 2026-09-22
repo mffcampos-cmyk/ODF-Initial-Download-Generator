@@ -1,131 +1,131 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="SAL-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-08-30" Time="000711171" LogicalDate="2026-08-30" Source="OGEN">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="SAL-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-22" Time="205859605" LogicalDate="2026-09-22" Source="OGEN">
   <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-SAL-1.0" Codes="SYOG-2026-CC-V0.04">
-    <Session Venue="WPK" VenueName="SBW Water Park" SessionType="MOR" SessionCode="SAL01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
+    <Session Venue="SBW" VenueName="Saly Beach West" SessionType="MOR" SessionCode="SAL01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
       <SessionName Language="ENG" Value="Session 1"/>
     </Session>
-    <Session Venue="WPK" VenueName="SBW Water Park" SessionType="AFT" SessionCode="SAL02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T17:02:00+00:00">
+    <Session Venue="SBW" VenueName="Saly Beach West" SessionType="AFT" SessionCode="SAL02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T17:02:00+00:00">
       <SessionName Language="ENG" Value="Session 2"/>
     </Session>
-    <Unit Code="SALMIQFOIL------------FNL-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 1"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-000200--" PhaseType="1" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-000200--" PhaseType="1" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 2"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 3"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 4"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-000500--" PhaseType="2" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-000500--" PhaseType="2" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 5"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-000600--" PhaseType="6" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-000600--" PhaseType="6" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 6"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-000700--" PhaseType="9" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-000700--" PhaseType="9" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 7"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-000800--" PhaseType="4" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-000800--" PhaseType="4" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 8"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-000900--" PhaseType="2" UnitNum="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-000900--" PhaseType="2" UnitNum="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 9"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-001000--" PhaseType="0" UnitNum="10" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-001000--" PhaseType="0" UnitNum="10" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 10"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-001100--" PhaseType="8" UnitNum="11" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-001100--" PhaseType="8" UnitNum="11" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 11"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-001200--" PhaseType="0" UnitNum="12" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-001200--" PhaseType="0" UnitNum="12" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 12"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-001300--" PhaseType="9" UnitNum="13" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-001300--" PhaseType="9" UnitNum="13" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 13"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-001400--" PhaseType="3" UnitNum="14" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-001400--" PhaseType="3" UnitNum="14" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 14"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALMIQFOIL------------FNL-001500--" PhaseType="9" UnitNum="15" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Medal="1" Order="15" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALMIQFOIL------------FNL-001500--" PhaseType="9" UnitNum="15" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Medal="1" Order="15" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Men's Windsurfing - Race 15"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-000100--" PhaseType="7" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="WPK" Location="WPK" SessionCode="SAL01">
+    <Unit Code="SALWIQFOIL------------FNL-000100--" PhaseType="7" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="SAL01">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 1"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Order="1" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 2"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-000300--" PhaseType="9" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Order="2" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-000300--" PhaseType="9" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 3"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-000400--" PhaseType="8" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-000400--" PhaseType="8" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 4"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-000500--" PhaseType="0" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Order="4" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-000500--" PhaseType="0" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 5"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-000600--" PhaseType="6" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Order="5" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-000600--" PhaseType="6" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 6"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Order="6" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 7"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-000800--" PhaseType="5" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-000800--" PhaseType="5" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 8"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-000900--" PhaseType="1" UnitNum="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Order="8" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-000900--" PhaseType="1" UnitNum="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 9"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-001000--" PhaseType="3" UnitNum="10" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Order="9" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-001000--" PhaseType="3" UnitNum="10" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 10"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-001100--" PhaseType="9" UnitNum="11" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Order="10" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-001100--" PhaseType="9" UnitNum="11" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 11"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-001200--" PhaseType="6" UnitNum="12" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Order="11" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-001200--" PhaseType="6" UnitNum="12" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 12"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-001300--" PhaseType="9" UnitNum="13" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Order="12" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-001300--" PhaseType="9" UnitNum="13" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 13"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-001400--" PhaseType="3" UnitNum="14" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:36:00+00:00" EndDate="2026-11-01T16:49:00+00:00" Order="13" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-001400--" PhaseType="3" UnitNum="14" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:36:00+00:00" EndDate="2026-11-01T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 14"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="SALWIQFOIL------------FNL-001500--" PhaseType="7" UnitNum="15" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:49:00+00:00" EndDate="2026-11-01T17:02:00+00:00" Medal="1" Order="14" Venue="WPK" Location="WPK" SessionCode="SAL02">
+    <Unit Code="SALWIQFOIL------------FNL-001500--" PhaseType="7" UnitNum="15" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:49:00+00:00" EndDate="2026-11-01T17:02:00+00:00" Medal="1" Order="14" Venue="SBW" Location="SBW" SessionCode="SAL02">
       <ItemName Language="ENG" Value="Women's Windsurfing - Race 15"/>
-      <VenueDescription VenueName="SBW Water Park" LocationName="SBW Water park"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
   </Competition>
 </OdfBody>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="BDM-------------------------------" DocumentType="DT_PARTIC" Version="1" FeedFlag="P" Date="2026-08-30" Time="000642016" LogicalDate="2026-08-30" Source="OGEN">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="BDM-------------------------------" DocumentType="DT_PARTIC" Version="1" FeedFlag="P" Date="2026-09-22" Time="205832126" LogicalDate="2026-09-22" Source="OGEN">
   <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-BDM-1.0" Codes="SYOG-2026-CC-V0.04">
     <Participant Code="9000001" Parent="9000001" Status="ENT" GivenName="Alessandro" FamilyName="Fontana" PassportGivenName="ALESSANDRO" PassportFamilyName="FONTANA" PrintName="FONTANA Alessandro" PrintInitialName="FONTANA A" TVName="Alessandro FONTANA" TVInitialName="A. FONTANA" TVFamilyName="FONTANA" Gender="M" Organisation="CAF" BirthDate="2011-05-04" Nationality="CAF" MainFunctionId="AA01" PSCBName="FONTANA Alessandro" PSCBShortName="FONTANA A." PSCBLongName="FONTANA Alessandro">
       <Discipline Code="BDM-------------------------------"/>
@@ -91,7 +91,7 @@
     <Participant Code="9000030" Parent="9000030" Status="ENT" GivenName="Moussa" FamilyName="Boateng" PassportGivenName="MOUSSA" PassportFamilyName="BOATENG" PrintName="BOATENG Moussa" PrintInitialName="BOATENG M" TVName="Moussa BOATENG" TVInitialName="M. BOATENG" TVFamilyName="BOATENG" Gender="M" Organisation="DMA" BirthDate="2011-05-21" Nationality="DMA" MainFunctionId="AA01" PSCBName="BOATENG Moussa" PSCBShortName="BOATENG Moussa" PSCBLongName="BOATENG Moussa">
       <Discipline Code="BDM-------------------------------"/>
     </Participant>
-    <Participant Code="9000031" Parent="9000031" Status="ENT" GivenName="Mathis" FamilyName="Laurent" PassportGivenName="MATHIS" PassportFamilyName="LAURENT" PrintName="LAURENT Mathis" PrintInitialName="LAURENT M" TVName="Mathis LAURENT" TVInitialName="M. LAURENT" TVFamilyName="LAURENT" Gender="M" Organisation="NRU" BirthDate="2010-12-11" Nationality="NRU" MainFunctionId="AA01" PSCBName="LAURENT Mathis" PSCBShortName="LAURENT Mathis" PSCBLongName="LAURENT Mathis">
+    <Participant Code="9000031" Parent="9000031" Status="ENT" GivenName="Maksat" FamilyName="Karimov" PassportGivenName="MAKSAT" PassportFamilyName="KARIMOV" PrintName="KARIMOV Maksat" PrintInitialName="KARIMOV M" TVName="Maksat KARIMOV" TVInitialName="M. KARIMOV" TVFamilyName="KARIMOV" Gender="M" Organisation="NRO" BirthDate="2010-12-11" Nationality="NRO" MainFunctionId="AA01" PSCBName="KARIMOV Maksat" PSCBShortName="KARIMOV Maksat" PSCBLongName="KARIMOV Maksat">
       <Discipline Code="BDM-------------------------------"/>
     </Participant>
     <Participant Code="9000032" Parent="9000032" Status="ENT" GivenName="Akeem" FamilyName="Toussaint" PassportGivenName="AKEEM" PassportFamilyName="TOUSSAINT" PrintName="TOUSSAINT Akeem" PrintInitialName="TOUSSAINT A" TVName="Akeem TOUSSAINT" TVInitialName="A. TOUSSAINT" TVFamilyName="TOUSSAINT" Gender="M" Organisation="BOC" BirthDate="2009-01-10" MainFunctionId="AA01" PSCBName="TOUSSAINT Akeem" PSCBShortName="TOUSSAINT Akeem" PSCBLongName="TOUSSAINT Akeem">

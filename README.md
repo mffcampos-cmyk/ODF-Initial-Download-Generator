@@ -299,6 +299,18 @@ output/<DISCIPLINE>/MANIFEST.json
 what a change did to generated output. It is not written to by Save or by a
 default export — regenerating it is a deliberate `--out-dir samples`.
 
+It is generated from whatever Common Codes the pack holds, so a new workbook
+dates it. That is not hypothetical: v_2_4 retired the `Schedule = "S"` flag
+that 463 unit rows carried, and SWM's schedule went from 94 units to 492 —
+every heat it should have been emitting all along. A new `ORGANISATION` row in
+the same release reshuffled the NOC pool, so all 206 files changed. Regenerate
+after a workbook lands:
+
+```bash
+python -m generator.sources
+python -m generator.export --all --seed 1 --no-manifest --out-dir samples
+```
+
 ### MANIFEST.json
 
 Written beside the messages, recording what produced them. Three of those facts

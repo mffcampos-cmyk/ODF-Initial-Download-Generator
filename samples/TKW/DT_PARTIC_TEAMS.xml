@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="TKW-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-08-30" Time="000718116" LogicalDate="2026-08-30" Source="OGEN">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="TKW-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-22" Time="205906688" LogicalDate="2026-09-22" Source="OGEN">
   <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-TKW-1.0" Codes="SYOG-2026-CC-V0.04">
     <Team Code="TKWXTEAM4---CZE01" Status="ENT" Organisation="CZE" Name="Czechia" ShortName="Czechia" TVTeamName="Czechia" PSCBName="CZECHIA" PSCBShortName="CZECHIA" PSCBLongName="CZECHIA" Gender="X" TeamType="ORG">
       <Discipline Code="TKW-------------------------------"/>

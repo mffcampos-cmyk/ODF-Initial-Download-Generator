@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="BOXW60KG--------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-08-30" Time="000648959" LogicalDate="2026-08-30" Source="OGEN">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="BOXW60KG--------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-22" Time="205838318" LogicalDate="2026-09-22" Source="OGEN">
   <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-BOX-1.0" Codes="SYOG-2026-CC-V0.04">
     <Entry Code="9000145" Type="A" Organisation="AFG" SortOrder="1">
       <Composition>
@@ -71,10 +71,10 @@
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="9000151" Type="A" Organisation="NRU" SortOrder="11">
+    <Entry Code="9000151" Type="A" Organisation="NRO" SortOrder="11">
       <Composition>
         <Athlete Code="9000151" Order="1">
-          <Description GivenName="Chloé" FamilyName="Marchand" Gender="F" Organisation="NRU" BirthDate="2010-10-27" IFId="9000151"/>
+          <Description GivenName="Aliya" FamilyName="Islamov" Gender="F" Organisation="NRO" BirthDate="2010-10-27" IFId="9000151"/>
         </Athlete>
       </Composition>
     </Entry>

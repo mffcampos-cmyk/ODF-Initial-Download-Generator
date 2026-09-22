@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="TTE-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-08-30" Time="000722750" LogicalDate="2026-08-30" Source="OGEN">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="TTE-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-22" Time="205910930" LogicalDate="2026-09-22" Source="OGEN">
   <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-TTE-1.0" Codes="SYOG-2026-CC-V0.04">
     <Session Venue="DEX" VenueName="Dakar Expo Center" SessionType="MOR" SessionCode="TTE01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
       <SessionName Language="ENG" Value="Session 1"/>
@@ -288,195 +288,195 @@
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPA-000100--" PhaseType="5" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T09:43:00+00:00" Order="1" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 1"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPB-000100--" PhaseType="6" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:43:00+00:00" EndDate="2026-11-03T09:56:00+00:00" Order="2" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 2"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPC-000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:56:00+00:00" EndDate="2026-11-03T10:09:00+00:00" Order="3" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 3"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPD-000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:09:00+00:00" EndDate="2026-11-03T10:22:00+00:00" Order="4" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 4"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPE-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:22:00+00:00" EndDate="2026-11-03T10:35:00+00:00" Order="5" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 5"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPF-000100--" PhaseType="6" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:35:00+00:00" EndDate="2026-11-03T10:48:00+00:00" Order="6" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 6"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPG-000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:48:00+00:00" EndDate="2026-11-03T11:01:00+00:00" Order="7" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 7"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPH-000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:01:00+00:00" EndDate="2026-11-03T11:14:00+00:00" Order="8" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 8"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPA-000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:14:00+00:00" EndDate="2026-11-03T11:27:00+00:00" Order="9" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 1"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPB-000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:27:00+00:00" EndDate="2026-11-03T11:40:00+00:00" Order="10" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 2"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPC-000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:40:00+00:00" EndDate="2026-11-03T11:53:00+00:00" Order="11" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 3"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPD-000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:53:00+00:00" EndDate="2026-11-03T12:06:00+00:00" Order="12" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 4"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPE-000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:06:00+00:00" EndDate="2026-11-03T12:19:00+00:00" Order="13" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 5"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPF-000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:19:00+00:00" EndDate="2026-11-03T12:32:00+00:00" Order="14" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 6"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPG-000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:32:00+00:00" EndDate="2026-11-03T12:45:00+00:00" Order="15" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 7"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPH-000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:45:00+00:00" EndDate="2026-11-03T12:58:00+00:00" Order="16" Venue="DEX" Location="DEX" SessionCode="TTE05">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 8"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPA-000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:00:00+00:00" EndDate="2026-11-03T14:13:00+00:00" Order="1" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 1"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPB-000300--" PhaseType="2" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:13:00+00:00" EndDate="2026-11-03T14:26:00+00:00" Order="2" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 2"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPC-000300--" PhaseType="1" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:26:00+00:00" EndDate="2026-11-03T14:39:00+00:00" Order="3" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 3"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPD-000300--" PhaseType="7" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:39:00+00:00" EndDate="2026-11-03T14:52:00+00:00" Order="4" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 4"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPE-000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:52:00+00:00" EndDate="2026-11-03T15:05:00+00:00" Order="5" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 5"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPF-000300--" PhaseType="0" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:05:00+00:00" EndDate="2026-11-03T15:18:00+00:00" Order="6" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 6"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPG-000300--" PhaseType="0" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:18:00+00:00" EndDate="2026-11-03T15:31:00+00:00" Order="7" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 7"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPH-000300--" PhaseType="8" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:31:00+00:00" EndDate="2026-11-03T15:44:00+00:00" Order="8" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 8"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPA-000400--" PhaseType="0" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:44:00+00:00" EndDate="2026-11-03T15:57:00+00:00" Order="9" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 1"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPB-000400--" PhaseType="8" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:57:00+00:00" EndDate="2026-11-03T16:10:00+00:00" Order="10" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 2"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPC-000400--" PhaseType="2" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:10:00+00:00" EndDate="2026-11-03T16:23:00+00:00" Order="11" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 3"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPD-000400--" PhaseType="0" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:23:00+00:00" EndDate="2026-11-03T16:36:00+00:00" Order="12" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 4"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPE-000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:36:00+00:00" EndDate="2026-11-03T16:49:00+00:00" Order="13" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 5"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPF-000400--" PhaseType="1" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:49:00+00:00" EndDate="2026-11-03T17:02:00+00:00" Order="14" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 6"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPG-000400--" PhaseType="6" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T17:02:00+00:00" EndDate="2026-11-03T17:15:00+00:00" Order="15" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 7"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPH-000400--" PhaseType="1" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T17:15:00+00:00" EndDate="2026-11-03T17:28:00+00:00" Order="16" Venue="DEX" Location="DEX" SessionCode="TTE06">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 8"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:30:00+00:00" EndDate="2026-11-04T09:43:00+00:00" Order="1" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 1"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPB-000500--" PhaseType="0" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:43:00+00:00" EndDate="2026-11-04T09:56:00+00:00" Order="2" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 2"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPC-000500--" PhaseType="7" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:56:00+00:00" EndDate="2026-11-04T10:09:00+00:00" Order="3" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 3"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPD-000500--" PhaseType="2" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:09:00+00:00" EndDate="2026-11-04T10:22:00+00:00" Order="4" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 4"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPE-000500--" PhaseType="4" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:22:00+00:00" EndDate="2026-11-04T10:35:00+00:00" Order="5" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 5"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPF-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:35:00+00:00" EndDate="2026-11-04T10:48:00+00:00" Order="6" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 6"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPG-000500--" PhaseType="7" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:48:00+00:00" EndDate="2026-11-04T11:01:00+00:00" Order="7" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 7"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPH-000500--" PhaseType="6" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:01:00+00:00" EndDate="2026-11-04T11:14:00+00:00" Order="8" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 8"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPA-000600--" PhaseType="5" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:14:00+00:00" EndDate="2026-11-04T11:27:00+00:00" Order="9" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 1"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPB-000600--" PhaseType="4" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:27:00+00:00" EndDate="2026-11-04T11:40:00+00:00" Order="10" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 2"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPC-000600--" PhaseType="4" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:40:00+00:00" EndDate="2026-11-04T11:53:00+00:00" Order="11" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 3"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPD-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:53:00+00:00" EndDate="2026-11-04T12:06:00+00:00" Order="12" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 4"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPE-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:06:00+00:00" EndDate="2026-11-04T12:19:00+00:00" Order="13" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 5"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPF-000600--" PhaseType="0" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:19:00+00:00" EndDate="2026-11-04T12:32:00+00:00" Order="14" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 6"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPG-000600--" PhaseType="9" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:32:00+00:00" EndDate="2026-11-04T12:45:00+00:00" Order="15" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 7"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------GPH-000600--" PhaseType="9" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:45:00+00:00" EndDate="2026-11-04T12:58:00+00:00" Order="16" Venue="DEX" Location="DEX" SessionCode="TTE07">
-      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp "/>
+      <ItemName Language="ENG" Value="Women's Singles Preliminary Stage - Grp 8"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
     <Unit Code="TTEWSINGLES-----------8FNL000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:00:00+00:00" EndDate="2026-11-04T14:13:00+00:00" Order="1" Venue="DEX" Location="DEX" SessionCode="TTE08">

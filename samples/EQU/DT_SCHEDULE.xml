@@ -1,42 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="EQU-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-08-30" Time="000655484" LogicalDate="2026-08-30" Source="OGEN">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="EQU-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-22" Time="205844625" LogicalDate="2026-09-22" Source="OGEN">
   <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-EQU-1.0" Codes="SYOG-2026-CC-V0.04">
-    <Session Venue="CED" VenueName="Equestrian Center" SessionType="MOR" SessionCode="EQU01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T11:27:00+00:00">
+    <Session Venue="CED" VenueName="Equestrian Center" SessionType="MOR" SessionCode="EQU01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T10:09:00+00:00">
       <SessionName Language="ENG" Value="Session 1"/>
     </Session>
-    <Unit Code="EQUOJUMPINDV----------TRNO000100--" PhaseType="6" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CED" Location="CED" SessionCode="EQU01">
-      <ItemName Language="ENG" Value="Jumping 1st Training"/>
-      <VenueDescription VenueName="Equestrian Center" LocationName="Equestrian Center"/>
-    </Unit>
-    <Unit Code="EQUOJUMPINDV----------TRNO000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CED" Location="CED" SessionCode="EQU01">
-      <ItemName Language="ENG" Value="Jumping 2nd Training"/>
-      <VenueDescription VenueName="Equestrian Center" LocationName="Equestrian Center"/>
-    </Unit>
-    <Unit Code="EQUOJUMPINDV----------QUAL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="CED" Location="CED" SessionCode="EQU01">
+    <Unit Code="EQUOJUMPINDV----------QUAL000100--" PhaseType="6" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CED" Location="CED" SessionCode="EQU01">
       <ItemName Language="ENG" Value="Jumping Individual Qualifier Round A"/>
       <VenueDescription VenueName="Equestrian Center" LocationName="Equestrian Center"/>
     </Unit>
-    <Unit Code="EQUOJUMPINDV----------QUAL000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="CED" Location="CED" SessionCode="EQU01">
+    <Unit Code="EQUOJUMPINDV----------QUAL000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CED" Location="CED" SessionCode="EQU01">
       <ItemName Language="ENG" Value="Jumping Individual Qualifier Round B"/>
       <VenueDescription VenueName="Equestrian Center" LocationName="Equestrian Center"/>
     </Unit>
-    <Unit Code="EQUOJUMPINDV----------INSP000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="CED" Location="CED" SessionCode="EQU01">
-      <ItemName Language="ENG" Value="Jumping 1st Horse Inspection"/>
-      <VenueDescription VenueName="Equestrian Center" LocationName="Equestrian Center"/>
-    </Unit>
-    <Unit Code="EQUOJUMPINDV----------INSP000300--" PhaseType="0" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="CED" Location="CED" SessionCode="EQU01">
-      <ItemName Language="ENG" Value="Jumping Horse Re-Inspection After 1st"/>
-      <VenueDescription VenueName="Equestrian Center" LocationName="Equestrian Center"/>
-    </Unit>
-    <Unit Code="EQUOJUMPINDV----------INSP000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="CED" Location="CED" SessionCode="EQU01">
-      <ItemName Language="ENG" Value="Jumping Horse Re-Inspection After 2nd"/>
-      <VenueDescription VenueName="Equestrian Center" LocationName="Equestrian Center"/>
-    </Unit>
-    <Unit Code="EQUOJUMPINDV----------FNL-0002RR--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="CED" Location="CED" SessionCode="EQU01">
-      <ItemName Language="ENG" Value="Jumping Individual Final Jump-Off"/>
-      <VenueDescription VenueName="Equestrian Center" LocationName="Equestrian Center"/>
-    </Unit>
-    <Unit Code="EQUOJUMPINDV----------FNL-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Medal="1" Order="9" Venue="CED" Location="CED" SessionCode="EQU01">
+    <Unit Code="EQUOJUMPINDV----------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Medal="1" Order="3" Venue="CED" Location="CED" SessionCode="EQU01">
       <ItemName Language="ENG" Value="Jumping Individual Final"/>
       <VenueDescription VenueName="Equestrian Center" LocationName="Equestrian Center"/>
     </Unit>
