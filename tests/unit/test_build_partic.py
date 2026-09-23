@@ -1,3 +1,4 @@
+from generator.names import TV_SWITCH_NOCS
 from generator.builders import partic
 from generator.refdata import RefData
 from generator.selfcheck import errors
@@ -38,11 +39,15 @@ def test_partic_arc_matches_real_life_profile():
         year = int(p.get("BirthDate")[:4])
         if p.get("MainFunctionId") == "AA01":
             assert 2009 <= year <= 2011
-            assert p.get("PSCBName")
         else:
             assert 1961 <= year <= 1996
-            assert p.get("PSCBName") is None
-        # TV conventions from the real-life feed: "Given FAMILY" / "I. FAMILY"
+        assert p.get("PSCBName") is None  # C4: no scoreboard names
+        # TV conventions (Naming Guidelines 5.5 / 5.9): "Given FAMILY" and
+        # "I. FAMILY", family first for the listed East Asian NOCs.
         fam_upper = p.get("TVFamilyName")
-        assert p.get("TVName").endswith(fam_upper)
-        assert p.get("TVInitialName")[1:3] == ". "
+        if p.get("Organisation") in TV_SWITCH_NOCS:
+            assert p.get("TVName").startswith(fam_upper)
+            assert p.get("TVInitialName").startswith(fam_upper)
+        else:
+            assert p.get("TVName").endswith(fam_upper)
+            assert p.get("TVInitialName")[1:3] == ". "

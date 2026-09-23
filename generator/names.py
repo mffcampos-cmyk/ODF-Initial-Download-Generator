@@ -7,11 +7,11 @@ the real-life SYOG2026 feed:
 
 - PrintName        = "FAMILY Given"
 - PrintInitialName = "FAMILY IJ"      (one initial per given-name part, no dots)
-- TVName           = "Given FAMILY"
-- TVInitialName    = "I.J. FAMILY"    (one initial per part, each with a dot)
+- TVName           = "Given FAMILY"   ("FAMILY Given" for TV_SWITCH_NOCS)
+- TVInitialName    = "I.J. FAMILY"    ("FAMILY I.J." for TV_SWITCH_NOCS)
 - Passport names   = uppercase, accents stripped
-- PSCBShortName    = PrintName if <=15 chars, else "FAMILY I.", else FAMILY,
-                     else truncated family + "."  (rule observed in real feed)
+- No PSCB (scoreboard) names: those are set by the scoreboard supplier and
+  ORIS (Naming Guidelines 5.3), and the real SYOG26 download has none.
 """
 from __future__ import annotations
 
@@ -122,34 +122,32 @@ def given_initials(given: str) -> list[str]:
     return [p[0].upper() for p in parts if p]
 
 
-def name_fields(given: str, family: str) -> dict[str, str]:
+# ODF Name Language Guidelines (OWG2026-NAME-3.0) 5.9: TV names put the
+# family name first for these NOCs (MAC applies to the Paralympic Games only).
+TV_SWITCH_NOCS = frozenset({"CHN", "COR", "TPE", "HKG", "JPN", "KOR", "PRK"})
+
+
+def name_fields(given: str, family: str,
+                organisation: str | None = None) -> dict[str, str]:
     """Derive all ODF name attributes from a given/family pair.
 
     Widths are not applied here: ``lengths.clamp`` cuts every attribute to its
     GEN DD S(n) where it is serialised, as the real feed does."""
     fam_upper = strip_accents(family).upper()
     initials = given_initials(given)
-    initial = initials[0] if initials else ""
-    print_name = f"{fam_upper} {given}"
-    if len(print_name) <= 15:
-        pscb_short = print_name
-    elif len(f"{fam_upper} {initial}.") <= 15:
-        pscb_short = f"{fam_upper} {initial}."
-    elif len(fam_upper) <= 15:
-        pscb_short = fam_upper
+    dotted = "".join(i + "." for i in initials)
+    if organisation in TV_SWITCH_NOCS:
+        tv_name, tv_initial = f"{fam_upper} {given}", f"{fam_upper} {dotted}"
     else:
-        pscb_short = fam_upper[:14] + "."
+        tv_name, tv_initial = f"{given} {fam_upper}", f"{dotted} {fam_upper}"
     return {
         "GivenName": given,
         "FamilyName": family,
         "PassportGivenName": strip_accents(given).upper(),
         "PassportFamilyName": fam_upper,
-        "PrintName": print_name,
+        "PrintName": f"{fam_upper} {given}",
         "PrintInitialName": f"{fam_upper} {''.join(initials)}",
-        "TVName": f"{given} {fam_upper}",
-        "TVInitialName": f"{''.join(i + '.' for i in initials)} {fam_upper}",
+        "TVName": tv_name,
+        "TVInitialName": tv_initial,
         "TVFamilyName": fam_upper,
-        "PSCBName": print_name,
-        "PSCBShortName": pscb_short,
-        "PSCBLongName": print_name,
     }

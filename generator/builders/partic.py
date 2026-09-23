@@ -8,7 +8,7 @@ from ..serialize import el, to_xml
 
 def _participant_el(p, discipline_rsc):
     disc = el("Discipline", {"Code": discipline_rsc})
-    nf = name_fields(p.given_name, p.family_name)
+    nf = name_fields(p.given_name, p.family_name, p.organisation)
     attrs = {
         "Code": p.code,
         "Parent": p.parent,
@@ -25,14 +25,12 @@ def _participant_el(p, discipline_rsc):
         "Gender": p.gender,
         "Organisation": p.organisation,
         "BirthDate": p.birth_date,
+        # C3: the real feed carries CountryofBirth on every participant; the
+        # generator has no birth country apart from nationality.
+        "CountryofBirth": p.nationality,    # dropped by el() when empty
         "Nationality": p.nationality,       # dropped by el() when empty
         "MainFunctionId": p.main_function,  # mandatory for current participants
     }
-    # PSCB names appear on athletes only in the real-life feed (created by OVR).
-    if not p.is_official:
-        attrs["PSCBName"] = nf["PSCBName"]
-        attrs["PSCBShortName"] = nf["PSCBShortName"]
-        attrs["PSCBLongName"] = nf["PSCBLongName"]
     return el("Participant", attrs, disc)
 
 

@@ -2,7 +2,6 @@ from __future__ import annotations
 import random
 from ..dataset import build_dataset
 from ..envelope import build_odfbody, competition_code
-from ..names import strip_accents
 from ..serialize import el, to_xml
 
 
@@ -16,9 +15,6 @@ def _team_el(t, discipline_rsc):
         "Name": name,
         "ShortName": t.short_name,
         "TVTeamName": t.tv_team_name,
-        "PSCBName": strip_accents(name).upper(),
-        "PSCBShortName": strip_accents(t.short_name).upper(),
-        "PSCBLongName": strip_accents(name).upper(),
         "Gender": t.gender,
         "TeamType": t.team_type,
     }, disc)

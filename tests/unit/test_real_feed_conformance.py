@@ -386,3 +386,37 @@ def test_c2_sport_only_on_entries():
             continue
         assert (comp.get("Sport") is not None) == \
             (root.get("DocumentType") == "DT_ENTRIES"), (disc, key)
+
+
+def test_c3_country_of_birth_follows_nationality():
+    """Real feed: CountryofBirth on every participant (GEN DD: O,
+    CC@COUNTRY). Emitted as Nationality, and only where Nationality is."""
+    for disc, key, root in _all_messages():
+        if key != "DT_PARTIC":
+            continue
+        for p in root.iter("Participant"):
+            assert p.get("CountryofBirth") == p.get("Nationality"), \
+                (disc, p.get("Code"))
+            if p.get("Nationality"):
+                keys = list(p.attrib)
+                assert keys.index("CountryofBirth") == keys.index("BirthDate") + 1
+                assert keys.index("Nationality") == keys.index("CountryofBirth") + 1
+
+
+def test_c4_no_scoreboard_names():
+    """Real feed: no PSCB* attribute on any participant or team."""
+    for disc, key, root in _all_messages():
+        for e in root.iter():
+            assert not [a for a in e.attrib if a.startswith("PSCB")], (disc, key)
+
+
+def test_c11_tv_names_switch_for_the_listed_nocs():
+    """Naming Guidelines 5.9: family name first on TV for CHN, COR, TPE, HKG,
+    JPN, KOR, PRK."""
+    kor = name_fields("Minji", "Kim", "KOR")
+    assert (kor["TVName"], kor["TVInitialName"]) == ("KIM Minji", "KIM M.")
+    assert (kor["PrintName"], kor["PrintInitialName"], kor["TVFamilyName"]) \
+        == ("KIM Minji", "KIM M", "KIM")
+    usa = name_fields("Minji", "Kim", "USA")
+    assert (usa["TVName"], usa["TVInitialName"]) == ("Minji KIM", "M. KIM")
+    assert name_fields("Minji", "Kim") == usa
