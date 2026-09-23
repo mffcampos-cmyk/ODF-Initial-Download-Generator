@@ -1,59 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="ATHW1500M-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-22" Time="205829746" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-ATH-1.0" Codes="SYOG-2026-CC-V0.04">
-    <Entry Code="9000019" Type="A" Organisation="ANT" SortOrder="1">
-      <Composition>
-        <Athlete Code="9000019" Order="1">
-          <Description GivenName="Renee" FamilyName="Providence" Gender="F" Organisation="ANT" BirthDate="2010-01-06" IFId="9000019"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000017" Type="A" Organisation="BIZ" SortOrder="2">
-      <Composition>
-        <Athlete Code="9000017" Order="1">
-          <Description GivenName="Mahlet" FamilyName="Bekele" Gender="F" Organisation="BIZ" BirthDate="2011-07-10" IFId="9000017"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000020" Type="A" Organisation="IRQ" SortOrder="3">
-      <Composition>
-        <Athlete Code="9000020" Order="1">
-          <Description GivenName="Marija" FamilyName="Zeman" Gender="F" Organisation="IRQ" BirthDate="2010-10-26" IFId="9000020"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000027" Type="A" Organisation="KSA" SortOrder="4">
-      <Composition>
-        <Athlete Code="9000027" Order="1">
-          <Description GivenName="Rania" FamilyName="Awad" Gender="F" Organisation="KSA" BirthDate="2009-05-08" IFId="9000027"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000018" Type="A" Organisation="LTU" SortOrder="5">
-      <Composition>
-        <Athlete Code="9000018" Order="1">
-          <Description GivenName="Margaux" FamilyName="Fournier" Gender="F" Organisation="LTU" BirthDate="2009-06-20" IFId="9000018"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000031" Type="A" Organisation="NRO" SortOrder="6">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="ATHW1500M-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-23" Time="175942837" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-ATH-1.3" Codes="YOG-2026-2.4">
+    <Entry Code="9000031" Type="A" Organisation="ARG" SortOrder="1">
       <Composition>
         <Athlete Code="9000031" Order="1">
-          <Description GivenName="Madina" FamilyName="Bekov" Gender="F" Organisation="NRO" BirthDate="2009-10-19" IFId="9000031"/>
+          <Description GivenName="Hyejin" FamilyName="Lee" Gender="F" Organisation="ARG" BirthDate="2010-06-10"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="9000029" Type="A" Organisation="SOM" SortOrder="7">
+    <Entry Code="9000027" Type="A" Organisation="BRA" SortOrder="2">
+      <Composition>
+        <Athlete Code="9000027" Order="1">
+          <Description GivenName="Freya" FamilyName="Wright" Gender="F" Organisation="BRA" BirthDate="2009-06-02"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000024" Type="A" Organisation="GAM" SortOrder="3">
+      <Composition>
+        <Athlete Code="9000024" Order="1">
+          <Description GivenName="Chloe" FamilyName="Mitchell" Gender="F" Organisation="GAM" BirthDate="2011-05-12"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000018" Type="A" Organisation="KAZ" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000018" Order="1">
+          <Description GivenName="Camille" FamilyName="Moreau" Gender="F" Organisation="KAZ" BirthDate="2010-10-26"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000019" Type="A" Organisation="LBN" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000019" Order="1">
+          <Description GivenName="Ketsana" FamilyName="Sok" Gender="F" Organisation="LBN" BirthDate="2010-04-09"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000020" Type="A" Organisation="PRK" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000020" Order="1">
+          <Description GivenName="Ishrat" FamilyName="Ahmed" Gender="F" Organisation="PRK" BirthDate="2010-09-12"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000022" Type="A" Organisation="SUR" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000022" Order="1">
+          <Description GivenName="Chanthavy" FamilyName="Susanto" Gender="F" Organisation="SUR" BirthDate="2009-02-05"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000029" Type="A" Organisation="TTO" SortOrder="8">
       <Composition>
         <Athlete Code="9000029" Order="1">
-          <Description GivenName="Zanele" FamilyName="Keita" Gender="F" Organisation="SOM" BirthDate="2009-06-02" IFId="9000029"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000023" Type="A" Organisation="VIN" SortOrder="8">
-      <Composition>
-        <Athlete Code="9000023" Order="1">
-          <Description GivenName="Ishrat" FamilyName="Uddin" Gender="F" Organisation="VIN" BirthDate="2010-09-08" IFId="9000023"/>
+          <Description GivenName="Martina" FamilyName="Ricci" Gender="F" Organisation="TTO" BirthDate="2009-10-19"/>
         </Athlete>
       </Composition>
     </Entry>

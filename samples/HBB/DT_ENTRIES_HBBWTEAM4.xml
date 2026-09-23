@@ -1,139 +1,139 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="HBBWTEAM4-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-22" Time="205850980" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-HBB-1.0" Codes="SYOG-2026-CC-V0.04">
-    <Entry Code="HBBWTEAM4---CUB01" Type="T" Organisation="CUB" SortOrder="1">
-      <Description TeamName="Cuba"/>
-      <Composition>
-        <Athlete Code="9000061" Order="1">
-          <Description GivenName="Hyejin" FamilyName="Jang" Gender="F" Organisation="CUB" BirthDate="2009-06-02" IFId="9000061"/>
-        </Athlete>
-        <Athlete Code="9000062" Order="2">
-          <Description GivenName="Soomin" FamilyName="Lee" Gender="F" Organisation="CUB" BirthDate="2010-03-27" IFId="9000062"/>
-        </Athlete>
-        <Athlete Code="9000063" Order="3">
-          <Description GivenName="Minseo" FamilyName="Kang" Gender="F" Organisation="CUB" BirthDate="2009-10-19" IFId="9000063"/>
-        </Athlete>
-        <Athlete Code="9000064" Order="4">
-          <Description GivenName="Chaewon" FamilyName="Lim" Gender="F" Organisation="CUB" BirthDate="2009-05-12" IFId="9000064"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="HBBWTEAM4---IRI01" Type="T" Organisation="IRI" SortOrder="2">
-      <Description TeamName="Islamic Republic of Iran"/>
-      <Composition>
-        <Athlete Code="9000053" Order="1">
-          <Description GivenName="Amelia" FamilyName="Clarke" Gender="F" Organisation="IRI" BirthDate="2010-04-09" IFId="9000053"/>
-        </Athlete>
-        <Athlete Code="9000054" Order="2">
-          <Description GivenName="Holly" FamilyName="Johnson" Gender="F" Organisation="IRI" BirthDate="2010-09-12" IFId="9000054"/>
-        </Athlete>
-        <Athlete Code="9000055" Order="3">
-          <Description GivenName="Holly" FamilyName="Wright" Gender="F" Organisation="IRI" BirthDate="2010-09-08" IFId="9000055"/>
-        </Athlete>
-        <Athlete Code="9000056" Order="4">
-          <Description GivenName="Charlotte" FamilyName="Bennett" Gender="F" Organisation="IRI" BirthDate="2009-02-05" IFId="9000056"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="HBBWTEAM4---KUW01" Type="T" Organisation="KUW" SortOrder="3">
-      <Description TeamName="Kuwait"/>
-      <Composition>
-        <Athlete Code="9000041" Order="1">
-          <Description GivenName="Ludovica" FamilyName="Conti" Gender="F" Organisation="KUW" BirthDate="2009-04-02" IFId="9000041"/>
-        </Athlete>
-        <Athlete Code="9000042" Order="2">
-          <Description GivenName="Alessia" FamilyName="Ferrari" Gender="F" Organisation="KUW" BirthDate="2009-05-10" IFId="9000042"/>
-        </Athlete>
-        <Athlete Code="9000043" Order="3">
-          <Description GivenName="Ludovica" FamilyName="Bianchi" Gender="F" Organisation="KUW" BirthDate="2010-10-09" IFId="9000043"/>
-        </Athlete>
-        <Athlete Code="9000044" Order="4">
-          <Description GivenName="Martina" FamilyName="Rossi" Gender="F" Organisation="KUW" BirthDate="2011-01-19" IFId="9000044"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="HBBWTEAM4---LBR01" Type="T" Organisation="LBR" SortOrder="4">
-      <Description TeamName="Liberia"/>
-      <Composition>
-        <Athlete Code="9000045" Order="1">
-          <Description GivenName="Aliya" FamilyName="Islamov" Gender="F" Organisation="LBR" BirthDate="2011-08-06" IFId="9000045"/>
-        </Athlete>
-        <Athlete Code="9000046" Order="2">
-          <Description GivenName="Altynay" FamilyName="Ergashev" Gender="F" Organisation="LBR" BirthDate="2011-01-13" IFId="9000046"/>
-        </Athlete>
-        <Athlete Code="9000047" Order="3">
-          <Description GivenName="Aliya" FamilyName="Bekov" Gender="F" Organisation="LBR" BirthDate="2009-04-19" IFId="9000047"/>
-        </Athlete>
-        <Athlete Code="9000048" Order="4">
-          <Description GivenName="Nazgul" FamilyName="Islamov" Gender="F" Organisation="LBR" BirthDate="2010-10-07" IFId="9000048"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="HBBWTEAM4---MAD01" Type="T" Organisation="MAD" SortOrder="5">
-      <Description TeamName="Madagascar"/>
-      <Composition>
-        <Athlete Code="9000033" Order="1">
-          <Description GivenName="Mariama" FamilyName="Cissé" Gender="F" Organisation="MAD" BirthDate="2011-09-07" IFId="9000033"/>
-        </Athlete>
-        <Athlete Code="9000034" Order="2">
-          <Description GivenName="Zanele" FamilyName="Sow" Gender="F" Organisation="MAD" BirthDate="2009-04-01" IFId="9000034"/>
-        </Athlete>
-        <Athlete Code="9000035" Order="3">
-          <Description GivenName="Khady" FamilyName="Boateng" Gender="F" Organisation="MAD" BirthDate="2009-12-06" IFId="9000035"/>
-        </Athlete>
-        <Athlete Code="9000036" Order="4">
-          <Description GivenName="Ndeye" FamilyName="Banda" Gender="F" Organisation="MAD" BirthDate="2011-11-14" IFId="9000036"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="HBBWTEAM4---PUR01" Type="T" Organisation="PUR" SortOrder="6">
-      <Description TeamName="Puerto Rico"/>
-      <Composition>
-        <Athlete Code="9000049" Order="1">
-          <Description GivenName="Gabriela" FamilyName="Rodríguez" Gender="F" Organisation="PUR" BirthDate="2011-07-10" IFId="9000049"/>
-        </Athlete>
-        <Athlete Code="9000050" Order="2">
-          <Description GivenName="Renata" FamilyName="Ramírez" Gender="F" Organisation="PUR" BirthDate="2009-06-20" IFId="9000050"/>
-        </Athlete>
-        <Athlete Code="9000051" Order="3">
-          <Description GivenName="Daniela" FamilyName="Salazar" Gender="F" Organisation="PUR" BirthDate="2010-01-06" IFId="9000051"/>
-        </Athlete>
-        <Athlete Code="9000052" Order="4">
-          <Description GivenName="Isabella" FamilyName="Mendoza" Gender="F" Organisation="PUR" BirthDate="2010-10-26" IFId="9000052"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="HBBWTEAM4---SWZ01" Type="T" Organisation="SWZ" SortOrder="7">
-      <Description TeamName="Eswatini"/>
-      <Composition>
-        <Athlete Code="9000037" Order="1">
-          <Description GivenName="Margaux" FamilyName="Renard" Gender="F" Organisation="SWZ" BirthDate="2009-11-26" IFId="9000037"/>
-        </Athlete>
-        <Athlete Code="9000038" Order="2">
-          <Description GivenName="Justine" FamilyName="Girard" Gender="F" Organisation="SWZ" BirthDate="2010-04-17" IFId="9000038"/>
-        </Athlete>
-        <Athlete Code="9000039" Order="3">
-          <Description GivenName="Océane" FamilyName="Martin" Gender="F" Organisation="SWZ" BirthDate="2010-11-19" IFId="9000039"/>
-        </Athlete>
-        <Athlete Code="9000040" Order="4">
-          <Description GivenName="Jade" FamilyName="Dupont" Gender="F" Organisation="SWZ" BirthDate="2011-07-02" IFId="9000040"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="HBBWTEAM4---TKM01" Type="T" Organisation="TKM" SortOrder="8">
-      <Description TeamName="Turkmenistan"/>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="HBBWTEAM4-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-23" Time="175948009" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-HBB-1.2" Codes="YOG-2026-2.4">
+    <Entry Code="HBBWTEAM4---BOL01" Type="T" Organisation="BOL" SortOrder="1">
+      <Description TeamName="Bolivia"/>
       <Composition>
         <Athlete Code="9000057" Order="1">
-          <Description GivenName="Madina" FamilyName="Nazarov" Gender="F" Organisation="TKM" BirthDate="2011-04-09" IFId="9000057"/>
+          <Description GivenName="Eliška" FamilyName="Vuković" Gender="F" Organisation="BOL" BirthDate="2011-05-12"/>
         </Athlete>
         <Athlete Code="9000058" Order="2">
-          <Description GivenName="Gulnara" FamilyName="Ergashev" Gender="F" Organisation="TKM" BirthDate="2011-05-12" IFId="9000058"/>
+          <Description GivenName="Eliška" FamilyName="Horvat" Gender="F" Organisation="BOL" BirthDate="2009-05-08"/>
         </Athlete>
         <Athlete Code="9000059" Order="3">
-          <Description GivenName="Gulnara" FamilyName="Bekov" Gender="F" Organisation="TKM" BirthDate="2009-05-08" IFId="9000059"/>
+          <Description GivenName="Dora" FamilyName="Pavlović" Gender="F" Organisation="BOL" BirthDate="2011-08-05"/>
         </Athlete>
         <Athlete Code="9000060" Order="4">
-          <Description GivenName="Jamilya" FamilyName="Orazov" Gender="F" Organisation="TKM" BirthDate="2011-08-05" IFId="9000060"/>
+          <Description GivenName="Dora" FamilyName="Jurić" Gender="F" Organisation="BOL" BirthDate="2009-06-02"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="HBBWTEAM4---DMA01" Type="T" Organisation="DMA" SortOrder="2">
+      <Description TeamName="Dominica"/>
+      <Composition>
+        <Athlete Code="9000053" Order="1">
+          <Description GivenName="Naledi" FamilyName="Osei" Gender="F" Organisation="DMA" BirthDate="2010-09-12"/>
+        </Athlete>
+        <Athlete Code="9000054" Order="2">
+          <Description GivenName="Naledi" FamilyName="Keita" Gender="F" Organisation="DMA" BirthDate="2010-09-08"/>
+        </Athlete>
+        <Athlete Code="9000055" Order="3">
+          <Description GivenName="Abena" FamilyName="Banda" Gender="F" Organisation="DMA" BirthDate="2009-02-05"/>
+        </Athlete>
+        <Athlete Code="9000056" Order="4">
+          <Description GivenName="Aissatou" FamilyName="Boateng" Gender="F" Organisation="DMA" BirthDate="2011-04-09"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="HBBWTEAM4---JOR01" Type="T" Organisation="JOR" SortOrder="3">
+      <Description TeamName="Jordan"/>
+      <Composition>
+        <Athlete Code="9000049" Order="1">
+          <Description GivenName="Farah" FamilyName="Saleh" Gender="F" Organisation="JOR" BirthDate="2009-06-20"/>
+        </Athlete>
+        <Athlete Code="9000050" Order="2">
+          <Description GivenName="Dana" FamilyName="Karam" Gender="F" Organisation="JOR" BirthDate="2010-01-06"/>
+        </Athlete>
+        <Athlete Code="9000051" Order="3">
+          <Description GivenName="Nour" FamilyName="Attar" Gender="F" Organisation="JOR" BirthDate="2010-10-26"/>
+        </Athlete>
+        <Athlete Code="9000052" Order="4">
+          <Description GivenName="Yasmin" FamilyName="Awad" Gender="F" Organisation="JOR" BirthDate="2010-04-09"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="HBBWTEAM4---LTU01" Type="T" Organisation="LTU" SortOrder="4">
+      <Description TeamName="Lithuania"/>
+      <Composition>
+        <Athlete Code="9000037" Order="1">
+          <Description GivenName="Justine" FamilyName="Girard" Gender="F" Organisation="LTU" BirthDate="2010-04-17"/>
+        </Athlete>
+        <Athlete Code="9000038" Order="2">
+          <Description GivenName="Océane" FamilyName="Martin" Gender="F" Organisation="LTU" BirthDate="2010-11-19"/>
+        </Athlete>
+        <Athlete Code="9000039" Order="3">
+          <Description GivenName="Jade" FamilyName="Dupont" Gender="F" Organisation="LTU" BirthDate="2011-07-02"/>
+        </Athlete>
+        <Athlete Code="9000040" Order="4">
+          <Description GivenName="Justine" FamilyName="Laurent" Gender="F" Organisation="LTU" BirthDate="2009-04-02"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="HBBWTEAM4---MAW01" Type="T" Organisation="MAW" SortOrder="5">
+      <Description TeamName="Malawi"/>
+      <Composition>
+        <Athlete Code="9000041" Order="1">
+          <Description GivenName="Bethlehem" FamilyName="Bekele" Gender="F" Organisation="MAW" BirthDate="2009-05-10"/>
+        </Athlete>
+        <Athlete Code="9000042" Order="2">
+          <Description GivenName="Marta" FamilyName="Tesfaye" Gender="F" Organisation="MAW" BirthDate="2010-10-09"/>
+        </Athlete>
+        <Athlete Code="9000043" Order="3">
+          <Description GivenName="Meron" FamilyName="Abebe" Gender="F" Organisation="MAW" BirthDate="2011-01-19"/>
+        </Athlete>
+        <Athlete Code="9000044" Order="4">
+          <Description GivenName="Tigist" FamilyName="Wolde" Gender="F" Organisation="MAW" BirthDate="2011-08-06"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="HBBWTEAM4---MGL01" Type="T" Organisation="MGL" SortOrder="6">
+      <Description TeamName="Mongolia"/>
+      <Composition>
+        <Athlete Code="9000061" Order="1">
+          <Description GivenName="Aisha" FamilyName="Rakhimov" Gender="F" Organisation="MGL" BirthDate="2010-03-27"/>
+        </Athlete>
+        <Athlete Code="9000062" Order="2">
+          <Description GivenName="Madina" FamilyName="Bekov" Gender="F" Organisation="MGL" BirthDate="2009-10-19"/>
+        </Athlete>
+        <Athlete Code="9000063" Order="3">
+          <Description GivenName="Jamilya" FamilyName="Umarov" Gender="F" Organisation="MGL" BirthDate="2009-10-03"/>
+        </Athlete>
+        <Athlete Code="9000064" Order="4">
+          <Description GivenName="Zarina" FamilyName="Bekov" Gender="F" Organisation="MGL" BirthDate="2010-10-18"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="HBBWTEAM4---SKN01" Type="T" Organisation="SKN" SortOrder="7">
+      <Description TeamName="Saint Kitts and Nevis"/>
+      <Composition>
+        <Athlete Code="9000045" Order="1">
+          <Description GivenName="Karolína" FamilyName="Vuković" Gender="F" Organisation="SKN" BirthDate="2011-01-13"/>
+        </Athlete>
+        <Athlete Code="9000046" Order="2">
+          <Description GivenName="Marija" FamilyName="Horvat" Gender="F" Organisation="SKN" BirthDate="2009-04-19"/>
+        </Athlete>
+        <Athlete Code="9000047" Order="3">
+          <Description GivenName="Lucie" FamilyName="Krejčí" Gender="F" Organisation="SKN" BirthDate="2010-10-07"/>
+        </Athlete>
+        <Athlete Code="9000048" Order="4">
+          <Description GivenName="Veronika" FamilyName="Svoboda" Gender="F" Organisation="SKN" BirthDate="2011-07-10"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="HBBWTEAM4---TUV01" Type="T" Organisation="TUV" SortOrder="8">
+      <Description TeamName="Tuvalu"/>
+      <Composition>
+        <Athlete Code="9000033" Order="1">
+          <Description GivenName="Zanele" FamilyName="Sow" Gender="F" Organisation="TUV" BirthDate="2009-04-01"/>
+        </Athlete>
+        <Athlete Code="9000034" Order="2">
+          <Description GivenName="Khady" FamilyName="Boateng" Gender="F" Organisation="TUV" BirthDate="2009-12-06"/>
+        </Athlete>
+        <Athlete Code="9000035" Order="3">
+          <Description GivenName="Ndeye" FamilyName="Banda" Gender="F" Organisation="TUV" BirthDate="2011-11-14"/>
+        </Athlete>
+        <Athlete Code="9000036" Order="4">
+          <Description GivenName="Awa" FamilyName="Fall" Gender="F" Organisation="TUV" BirthDate="2009-11-26"/>
         </Athlete>
       </Composition>
     </Entry>

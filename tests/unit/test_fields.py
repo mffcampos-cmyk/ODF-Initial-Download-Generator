@@ -2,7 +2,7 @@ import re
 import random
 from generator.fields import (
     rsc, gender_participant, gender_team, odf_date, odf_datetime,
-    feed_flag, name_token, pos_int, pick, pick_code,
+    name_token, pos_int, pick, pick_code,
 )
 from generator.refdata import RefData
 from tests.conftest import PACK
@@ -36,8 +36,7 @@ def test_dates_match_patterns():
     assert DT_RE.fullmatch(odf_datetime(rng()))
 
 
-def test_feed_flag_and_names_and_ints():
-    assert feed_flag(rng()) in {"P", "T"}
+def test_names_and_ints():
     assert name_token(rng()).isalpha() and len(name_token(rng())) == 8
     n = pos_int(rng(), 1, 10)
     assert 1 <= n <= 10

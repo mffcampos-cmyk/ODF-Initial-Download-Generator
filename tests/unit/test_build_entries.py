@@ -73,7 +73,8 @@ def test_entry_codes_reference_dataset_participants():
 
 def test_athlete_entries_carry_composition_with_description():
     # Real-life feeds wrap even Type="A" entries in Composition/Athlete/
-    # Description (with IFId), matching the GEN structure.
+    # Description, matching the GEN structure. No IFId: that is the
+    # federation's own identifier, which the generator does not have.
     for _rsc, xml in entries.build_all(rd(), "SWM", seed=1):
         root = etree.fromstring(xml)
         for e in root.iter("Entry"):
@@ -86,7 +87,7 @@ def test_athlete_entries_carry_composition_with_description():
             d = a.find("Description")
             assert d is not None
             assert d.get("FamilyName") and d.get("Gender")
-            assert d.get("IFId") == e.get("Code")
+            assert d.get("IFId") is None
 
 
 def test_swm_entries_have_qualification_times():

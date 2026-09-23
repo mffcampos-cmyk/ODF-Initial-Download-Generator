@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="WST-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-22" Time="205917094" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-WST-1.0" Codes="SYOG-2026-CC-V0.04">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="WST-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="175954683" LogicalDate="2026-09-23" Source="OSM">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-WST-1.0" Codes="YOG-2026-2.4">
     <Session Venue="DEX" VenueName="Dakar Expo Center" SessionType="MOR" SessionCode="WST01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
       <SessionName Language="ENG" Value="Session 1"/>
     </Session>
@@ -8,35 +8,35 @@
       <ItemName Language="ENG" Value="Men's Changquan Combined Preliminary Round - Changquan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTMCHANGCOM----------PREL000200--" PhaseType="4" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTMCHANGCOM----------PREL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Men's Changquan Combined Preliminary Round - Gunshu"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTMCHANGCOM----------FNL-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTMCHANGCOM----------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Men's Changquan Combined Final - Changquan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTMCHANGCOM----------FNL-000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Medal="1" Order="4" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTMCHANGCOM----------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Medal="1" Order="4" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Men's Changquan Combined Final - Gunshu"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTMTAIJICOM----------PREL000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTMTAIJICOM----------PREL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Men's Taijiquan Combined Preliminary Round - Taijiquan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTMTAIJICOM----------PREL000200--" PhaseType="5" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTMTAIJICOM----------PREL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Men's Taijiquan Combined Preliminary Round - Taijishan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTMTAIJICOM----------FNL-000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTMTAIJICOM----------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Men's Taijiquan Combined Final - Taijiquan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTMTAIJICOM----------FNL-000200--" PhaseType="7" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Medal="1" Order="8" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTMTAIJICOM----------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Medal="1" Order="8" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Men's Taijiquan Combined Final - Taijishan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTWCHANGCOM----------PREL000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTWCHANGCOM----------PREL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Women's Changquan Combined Preliminary Round - Changquan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
@@ -44,27 +44,27 @@
       <ItemName Language="ENG" Value="Women's Changquan Combined Preliminary Round - Gunshu"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTWCHANGCOM----------FNL-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Medal="1" Order="11" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTWCHANGCOM----------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Medal="1" Order="11" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Women's Changquan Combined Final - Changquan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTWCHANGCOM----------FNL-000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTWCHANGCOM----------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Women's Changquan Combined Final - Gunshu"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTWTAIJICOM----------PREL000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTWTAIJICOM----------PREL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Women's Taijiquan Combined Preliminary Round - Taijiquan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTWTAIJICOM----------PREL000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTWTAIJICOM----------PREL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Women's Taijiquan Combined Preliminary Round - Taijishan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTWTAIJICOM----------FNL-000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Medal="1" Order="15" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTWTAIJICOM----------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Medal="1" Order="15" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Women's Taijiquan Combined Final - Taijiquan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>
-    <Unit Code="WSTWTAIJICOM----------FNL-000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="DEX" Location="DEX" SessionCode="WST01">
+    <Unit Code="WSTWTAIJICOM----------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="DEX" Location="DEX" SessionCode="WST01">
       <ItemName Language="ENG" Value="Women's Taijiquan Combined Final - Taijishan"/>
       <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
     </Unit>

@@ -6,9 +6,9 @@ Derived fields follow the ODF data dictionary and the conventions observed in
 the real-life SYOG2026 feed:
 
 - PrintName        = "FAMILY Given"
-- PrintInitialName = "FAMILY I"       (initial without dot, per spec)
+- PrintInitialName = "FAMILY IJ"      (one initial per given-name part, no dots)
 - TVName           = "Given FAMILY"
-- TVInitialName    = "I. FAMILY"
+- TVInitialName    = "I.J. FAMILY"    (one initial per part, each with a dot)
 - Passport names   = uppercase, accents stripped
 - PSCBShortName    = PrintName if <=15 chars, else "FAMILY I.", else FAMILY,
                      else truncated family + "."  (rule observed in real feed)
@@ -16,6 +16,7 @@ the real-life SYOG2026 feed:
 from __future__ import annotations
 
 import random
+import re
 import unicodedata
 
 POOLS: dict[str, dict[str, list[str]]] = {
@@ -112,10 +113,23 @@ def person_name(rng: random.Random, org: str, gender: str,
     return rng.choice(given_pool), rng.choice(pool["s"])
 
 
+def given_initials(given: str) -> list[str]:
+    """One initial per part of the given name, parts split on spaces and
+    hyphens: "Maria Luisa" -> ["M", "L"], "Anne-Marie" -> ["A", "M"]
+    (ODF Name Language Guidelines 5.2 / 5.5; the real SYOG26 feed does the
+    same)."""
+    parts = re.split(r"[\s-]+", strip_accents(given).strip())
+    return [p[0].upper() for p in parts if p]
+
+
 def name_fields(given: str, family: str) -> dict[str, str]:
-    """Derive all ODF name attributes from a given/family pair."""
+    """Derive all ODF name attributes from a given/family pair.
+
+    Widths are not applied here: ``lengths.clamp`` cuts every attribute to its
+    GEN DD S(n) where it is serialised, as the real feed does."""
     fam_upper = strip_accents(family).upper()
-    initial = strip_accents(given)[:1].upper()
+    initials = given_initials(given)
+    initial = initials[0] if initials else ""
     print_name = f"{fam_upper} {given}"
     if len(print_name) <= 15:
         pscb_short = print_name
@@ -131,9 +145,9 @@ def name_fields(given: str, family: str) -> dict[str, str]:
         "PassportGivenName": strip_accents(given).upper(),
         "PassportFamilyName": fam_upper,
         "PrintName": print_name,
-        "PrintInitialName": f"{fam_upper} {initial}",
+        "PrintInitialName": f"{fam_upper} {''.join(initials)}",
         "TVName": f"{given} {fam_upper}",
-        "TVInitialName": f"{initial}. {fam_upper}",
+        "TVInitialName": f"{''.join(i + '.' for i in initials)} {fam_upper}",
         "TVFamilyName": fam_upper,
         "PSCBName": print_name,
         "PSCBShortName": pscb_short,

@@ -1,139 +1,139 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="TKWXTEAM4-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-09-22" Time="205906706" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-TKW-1.0" Codes="SYOG-2026-CC-V0.04">
-    <Entry Code="TKWXTEAM4---CZE01" Type="T" Organisation="CZE" SortOrder="1">
-      <Description TeamName="Czechia"/>
-      <Composition>
-        <Athlete Code="9000165" Order="1">
-          <Description GivenName="Luka" FamilyName="Procházka" Gender="M" Organisation="CZE" BirthDate="2011-02-24" IFId="9000165"/>
-        </Athlete>
-        <Athlete Code="9000166" Order="2">
-          <Description GivenName="Dora" FamilyName="Kovačević" Gender="F" Organisation="CZE" BirthDate="2009-06-03" IFId="9000166"/>
-        </Athlete>
-        <Athlete Code="9000167" Order="3">
-          <Description GivenName="Ondřej" FamilyName="Babić" Gender="M" Organisation="CZE" BirthDate="2009-03-17" IFId="9000167"/>
-        </Athlete>
-        <Athlete Code="9000168" Order="4">
-          <Description GivenName="Karolína" FamilyName="Dvořák" Gender="F" Organisation="CZE" BirthDate="2011-02-13" IFId="9000168"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="TKWXTEAM4---DEN01" Type="T" Organisation="DEN" SortOrder="2">
-      <Description TeamName="Denmark"/>
-      <Composition>
-        <Athlete Code="9000181" Order="1">
-          <Description GivenName="Nolan" FamilyName="Fontaine" Gender="M" Organisation="DEN" BirthDate="2009-10-15" IFId="9000181"/>
-        </Athlete>
-        <Athlete Code="9000182" Order="2">
-          <Description GivenName="Clara" FamilyName="Marchand" Gender="F" Organisation="DEN" BirthDate="2011-03-20" IFId="9000182"/>
-        </Athlete>
-        <Athlete Code="9000183" Order="3">
-          <Description GivenName="Antoine" FamilyName="Fournier" Gender="M" Organisation="DEN" BirthDate="2011-03-05" IFId="9000183"/>
-        </Athlete>
-        <Athlete Code="9000184" Order="4">
-          <Description GivenName="Camille" FamilyName="Marchand" Gender="F" Organisation="DEN" BirthDate="2011-08-12" IFId="9000184"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="TKWXTEAM4---KAZ01" Type="T" Organisation="KAZ" SortOrder="3">
-      <Description TeamName="Kazakhstan"/>
-      <Composition>
-        <Athlete Code="9000169" Order="1">
-          <Description GivenName="Nolan" FamilyName="Fontaine" Gender="M" Organisation="KAZ" BirthDate="2010-10-10" IFId="9000169"/>
-        </Athlete>
-        <Athlete Code="9000170" Order="2">
-          <Description GivenName="Chloé" FamilyName="Girard" Gender="F" Organisation="KAZ" BirthDate="2009-04-11" IFId="9000170"/>
-        </Athlete>
-        <Athlete Code="9000171" Order="3">
-          <Description GivenName="Hugo" FamilyName="Fontaine" Gender="M" Organisation="KAZ" BirthDate="2011-11-12" IFId="9000171"/>
-        </Athlete>
-        <Athlete Code="9000172" Order="4">
-          <Description GivenName="Zoé" FamilyName="Girard" Gender="F" Organisation="KAZ" BirthDate="2011-12-02" IFId="9000172"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="TKWXTEAM4---KOR01" Type="T" Organisation="KOR" SortOrder="4">
-      <Description TeamName="Republic of Korea"/>
-      <Composition>
-        <Athlete Code="9000185" Order="1">
-          <Description GivenName="Junseo" FamilyName="Oh" Gender="M" Organisation="KOR" BirthDate="2010-04-04" IFId="9000185"/>
-        </Athlete>
-        <Athlete Code="9000186" Order="2">
-          <Description GivenName="Jimin" FamilyName="Choi" Gender="F" Organisation="KOR" BirthDate="2011-11-10" IFId="9000186"/>
-        </Athlete>
-        <Athlete Code="9000187" Order="3">
-          <Description GivenName="Seojun" FamilyName="Lee" Gender="M" Organisation="KOR" BirthDate="2009-07-11" IFId="9000187"/>
-        </Athlete>
-        <Athlete Code="9000188" Order="4">
-          <Description GivenName="Dahyun" FamilyName="Kwon" Gender="F" Organisation="KOR" BirthDate="2009-03-02" IFId="9000188"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="TKWXTEAM4---MKD01" Type="T" Organisation="MKD" SortOrder="5">
-      <Description TeamName="North Macedonia"/>
-      <Composition>
-        <Athlete Code="9000177" Order="1">
-          <Description GivenName="Agus" FamilyName="Keomany" Gender="M" Organisation="MKD" BirthDate="2010-10-23" IFId="9000177"/>
-        </Athlete>
-        <Athlete Code="9000178" Order="2">
-          <Description GivenName="Soudalath" FamilyName="Inthavong" Gender="F" Organisation="MKD" BirthDate="2011-01-28" IFId="9000178"/>
-        </Athlete>
-        <Athlete Code="9000179" Order="3">
-          <Description GivenName="Dara" FamilyName="Chea" Gender="M" Organisation="MKD" BirthDate="2010-07-25" IFId="9000179"/>
-        </Athlete>
-        <Athlete Code="9000180" Order="4">
-          <Description GivenName="Soudalath" FamilyName="Rattanavong" Gender="F" Organisation="MKD" BirthDate="2010-04-03" IFId="9000180"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="TKWXTEAM4---SCG01" Type="T" Organisation="SCG" SortOrder="6">
-      <Description TeamName="Serbia and Montenegro"/>
-      <Composition>
-        <Athlete Code="9000161" Order="1">
-          <Description GivenName="Marko" FamilyName="Pavlović" Gender="M" Organisation="SCG" BirthDate="2009-10-01" IFId="9000161"/>
-        </Athlete>
-        <Athlete Code="9000162" Order="2">
-          <Description GivenName="Eliška" FamilyName="Krejčí" Gender="F" Organisation="SCG" BirthDate="2010-12-14" IFId="9000162"/>
-        </Athlete>
-        <Athlete Code="9000163" Order="3">
-          <Description GivenName="Ondřej" FamilyName="Jurić" Gender="M" Organisation="SCG" BirthDate="2010-03-15" IFId="9000163"/>
-        </Athlete>
-        <Athlete Code="9000164" Order="4">
-          <Description GivenName="Tereza" FamilyName="Babić" Gender="F" Organisation="SCG" BirthDate="2009-08-17" IFId="9000164"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="TKWXTEAM4---SUI01" Type="T" Organisation="SUI" SortOrder="7">
-      <Description TeamName="Switzerland"/>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="TKWXTEAM4-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-23" Time="175952065" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-TKW-1.2" Codes="YOG-2026-2.4">
+    <Entry Code="TKWXTEAM4---ESA01" Type="T" Organisation="ESA" SortOrder="1">
+      <Description TeamName="El Salvador"/>
       <Composition>
         <Athlete Code="9000173" Order="1">
-          <Description GivenName="Karim" FamilyName="Mansour" Gender="M" Organisation="SUI" BirthDate="2011-12-23" IFId="9000173"/>
+          <Description GivenName="Tommaso" FamilyName="Costa" Gender="M" Organisation="ESA" BirthDate="2011-04-13"/>
         </Athlete>
         <Athlete Code="9000174" Order="2">
-          <Description GivenName="Farah" FamilyName="Mansour" Gender="F" Organisation="SUI" BirthDate="2010-10-24" IFId="9000174"/>
+          <Description GivenName="Elisa" FamilyName="Marino" Gender="F" Organisation="ESA" BirthDate="2009-08-26"/>
         </Athlete>
         <Athlete Code="9000175" Order="3">
-          <Description GivenName="Tariq" FamilyName="Hamdan" Gender="M" Organisation="SUI" BirthDate="2011-07-06" IFId="9000175"/>
+          <Description GivenName="Riccardo" FamilyName="Rinaldi" Gender="M" Organisation="ESA" BirthDate="2011-06-23"/>
         </Athlete>
         <Athlete Code="9000176" Order="4">
-          <Description GivenName="Hala" FamilyName="Sabbagh" Gender="F" Organisation="SUI" BirthDate="2010-10-11" IFId="9000176"/>
+          <Description GivenName="Chiara" FamilyName="Conti" Gender="F" Organisation="ESA" BirthDate="2011-12-08"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TKWXTEAM4---IRI01" Type="T" Organisation="IRI" SortOrder="2">
+      <Description TeamName="Islamic Republic of Iran"/>
+      <Composition>
+        <Athlete Code="9000177" Order="1">
+          <Description GivenName="Owen" FamilyName="Smith" Gender="M" Organisation="IRI" BirthDate="2011-07-11"/>
+        </Athlete>
+        <Athlete Code="9000178" Order="2">
+          <Description GivenName="Ella" FamilyName="Bishop" Gender="F" Organisation="IRI" BirthDate="2009-05-07"/>
+        </Athlete>
+        <Athlete Code="9000179" Order="3">
+          <Description GivenName="Oliver" FamilyName="Carter" Gender="M" Organisation="IRI" BirthDate="2011-03-28"/>
+        </Athlete>
+        <Athlete Code="9000180" Order="4">
+          <Description GivenName="Freya" FamilyName="Robinson" Gender="F" Organisation="IRI" BirthDate="2011-12-05"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TKWXTEAM4---LCA01" Type="T" Organisation="LCA" SortOrder="3">
+      <Description TeamName="Saint Lucia"/>
+      <Composition>
+        <Athlete Code="9000161" Order="1">
+          <Description GivenName="Kerron" FamilyName="Regis" Gender="M" Organisation="LCA" BirthDate="2010-03-15"/>
+        </Athlete>
+        <Athlete Code="9000162" Order="2">
+          <Description GivenName="Latoya" FamilyName="Toussaint" Gender="F" Organisation="LCA" BirthDate="2009-08-17"/>
+        </Athlete>
+        <Athlete Code="9000163" Order="3">
+          <Description GivenName="Andre" FamilyName="Francis" Gender="M" Organisation="LCA" BirthDate="2011-02-24"/>
+        </Athlete>
+        <Athlete Code="9000164" Order="4">
+          <Description GivenName="Kimora" FamilyName="Phillip" Gender="F" Organisation="LCA" BirthDate="2009-06-03"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TKWXTEAM4---MAD01" Type="T" Organisation="MAD" SortOrder="4">
+      <Description TeamName="Madagascar"/>
+      <Composition>
+        <Athlete Code="9000189" Order="1">
+          <Description GivenName="Moussa" FamilyName="Fall" Gender="M" Organisation="MAD" BirthDate="2011-10-15"/>
+        </Athlete>
+        <Athlete Code="9000190" Order="2">
+          <Description GivenName="Aminata" FamilyName="Moyo" Gender="F" Organisation="MAD" BirthDate="2010-02-20"/>
+        </Athlete>
+        <Athlete Code="9000191" Order="3">
+          <Description GivenName="Juma" FamilyName="Boateng" Gender="M" Organisation="MAD" BirthDate="2009-04-13"/>
+        </Athlete>
+        <Athlete Code="9000192" Order="4">
+          <Description GivenName="Fatou" FamilyName="Traoré" Gender="F" Organisation="MAD" BirthDate="2010-07-25"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TKWXTEAM4---NOR01" Type="T" Organisation="NOR" SortOrder="5">
+      <Description TeamName="Norway"/>
+      <Composition>
+        <Athlete Code="9000169" Order="1">
+          <Description GivenName="Elias" FamilyName="Johansson" Gender="M" Organisation="NOR" BirthDate="2009-12-27"/>
+        </Athlete>
+        <Athlete Code="9000170" Order="2">
+          <Description GivenName="Thea" FamilyName="Dahl" Gender="F" Organisation="NOR" BirthDate="2010-08-17"/>
+        </Athlete>
+        <Athlete Code="9000171" Order="3">
+          <Description GivenName="Sindre" FamilyName="Solberg" Gender="M" Organisation="NOR" BirthDate="2009-03-10"/>
+        </Athlete>
+        <Athlete Code="9000172" Order="4">
+          <Description GivenName="Amanda" FamilyName="Solberg" Gender="F" Organisation="NOR" BirthDate="2011-09-09"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TKWXTEAM4---SEY01" Type="T" Organisation="SEY" SortOrder="6">
+      <Description TeamName="Seychelles"/>
+      <Composition>
+        <Athlete Code="9000181" Order="1">
+          <Description GivenName="Ziad" FamilyName="Mansour" Gender="M" Organisation="SEY" BirthDate="2010-09-06"/>
+        </Athlete>
+        <Athlete Code="9000182" Order="2">
+          <Description GivenName="Yasmin" FamilyName="Sabbagh" Gender="F" Organisation="SEY" BirthDate="2009-12-15"/>
+        </Athlete>
+        <Athlete Code="9000183" Order="3">
+          <Description GivenName="Rashid" FamilyName="Mansour" Gender="M" Organisation="SEY" BirthDate="2010-04-04"/>
+        </Athlete>
+        <Athlete Code="9000184" Order="4">
+          <Description GivenName="Reem" FamilyName="Khalil" Gender="F" Organisation="SEY" BirthDate="2011-11-10"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="TKWXTEAM4---SLO01" Type="T" Organisation="SLO" SortOrder="7">
+      <Description TeamName="Slovenia"/>
+      <Composition>
+        <Athlete Code="9000185" Order="1">
+          <Description GivenName="Mateo" FamilyName="Rodríguez" Gender="M" Organisation="SLO" BirthDate="2009-07-11"/>
+        </Athlete>
+        <Athlete Code="9000186" Order="2">
+          <Description GivenName="Gabriela" FamilyName="Salazar" Gender="F" Organisation="SLO" BirthDate="2009-03-02"/>
+        </Athlete>
+        <Athlete Code="9000187" Order="3">
+          <Description GivenName="Diego" FamilyName="Rojas" Gender="M" Organisation="SLO" BirthDate="2011-01-25"/>
+        </Athlete>
+        <Athlete Code="9000188" Order="4">
+          <Description GivenName="Isabella" FamilyName="Castillo" Gender="F" Organisation="SLO" BirthDate="2009-08-23"/>
         </Athlete>
       </Composition>
     </Entry>
     <Entry Code="TKWXTEAM4---UZB01" Type="T" Organisation="UZB" SortOrder="8">
       <Description TeamName="Uzbekistan"/>
       <Composition>
-        <Athlete Code="9000189" Order="1">
-          <Description GivenName="Omar" FamilyName="Sabbagh" Gender="M" Organisation="UZB" BirthDate="2011-01-25" IFId="9000189"/>
+        <Athlete Code="9000165" Order="1">
+          <Description GivenName="Khalil" FamilyName="Saleh" Gender="M" Organisation="UZB" BirthDate="2009-03-17"/>
         </Athlete>
-        <Athlete Code="9000190" Order="2">
-          <Description GivenName="Nour" FamilyName="Zahran" Gender="F" Organisation="UZB" BirthDate="2009-08-23" IFId="9000190"/>
+        <Athlete Code="9000166" Order="2">
+          <Description GivenName="Reem" FamilyName="Nasser" Gender="F" Organisation="UZB" BirthDate="2011-02-13"/>
         </Athlete>
-        <Athlete Code="9000191" Order="3">
-          <Description GivenName="Sami" FamilyName="Attar" Gender="M" Organisation="UZB" BirthDate="2011-10-15" IFId="9000191"/>
+        <Athlete Code="9000167" Order="3">
+          <Description GivenName="Khalil" FamilyName="Barakat" Gender="M" Organisation="UZB" BirthDate="2010-10-10"/>
         </Athlete>
-        <Athlete Code="9000192" Order="4">
-          <Description GivenName="Rania" FamilyName="Zahran" Gender="F" Organisation="UZB" BirthDate="2010-02-20" IFId="9000192"/>
+        <Athlete Code="9000168" Order="4">
+          <Description GivenName="Nour" FamilyName="Farah" Gender="F" Organisation="UZB" BirthDate="2009-04-11"/>
         </Athlete>
       </Composition>
     </Entry>

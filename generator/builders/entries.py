@@ -3,7 +3,7 @@
 One message per event; @DocumentCode is the Event RSC (CC@EVENT). Entries are
 sorted within the event by Organisation, Gender and Name. Following the
 real-life feeds, every entry (athlete or team) carries its Composition with
-Athlete Description (incl. IFId); SWM entries also carry the qualification
+Athlete Description; SWM entries also carry the qualification
 time as ExtendedEntry Type="ENTRY" Code="QUAL_BEST"."""
 from __future__ import annotations
 import random
@@ -40,7 +40,10 @@ def _athlete_description(p):
         "Gender": p.gender,
         "Organisation": p.organisation,
         "BirthDate": p.birth_date,
-        "IFId": p.code,
+        # No IFId. It is the International Federation's own identifier; the
+        # real feed carries it only when the IF supplied one (11 of 84
+        # athletes) and never equal to the ODF code. Copying @Code into it
+        # asserted an IF registration that does not exist.
     })
 
 

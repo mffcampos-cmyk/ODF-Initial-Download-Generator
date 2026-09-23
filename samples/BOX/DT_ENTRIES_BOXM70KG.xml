@@ -1,115 +1,115 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="BOXM70KG--------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-09-22" Time="205838315" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-BOX-1.0" Codes="SYOG-2026-CC-V0.04">
-    <Entry Code="9000079" Type="A" Organisation="ANT" SortOrder="1">
-      <Composition>
-        <Athlete Code="9000079" Order="1">
-          <Description GivenName="Akeem" FamilyName="Joseph" Gender="M" Organisation="ANT" BirthDate="2010-04-26" IFId="9000079"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000066" Type="A" Organisation="BAN" SortOrder="2">
-      <Composition>
-        <Athlete Code="9000066" Order="1">
-          <Description GivenName="Tanvir" FamilyName="Ahmed" Gender="M" Organisation="BAN" BirthDate="2010-06-10" IFId="9000066"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000077" Type="A" Organisation="BIZ" SortOrder="3">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="BOXM70KG--------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-23" Time="175944997" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-BOX-1.2" Codes="YOG-2026-2.4">
+    <Entry Code="9000077" Type="A" Organisation="ARM" SortOrder="1">
       <Composition>
         <Athlete Code="9000077" Order="1">
-          <Description GivenName="Fikru" FamilyName="Kebede" Gender="M" Organisation="BIZ" BirthDate="2010-07-11" IFId="9000077"/>
+          <Description GivenName="Sanjar" FamilyName="Rakhimov" Gender="M" Organisation="ARM" BirthDate="2010-04-26"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="9000068" Type="A" Organisation="BRN" SortOrder="4">
-      <Composition>
-        <Athlete Code="9000068" Order="1">
-          <Description GivenName="Youssef" FamilyName="Sabbagh" Gender="M" Organisation="BRN" BirthDate="2009-05-01" IFId="9000068"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000076" Type="A" Organisation="CUB" SortOrder="5">
-      <Composition>
-        <Athlete Code="9000076" Order="1">
-          <Description GivenName="Minjun" FamilyName="Kim" Gender="M" Organisation="CUB" BirthDate="2009-05-24" IFId="9000076"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000067" Type="A" Organisation="ESP" SortOrder="6">
-      <Composition>
-        <Athlete Code="9000067" Order="1">
-          <Description GivenName="Pietro" FamilyName="Gallo" Gender="M" Organisation="ESP" BirthDate="2009-08-09" IFId="9000067"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000074" Type="A" Organisation="IRI" SortOrder="7">
-      <Composition>
-        <Athlete Code="9000074" Order="1">
-          <Description GivenName="Noah" FamilyName="Wright" Gender="M" Organisation="IRI" BirthDate="2010-12-16" IFId="9000074"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000080" Type="A" Organisation="IRQ" SortOrder="8">
-      <Composition>
-        <Athlete Code="9000080" Order="1">
-          <Description GivenName="Jakub" FamilyName="Pavlović" Gender="M" Organisation="IRQ" BirthDate="2011-12-16" IFId="9000080"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000071" Type="A" Organisation="KUW" SortOrder="9">
-      <Composition>
-        <Athlete Code="9000071" Order="1">
-          <Description GivenName="Pietro" FamilyName="Marino" Gender="M" Organisation="KUW" BirthDate="2009-02-15" IFId="9000071"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000072" Type="A" Organisation="LBR" SortOrder="10">
-      <Composition>
-        <Athlete Code="9000072" Order="1">
-          <Description GivenName="Rustam" FamilyName="Mamedov" Gender="M" Organisation="LBR" BirthDate="2009-03-24" IFId="9000072"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000078" Type="A" Organisation="LTU" SortOrder="11">
-      <Composition>
-        <Athlete Code="9000078" Order="1">
-          <Description GivenName="Maxime" FamilyName="Bernard" Gender="M" Organisation="LTU" BirthDate="2009-06-20" IFId="9000078"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000069" Type="A" Organisation="MAD" SortOrder="12">
-      <Composition>
-        <Athlete Code="9000069" Order="1">
-          <Description GivenName="Tendai" FamilyName="Moyo" Gender="M" Organisation="MAD" BirthDate="2009-02-14" IFId="9000069"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000073" Type="A" Organisation="PUR" SortOrder="13">
-      <Composition>
-        <Athlete Code="9000073" Order="1">
-          <Description GivenName="Mateo" FamilyName="Torres" Gender="M" Organisation="PUR" BirthDate="2010-09-27" IFId="9000073"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000070" Type="A" Organisation="SWZ" SortOrder="14">
-      <Composition>
-        <Athlete Code="9000070" Order="1">
-          <Description GivenName="Hugo" FamilyName="Renard" Gender="M" Organisation="SWZ" BirthDate="2009-04-08" IFId="9000070"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000065" Type="A" Organisation="SYR" SortOrder="15">
+    <Entry Code="9000065" Type="A" Organisation="BDI" SortOrder="2">
       <Composition>
         <Athlete Code="9000065" Order="1">
-          <Description GivenName="Bekzat" FamilyName="Rakhimov" Gender="M" Organisation="SYR" BirthDate="2011-09-08" IFId="9000065"/>
+          <Description GivenName="Tendai" FamilyName="Keita" Gender="M" Organisation="BDI" BirthDate="2009-08-09"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="9000075" Type="A" Organisation="TKM" SortOrder="16">
+    <Entry Code="9000075" Type="A" Organisation="BOL" SortOrder="3">
       <Composition>
         <Athlete Code="9000075" Order="1">
-          <Description GivenName="Alisher" FamilyName="Rakhimov" Gender="M" Organisation="TKM" BirthDate="2009-11-11" IFId="9000075"/>
+          <Description GivenName="Jakub" FamilyName="Horvat" Gender="M" Organisation="BOL" BirthDate="2010-07-11"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000067" Type="A" Organisation="BUR" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000067" Order="1">
+          <Description GivenName="Jaehyun" FamilyName="Han" Gender="M" Organisation="BUR" BirthDate="2009-02-14"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000074" Type="A" Organisation="DMA" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000074" Order="1">
+          <Description GivenName="Kwame" FamilyName="Mensah" Gender="M" Organisation="DMA" BirthDate="2009-05-24"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000066" Type="A" Organisation="FRA" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000066" Order="1">
+          <Description GivenName="Matteo" FamilyName="Barbieri" Gender="M" Organisation="FRA" BirthDate="2009-05-01"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000073" Type="A" Organisation="JOR" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000073" Order="1">
+          <Description GivenName="Rashid" FamilyName="Haddad" Gender="M" Organisation="JOR" BirthDate="2009-11-11"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000078" Type="A" Organisation="KAZ" SortOrder="8">
+      <Composition>
+        <Athlete Code="9000078" Order="1">
+          <Description GivenName="Julien" FamilyName="Chevalier" Gender="M" Organisation="KAZ" BirthDate="2011-12-16"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000079" Type="A" Organisation="LBN" SortOrder="9">
+      <Composition>
+        <Athlete Code="9000079" Order="1">
+          <Description GivenName="Putra" FamilyName="Sok" Gender="M" Organisation="LBN" BirthDate="2010-03-18"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000070" Type="A" Organisation="LTU" SortOrder="10">
+      <Composition>
+        <Athlete Code="9000070" Order="1">
+          <Description GivenName="Louis" FamilyName="Dupont" Gender="M" Organisation="LTU" BirthDate="2009-03-24"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000071" Type="A" Organisation="MAW" SortOrder="11">
+      <Composition>
+        <Athlete Code="9000071" Order="1">
+          <Description GivenName="Tesfaye" FamilyName="Alemu" Gender="M" Organisation="MAW" BirthDate="2010-09-27"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000076" Type="A" Organisation="MGL" SortOrder="12">
+      <Composition>
+        <Athlete Code="9000076" Order="1">
+          <Description GivenName="Bekzat" FamilyName="Rakhimov" Gender="M" Organisation="MGL" BirthDate="2009-06-20"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000068" Type="A" Organisation="MKD" SortOrder="13">
+      <Composition>
+        <Athlete Code="9000068" Order="1">
+          <Description GivenName="Anong" FamilyName="Inthavong" Gender="M" Organisation="MKD" BirthDate="2009-04-08"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000080" Type="A" Organisation="PRK" SortOrder="14">
+      <Composition>
+        <Athlete Code="9000080" Order="1">
+          <Description GivenName="Farid" FamilyName="Chowdhury" Gender="M" Organisation="PRK" BirthDate="2009-04-12"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000072" Type="A" Organisation="SKN" SortOrder="15">
+      <Composition>
+        <Athlete Code="9000072" Order="1">
+          <Description GivenName="Matej" FamilyName="Jurić" Gender="M" Organisation="SKN" BirthDate="2010-12-16"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000069" Type="A" Organisation="TUV" SortOrder="16">
+      <Composition>
+        <Athlete Code="9000069" Order="1">
+          <Description GivenName="Tendai" FamilyName="Sow" Gender="M" Organisation="TUV" BirthDate="2009-02-15"/>
         </Athlete>
       </Composition>
     </Entry>

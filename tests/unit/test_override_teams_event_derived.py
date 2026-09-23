@@ -134,27 +134,20 @@ def test_team_type_is_a_teamtype_code_not_a_discipline_rsc():
                 f"SC@TeamType@GEN code (overrides={ov})")
 
 
-def test_team_type_is_chosen_by_what_the_squad_is():
-    """Not by rng.choice.
+def test_every_team_is_an_organisation_team():
+    """Not by rng.choice, and not by what the squad looks like.
 
     A discipline publishing both ORG and CPLM used to get whichever the seed
-    picked, for every event. TTE's only team event is mixed doubles -- a
-    two-person mixed squad, i.e. a couple -- and TTE publishes CPLM
-    ("Couple, male first"). TKW's mixed TEAM4 is a squad, not a couple, and
-    stays ORG.
+    picked; after that, a two-person mixed squad was typed CPLM ("Couple, male
+    first"). The real SYOG26 feed types every team ORG -- TTE mixed doubles
+    included -- because every team in it is a NOC's team.
     """
-    tte = build_dataset(RD, "TTE", 1)
-    assert tte.teams
-    for t in tte.teams:
-        assert t.team_type == "CPLM", (
-            f"TTE mixed doubles pair {t.code} is a couple, got {t.team_type!r}")
-
-    tkw = build_dataset(RD, "TKW", 1)
-    assert tkw.teams
-    for t in tkw.teams:
-        assert t.team_type == "ORG", (
-            f"TKW 4-person squad {t.code} is an organisation, "
-            f"got {t.team_type!r}")
+    for disc in ("TTE", "TKW", "VBV"):
+        teams = build_dataset(RD, disc, 1).teams
+        assert teams
+        for t in teams:
+            assert t.team_type == "ORG", (
+                f"{disc} team {t.code} is a NOC team, got {t.team_type!r}")
 
 
 def test_team_type_is_stable_across_seeds():

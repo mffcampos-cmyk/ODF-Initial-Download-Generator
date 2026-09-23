@@ -127,19 +127,30 @@ Setup for the known-good one and why it matters.
 
 ## Realism model
 
-Output follows the conventions of the real-life SYOG2026 feed (AWAARC1) and
-the ODF data dictionaries:
+Output follows the conventions of the real SYOG26 initial download (received
+2026-09-23) and the ODF data dictionaries:
 
 - Full 34-char discipline RSC in `@DocumentCode` and `Discipline@Code`
   (e.g. `ARC-------------------------------`).
 - `Participant@Parent` = `@Code`; 7-digit IDs from 9000001; `MainFunctionId`,
   `Nationality`, passport names, and PSCB names (athletes only) included.
-- Name conventions: `PrintName` = "FAMILY Given", `PrintInitialName` without
-  dot, `TVName` = "Given FAMILY", `TVInitialName` = "I. FAMILY".
+- Name conventions: `PrintName` = "FAMILY Given", `PrintInitialName` =
+  "FAMILY EB" (one initial per given-name part, no dots), `TVName` = "Given
+  FAMILY", `TVInitialName` = "E.B. FAMILY"; cut to the GEN DD widths
+  (PrintName/TVName 35, PrintInitialName/TVInitialName/TVFamilyName 18).
+- Delegations are drawn only from NOCs the Common Codes mark as participating
+  (`Participation = P`), never historical ones such as EUN or URS.
 - Realistic, culture-aware names per NOC (`generator/names.py`) and plausible
   birth dates (athletes 2009–2011, officials 1961–1996).
-- Competition header: `Gen="OWG-2026-GEN-V4.5"`,
-  `Sport="SYOG-2026-<DISC>-1.0"`, `Codes="SYOG-2026-CC-V0.04"`.
+- Header, from `generator/games/SYOG26.yaml`: `Gen="OWG2026-GEN-4.6"` (the
+  GEN DD reference); `Sport` = each discipline DD's own reference
+  (`SYOG-2026-ARC-1.2`, `SYOG-2026-EQU-EJP-1.0`, ...); `Codes="YOG-2026-2.4"`,
+  the release read from the loaded workbook's file name. `FeedFlag="P"`.
+  `Source` is per message type: `SEQ` for DT_PARTIC, DT_PARTIC_TEAMS and
+  DT_ENTRIES, `OSM` for DT_SCHEDULE.
+- Every team is `TeamType="ORG"`; schedule units are `PhaseType="3"`
+  (competition) and victory ceremonies `"6"`. DT_ENTRIES carries no `IFId`:
+  that is the federation's identifier, which the generator does not have.
 - **ARC** uses an embedded real-life profile (`generator/arc_profile.py`):
   32 M + 32 W athletes across 47 NOCs, one coach per NOC + 4 judges
   (115 participants), 17 mixed teams, and the real 9-session / 83-unit

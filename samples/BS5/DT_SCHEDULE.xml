@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="BS5-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-22" Time="205840483" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-BS5-1.0" Codes="SYOG-2026-CC-V0.04">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="BS5-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="175945486" LogicalDate="2026-09-23" Source="OSM">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-BS5-1.4" Codes="YOG-2026-2.4">
     <Session Venue="CTO" VenueName="Complexe Tour de l'Oeuf" SessionType="MOR" SessionCode="BS501" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
       <SessionName Language="ENG" Value="Session 1"/>
     </Session>
     <Session Venue="CTO" VenueName="Complexe Tour de l'Oeuf" SessionType="AFT" SessionCode="BS502" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T15:18:00+00:00">
       <SessionName Language="ENG" Value="Session 2"/>
     </Session>
-    <Unit Code="BS5XTEAM5-------------FNL-00030000" PhaseType="5" UnitNum="300" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------FNL-00030000" PhaseType="3" UnitNum="300" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Placement game 5th-6th"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------GPA-00010000" PhaseType="4" UnitNum="100" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------GPA-00010000" PhaseType="3" UnitNum="100" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Opening Round Group A"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------GPB-00010000" PhaseType="2" UnitNum="100" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------GPB-00010000" PhaseType="3" UnitNum="100" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Opening Round Group B"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------GPA-00020000" PhaseType="8" UnitNum="200" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------GPA-00020000" PhaseType="3" UnitNum="200" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Opening Round Group A"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
@@ -27,7 +27,7 @@
       <ItemName Language="ENG" Value="Opening Round Group B"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------GPA-00030000" PhaseType="4" UnitNum="300" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------GPA-00030000" PhaseType="3" UnitNum="300" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Opening Round Group A"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
@@ -39,35 +39,35 @@
       <ItemName Language="ENG" Value="Opening Round Group A"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------GPB-00040000" PhaseType="5" UnitNum="400" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------GPB-00040000" PhaseType="3" UnitNum="400" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Opening Round Group B"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------GPA-00050000" PhaseType="1" UnitNum="500" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------GPA-00050000" PhaseType="3" UnitNum="500" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Opening Round Group A"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------GPB-00050000" PhaseType="4" UnitNum="500" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------GPB-00050000" PhaseType="3" UnitNum="500" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Opening Round Group B"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------GPA-00060000" PhaseType="1" UnitNum="600" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------GPA-00060000" PhaseType="3" UnitNum="600" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Opening Round Group A"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------GPB-00060000" PhaseType="7" UnitNum="600" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------GPB-00060000" PhaseType="3" UnitNum="600" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Opening Round Group B"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------QFNL00010000" PhaseType="1" UnitNum="100" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------QFNL00010000" PhaseType="3" UnitNum="100" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Quarterfinal"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------QFNL00020000" PhaseType="9" UnitNum="200" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Order="15" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------QFNL00020000" PhaseType="3" UnitNum="200" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Order="15" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Quarterfinal"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------QFNL00030000" PhaseType="5" UnitNum="300" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="CTO" Location="COC" SessionCode="BS501">
+    <Unit Code="BS5XTEAM5-------------QFNL00030000" PhaseType="3" UnitNum="300" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="CTO" Location="COC" SessionCode="BS501">
       <ItemName Language="ENG" Value="Quarterfinal"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
@@ -75,23 +75,23 @@
       <ItemName Language="ENG" Value="Quarterfinal"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------SFNL00010000" PhaseType="6" UnitNum="100" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Order="2" Venue="CTO" Location="COC" SessionCode="BS502">
+    <Unit Code="BS5XTEAM5-------------SFNL00010000" PhaseType="3" UnitNum="100" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Order="2" Venue="CTO" Location="COC" SessionCode="BS502">
       <ItemName Language="ENG" Value="Semifinal"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------SFNL00020000" PhaseType="4" UnitNum="200" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="CTO" Location="COC" SessionCode="BS502">
+    <Unit Code="BS5XTEAM5-------------SFNL00020000" PhaseType="3" UnitNum="200" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="CTO" Location="COC" SessionCode="BS502">
       <ItemName Language="ENG" Value="Semifinal"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------FNL-00010000" PhaseType="0" UnitNum="100" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Medal="1" Order="4" Venue="CTO" Location="COC" SessionCode="BS502">
+    <Unit Code="BS5XTEAM5-------------FNL-00010000" PhaseType="3" UnitNum="100" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Medal="1" Order="4" Venue="CTO" Location="COC" SessionCode="BS502">
       <ItemName Language="ENG" Value="Gold Medal Game"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------FNL-00020000" PhaseType="5" UnitNum="200" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Medal="3" Order="5" Venue="CTO" Location="COC" SessionCode="BS502">
+    <Unit Code="BS5XTEAM5-------------FNL-00020000" PhaseType="3" UnitNum="200" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Medal="3" Order="5" Venue="CTO" Location="COC" SessionCode="BS502">
       <ItemName Language="ENG" Value="Bronze Medal Game"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BS5XTEAM5-------------FNL-00040000" PhaseType="2" UnitNum="400" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Order="6" Venue="CTO" Location="COC" SessionCode="BS502">
+    <Unit Code="BS5XTEAM5-------------FNL-00040000" PhaseType="3" UnitNum="400" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Order="6" Venue="CTO" Location="COC" SessionCode="BS502">
       <ItemName Language="ENG" Value="Placement game 7th-8th"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>

@@ -132,7 +132,8 @@ def _readiness(pack, profile: GamesProfile | None,
             f"{', '.join(profile.missing_fields())} in "
             f"generator/games/{name}.yaml from the {name} GEN document "
             f"(sport_template must contain the literal '{{disc}}' "
-            f"placeholder, e.g. 'LA28-{{disc}}-1.0').")
+            f"placeholder, e.g. 'LA28-{{disc}}-1.0', or give a 'sports' "
+            f"table with each discipline's Data Dictionary reference).")
     return content_reasons, profile_reasons
 
 

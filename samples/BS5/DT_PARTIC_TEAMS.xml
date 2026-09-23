@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="BS5-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-22" Time="205840470" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-BS5-1.0" Codes="SYOG-2026-CC-V0.04">
-    <Team Code="BS5XTEAM5---BAN01" Status="ENT" Organisation="BAN" Name="Bangladesh" ShortName="Bangladesh" TVTeamName="Bangladesh" PSCBName="BANGLADESH" PSCBShortName="BANGLADESH" PSCBLongName="BANGLADESH" Gender="X" TeamType="ORG">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="BS5-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-23" Time="175945475" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-BS5-1.4" Codes="YOG-2026-2.4">
+    <Team Code="BS5XTEAM5---BDI01" Status="ENT" Organisation="BDI" Name="Burundi" ShortName="Burundi" TVTeamName="Burundi" PSCBName="BURUNDI" PSCBShortName="BURUNDI" PSCBLongName="BURUNDI" Gender="X" TeamType="ORG">
       <Discipline Code="BS5-------------------------------"/>
     </Team>
-    <Team Code="BS5XTEAM5---BRN01" Status="ENT" Organisation="BRN" Name="Bahrain" ShortName="Bahrain" TVTeamName="Bahrain" PSCBName="BAHRAIN" PSCBShortName="BAHRAIN" PSCBLongName="BAHRAIN" Gender="X" TeamType="ORG">
+    <Team Code="BS5XTEAM5---BUR01" Status="ENT" Organisation="BUR" Name="Burkina Faso" ShortName="Burkina Faso" TVTeamName="Burkina Faso" PSCBName="BURKINA FASO" PSCBShortName="BURKINA FASO" PSCBLongName="BURKINA FASO" Gender="X" TeamType="ORG">
       <Discipline Code="BS5-------------------------------"/>
     </Team>
-    <Team Code="BS5XTEAM5---CAF01" Status="ENT" Organisation="CAF" Name="Central African Republic" ShortName="Centr Afric Rep" TVTeamName="Central African Repub" PSCBName="CENTRAL AFRICAN REPUBLIC" PSCBShortName="CENTR AFRIC REP" PSCBLongName="CENTRAL AFRICAN REPUBLIC" Gender="X" TeamType="ORG">
+    <Team Code="BS5XTEAM5---CAY01" Status="ENT" Organisation="CAY" Name="Cayman Islands" ShortName="Cayman Islands" TVTeamName="Cayman Islands" PSCBName="CAYMAN ISLANDS" PSCBShortName="CAYMAN ISLANDS" PSCBLongName="CAYMAN ISLANDS" Gender="X" TeamType="ORG">
       <Discipline Code="BS5-------------------------------"/>
     </Team>
-    <Team Code="BS5XTEAM5---ESP01" Status="ENT" Organisation="ESP" Name="Spain" ShortName="Spain" TVTeamName="Spain" PSCBName="SPAIN" PSCBShortName="SPAIN" PSCBLongName="SPAIN" Gender="X" TeamType="ORG">
+    <Team Code="BS5XTEAM5---FRA01" Status="ENT" Organisation="FRA" Name="France" ShortName="France" TVTeamName="France" PSCBName="FRANCE" PSCBShortName="FRANCE" PSCBLongName="FRANCE" Gender="X" TeamType="ORG">
       <Discipline Code="BS5-------------------------------"/>
     </Team>
-    <Team Code="BS5XTEAM5---NCA01" Status="ENT" Organisation="NCA" Name="Nicaragua" ShortName="Nicaragua" TVTeamName="Nicaragua" PSCBName="NICARAGUA" PSCBShortName="NICARAGUA" PSCBLongName="NICARAGUA" Gender="X" TeamType="ORG">
+    <Team Code="BS5XTEAM5---MKD01" Status="ENT" Organisation="MKD" Name="North Macedonia" ShortName="North Macedonia" TVTeamName="North Macedonia" PSCBName="NORTH MACEDONIA" PSCBShortName="NORTH MACEDONIA" PSCBLongName="NORTH MACEDONIA" Gender="X" TeamType="ORG">
       <Discipline Code="BS5-------------------------------"/>
     </Team>
-    <Team Code="BS5XTEAM5---SYR01" Status="ENT" Organisation="SYR" Name="Syrian Arab Republic" ShortName="Syria" TVTeamName="Syrian Arab Republic" PSCBName="SYRIAN ARAB REPUBLIC" PSCBShortName="SYRIA" PSCBLongName="SYRIAN ARAB REPUBLIC" Gender="X" TeamType="ORG">
+    <Team Code="BS5XTEAM5---PAK01" Status="ENT" Organisation="PAK" Name="Pakistan" ShortName="Pakistan" TVTeamName="Pakistan" PSCBName="PAKISTAN" PSCBShortName="PAKISTAN" PSCBLongName="PAKISTAN" Gender="X" TeamType="ORG">
       <Discipline Code="BS5-------------------------------"/>
     </Team>
-    <Team Code="BS5XTEAM5---TTO01" Status="ENT" Organisation="TTO" Name="Trinidad and Tobago" ShortName="Trinidad and Tobago" TVTeamName="Trinidad and Tobago" PSCBName="TRINIDAD AND TOBAGO" PSCBShortName="TRINIDAD AND TOBAGO" PSCBLongName="TRINIDAD AND TOBAGO" Gender="X" TeamType="ORG">
+    <Team Code="BS5XTEAM5---UAE01" Status="ENT" Organisation="UAE" Name="United Arab Emirates" ShortName="UA Emirates" TVTeamName="United Arab Emirates" PSCBName="UNITED ARAB EMIRATES" PSCBShortName="UA EMIRATES" PSCBLongName="UNITED ARAB EMIRATES" Gender="X" TeamType="ORG">
       <Discipline Code="BS5-------------------------------"/>
     </Team>
-    <Team Code="BS5XTEAM5---VAN01" Status="ENT" Organisation="VAN" Name="Vanuatu" ShortName="Vanuatu" TVTeamName="Vanuatu" PSCBName="VANUATU" PSCBShortName="VANUATU" PSCBLongName="VANUATU" Gender="X" TeamType="ORG">
+    <Team Code="BS5XTEAM5---YEM01" Status="ENT" Organisation="YEM" Name="Yemen" ShortName="Yemen" TVTeamName="Yemen" PSCBName="YEMEN" PSCBShortName="YEMEN" PSCBLongName="YEMEN" Gender="X" TeamType="ORG">
       <Discipline Code="BS5-------------------------------"/>
     </Team>
   </Competition>

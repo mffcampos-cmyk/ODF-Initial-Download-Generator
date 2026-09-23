@@ -1,211 +1,211 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="RU7MTEAM7-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-22" Time="205857365" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-RU7-1.0" Codes="SYOG-2026-CC-V0.04">
-    <Entry Code="RU7MTEAM7---BAN01" Type="T" Organisation="BAN" SortOrder="1">
-      <Description TeamName="Bangladesh"/>
-      <Composition>
-        <Athlete Code="9000036" Order="1">
-          <Description GivenName="Nadir" FamilyName="Bhuiyan" Gender="M" Organisation="BAN" BirthDate="2011-11-14" IFId="9000036"/>
-        </Athlete>
-        <Athlete Code="9000037" Order="2">
-          <Description GivenName="Rashed" FamilyName="Mollah" Gender="M" Organisation="BAN" BirthDate="2009-11-26" IFId="9000037"/>
-        </Athlete>
-        <Athlete Code="9000038" Order="3">
-          <Description GivenName="Habib" FamilyName="Uddin" Gender="M" Organisation="BAN" BirthDate="2010-04-17" IFId="9000038"/>
-        </Athlete>
-        <Athlete Code="9000039" Order="4">
-          <Description GivenName="Shakib" FamilyName="Rahman" Gender="M" Organisation="BAN" BirthDate="2010-11-19" IFId="9000039"/>
-        </Athlete>
-        <Athlete Code="9000040" Order="5">
-          <Description GivenName="Sajid" FamilyName="Mia" Gender="M" Organisation="BAN" BirthDate="2011-07-02" IFId="9000040"/>
-        </Athlete>
-        <Athlete Code="9000041" Order="6">
-          <Description GivenName="Habib" FamilyName="Chowdhury" Gender="M" Organisation="BAN" BirthDate="2009-04-02" IFId="9000041"/>
-        </Athlete>
-        <Athlete Code="9000042" Order="7">
-          <Description GivenName="Jamal" FamilyName="Ahmed" Gender="M" Organisation="BAN" BirthDate="2009-05-10" IFId="9000042"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="RU7MTEAM7---BRN01" Type="T" Organisation="BRN" SortOrder="2">
-      <Description TeamName="Bahrain"/>
-      <Composition>
-        <Athlete Code="9000050" Order="1">
-          <Description GivenName="Sami" FamilyName="Saleh" Gender="M" Organisation="BRN" BirthDate="2009-06-20" IFId="9000050"/>
-        </Athlete>
-        <Athlete Code="9000051" Order="2">
-          <Description GivenName="Faisal" FamilyName="Karam" Gender="M" Organisation="BRN" BirthDate="2010-01-06" IFId="9000051"/>
-        </Athlete>
-        <Athlete Code="9000052" Order="3">
-          <Description GivenName="Tariq" FamilyName="Attar" Gender="M" Organisation="BRN" BirthDate="2010-10-26" IFId="9000052"/>
-        </Athlete>
-        <Athlete Code="9000053" Order="4">
-          <Description GivenName="Karim" FamilyName="Awad" Gender="M" Organisation="BRN" BirthDate="2010-04-09" IFId="9000053"/>
-        </Athlete>
-        <Athlete Code="9000054" Order="5">
-          <Description GivenName="Khalil" FamilyName="Haddad" Gender="M" Organisation="BRN" BirthDate="2010-09-12" IFId="9000054"/>
-        </Athlete>
-        <Athlete Code="9000055" Order="6">
-          <Description GivenName="Khalil" FamilyName="Farah" Gender="M" Organisation="BRN" BirthDate="2010-09-08" IFId="9000055"/>
-        </Athlete>
-        <Athlete Code="9000056" Order="7">
-          <Description GivenName="Youssef" FamilyName="Barakat" Gender="M" Organisation="BRN" BirthDate="2009-02-05" IFId="9000056"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="RU7MTEAM7---CAF01" Type="T" Organisation="CAF" SortOrder="3">
-      <Description TeamName="Central African Republic"/>
-      <Composition>
-        <Athlete Code="9000001" Order="1">
-          <Description GivenName="Alessandro" FamilyName="Fontana" Gender="M" Organisation="CAF" BirthDate="2011-05-04" IFId="9000001"/>
-        </Athlete>
-        <Athlete Code="9000002" Order="2">
-          <Description GivenName="Edoardo" FamilyName="Ricci" Gender="M" Organisation="CAF" BirthDate="2011-12-17" IFId="9000002"/>
-        </Athlete>
-        <Athlete Code="9000003" Order="3">
-          <Description GivenName="Federico" FamilyName="Gallo" Gender="M" Organisation="CAF" BirthDate="2011-04-10" IFId="9000003"/>
-        </Athlete>
-        <Athlete Code="9000004" Order="4">
-          <Description GivenName="Riccardo" FamilyName="Costa" Gender="M" Organisation="CAF" BirthDate="2010-09-13" IFId="9000004"/>
-        </Athlete>
-        <Athlete Code="9000005" Order="5">
-          <Description GivenName="Pietro" FamilyName="Rinaldi" Gender="M" Organisation="CAF" BirthDate="2009-08-08" IFId="9000005"/>
-        </Athlete>
-        <Athlete Code="9000006" Order="6">
-          <Description GivenName="Edoardo" FamilyName="Barbieri" Gender="M" Organisation="CAF" BirthDate="2010-07-22" IFId="9000006"/>
-        </Athlete>
-        <Athlete Code="9000007" Order="7">
-          <Description GivenName="Alessandro" FamilyName="Ricci" Gender="M" Organisation="CAF" BirthDate="2011-12-25" IFId="9000007"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="RU7MTEAM7---ESP01" Type="T" Organisation="ESP" SortOrder="4">
-      <Description TeamName="Spain"/>
-      <Composition>
-        <Athlete Code="9000043" Order="1">
-          <Description GivenName="Edoardo" FamilyName="Bianchi" Gender="M" Organisation="ESP" BirthDate="2010-10-09" IFId="9000043"/>
-        </Athlete>
-        <Athlete Code="9000044" Order="2">
-          <Description GivenName="Alessandro" FamilyName="Rossi" Gender="M" Organisation="ESP" BirthDate="2011-01-19" IFId="9000044"/>
-        </Athlete>
-        <Athlete Code="9000045" Order="3">
-          <Description GivenName="Gabriele" FamilyName="Colombo" Gender="M" Organisation="ESP" BirthDate="2011-08-06" IFId="9000045"/>
-        </Athlete>
-        <Athlete Code="9000046" Order="4">
-          <Description GivenName="Edoardo" FamilyName="Costa" Gender="M" Organisation="ESP" BirthDate="2011-01-13" IFId="9000046"/>
-        </Athlete>
-        <Athlete Code="9000047" Order="5">
-          <Description GivenName="Gabriele" FamilyName="Ricci" Gender="M" Organisation="ESP" BirthDate="2009-04-19" IFId="9000047"/>
-        </Athlete>
-        <Athlete Code="9000048" Order="6">
-          <Description GivenName="Nicolò" FamilyName="Colombo" Gender="M" Organisation="ESP" BirthDate="2010-10-07" IFId="9000048"/>
-        </Athlete>
-        <Athlete Code="9000049" Order="7">
-          <Description GivenName="Davide" FamilyName="Ferrari" Gender="M" Organisation="ESP" BirthDate="2011-07-10" IFId="9000049"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="RU7MTEAM7---NCA01" Type="T" Organisation="NCA" SortOrder="5">
-      <Description TeamName="Nicaragua"/>
-      <Composition>
-        <Athlete Code="9000008" Order="1">
-          <Description GivenName="Iker" FamilyName="Morales" Gender="M" Organisation="NCA" BirthDate="2010-02-15" IFId="9000008"/>
-        </Athlete>
-        <Athlete Code="9000009" Order="2">
-          <Description GivenName="Iker" FamilyName="Flores" Gender="M" Organisation="NCA" BirthDate="2009-03-17" IFId="9000009"/>
-        </Athlete>
-        <Athlete Code="9000010" Order="3">
-          <Description GivenName="Javier" FamilyName="Pérez" Gender="M" Organisation="NCA" BirthDate="2010-12-01" IFId="9000010"/>
-        </Athlete>
-        <Athlete Code="9000011" Order="4">
-          <Description GivenName="Emilio" FamilyName="García" Gender="M" Organisation="NCA" BirthDate="2010-12-28" IFId="9000011"/>
-        </Athlete>
-        <Athlete Code="9000012" Order="5">
-          <Description GivenName="Rafael" FamilyName="Vargas" Gender="M" Organisation="NCA" BirthDate="2011-07-21" IFId="9000012"/>
-        </Athlete>
-        <Athlete Code="9000013" Order="6">
-          <Description GivenName="Santiago" FamilyName="Martínez" Gender="M" Organisation="NCA" BirthDate="2011-04-01" IFId="9000013"/>
-        </Athlete>
-        <Athlete Code="9000014" Order="7">
-          <Description GivenName="Sebastián" FamilyName="Flores" Gender="M" Organisation="NCA" BirthDate="2011-04-13" IFId="9000014"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="RU7MTEAM7---SYR01" Type="T" Organisation="SYR" SortOrder="6">
-      <Description TeamName="Syrian Arab Republic"/>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="RU7MTEAM7-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-23" Time="175949600" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-RU7-1.1" Codes="YOG-2026-2.4">
+    <Entry Code="RU7MTEAM7---BDI01" Type="T" Organisation="BDI" SortOrder="1">
+      <Description TeamName="Burundi"/>
       <Composition>
         <Athlete Code="9000029" Order="1">
-          <Description GivenName="Erlan" FamilyName="Karimov" Gender="M" Organisation="SYR" BirthDate="2011-12-10" IFId="9000029"/>
+          <Description GivenName="Juma" FamilyName="Ndiaye" Gender="M" Organisation="BDI" BirthDate="2010-12-11"/>
         </Athlete>
         <Athlete Code="9000030" Order="2">
-          <Description GivenName="Sanjar" FamilyName="Annayev" Gender="M" Organisation="SYR" BirthDate="2010-08-16" IFId="9000030"/>
+          <Description GivenName="Cheikh" FamilyName="Traoré" Gender="M" Organisation="BDI" BirthDate="2009-01-10"/>
         </Athlete>
         <Athlete Code="9000031" Order="3">
-          <Description GivenName="Aziz" FamilyName="Abdullaev" Gender="M" Organisation="SYR" BirthDate="2010-07-11" IFId="9000031"/>
+          <Description GivenName="Abdou" FamilyName="Diop" Gender="M" Organisation="BDI" BirthDate="2010-04-09"/>
         </Athlete>
         <Athlete Code="9000032" Order="4">
-          <Description GivenName="Bekzat" FamilyName="Orazov" Gender="M" Organisation="SYR" BirthDate="2009-05-04" IFId="9000032"/>
+          <Description GivenName="Kofi" FamilyName="Ndiaye" Gender="M" Organisation="BDI" BirthDate="2011-09-07"/>
         </Athlete>
         <Athlete Code="9000033" Order="5">
-          <Description GivenName="Nursultan" FamilyName="Islamov" Gender="M" Organisation="SYR" BirthDate="2011-09-07" IFId="9000033"/>
+          <Description GivenName="Tendai" FamilyName="Sow" Gender="M" Organisation="BDI" BirthDate="2009-04-01"/>
         </Athlete>
         <Athlete Code="9000034" Order="6">
-          <Description GivenName="Kanat" FamilyName="Toshev" Gender="M" Organisation="SYR" BirthDate="2009-04-01" IFId="9000034"/>
+          <Description GivenName="Abdou" FamilyName="Boateng" Gender="M" Organisation="BDI" BirthDate="2009-12-06"/>
         </Athlete>
         <Athlete Code="9000035" Order="7">
-          <Description GivenName="Bekzat" FamilyName="Nazarov" Gender="M" Organisation="SYR" BirthDate="2009-12-06" IFId="9000035"/>
+          <Description GivenName="Cheikh" FamilyName="Banda" Gender="M" Organisation="BDI" BirthDate="2011-11-14"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="RU7MTEAM7---TTO01" Type="T" Organisation="TTO" SortOrder="7">
-      <Description TeamName="Trinidad and Tobago"/>
+    <Entry Code="RU7MTEAM7---BUR01" Type="T" Organisation="BUR" SortOrder="2">
+      <Description TeamName="Burkina Faso"/>
+      <Composition>
+        <Athlete Code="9000043" Order="1">
+          <Description GivenName="Dohyun" FamilyName="Kim" Gender="M" Organisation="BUR" BirthDate="2011-01-19"/>
+        </Athlete>
+        <Athlete Code="9000044" Order="2">
+          <Description GivenName="Jihoo" FamilyName="Kwon" Gender="M" Organisation="BUR" BirthDate="2011-08-06"/>
+        </Athlete>
+        <Athlete Code="9000045" Order="3">
+          <Description GivenName="Siwoo" FamilyName="Lim" Gender="M" Organisation="BUR" BirthDate="2011-01-13"/>
+        </Athlete>
+        <Athlete Code="9000046" Order="4">
+          <Description GivenName="Jihoo" FamilyName="Kang" Gender="M" Organisation="BUR" BirthDate="2009-04-19"/>
+        </Athlete>
+        <Athlete Code="9000047" Order="5">
+          <Description GivenName="Yejun" FamilyName="Kwon" Gender="M" Organisation="BUR" BirthDate="2010-10-07"/>
+        </Athlete>
+        <Athlete Code="9000048" Order="6">
+          <Description GivenName="Sungmin" FamilyName="Lee" Gender="M" Organisation="BUR" BirthDate="2011-07-10"/>
+        </Athlete>
+        <Athlete Code="9000049" Order="7">
+          <Description GivenName="Taeyang" FamilyName="Yoon" Gender="M" Organisation="BUR" BirthDate="2009-06-20"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="RU7MTEAM7---CAY01" Type="T" Organisation="CAY" SortOrder="3">
+      <Description TeamName="Cayman Islands"/>
+      <Composition>
+        <Athlete Code="9000001" Order="1">
+          <Description GivenName="Ondřej" FamilyName="Černý" Gender="M" Organisation="CAY" BirthDate="2010-05-19"/>
+        </Athlete>
+        <Athlete Code="9000002" Order="2">
+          <Description GivenName="Jan" FamilyName="Zeman" Gender="M" Organisation="CAY" BirthDate="2011-07-19"/>
+        </Athlete>
+        <Athlete Code="9000003" Order="3">
+          <Description GivenName="Luka" FamilyName="Babić" Gender="M" Organisation="CAY" BirthDate="2009-12-26"/>
+        </Athlete>
+        <Athlete Code="9000004" Order="4">
+          <Description GivenName="Filip" FamilyName="Kovačević" Gender="M" Organisation="CAY" BirthDate="2011-03-12"/>
+        </Athlete>
+        <Athlete Code="9000005" Order="5">
+          <Description GivenName="Tomáš" FamilyName="Krejčí" Gender="M" Organisation="CAY" BirthDate="2011-11-24"/>
+        </Athlete>
+        <Athlete Code="9000006" Order="6">
+          <Description GivenName="Petar" FamilyName="Svoboda" Gender="M" Organisation="CAY" BirthDate="2010-11-17"/>
+        </Athlete>
+        <Athlete Code="9000007" Order="7">
+          <Description GivenName="Ivan" FamilyName="Pavlović" Gender="M" Organisation="CAY" BirthDate="2009-09-27"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="RU7MTEAM7---FRA01" Type="T" Organisation="FRA" SortOrder="4">
+      <Description TeamName="France"/>
+      <Composition>
+        <Athlete Code="9000036" Order="1">
+          <Description GivenName="Simone" FamilyName="Rinaldi" Gender="M" Organisation="FRA" BirthDate="2009-11-26"/>
+        </Athlete>
+        <Athlete Code="9000037" Order="2">
+          <Description GivenName="Edoardo" FamilyName="Gallo" Gender="M" Organisation="FRA" BirthDate="2010-04-17"/>
+        </Athlete>
+        <Athlete Code="9000038" Order="3">
+          <Description GivenName="Nicolò" FamilyName="Rossi" Gender="M" Organisation="FRA" BirthDate="2010-11-19"/>
+        </Athlete>
+        <Athlete Code="9000039" Order="4">
+          <Description GivenName="Tommaso" FamilyName="Fontana" Gender="M" Organisation="FRA" BirthDate="2011-07-02"/>
+        </Athlete>
+        <Athlete Code="9000040" Order="5">
+          <Description GivenName="Edoardo" FamilyName="Conti" Gender="M" Organisation="FRA" BirthDate="2009-04-02"/>
+        </Athlete>
+        <Athlete Code="9000041" Order="6">
+          <Description GivenName="Riccardo" FamilyName="Ferrari" Gender="M" Organisation="FRA" BirthDate="2009-05-10"/>
+        </Athlete>
+        <Athlete Code="9000042" Order="7">
+          <Description GivenName="Edoardo" FamilyName="Bianchi" Gender="M" Organisation="FRA" BirthDate="2010-10-09"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="RU7MTEAM7---MKD01" Type="T" Organisation="MKD" SortOrder="5">
+      <Description TeamName="North Macedonia"/>
+      <Composition>
+        <Athlete Code="9000050" Order="1">
+          <Description GivenName="Vilay" FamilyName="Sayavong" Gender="M" Organisation="MKD" BirthDate="2010-01-06"/>
+        </Athlete>
+        <Athlete Code="9000051" Order="2">
+          <Description GivenName="Bounmy" FamilyName="Inthavong" Gender="M" Organisation="MKD" BirthDate="2010-10-26"/>
+        </Athlete>
+        <Athlete Code="9000052" Order="3">
+          <Description GivenName="Phanit" FamilyName="Sok" Gender="M" Organisation="MKD" BirthDate="2010-04-09"/>
+        </Athlete>
+        <Athlete Code="9000053" Order="4">
+          <Description GivenName="Putra" FamilyName="Phommachanh" Gender="M" Organisation="MKD" BirthDate="2010-09-12"/>
+        </Athlete>
+        <Athlete Code="9000054" Order="5">
+          <Description GivenName="Putra" FamilyName="Wijaya" Gender="M" Organisation="MKD" BirthDate="2010-09-08"/>
+        </Athlete>
+        <Athlete Code="9000055" Order="6">
+          <Description GivenName="Anong" FamilyName="Susanto" Gender="M" Organisation="MKD" BirthDate="2009-02-05"/>
+        </Athlete>
+        <Athlete Code="9000056" Order="7">
+          <Description GivenName="Phanit" FamilyName="Sisouphanh" Gender="M" Organisation="MKD" BirthDate="2011-04-09"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="RU7MTEAM7---PAK01" Type="T" Organisation="PAK" SortOrder="6">
+      <Description TeamName="Pakistan"/>
+      <Composition>
+        <Athlete Code="9000008" Order="1">
+          <Description GivenName="Vilay" FamilyName="Sok" Gender="M" Organisation="PAK" BirthDate="2010-12-01"/>
+        </Athlete>
+        <Athlete Code="9000009" Order="2">
+          <Description GivenName="Rithy" FamilyName="Vongsa" Gender="M" Organisation="PAK" BirthDate="2010-12-28"/>
+        </Athlete>
+        <Athlete Code="9000010" Order="3">
+          <Description GivenName="Dara" FamilyName="Santoso" Gender="M" Organisation="PAK" BirthDate="2011-07-21"/>
+        </Athlete>
+        <Athlete Code="9000011" Order="4">
+          <Description GivenName="Phanit" FamilyName="Sisouphanh" Gender="M" Organisation="PAK" BirthDate="2011-04-01"/>
+        </Athlete>
+        <Athlete Code="9000012" Order="5">
+          <Description GivenName="Bounmy" FamilyName="Wijaya" Gender="M" Organisation="PAK" BirthDate="2011-04-13"/>
+        </Athlete>
+        <Athlete Code="9000013" Order="6">
+          <Description GivenName="Sovann" FamilyName="Sok" Gender="M" Organisation="PAK" BirthDate="2011-06-15"/>
+        </Athlete>
+        <Athlete Code="9000014" Order="7">
+          <Description GivenName="Khamla" FamilyName="Halim" Gender="M" Organisation="PAK" BirthDate="2011-10-24"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="RU7MTEAM7---UAE01" Type="T" Organisation="UAE" SortOrder="7">
+      <Description TeamName="United Arab Emirates"/>
       <Composition>
         <Athlete Code="9000022" Order="1">
-          <Description GivenName="Simone" FamilyName="Costa" Gender="M" Organisation="TTO" BirthDate="2011-06-15" IFId="9000022"/>
+          <Description GivenName="Sindre" FamilyName="Lund" Gender="M" Organisation="UAE" BirthDate="2009-02-26"/>
         </Athlete>
         <Athlete Code="9000023" Order="2">
-          <Description GivenName="Pietro" FamilyName="Rossi" Gender="M" Organisation="TTO" BirthDate="2009-11-06" IFId="9000023"/>
+          <Description GivenName="Sindre" FamilyName="Nygaard" Gender="M" Organisation="UAE" BirthDate="2010-01-27"/>
         </Athlete>
         <Athlete Code="9000024" Order="3">
-          <Description GivenName="Alessandro" FamilyName="Rinaldi" Gender="M" Organisation="TTO" BirthDate="2009-09-26" IFId="9000024"/>
+          <Description GivenName="Mikkel" FamilyName="Johansson" Gender="M" Organisation="UAE" BirthDate="2009-01-15"/>
         </Athlete>
         <Athlete Code="9000025" Order="4">
-          <Description GivenName="Riccardo" FamilyName="Rossi" Gender="M" Organisation="TTO" BirthDate="2011-02-03" IFId="9000025"/>
+          <Description GivenName="Emil" FamilyName="Nygaard" Gender="M" Organisation="UAE" BirthDate="2010-04-09"/>
         </Athlete>
         <Athlete Code="9000026" Order="5">
-          <Description GivenName="Lorenzo" FamilyName="Greco" Gender="M" Organisation="TTO" BirthDate="2009-05-08" IFId="9000026"/>
+          <Description GivenName="Oskar" FamilyName="Nygaard" Gender="M" Organisation="UAE" BirthDate="2011-03-12"/>
         </Athlete>
         <Athlete Code="9000027" Order="6">
-          <Description GivenName="Riccardo" FamilyName="Ferrari" Gender="M" Organisation="TTO" BirthDate="2011-03-12" IFId="9000027"/>
+          <Description GivenName="Elias" FamilyName="Johansson" Gender="M" Organisation="UAE" BirthDate="2009-03-09"/>
         </Athlete>
         <Athlete Code="9000028" Order="7">
-          <Description GivenName="Alessandro" FamilyName="Bianchi" Gender="M" Organisation="TTO" BirthDate="2010-09-06" IFId="9000028"/>
+          <Description GivenName="Sindre" FamilyName="Karlsson" Gender="M" Organisation="UAE" BirthDate="2011-05-21"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="RU7MTEAM7---VAN01" Type="T" Organisation="VAN" SortOrder="8">
-      <Description TeamName="Vanuatu"/>
+    <Entry Code="RU7MTEAM7---YEM01" Type="T" Organisation="YEM" SortOrder="8">
+      <Description TeamName="Yemen"/>
       <Composition>
         <Athlete Code="9000015" Order="1">
-          <Description GivenName="Elias" FamilyName="Kebede" Gender="M" Organisation="VAN" BirthDate="2011-06-15" IFId="9000015"/>
+          <Description GivenName="Somchai" FamilyName="Chea" Gender="M" Organisation="YEM" BirthDate="2011-09-26"/>
         </Athlete>
         <Athlete Code="9000016" Order="2">
-          <Description GivenName="Bekele" FamilyName="Mengistu" Gender="M" Organisation="VAN" BirthDate="2011-10-24" IFId="9000016"/>
+          <Description GivenName="Phanit" FamilyName="Wijaya" Gender="M" Organisation="YEM" BirthDate="2011-04-14"/>
         </Athlete>
         <Athlete Code="9000017" Order="3">
-          <Description GivenName="Abebe" FamilyName="Alemu" Gender="M" Organisation="VAN" BirthDate="2011-09-26" IFId="9000017"/>
+          <Description GivenName="Somchai" FamilyName="Seng" Gender="M" Organisation="YEM" BirthDate="2010-10-18"/>
         </Athlete>
         <Athlete Code="9000018" Order="4">
-          <Description GivenName="Dawit" FamilyName="Worku" Gender="M" Organisation="VAN" BirthDate="2011-04-14" IFId="9000018"/>
+          <Description GivenName="Bounmy" FamilyName="Wijaya" Gender="M" Organisation="YEM" BirthDate="2010-08-27"/>
         </Athlete>
         <Athlete Code="9000019" Order="5">
-          <Description GivenName="Abebe" FamilyName="Desta" Gender="M" Organisation="VAN" BirthDate="2010-10-18" IFId="9000019"/>
+          <Description GivenName="Sengphet" FamilyName="Chea" Gender="M" Organisation="YEM" BirthDate="2010-01-18"/>
         </Athlete>
         <Athlete Code="9000020" Order="6">
-          <Description GivenName="Yonas" FamilyName="Worku" Gender="M" Organisation="VAN" BirthDate="2010-08-27" IFId="9000020"/>
+          <Description GivenName="Sovann" FamilyName="Santoso" Gender="M" Organisation="YEM" BirthDate="2011-06-15"/>
         </Athlete>
         <Athlete Code="9000021" Order="7">
-          <Description GivenName="Haile" FamilyName="Alemu" Gender="M" Organisation="VAN" BirthDate="2010-01-18" IFId="9000021"/>
+          <Description GivenName="Dara" FamilyName="Vongsa" Gender="M" Organisation="YEM" BirthDate="2009-11-06"/>
         </Athlete>
       </Composition>
     </Entry>

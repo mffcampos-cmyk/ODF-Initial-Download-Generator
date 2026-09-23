@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="ARCXTEAM2-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-09-22" Time="205827602" LogicalDate="2026-09-22" Source="AWAARC1">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-ARC-1.0" Codes="SYOG-2026-CC-V0.04">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="ARCXTEAM2-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-23" Time="175942337" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-ARC-1.2" Codes="YOG-2026-2.4">
     <Entry Code="ARCXTEAM2---ASA01" Type="T" Organisation="ASA" SortOrder="1">
       <Description TeamName="American Samoa"/>
       <Composition>
         <Athlete Code="9000001" Order="1">
-          <Description GivenName="Ethan" FamilyName="Mitchell" Gender="M" Organisation="ASA" BirthDate="2009-05-04" IFId="9000001"/>
+          <Description GivenName="Ethan" FamilyName="Mitchell" Gender="M" Organisation="ASA" BirthDate="2009-05-04"/>
         </Athlete>
         <Athlete Code="9000035" Order="2">
-          <Description GivenName="Freya" FamilyName="Smith" Gender="F" Organisation="ASA" BirthDate="2009-11-06" IFId="9000035"/>
+          <Description GivenName="Freya" FamilyName="Smith" Gender="F" Organisation="ASA" BirthDate="2009-11-06"/>
         </Athlete>
       </Composition>
     </Entry>
@@ -16,10 +16,10 @@
       <Description TeamName="Bahamas"/>
       <Composition>
         <Athlete Code="9000002" Order="1">
-          <Description GivenName="Akeem" FamilyName="Greaves" Gender="M" Organisation="BAH" BirthDate="2010-08-21" IFId="9000002"/>
+          <Description GivenName="Akeem" FamilyName="Greaves" Gender="M" Organisation="BAH" BirthDate="2010-08-21"/>
         </Athlete>
         <Athlete Code="9000037" Order="2">
-          <Description GivenName="Danielle" FamilyName="Greaves" Gender="F" Organisation="BAH" BirthDate="2010-01-27" IFId="9000037"/>
+          <Description GivenName="Danielle" FamilyName="Greaves" Gender="F" Organisation="BAH" BirthDate="2010-01-27"/>
         </Athlete>
       </Composition>
     </Entry>
@@ -27,10 +27,10 @@
       <Description TeamName="Burundi"/>
       <Composition>
         <Athlete Code="9000004" Order="1">
-          <Description GivenName="Kwame" FamilyName="Cissé" Gender="M" Organisation="BDI" BirthDate="2010-07-20" IFId="9000004"/>
+          <Description GivenName="Kwame" FamilyName="Cissé" Gender="M" Organisation="BDI" BirthDate="2010-07-20"/>
         </Athlete>
         <Athlete Code="9000039" Order="2">
-          <Description GivenName="Ama" FamilyName="Sarr" Gender="F" Organisation="BDI" BirthDate="2010-04-09" IFId="9000039"/>
+          <Description GivenName="Ama" FamilyName="Sarr" Gender="F" Organisation="BDI" BirthDate="2010-04-09"/>
         </Athlete>
       </Composition>
     </Entry>
@@ -38,10 +38,10 @@
       <Description TeamName="Costa Rica"/>
       <Composition>
         <Athlete Code="9000008" Order="1">
-          <Description GivenName="Javier" FamilyName="Castillo" Gender="M" Organisation="CRC" BirthDate="2009-07-24" IFId="9000008"/>
+          <Description GivenName="Javier" FamilyName="Castillo" Gender="M" Organisation="CRC" BirthDate="2009-07-24"/>
         </Athlete>
         <Athlete Code="9000044" Order="2">
-          <Description GivenName="Gabriela" FamilyName="Ramírez" Gender="F" Organisation="CRC" BirthDate="2009-01-10" IFId="9000044"/>
+          <Description GivenName="Gabriela" FamilyName="Ramírez" Gender="F" Organisation="CRC" BirthDate="2009-01-10"/>
         </Athlete>
       </Composition>
     </Entry>
@@ -49,10 +49,10 @@
       <Description TeamName="Czechia"/>
       <Composition>
         <Athlete Code="9000010" Order="1">
-          <Description GivenName="Tomáš" FamilyName="Černý" Gender="M" Organisation="CZE" BirthDate="2010-04-22" IFId="9000010"/>
+          <Description GivenName="Tomáš" FamilyName="Černý" Gender="M" Organisation="CZE" BirthDate="2010-04-22"/>
         </Athlete>
         <Athlete Code="9000045" Order="2">
-          <Description GivenName="Adéla" FamilyName="Horvat" Gender="F" Organisation="CZE" BirthDate="2010-04-09" IFId="9000045"/>
+          <Description GivenName="Adéla" FamilyName="Horvat" Gender="F" Organisation="CZE" BirthDate="2010-04-09"/>
         </Athlete>
       </Composition>
     </Entry>
@@ -60,21 +60,21 @@
       <Description TeamName="Egypt"/>
       <Composition>
         <Athlete Code="9000011" Order="1">
-          <Description GivenName="Tariq" FamilyName="Sabbagh" Gender="M" Organisation="EGY" BirthDate="2010-05-01" IFId="9000011"/>
+          <Description GivenName="Tariq" FamilyName="Sabbagh" Gender="M" Organisation="EGY" BirthDate="2010-05-01"/>
         </Athlete>
         <Athlete Code="9000046" Order="2">
-          <Description GivenName="Amira" FamilyName="Mansour" Gender="F" Organisation="EGY" BirthDate="2011-09-07" IFId="9000046"/>
+          <Description GivenName="Amira" FamilyName="Mansour" Gender="F" Organisation="EGY" BirthDate="2011-09-07"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="ARCXTEAM2---FRG01" Type="T" Organisation="FRG" SortOrder="7">
-      <Description TeamName="Federal Republic of Germany"/>
+    <Entry Code="ARCXTEAM2---GER01" Type="T" Organisation="GER" SortOrder="7">
+      <Description TeamName="Germany"/>
       <Composition>
         <Athlete Code="9000013" Order="1">
-          <Description GivenName="Jonas" FamilyName="Koch" Gender="M" Organisation="FRG" BirthDate="2011-05-04" IFId="9000013"/>
+          <Description GivenName="Kamal" FamilyName="Mia" Gender="M" Organisation="GER" BirthDate="2011-05-04"/>
         </Athlete>
         <Athlete Code="9000047" Order="2">
-          <Description GivenName="Laura" FamilyName="Wagner" Gender="F" Organisation="FRG" BirthDate="2009-04-01" IFId="9000047"/>
+          <Description GivenName="Lamia" FamilyName="Akter" Gender="F" Organisation="GER" BirthDate="2009-04-01"/>
         </Athlete>
       </Composition>
     </Entry>
@@ -82,10 +82,10 @@
       <Description TeamName="Ghana"/>
       <Composition>
         <Athlete Code="9000014" Order="1">
-          <Description GivenName="Juma" FamilyName="Diop" Gender="M" Organisation="GHA" BirthDate="2011-12-17" IFId="9000014"/>
+          <Description GivenName="Juma" FamilyName="Diop" Gender="M" Organisation="GHA" BirthDate="2011-12-17"/>
         </Athlete>
         <Athlete Code="9000048" Order="2">
-          <Description GivenName="Khady" FamilyName="Boateng" Gender="F" Organisation="GHA" BirthDate="2009-12-06" IFId="9000048"/>
+          <Description GivenName="Khady" FamilyName="Boateng" Gender="F" Organisation="GHA" BirthDate="2009-12-06"/>
         </Athlete>
       </Composition>
     </Entry>
@@ -93,10 +93,10 @@
       <Description TeamName="Italy"/>
       <Composition>
         <Athlete Code="9000018" Order="1">
-          <Description GivenName="Edoardo" FamilyName="Barbieri" Gender="M" Organisation="ITA" BirthDate="2010-07-22" IFId="9000018"/>
+          <Description GivenName="Edoardo" FamilyName="Barbieri" Gender="M" Organisation="ITA" BirthDate="2010-07-22"/>
         </Athlete>
         <Athlete Code="9000052" Order="2">
-          <Description GivenName="Vittoria" FamilyName="Rossi" Gender="F" Organisation="ITA" BirthDate="2010-11-19" IFId="9000052"/>
+          <Description GivenName="Vittoria" FamilyName="Rossi" Gender="F" Organisation="ITA" BirthDate="2010-11-19"/>
         </Athlete>
       </Composition>
     </Entry>
@@ -104,76 +104,76 @@
       <Description TeamName="Jordan"/>
       <Composition>
         <Athlete Code="9000019" Order="1">
-          <Description GivenName="Karim" FamilyName="Awad" Gender="M" Organisation="JOR" BirthDate="2011-12-25" IFId="9000019"/>
+          <Description GivenName="Karim" FamilyName="Awad" Gender="M" Organisation="JOR" BirthDate="2011-12-25"/>
         </Athlete>
         <Athlete Code="9000053" Order="2">
-          <Description GivenName="Rania" FamilyName="Zahran" Gender="F" Organisation="JOR" BirthDate="2011-07-02" IFId="9000053"/>
+          <Description GivenName="Rania" FamilyName="Zahran" Gender="F" Organisation="JOR" BirthDate="2011-07-02"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="ARCXTEAM2---KOR01" Type="T" Organisation="KOR" SortOrder="11">
-      <Description TeamName="Republic of Korea"/>
+    <Entry Code="ARCXTEAM2---KAZ01" Type="T" Organisation="KAZ" SortOrder="11">
+      <Description TeamName="Kazakhstan"/>
       <Composition>
         <Athlete Code="9000020" Order="1">
-          <Description GivenName="Yejun" FamilyName="Shin" Gender="M" Organisation="KOR" BirthDate="2010-02-15" IFId="9000020"/>
+          <Description GivenName="Nolan" FamilyName="Fontaine" Gender="M" Organisation="KAZ" BirthDate="2010-02-15"/>
         </Athlete>
-        <Athlete Code="9000055" Order="2">
-          <Description GivenName="Yuna" FamilyName="Lee" Gender="F" Organisation="KOR" BirthDate="2009-05-10" IFId="9000055"/>
+        <Athlete Code="9000054" Order="2">
+          <Description GivenName="Justine" FamilyName="Laurent" Gender="F" Organisation="KAZ" BirthDate="2009-04-02"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="ARCXTEAM2---LAO01" Type="T" Organisation="LAO" SortOrder="12">
-      <Description TeamName="Lao People's Democratic Republic"/>
+    <Entry Code="ARCXTEAM2---KOR01" Type="T" Organisation="KOR" SortOrder="12">
+      <Description TeamName="Republic of Korea"/>
       <Composition>
         <Athlete Code="9000021" Order="1">
-          <Description GivenName="Putra" FamilyName="Wijaya" Gender="M" Organisation="LAO" BirthDate="2009-03-17" IFId="9000021"/>
+          <Description GivenName="Yejun" FamilyName="Jang" Gender="M" Organisation="KOR" BirthDate="2009-03-17"/>
         </Athlete>
-        <Athlete Code="9000057" Order="2">
-          <Description GivenName="Ketsana" FamilyName="Vongsa" Gender="F" Organisation="LAO" BirthDate="2011-01-19" IFId="9000057"/>
+        <Athlete Code="9000056" Order="2">
+          <Description GivenName="Jimin" FamilyName="Park" Gender="F" Organisation="KOR" BirthDate="2010-10-09"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="ARCXTEAM2---PLE01" Type="T" Organisation="PLE" SortOrder="13">
-      <Description TeamName="Palestine"/>
+    <Entry Code="ARCXTEAM2---LAO01" Type="T" Organisation="LAO" SortOrder="13">
+      <Description TeamName="Lao People's Democratic Republic"/>
       <Composition>
-        <Athlete Code="9000027" Order="1">
-          <Description GivenName="Sami" FamilyName="Awad" Gender="M" Organisation="PLE" BirthDate="2011-06-15" IFId="9000027"/>
+        <Athlete Code="9000022" Order="1">
+          <Description GivenName="Vilay" FamilyName="Sok" Gender="M" Organisation="LAO" BirthDate="2010-12-01"/>
         </Athlete>
         <Athlete Code="9000058" Order="2">
-          <Description GivenName="Nour" FamilyName="Karam" Gender="F" Organisation="PLE" BirthDate="2011-08-06" IFId="9000058"/>
+          <Description GivenName="Soudalath" FamilyName="Sayavong" Gender="F" Organisation="LAO" BirthDate="2011-08-06"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="ARCXTEAM2---PUR01" Type="T" Organisation="PUR" SortOrder="14">
-      <Description TeamName="Puerto Rico"/>
+    <Entry Code="ARCXTEAM2---PLE01" Type="T" Organisation="PLE" SortOrder="14">
+      <Description TeamName="Palestine"/>
       <Composition>
         <Athlete Code="9000028" Order="1">
-          <Description GivenName="Alejandro" FamilyName="Castillo" Gender="M" Organisation="PUR" BirthDate="2011-10-24" IFId="9000028"/>
+          <Description GivenName="Hamza" FamilyName="Zahran" Gender="M" Organisation="PLE" BirthDate="2011-10-24"/>
         </Athlete>
         <Athlete Code="9000059" Order="2">
-          <Description GivenName="Elena" FamilyName="Vargas" Gender="F" Organisation="PUR" BirthDate="2011-01-13" IFId="9000059"/>
+          <Description GivenName="Reem" FamilyName="Qasem" Gender="F" Organisation="PLE" BirthDate="2011-01-13"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="ARCXTEAM2---SWE01" Type="T" Organisation="SWE" SortOrder="15">
-      <Description TeamName="Sweden"/>
+    <Entry Code="ARCXTEAM2---PUR01" Type="T" Organisation="PUR" SortOrder="15">
+      <Description TeamName="Puerto Rico"/>
       <Composition>
         <Athlete Code="9000029" Order="1">
-          <Description GivenName="Emil" FamilyName="Olsen" Gender="M" Organisation="SWE" BirthDate="2011-09-26" IFId="9000029"/>
+          <Description GivenName="Diego" FamilyName="Torres" Gender="M" Organisation="PUR" BirthDate="2011-09-26"/>
         </Athlete>
-        <Athlete Code="9000062" Order="2">
-          <Description GivenName="Signe" FamilyName="Johansson" Gender="F" Organisation="SWE" BirthDate="2011-07-10" IFId="9000062"/>
+        <Athlete Code="9000060" Order="2">
+          <Description GivenName="Isabella" FamilyName="Pérez" Gender="F" Organisation="PUR" BirthDate="2009-04-19"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="ARCXTEAM2---URS01" Type="T" Organisation="URS" SortOrder="16">
-      <Description TeamName="USSR"/>
+    <Entry Code="ARCXTEAM2---SWE01" Type="T" Organisation="SWE" SortOrder="16">
+      <Description TeamName="Sweden"/>
       <Composition>
-        <Athlete Code="9000031" Order="1">
-          <Description GivenName="Luka" FamilyName="Babić" Gender="M" Organisation="URS" BirthDate="2010-10-18" IFId="9000031"/>
+        <Athlete Code="9000030" Order="1">
+          <Description GivenName="Anton" FamilyName="Berg" Gender="M" Organisation="SWE" BirthDate="2011-04-14"/>
         </Athlete>
         <Athlete Code="9000063" Order="2">
-          <Description GivenName="Nikolina" FamilyName="Babić" Gender="F" Organisation="URS" BirthDate="2009-06-20" IFId="9000063"/>
+          <Description GivenName="Thea" FamilyName="Hansen" Gender="F" Organisation="SWE" BirthDate="2009-06-20"/>
         </Athlete>
       </Composition>
     </Entry>
@@ -181,10 +181,10 @@
       <Description TeamName="United States of America"/>
       <Composition>
         <Athlete Code="9000032" Order="1">
-          <Description GivenName="Liam" FamilyName="Wright" Gender="M" Organisation="USA" BirthDate="2010-08-27" IFId="9000032"/>
+          <Description GivenName="Liam" FamilyName="Wright" Gender="M" Organisation="USA" BirthDate="2010-08-27"/>
         </Athlete>
         <Athlete Code="9000064" Order="2">
-          <Description GivenName="Ella" FamilyName="Bishop" Gender="F" Organisation="USA" BirthDate="2010-01-06" IFId="9000064"/>
+          <Description GivenName="Ella" FamilyName="Bishop" Gender="F" Organisation="USA" BirthDate="2010-01-06"/>
         </Athlete>
       </Composition>
     </Entry>

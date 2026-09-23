@@ -56,6 +56,12 @@ from __future__ import annotations
 MAX_LENGTHS: dict[tuple[str, str], int] = {
     # GEN DD: "TVTeamName | M | S(21) | TV Team Name".
     ("Team", "TVTeamName"): 21,
+    # GEN DD, Participant. The real SYOG26 feed cuts at exactly these widths.
+    ("Participant", "PrintName"): 35,
+    ("Participant", "PrintInitialName"): 18,
+    ("Participant", "TVName"): 35,
+    ("Participant", "TVInitialName"): 18,
+    ("Participant", "TVFamilyName"): 18,
 }
 
 

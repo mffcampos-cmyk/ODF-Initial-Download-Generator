@@ -1,7 +1,8 @@
 """The Games profile is the only place Games-specific message conventions live.
 
-SYOG26's profile must reproduce exactly the constants envelope.py shipped
-with, or the refactor in Task 2 silently changes SYOG2026 output.
+SYOG26's profile carries the values the real SYOG26 initial download stamps
+(received 2026-09-23): the GEN and discipline Data Dictionary references, the
+Common Codes release, and Source per message type.
 """
 import tempfile
 from pathlib import Path
@@ -9,25 +10,88 @@ from pathlib import Path
 from generator.games import GamesProfile, GamesProfileError, load_profile
 
 
-def test_syog26_profile_reproduces_the_shipped_constants():
+def test_syog26_profile_carries_the_real_feed_values():
     p = load_profile("SYOG26")
-    assert p.gen == "OWG-2026-GEN-V4.5"
-    assert p.codes == "SYOG-2026-CC-V0.04"
-    assert p.sport_template == "SYOG-2026-{disc}-1.0"
-    assert p.sources == {"ARC": "AWAARC1", "SWM": "CTO1"}
-    assert p.default_source == "OGEN"
+    assert p.gen == "OWG2026-GEN-4.6"
+    assert p.codes == "YOG-2026-{version}"
+    assert p.sport_template is None
+    assert len(p.sports) == 25
+    assert p.sources == {"DT_SCHEDULE": "OSM"}
+    assert p.default_source == "SEQ"
 
 
-def test_sport_renders_per_discipline():
+def test_sport_is_each_disciplines_own_reference():
     p = load_profile("SYOG26")
-    assert p.sport("SWM") == "SYOG-2026-SWM-1.0"
-    assert p.sport("ARC") == "SYOG-2026-ARC-1.0"
+    assert p.sport("SWM") == "SYOG-2026-SWM-1.2"
+    assert p.sport("ARC") == "SYOG-2026-ARC-1.2"
+    assert p.sport("EQU") == "SYOG-2026-EQU-EJP-1.0"
 
 
-def test_source_falls_back_to_default():
+def test_a_discipline_missing_from_sports_raises_rather_than_invents():
     p = load_profile("SYOG26")
-    assert p.source("ARC") == "AWAARC1"
-    assert p.source("ATH") == "OGEN"
+    try:
+        p.sport("ZZZ")
+    except GamesProfileError as e:
+        assert "ZZZ" in str(e)
+    else:
+        raise AssertionError("expected GamesProfileError")
+
+
+def test_source_follows_the_message_type():
+    p = load_profile("SYOG26")
+    assert p.source("DT_SCHEDULE") == "OSM"
+    assert p.source("DT_ENTRIES") == "SEQ"
+    assert p.source("DT_PARTIC") == "SEQ"
+
+
+def test_codes_reference_fills_the_release():
+    p = load_profile("SYOG26")
+    assert p.codes_reference("2.4") == "YOG-2026-2.4"
+
+
+def test_codes_reference_refuses_without_a_release():
+    p = load_profile("SYOG26")
+    try:
+        p.codes_reference(None)
+    except GamesProfileError as e:
+        assert "_v_" in str(e)
+    else:
+        raise AssertionError("expected GamesProfileError")
+
+
+def test_literal_codes_needs_no_release():
+    p = GamesProfile(pack_name="X", label="X", codes="X-CC-1.0")
+    assert p.codes_reference(None) == "X-CC-1.0"
+
+
+def test_sports_table_satisfies_the_sport_requirement():
+    p = GamesProfile(pack_name="X", label="X", gen="G", codes="C",
+                     sports={"ARC": "X-ARC-1.0"})
+    assert p.complete
+
+
+def test_codes_with_an_unknown_placeholder_raises():
+    with tempfile.TemporaryDirectory() as d:
+        (Path(d) / "X1.yaml").write_text(
+            "label: X\ncodes: 'YOG-{release}'\n", encoding="utf-8")
+        try:
+            load_profile("X1", profile_dir=d)
+        except GamesProfileError as e:
+            assert "{version}" in str(e)
+        else:
+            raise AssertionError("expected GamesProfileError")
+
+
+def test_non_mapping_sports_raises():
+    with tempfile.TemporaryDirectory() as d:
+        (Path(d) / "X2.yaml").write_text(
+            "label: X\nsports: [ARC]\n", encoding="utf-8")
+        try:
+            load_profile("X2", profile_dir=d)
+        except GamesProfileError as e:
+            assert "sports" in str(e)
+        else:
+            raise AssertionError("expected GamesProfileError")
 
 
 def test_syog26_profile_is_complete():

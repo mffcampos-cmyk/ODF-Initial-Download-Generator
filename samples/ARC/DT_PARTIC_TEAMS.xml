@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="ARC-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-22" Time="205827595" LogicalDate="2026-09-22" Source="AWAARC1">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-ARC-1.0" Codes="SYOG-2026-CC-V0.04">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="ARC-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-23" Time="175942331" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-ARC-1.2" Codes="YOG-2026-2.4">
     <Team Code="ARCXTEAM2---ASA01" Status="ENT" Organisation="ASA" Name="American Samoa" ShortName="American Samoa" TVTeamName="American Samoa" PSCBName="AMERICAN SAMOA" PSCBShortName="AMERICAN SAMOA" PSCBLongName="AMERICAN SAMOA" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
@@ -19,7 +19,7 @@
     <Team Code="ARCXTEAM2---EGY01" Status="ENT" Organisation="EGY" Name="Egypt" ShortName="Egypt" TVTeamName="Egypt" PSCBName="EGYPT" PSCBShortName="EGYPT" PSCBLongName="EGYPT" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---FRG01" Status="ENT" Organisation="FRG" Name="Federal Republic of Germany" ShortName="FRG" TVTeamName="Federal Republic of G" PSCBName="FEDERAL REPUBLIC OF GERMANY" PSCBShortName="FRG" PSCBLongName="FEDERAL REPUBLIC OF GERMANY" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---GER01" Status="ENT" Organisation="GER" Name="Germany" ShortName="Germany" TVTeamName="Germany" PSCBName="GERMANY" PSCBShortName="GERMANY" PSCBLongName="GERMANY" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
     <Team Code="ARCXTEAM2---GHA01" Status="ENT" Organisation="GHA" Name="Ghana" ShortName="Ghana" TVTeamName="Ghana" PSCBName="GHANA" PSCBShortName="GHANA" PSCBLongName="GHANA" Gender="X" TeamType="ORG">
@@ -29,6 +29,9 @@
       <Discipline Code="ARC-------------------------------"/>
     </Team>
     <Team Code="ARCXTEAM2---JOR01" Status="ENT" Organisation="JOR" Name="Jordan" ShortName="Jordan" TVTeamName="Jordan" PSCBName="JORDAN" PSCBShortName="JORDAN" PSCBLongName="JORDAN" Gender="X" TeamType="ORG">
+      <Discipline Code="ARC-------------------------------"/>
+    </Team>
+    <Team Code="ARCXTEAM2---KAZ01" Status="ENT" Organisation="KAZ" Name="Kazakhstan" ShortName="Kazakhstan" TVTeamName="Kazakhstan" PSCBName="KAZAKHSTAN" PSCBShortName="KAZAKHSTAN" PSCBLongName="KAZAKHSTAN" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
     <Team Code="ARCXTEAM2---KOR01" Status="ENT" Organisation="KOR" Name="Republic of Korea" ShortName="Korea" TVTeamName="Republic of Korea" PSCBName="REPUBLIC OF KOREA" PSCBShortName="KOREA" PSCBLongName="REPUBLIC OF KOREA" Gender="X" TeamType="ORG">
@@ -44,9 +47,6 @@
       <Discipline Code="ARC-------------------------------"/>
     </Team>
     <Team Code="ARCXTEAM2---SWE01" Status="ENT" Organisation="SWE" Name="Sweden" ShortName="Sweden" TVTeamName="Sweden" PSCBName="SWEDEN" PSCBShortName="SWEDEN" PSCBLongName="SWEDEN" Gender="X" TeamType="ORG">
-      <Discipline Code="ARC-------------------------------"/>
-    </Team>
-    <Team Code="ARCXTEAM2---URS01" Status="ENT" Organisation="URS" Name="USSR" ShortName="USSR" TVTeamName="USSR" PSCBName="USSR" PSCBShortName="USSR" PSCBLongName="USSR" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
     <Team Code="ARCXTEAM2---USA01" Status="ENT" Organisation="USA" Name="United States of America" ShortName="United States" TVTeamName="United States of Amer" PSCBName="UNITED STATES OF AMERICA" PSCBShortName="UNITED STATES" PSCBLongName="UNITED STATES OF AMERICA" Gender="X" TeamType="ORG">

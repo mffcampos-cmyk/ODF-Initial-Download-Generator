@@ -1,227 +1,227 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="JUDW78KG--------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-09-22" Time="205853078" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-JUD-1.0" Codes="SYOG-2026-CC-V0.04">
-    <Entry Code="9000246" Type="A" Organisation="BAN" SortOrder="1">
-      <Composition>
-        <Athlete Code="9000246" Order="1">
-          <Description GivenName="Rima" FamilyName="Karim" Gender="F" Organisation="BAN" BirthDate="2009-12-19" IFId="9000246"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000240" Type="A" Organisation="BLR" SortOrder="2">
-      <Composition>
-        <Athlete Code="9000240" Order="1">
-          <Description GivenName="Saltanat" FamilyName="Abdullaev" Gender="F" Organisation="BLR" BirthDate="2011-02-05" IFId="9000240"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000248" Type="A" Organisation="BRN" SortOrder="3">
-      <Composition>
-        <Athlete Code="9000248" Order="1">
-          <Description GivenName="Dana" FamilyName="Mansour" Gender="F" Organisation="BRN" BirthDate="2010-10-11" IFId="9000248"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000241" Type="A" Organisation="CAF" SortOrder="4">
-      <Composition>
-        <Athlete Code="9000241" Order="1">
-          <Description GivenName="Beatrice" FamilyName="Colombo" Gender="F" Organisation="CAF" BirthDate="2011-06-26" IFId="9000241"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000256" Type="A" Organisation="CUB" SortOrder="5">
-      <Composition>
-        <Athlete Code="9000256" Order="1">
-          <Description GivenName="Minseo" FamilyName="Jang" Gender="F" Organisation="CUB" BirthDate="2010-01-19" IFId="9000256"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000226" Type="A" Organisation="DEN" SortOrder="6">
-      <Composition>
-        <Athlete Code="9000226" Order="1">
-          <Description GivenName="Louise" FamilyName="Martin" Gender="F" Organisation="DEN" BirthDate="2011-05-11" IFId="9000226"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000230" Type="A" Organisation="DOM" SortOrder="7">
-      <Composition>
-        <Athlete Code="9000230" Order="1">
-          <Description GivenName="Aliya" FamilyName="Bekov" Gender="F" Organisation="DOM" BirthDate="2010-09-26" IFId="9000230"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000247" Type="A" Organisation="ESP" SortOrder="8">
-      <Composition>
-        <Athlete Code="9000247" Order="1">
-          <Description GivenName="Ludovica" FamilyName="Ricci" Gender="F" Organisation="ESP" BirthDate="2010-11-12" IFId="9000247"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000235" Type="A" Organisation="GAB" SortOrder="9">
-      <Composition>
-        <Athlete Code="9000235" Order="1">
-          <Description GivenName="Chiara" FamilyName="Ricci" Gender="F" Organisation="GAB" BirthDate="2010-09-11" IFId="9000235"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000231" Type="A" Organisation="GUY" SortOrder="10">
-      <Composition>
-        <Athlete Code="9000231" Order="1">
-          <Description GivenName="Louise" FamilyName="Marchand" Gender="F" Organisation="GUY" BirthDate="2011-08-04" IFId="9000231"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000254" Type="A" Organisation="IRI" SortOrder="11">
-      <Composition>
-        <Athlete Code="9000254" Order="1">
-          <Description GivenName="Charlotte" FamilyName="Carter" Gender="F" Organisation="IRI" BirthDate="2011-09-21" IFId="9000254"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000237" Type="A" Organisation="JOR" SortOrder="12">
-      <Composition>
-        <Athlete Code="9000237" Order="1">
-          <Description GivenName="Amira" FamilyName="Al-Sayed" Gender="F" Organisation="JOR" BirthDate="2010-11-18" IFId="9000237"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000227" Type="A" Organisation="KOR" SortOrder="13">
-      <Composition>
-        <Athlete Code="9000227" Order="1">
-          <Description GivenName="Jimin" FamilyName="Park" Gender="F" Organisation="KOR" BirthDate="2010-07-26" IFId="9000227"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000251" Type="A" Organisation="KUW" SortOrder="14">
-      <Composition>
-        <Athlete Code="9000251" Order="1">
-          <Description GivenName="Sofia" FamilyName="Bianchi" Gender="F" Organisation="KUW" BirthDate="2010-12-20" IFId="9000251"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000234" Type="A" Organisation="LAT" SortOrder="15">
-      <Composition>
-        <Athlete Code="9000234" Order="1">
-          <Description GivenName="Awa" FamilyName="Mensah" Gender="F" Organisation="LAT" BirthDate="2010-12-06" IFId="9000234"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000252" Type="A" Organisation="LBR" SortOrder="16">
-      <Composition>
-        <Athlete Code="9000252" Order="1">
-          <Description GivenName="Aigerim" FamilyName="Orazov" Gender="F" Organisation="LBR" BirthDate="2009-09-22" IFId="9000252"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000249" Type="A" Organisation="MAD" SortOrder="17">
-      <Composition>
-        <Athlete Code="9000249" Order="1">
-          <Description GivenName="Awa" FamilyName="Keita" Gender="F" Organisation="MAD" BirthDate="2009-01-05" IFId="9000249"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000225" Type="A" Organisation="MKD" SortOrder="18">
-      <Composition>
-        <Athlete Code="9000225" Order="1">
-          <Description GivenName="Vanhnaly" FamilyName="Phommachanh" Gender="F" Organisation="MKD" BirthDate="2010-01-28" IFId="9000225"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000229" Type="A" Organisation="MRI" SortOrder="19">
-      <Composition>
-        <Athlete Code="9000229" Order="1">
-          <Description GivenName="Camilla" FamilyName="Rinaldi" Gender="F" Organisation="MRI" BirthDate="2009-09-18" IFId="9000229"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000238" Type="A" Organisation="MTN" SortOrder="20">
-      <Composition>
-        <Athlete Code="9000238" Order="1">
-          <Description GivenName="Gulnara" FamilyName="Toshev" Gender="F" Organisation="MTN" BirthDate="2010-06-12" IFId="9000238"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000242" Type="A" Organisation="NCA" SortOrder="21">
-      <Composition>
-        <Athlete Code="9000242" Order="1">
-          <Description GivenName="Mariana" FamilyName="Vargas" Gender="F" Organisation="NCA" BirthDate="2009-08-09" IFId="9000242"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000239" Type="A" Organisation="POR" SortOrder="22">
-      <Composition>
-        <Athlete Code="9000239" Order="1">
-          <Description GivenName="Salma" FamilyName="Awad" Gender="F" Organisation="POR" BirthDate="2011-12-17" IFId="9000239"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000253" Type="A" Organisation="PUR" SortOrder="23">
-      <Composition>
-        <Athlete Code="9000253" Order="1">
-          <Description GivenName="Lucía" FamilyName="Morales" Gender="F" Organisation="PUR" BirthDate="2009-04-09" IFId="9000253"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000232" Type="A" Organisation="SAM" SortOrder="24">
-      <Composition>
-        <Athlete Code="9000232" Order="1">
-          <Description GivenName="Aissatou" FamilyName="Moyo" Gender="F" Organisation="SAM" BirthDate="2010-09-18" IFId="9000232"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000236" Type="A" Organisation="SUD" SortOrder="25">
-      <Composition>
-        <Athlete Code="9000236" Order="1">
-          <Description GivenName="Petra" FamilyName="Kovačević" Gender="F" Organisation="SUD" BirthDate="2010-03-19" IFId="9000236"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000250" Type="A" Organisation="SWZ" SortOrder="26">
-      <Composition>
-        <Athlete Code="9000250" Order="1">
-          <Description GivenName="Inès" FamilyName="Dupont" Gender="F" Organisation="SWZ" BirthDate="2009-10-05" IFId="9000250"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000245" Type="A" Organisation="SYR" SortOrder="27">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="JUDW78KG--------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-23" Time="175948571" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-JUD-1.3" Codes="YOG-2026-2.4">
+    <Entry Code="9000245" Type="A" Organisation="BDI" SortOrder="1">
       <Composition>
         <Athlete Code="9000245" Order="1">
-          <Description GivenName="Aigerim" FamilyName="Umarov" Gender="F" Organisation="SYR" BirthDate="2010-10-28" IFId="9000245"/>
+          <Description GivenName="Amara" FamilyName="Diop" Gender="F" Organisation="BDI" BirthDate="2010-11-12"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="9000233" Type="A" Organisation="TGA" SortOrder="28">
-      <Composition>
-        <Athlete Code="9000233" Order="1">
-          <Description GivenName="Putri" FamilyName="Inthavong" Gender="F" Organisation="TGA" BirthDate="2011-12-17" IFId="9000233"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000255" Type="A" Organisation="TKM" SortOrder="29">
+    <Entry Code="9000255" Type="A" Organisation="BOL" SortOrder="2">
       <Composition>
         <Athlete Code="9000255" Order="1">
-          <Description GivenName="Dinara" FamilyName="Berdiev" Gender="F" Organisation="TKM" BirthDate="2009-04-21" IFId="9000255"/>
+          <Description GivenName="Eliška" FamilyName="Krejčí" Gender="F" Organisation="BOL" BirthDate="2010-12-26"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="9000244" Type="A" Organisation="TTO" SortOrder="30">
+    <Entry Code="9000233" Type="A" Organisation="BOT" SortOrder="3">
       <Composition>
-        <Athlete Code="9000244" Order="1">
-          <Description GivenName="Sofia" FamilyName="Colombo" Gender="F" Organisation="TTO" BirthDate="2011-01-05" IFId="9000244"/>
+        <Athlete Code="9000233" Order="1">
+          <Description GivenName="Tigist" FamilyName="Kebede" Gender="F" Organisation="BOT" BirthDate="2010-09-11"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="9000228" Type="A" Organisation="UZB" SortOrder="31">
+    <Entry Code="9000247" Type="A" Organisation="BUR" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000247" Order="1">
+          <Description GivenName="Eunji" FamilyName="Jang" Gender="F" Organisation="BUR" BirthDate="2009-01-05"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000241" Type="A" Organisation="CAY" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000241" Order="1">
+          <Description GivenName="Veronika" FamilyName="Babić" Gender="F" Organisation="CAY" BirthDate="2010-12-13"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000234" Type="A" Organisation="CRO" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000234" Order="1">
+          <Description GivenName="Petra" FamilyName="Kovačević" Gender="F" Organisation="CRO" BirthDate="2010-03-19"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000254" Type="A" Organisation="DMA" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000254" Order="1">
+          <Description GivenName="Aissatou" FamilyName="Keita" Gender="F" Organisation="DMA" BirthDate="2010-01-19"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000246" Type="A" Organisation="FRA" SortOrder="8">
+      <Composition>
+        <Athlete Code="9000246" Order="1">
+          <Description GivenName="Camilla" FamilyName="Conti" Gender="F" Organisation="FRA" BirthDate="2010-10-11"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000229" Type="A" Organisation="GHA" SortOrder="9">
+      <Composition>
+        <Athlete Code="9000229" Order="1">
+          <Description GivenName="Khady" FamilyName="Cissé" Gender="F" Organisation="GHA" BirthDate="2011-08-04"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000235" Type="A" Organisation="GRE" SortOrder="10">
+      <Composition>
+        <Athlete Code="9000235" Order="1">
+          <Description GivenName="Farzana" FamilyName="Rahman" Gender="F" Organisation="GRE" BirthDate="2010-11-18"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000237" Type="A" Organisation="INA" SortOrder="11">
+      <Composition>
+        <Athlete Code="9000237" Order="1">
+          <Description GivenName="Noy" FamilyName="Sok" Gender="F" Organisation="INA" BirthDate="2011-12-17"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000225" Type="A" Organisation="IRI" SortOrder="12">
+      <Composition>
+        <Athlete Code="9000225" Order="1">
+          <Description GivenName="Megan" FamilyName="Brown" Gender="F" Organisation="IRI" BirthDate="2010-07-26"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000253" Type="A" Organisation="JOR" SortOrder="13">
+      <Composition>
+        <Athlete Code="9000253" Order="1">
+          <Description GivenName="Amira" FamilyName="Attar" Gender="F" Organisation="JOR" BirthDate="2009-04-21"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000231" Type="A" Organisation="KUW" SortOrder="14">
+      <Composition>
+        <Athlete Code="9000231" Order="1">
+          <Description GivenName="Ludovica" FamilyName="Rinaldi" Gender="F" Organisation="KUW" BirthDate="2011-12-17"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000250" Type="A" Organisation="LTU" SortOrder="15">
+      <Composition>
+        <Athlete Code="9000250" Order="1">
+          <Description GivenName="Léa" FamilyName="Chevalier" Gender="F" Organisation="LTU" BirthDate="2009-09-22"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000228" Type="A" Organisation="MAD" SortOrder="16">
       <Composition>
         <Athlete Code="9000228" Order="1">
-          <Description GivenName="Amira" FamilyName="Attar" Gender="F" Organisation="UZB" BirthDate="2011-05-04" IFId="9000228"/>
+          <Description GivenName="Fatou" FamilyName="Diop" Gender="F" Organisation="MAD" BirthDate="2010-09-26"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="9000243" Type="A" Organisation="VAN" SortOrder="32">
+    <Entry Code="9000251" Type="A" Organisation="MAW" SortOrder="17">
+      <Composition>
+        <Athlete Code="9000251" Order="1">
+          <Description GivenName="Bethlehem" FamilyName="Gebre" Gender="F" Organisation="MAW" BirthDate="2009-04-09"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000256" Type="A" Organisation="MGL" SortOrder="18">
+      <Composition>
+        <Athlete Code="9000256" Order="1">
+          <Description GivenName="Zarina" FamilyName="Yusupov" Gender="F" Organisation="MGL" BirthDate="2009-10-16"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000248" Type="A" Organisation="MKD" SortOrder="19">
+      <Composition>
+        <Athlete Code="9000248" Order="1">
+          <Description GivenName="Noy" FamilyName="Halim" Gender="F" Organisation="MKD" BirthDate="2009-10-05"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000238" Type="A" Organisation="MLT" SortOrder="20">
+      <Composition>
+        <Athlete Code="9000238" Order="1">
+          <Description GivenName="Sumaiya" FamilyName="Rahman" Gender="F" Organisation="MLT" BirthDate="2011-02-05"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000240" Type="A" Organisation="MNE" SortOrder="21">
+      <Composition>
+        <Athlete Code="9000240" Order="1">
+          <Description GivenName="Gulnara" FamilyName="Ergashev" Gender="F" Organisation="MNE" BirthDate="2009-08-09"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000232" Type="A" Organisation="NRO" SortOrder="22">
+      <Composition>
+        <Athlete Code="9000232" Order="1">
+          <Description GivenName="Saltanat" FamilyName="Abdullaev" Gender="F" Organisation="NRO" BirthDate="2010-12-06"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000242" Type="A" Organisation="PAK" SortOrder="23">
+      <Composition>
+        <Athlete Code="9000242" Order="1">
+          <Description GivenName="Chanthavy" FamilyName="Sayavong" Gender="F" Organisation="PAK" BirthDate="2011-01-05"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000226" Type="A" Organisation="SEY" SortOrder="24">
+      <Composition>
+        <Athlete Code="9000226" Order="1">
+          <Description GivenName="Amira" FamilyName="Attar" Gender="F" Organisation="SEY" BirthDate="2011-05-04"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000252" Type="A" Organisation="SKN" SortOrder="25">
+      <Composition>
+        <Athlete Code="9000252" Order="1">
+          <Description GivenName="Petra" FamilyName="Novotný" Gender="F" Organisation="SKN" BirthDate="2011-09-21"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000227" Type="A" Organisation="SLO" SortOrder="26">
+      <Composition>
+        <Athlete Code="9000227" Order="1">
+          <Description GivenName="Daniela" FamilyName="Mendoza" Gender="F" Organisation="SLO" BirthDate="2009-09-18"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000239" Type="A" Organisation="SOM" SortOrder="27">
+      <Composition>
+        <Athlete Code="9000239" Order="1">
+          <Description GivenName="Aminata" FamilyName="Cissé" Gender="F" Organisation="SOM" BirthDate="2011-06-26"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000230" Type="A" Organisation="TJK" SortOrder="28">
+      <Composition>
+        <Athlete Code="9000230" Order="1">
+          <Description GivenName="Minseo" FamilyName="Han" Gender="F" Organisation="TJK" BirthDate="2010-09-18"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000249" Type="A" Organisation="TUV" SortOrder="29">
+      <Composition>
+        <Athlete Code="9000249" Order="1">
+          <Description GivenName="Abena" FamilyName="Boateng" Gender="F" Organisation="TUV" BirthDate="2010-12-20"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000244" Type="A" Organisation="UAE" SortOrder="30">
+      <Composition>
+        <Athlete Code="9000244" Order="1">
+          <Description GivenName="Saga" FamilyName="Nygaard" Gender="F" Organisation="UAE" BirthDate="2009-12-19"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000236" Type="A" Organisation="VAN" SortOrder="31">
+      <Composition>
+        <Athlete Code="9000236" Order="1">
+          <Description GivenName="Rahel" FamilyName="Alemu" Gender="F" Organisation="VAN" BirthDate="2010-06-12"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000243" Type="A" Organisation="YEM" SortOrder="32">
       <Composition>
         <Athlete Code="9000243" Order="1">
-          <Description GivenName="Mahlet" FamilyName="Desta" Gender="F" Organisation="VAN" BirthDate="2010-12-13" IFId="9000243"/>
+          <Description GivenName="Malee" FamilyName="Wijaya" Gender="F" Organisation="YEM" BirthDate="2010-10-28"/>
         </Athlete>
       </Composition>
     </Entry>

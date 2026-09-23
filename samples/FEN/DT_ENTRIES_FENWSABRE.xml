@@ -1,115 +1,115 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="FENWSABRE-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="T" Date="2026-09-22" Time="205848766" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-FEN-1.0" Codes="SYOG-2026-CC-V0.04">
-    <Entry Code="9000085" Type="A" Organisation="AFG" SortOrder="1">
-      <Composition>
-        <Athlete Code="9000085" Order="1">
-          <Description GivenName="Eliška" FamilyName="Černý" Gender="F" Organisation="AFG" BirthDate="2010-05-02" IFId="9000085"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000095" Type="A" Organisation="AND" SortOrder="2">
-      <Composition>
-        <Athlete Code="9000095" Order="1">
-          <Description GivenName="Mariana" FamilyName="López" Gender="F" Organisation="AND" BirthDate="2009-12-17" IFId="9000095"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000096" Type="A" Organisation="ANG" SortOrder="3">
-      <Composition>
-        <Athlete Code="9000096" Order="1">
-          <Description GivenName="Eden" FamilyName="Girma" Gender="F" Organisation="ANG" BirthDate="2009-04-05" IFId="9000096"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000092" Type="A" Organisation="BOC" SortOrder="4">
-      <Composition>
-        <Athlete Code="9000092" Order="1">
-          <Description GivenName="Shakira" FamilyName="Toussaint" Gender="F" Organisation="BOC" BirthDate="2010-03-04" IFId="9000092"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000090" Type="A" Organisation="DMA" SortOrder="5">
-      <Composition>
-        <Athlete Code="9000090" Order="1">
-          <Description GivenName="Mariama" FamilyName="Keita" Gender="F" Organisation="DMA" BirthDate="2009-12-03" IFId="9000090"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000088" Type="A" Organisation="EUN" SortOrder="6">
-      <Composition>
-        <Athlete Code="9000088" Order="1">
-          <Description GivenName="Francesca" FamilyName="Barbieri" Gender="F" Organisation="EUN" BirthDate="2011-02-08" IFId="9000088"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000093" Type="A" Organisation="GER" SortOrder="7">
-      <Composition>
-        <Athlete Code="9000093" Order="1">
-          <Description GivenName="Sumaiya" FamilyName="Karim" Gender="F" Organisation="GER" BirthDate="2010-02-17" IFId="9000093"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000081" Type="A" Organisation="KGZ" SortOrder="8">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="FENWSABRE-------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-23" Time="175947409" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-FEN-1.3" Codes="YOG-2026-2.4">
+    <Entry Code="9000081" Type="A" Organisation="AFG" SortOrder="1">
       <Composition>
         <Athlete Code="9000081" Order="1">
-          <Description GivenName="Nazgul" FamilyName="Bekov" Gender="F" Organisation="KGZ" BirthDate="2010-03-18" IFId="9000081"/>
+          <Description GivenName="Petra" FamilyName="Zeman" Gender="F" Organisation="AFG" BirthDate="2010-02-25"/>
         </Athlete>
       </Composition>
     </Entry>
-    <Entry Code="9000087" Type="A" Organisation="KSA" SortOrder="9">
-      <Composition>
-        <Athlete Code="9000087" Order="1">
-          <Description GivenName="Nour" FamilyName="Awad" Gender="F" Organisation="KSA" BirthDate="2009-09-20" IFId="9000087"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000091" Type="A" Organisation="NRO" SortOrder="10">
-      <Composition>
-        <Athlete Code="9000091" Order="1">
-          <Description GivenName="Aigerim" FamilyName="Mamedov" Gender="F" Organisation="NRO" BirthDate="2009-05-25" IFId="9000091"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000082" Type="A" Organisation="PAK" SortOrder="11">
-      <Composition>
-        <Athlete Code="9000082" Order="1">
-          <Description GivenName="Soudalath" FamilyName="Chanthavong" Gender="F" Organisation="PAK" BirthDate="2009-04-12" IFId="9000082"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000086" Type="A" Organisation="SGP" SortOrder="12">
-      <Composition>
-        <Athlete Code="9000086" Order="1">
-          <Description GivenName="Elsa" FamilyName="Karlsson" Gender="F" Organisation="SGP" BirthDate="2010-10-10" IFId="9000086"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000089" Type="A" Organisation="SOM" SortOrder="13">
-      <Composition>
-        <Athlete Code="9000089" Order="1">
-          <Description GivenName="Fatou" FamilyName="Mensah" Gender="F" Organisation="SOM" BirthDate="2009-07-03" IFId="9000089"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000084" Type="A" Organisation="TAN" SortOrder="14">
-      <Composition>
-        <Athlete Code="9000084" Order="1">
-          <Description GivenName="Alicia" FamilyName="Joseph" Gender="F" Organisation="TAN" BirthDate="2011-10-21" IFId="9000084"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000083" Type="A" Organisation="VIN" SortOrder="15">
-      <Composition>
-        <Athlete Code="9000083" Order="1">
-          <Description GivenName="Farzana" FamilyName="Mollah" Gender="F" Organisation="VIN" BirthDate="2010-02-25" IFId="9000083"/>
-        </Athlete>
-      </Composition>
-    </Entry>
-    <Entry Code="9000094" Type="A" Organisation="YEM" SortOrder="16">
+    <Entry Code="9000094" Type="A" Organisation="ALG" SortOrder="2">
       <Composition>
         <Athlete Code="9000094" Order="1">
-          <Description GivenName="Sari" FamilyName="Sisouphanh" Gender="F" Organisation="YEM" BirthDate="2009-03-05" IFId="9000094"/>
+          <Description GivenName="Kimora" FamilyName="Francis" Gender="F" Organisation="ALG" BirthDate="2009-04-05"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000090" Type="A" Organisation="ANT" SortOrder="3">
+      <Composition>
+        <Athlete Code="9000090" Order="1">
+          <Description GivenName="Shakira" FamilyName="Toussaint" Gender="F" Organisation="ANT" BirthDate="2010-03-04"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000091" Type="A" Organisation="ARG" SortOrder="4">
+      <Composition>
+        <Athlete Code="9000091" Order="1">
+          <Description GivenName="Eunji" FamilyName="Oh" Gender="F" Organisation="ARG" BirthDate="2010-02-17"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000087" Type="A" Organisation="BRA" SortOrder="5">
+      <Composition>
+        <Athlete Code="9000087" Order="1">
+          <Description GivenName="Sophie" FamilyName="Smith" Gender="F" Organisation="BRA" BirthDate="2009-07-03"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000096" Type="A" Organisation="ECU" SortOrder="6">
+      <Composition>
+        <Athlete Code="9000096" Order="1">
+          <Description GivenName="Eliška" FamilyName="Zeman" Gender="F" Organisation="ECU" BirthDate="2011-11-18"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000085" Type="A" Organisation="ERI" SortOrder="7">
+      <Composition>
+        <Athlete Code="9000085" Order="1">
+          <Description GivenName="Aliya" FamilyName="Bekov" Gender="F" Organisation="ERI" BirthDate="2009-09-20"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000084" Type="A" Organisation="GAM" SortOrder="8">
+      <Composition>
+        <Athlete Code="9000084" Order="1">
+          <Description GivenName="Chloe" FamilyName="Brown" Gender="F" Organisation="GAM" BirthDate="2010-10-10"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000088" Type="A" Organisation="HAI" SortOrder="9">
+      <Composition>
+        <Athlete Code="9000088" Order="1">
+          <Description GivenName="Mariama" FamilyName="Keita" Gender="F" Organisation="HAI" BirthDate="2009-12-03"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000083" Type="A" Organisation="LIE" SortOrder="10">
+      <Composition>
+        <Athlete Code="9000083" Order="1">
+          <Description GivenName="Haeun" FamilyName="Choi" Gender="F" Organisation="LIE" BirthDate="2010-05-02"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000093" Type="A" Organisation="NEP" SortOrder="11">
+      <Composition>
+        <Athlete Code="9000093" Order="1">
+          <Description GivenName="Shakira" FamilyName="Francis" Gender="F" Organisation="NEP" BirthDate="2009-12-17"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000086" Type="A" Organisation="PLW" SortOrder="12">
+      <Composition>
+        <Athlete Code="9000086" Order="1">
+          <Description GivenName="Freya" FamilyName="Foster" Gender="F" Organisation="PLW" BirthDate="2011-02-08"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000082" Type="A" Organisation="SUR" SortOrder="13">
+      <Composition>
+        <Athlete Code="9000082" Order="1">
+          <Description GivenName="Bopha" FamilyName="Phommachanh" Gender="F" Organisation="SUR" BirthDate="2011-10-21"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000089" Type="A" Organisation="TTO" SortOrder="14">
+      <Composition>
+        <Athlete Code="9000089" Order="1">
+          <Description GivenName="Giulia" FamilyName="Fontana" Gender="F" Organisation="TTO" BirthDate="2009-05-25"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000092" Type="A" Organisation="UGA" SortOrder="15">
+      <Composition>
+        <Athlete Code="9000092" Order="1">
+          <Description GivenName="Lucie" FamilyName="Dvořák" Gender="F" Organisation="UGA" BirthDate="2009-03-05"/>
+        </Athlete>
+      </Composition>
+    </Entry>
+    <Entry Code="9000095" Type="A" Organisation="VIN" SortOrder="16">
+      <Composition>
+        <Athlete Code="9000095" Order="1">
+          <Description GivenName="Sumaiya" FamilyName="Haque" Gender="F" Organisation="VIN" BirthDate="2011-01-25"/>
         </Athlete>
       </Composition>
     </Entry>

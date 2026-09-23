@@ -57,10 +57,6 @@ def odf_datetime(rng: random.Random) -> str:
     return f"{odf_date(rng)}T{rng.randint(0,23):02d}:{rng.randint(0,59):02d}:{rng.randint(0,59):02d}"
 
 
-def feed_flag(rng: random.Random) -> str:
-    return rng.choice(["P", "T"])
-
-
 def name_token(rng: random.Random, n: int = 8) -> str:
     return "".join(rng.choice(string.ascii_letters) for _ in range(n))
 

@@ -1,12 +1,50 @@
-# Youth Olympic Games 2026. Values as observed in the real-life feed and
-# previously hardcoded in generator/envelope.py.
+# Youth Olympic Games 2026 (Dakar). Every value below is checked against the
+# real SYOG26 initial download received on 2026-09-23.
 label: Youth Olympic Games 2026
-gen: OWG-2026-GEN-V4.5
-codes: SYOG-2026-CC-V0.04
-sport_template: SYOG-2026-{disc}-1.0
-# SCGEN@Source: the system generating the message. Real-life feeds observed so
-# far: World Archery "AWAARC1" (ARC), CTO "CTO1" (SWM).
+
+# Competition@Gen: the GEN Data Dictionary's document reference, as printed on
+# the cover and page headers of ODF_GEN_R-OWG2026-GEN.pdf.
+gen: OWG2026-GEN-4.6
+
+# Competition@Codes: {version} is the Common Codes release the pack loaded,
+# read from the workbook's file name (SYOG2026_ODF_Common_Codes_v_2_4.xlsx ->
+# YOG-2026-2.4). Derived because the release moves: v_2_2 -> v_2_4 in two days.
+codes: YOG-2026-{version}
+
+# Competition@Sport: each discipline Data Dictionary's own reference, as on its
+# cover, without the "SCOG/" prefix some carry. The real feed stamps exactly
+# these -- except BS5 and HBB entries, which it stamps with BK3's reference
+# (SYOG-2026-BK3-1.3); the DDs are followed here. Update an entry when its DD is revised.
+sports:
+  ARC: SYOG-2026-ARC-1.2
+  ATH: SYOG-2026-ATH-1.3
+  BDM: SYOG-2026-BDM-1.2
+  BK3: SYOG-2026-BK3-1.3
+  BKG: SYOG-2026-BKG-1.1
+  BOX: SYOG-2026-BOX-1.2
+  BS5: SYOG-2026-BS5-1.4
+  CRD: SYOG-2026-CRD-1.4
+  EQU: SYOG-2026-EQU-EJP-1.0
+  FBS: SYOG-2026-FBS-1.3
+  FEN: SYOG-2026-FEN-1.3
+  GAR: SYOG-2026-GAR-1.2
+  HBB: SYOG-2026-HBB-1.2
+  JUD: SYOG-2026-JUD-1.3
+  RCB: SYOG-2026-RCB-1.3
+  RU7: SYOG-2026-RU7-1.1
+  SAL: SYOG-2026-SAL-1.3
+  SKB: SYOG-2026-SKB-1.0
+  SWM: SYOG-2026-SWM-1.2
+  TKW: SYOG-2026-TKW-1.2
+  TRI: SYOG-2026-TRI-1.1
+  TTE: SYOG-2026-TTE-1.3
+  VBV: SYOG-2026-VBV-1.2
+  WRB: SYOG-2026-WRB-1.2
+  WST: SYOG-2026-WST-1.0
+
+# OdfBody@Source by message type: the real initial download is SEQ for
+# DT_PARTIC, DT_PARTIC_TEAMS and DT_ENTRIES and OSM for DT_SCHEDULE, in every
+# discipline. (AWAARC1 / CTO1 came from 2025 test feeds and do not appear.)
 sources:
-  ARC: AWAARC1
-  SWM: CTO1
-default_source: OGEN
+  DT_SCHEDULE: OSM
+default_source: SEQ

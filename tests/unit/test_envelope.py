@@ -28,8 +28,8 @@ def test_blank_overrides_keep_defaults():
     rd = RefData(PACK)
     root, comp = build_odfbody(random.Random(1), rd, "ARC", "DT_PARTIC",
                                competition_code(rd), overrides=Overrides())
-    assert root.get("Source") == "AWAARC1"           # ARC default preserved
-    assert comp.get("Sport") == "SYOG-2026-ARC-1.0"  # discipline default
+    assert root.get("Source") == "SEQ"                # message-type default
+    assert comp.get("Sport") == "SYOG-2026-ARC-1.2"  # ARC DD reference
 
 
 def test_date_and_time_are_real_generation_clock():
@@ -62,7 +62,7 @@ def test_envelope_has_all_required_attrs_nonempty():
         assert root.get(a) and root.get(a).strip()
     assert len(root.get("DocumentCode")) == 34
     assert int(root.get("Version")) >= 1
-    assert root.get("FeedFlag") in {"P", "T"}
+    assert root.get("FeedFlag") == "P"
 
 
 def test_competition_child_has_gen_codes_and_no_discipline_element():
@@ -92,9 +92,9 @@ def test_envelope_takes_versions_from_the_games_profile():
     root, comp = build_odfbody(random.Random(1), rd, "SWM", "DT_PARTIC",
                                competition_code(rd))
     assert comp.get("Gen") == rd.games.gen
-    assert comp.get("Codes") == rd.games.codes
+    assert comp.get("Codes") == rd.codes_reference == "YOG-2026-2.4"
     assert comp.get("Sport") == rd.games.sport("SWM")
-    assert root.get("Source") == rd.games.source("SWM")
+    assert root.get("Source") == rd.games.source("DT_PARTIC")
 
 
 def test_envelope_refuses_an_incomplete_profile():

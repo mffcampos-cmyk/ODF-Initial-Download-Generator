@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="TKW-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-22" Time="205906736" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-TKW-1.0" Codes="SYOG-2026-CC-V0.04">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="TKW-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="175952096" LogicalDate="2026-09-23" Source="OSM">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-TKW-1.2" Codes="YOG-2026-2.4">
     <Session Venue="CID" VenueName="Complexe Iba Mar Diop" SessionType="MOR" SessionCode="TKW01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
       <SessionName Language="ENG" Value="Session 1"/>
     </Session>
@@ -31,11 +31,11 @@
     <Session Venue="CID" VenueName="Complexe Iba Mar Diop" SessionType="AFT" SessionCode="TKW10" StartDate="2026-11-05T14:00:00+00:00" EndDate="2026-11-05T17:28:00+00:00">
       <SessionName Language="ENG" Value="Session 10"/>
     </Session>
-    <Unit Code="TKWM48KG--------------8FNL000100--" PhaseType="6" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------8FNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------8FNL000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------8FNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -43,35 +43,35 @@
       <ItemName Language="ENG" Value="Men -48kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------8FNL000400--" PhaseType="2" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------8FNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------8FNL000500--" PhaseType="8" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------8FNL000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------8FNL000600--" PhaseType="4" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------8FNL000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------8FNL000700--" PhaseType="6" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------8FNL000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------8FNL000800--" PhaseType="8" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------8FNL000800--" PhaseType="3" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------QFNL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------QFNL000200--" PhaseType="7" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------QFNL000300--" PhaseType="8" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -79,51 +79,51 @@
       <ItemName Language="ENG" Value="Men -48kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------SFNL000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Medal="3" Order="13" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Medal="3" Order="13" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------SFNL000200--" PhaseType="5" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Medal="3" Order="14" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Medal="3" Order="14" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM48KG--------------FNL-000100--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Medal="1" Order="15" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM48KG--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Medal="1" Order="15" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -48kg Gold Medal Contest"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------8FNL000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW01">
+    <Unit Code="TKWM55KG--------------8FNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW01">
       <ItemName Language="ENG" Value="Men -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------8FNL000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------8FNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------8FNL000300--" PhaseType="5" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------8FNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------8FNL000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------8FNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------8FNL000500--" PhaseType="0" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------8FNL000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------8FNL000600--" PhaseType="8" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------8FNL000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------8FNL000700--" PhaseType="7" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------8FNL000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------8FNL000800--" PhaseType="4" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------8FNL000800--" PhaseType="3" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------QFNL000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -131,15 +131,15 @@
       <ItemName Language="ENG" Value="Men -55kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------QFNL000300--" PhaseType="8" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------QFNL000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------SFNL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Medal="3" Order="12" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Medal="3" Order="12" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -147,19 +147,19 @@
       <ItemName Language="ENG" Value="Men -55kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM55KG--------------FNL-000100--" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:49:00+00:00" EndDate="2026-11-01T17:02:00+00:00" Medal="1" Order="14" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM55KG--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:49:00+00:00" EndDate="2026-11-01T17:02:00+00:00" Medal="1" Order="14" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -55kg Gold Medal Contest"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------8FNL000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:02:00+00:00" EndDate="2026-11-01T17:15:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM63KG--------------8FNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:02:00+00:00" EndDate="2026-11-01T17:15:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------8FNL000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:15:00+00:00" EndDate="2026-11-01T17:28:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW02">
+    <Unit Code="TKWM63KG--------------8FNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:15:00+00:00" EndDate="2026-11-01T17:28:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW02">
       <ItemName Language="ENG" Value="Men -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------8FNL000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------8FNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -167,63 +167,63 @@
       <ItemName Language="ENG" Value="Men -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------8FNL000500--" PhaseType="6" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:09:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------8FNL000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:09:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------8FNL000600--" PhaseType="8" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:09:00+00:00" EndDate="2026-11-02T10:22:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------8FNL000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:09:00+00:00" EndDate="2026-11-02T10:22:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------8FNL000700--" PhaseType="9" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:22:00+00:00" EndDate="2026-11-02T10:35:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------8FNL000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:22:00+00:00" EndDate="2026-11-02T10:35:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------8FNL000800--" PhaseType="0" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:35:00+00:00" EndDate="2026-11-02T10:48:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------8FNL000800--" PhaseType="3" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:35:00+00:00" EndDate="2026-11-02T10:48:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------QFNL000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:48:00+00:00" EndDate="2026-11-02T11:01:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:48:00+00:00" EndDate="2026-11-02T11:01:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------QFNL000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:01:00+00:00" EndDate="2026-11-02T11:14:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:01:00+00:00" EndDate="2026-11-02T11:14:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------QFNL000300--" PhaseType="8" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:14:00+00:00" EndDate="2026-11-02T11:27:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:14:00+00:00" EndDate="2026-11-02T11:27:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------QFNL000400--" PhaseType="2" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:27:00+00:00" EndDate="2026-11-02T11:40:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:27:00+00:00" EndDate="2026-11-02T11:40:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------SFNL000100--" PhaseType="6" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:40:00+00:00" EndDate="2026-11-02T11:53:00+00:00" Medal="3" Order="11" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:40:00+00:00" EndDate="2026-11-02T11:53:00+00:00" Medal="3" Order="11" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------SFNL000200--" PhaseType="4" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:53:00+00:00" EndDate="2026-11-02T12:06:00+00:00" Medal="3" Order="12" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:53:00+00:00" EndDate="2026-11-02T12:06:00+00:00" Medal="3" Order="12" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM63KG--------------FNL-000100--" PhaseType="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:06:00+00:00" EndDate="2026-11-02T12:19:00+00:00" Medal="1" Order="13" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM63KG--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:06:00+00:00" EndDate="2026-11-02T12:19:00+00:00" Medal="1" Order="13" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -63kg Gold Medal Contest"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------8FNL000100--" PhaseType="7" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:19:00+00:00" EndDate="2026-11-02T12:32:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM73KG--------------8FNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:19:00+00:00" EndDate="2026-11-02T12:32:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------8FNL000200--" PhaseType="4" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:32:00+00:00" EndDate="2026-11-02T12:45:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM73KG--------------8FNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:32:00+00:00" EndDate="2026-11-02T12:45:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------8FNL000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:45:00+00:00" EndDate="2026-11-02T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW03">
+    <Unit Code="TKWM73KG--------------8FNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:45:00+00:00" EndDate="2026-11-02T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW03">
       <ItemName Language="ENG" Value="Men -73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------8FNL000400--" PhaseType="7" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T14:13:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWM73KG--------------8FNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T14:13:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men -73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -231,19 +231,19 @@
       <ItemName Language="ENG" Value="Men -73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------8FNL000600--" PhaseType="7" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:26:00+00:00" EndDate="2026-11-02T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWM73KG--------------8FNL000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:26:00+00:00" EndDate="2026-11-02T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men -73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------8FNL000700--" PhaseType="5" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:39:00+00:00" EndDate="2026-11-02T14:52:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWM73KG--------------8FNL000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:39:00+00:00" EndDate="2026-11-02T14:52:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men -73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------8FNL000800--" PhaseType="9" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:52:00+00:00" EndDate="2026-11-02T15:05:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWM73KG--------------8FNL000800--" PhaseType="3" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:52:00+00:00" EndDate="2026-11-02T15:05:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men -73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------QFNL000100--" PhaseType="7" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:05:00+00:00" EndDate="2026-11-02T15:18:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWM73KG--------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:05:00+00:00" EndDate="2026-11-02T15:18:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men -73kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -251,55 +251,55 @@
       <ItemName Language="ENG" Value="Men -73kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------QFNL000300--" PhaseType="5" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:31:00+00:00" EndDate="2026-11-02T15:44:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWM73KG--------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:31:00+00:00" EndDate="2026-11-02T15:44:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men -73kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------QFNL000400--" PhaseType="2" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:44:00+00:00" EndDate="2026-11-02T15:57:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWM73KG--------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:44:00+00:00" EndDate="2026-11-02T15:57:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men -73kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------SFNL000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:57:00+00:00" EndDate="2026-11-02T16:10:00+00:00" Medal="3" Order="10" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWM73KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:57:00+00:00" EndDate="2026-11-02T16:10:00+00:00" Medal="3" Order="10" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men -73kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------SFNL000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:10:00+00:00" EndDate="2026-11-02T16:23:00+00:00" Medal="3" Order="11" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWM73KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:10:00+00:00" EndDate="2026-11-02T16:23:00+00:00" Medal="3" Order="11" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men -73kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWM73KG--------------FNL-000100--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:23:00+00:00" EndDate="2026-11-02T16:36:00+00:00" Medal="1" Order="12" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWM73KG--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:23:00+00:00" EndDate="2026-11-02T16:36:00+00:00" Medal="1" Order="12" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men -73kg Gold Medal Contest"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------8FNL000100--" PhaseType="7" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:36:00+00:00" EndDate="2026-11-02T16:49:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWMO73KG-------------8FNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:36:00+00:00" EndDate="2026-11-02T16:49:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men +73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------8FNL000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:49:00+00:00" EndDate="2026-11-02T17:02:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWMO73KG-------------8FNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:49:00+00:00" EndDate="2026-11-02T17:02:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men +73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------8FNL000300--" PhaseType="2" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:02:00+00:00" EndDate="2026-11-02T17:15:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWMO73KG-------------8FNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:02:00+00:00" EndDate="2026-11-02T17:15:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men +73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------8FNL000400--" PhaseType="0" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:15:00+00:00" EndDate="2026-11-02T17:28:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW04">
+    <Unit Code="TKWMO73KG-------------8FNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:15:00+00:00" EndDate="2026-11-02T17:28:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW04">
       <ItemName Language="ENG" Value="Men +73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------8FNL000500--" PhaseType="8" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWMO73KG-------------8FNL000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Men +73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------8FNL000600--" PhaseType="5" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:43:00+00:00" EndDate="2026-11-03T09:56:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWMO73KG-------------8FNL000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:43:00+00:00" EndDate="2026-11-03T09:56:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Men +73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------8FNL000700--" PhaseType="8" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:56:00+00:00" EndDate="2026-11-03T10:09:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWMO73KG-------------8FNL000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:56:00+00:00" EndDate="2026-11-03T10:09:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Men +73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------8FNL000800--" PhaseType="2" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:09:00+00:00" EndDate="2026-11-03T10:22:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWMO73KG-------------8FNL000800--" PhaseType="3" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:09:00+00:00" EndDate="2026-11-03T10:22:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Men +73kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -307,39 +307,39 @@
       <ItemName Language="ENG" Value="Men +73kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------QFNL000200--" PhaseType="5" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:35:00+00:00" EndDate="2026-11-03T10:48:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWMO73KG-------------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:35:00+00:00" EndDate="2026-11-03T10:48:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Men +73kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------QFNL000300--" PhaseType="9" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:48:00+00:00" EndDate="2026-11-03T11:01:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWMO73KG-------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:48:00+00:00" EndDate="2026-11-03T11:01:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Men +73kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------QFNL000400--" PhaseType="7" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:01:00+00:00" EndDate="2026-11-03T11:14:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWMO73KG-------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:01:00+00:00" EndDate="2026-11-03T11:14:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Men +73kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------SFNL000100--" PhaseType="7" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:14:00+00:00" EndDate="2026-11-03T11:27:00+00:00" Medal="3" Order="9" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWMO73KG-------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:14:00+00:00" EndDate="2026-11-03T11:27:00+00:00" Medal="3" Order="9" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Men +73kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------SFNL000200--" PhaseType="5" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:27:00+00:00" EndDate="2026-11-03T11:40:00+00:00" Medal="3" Order="10" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWMO73KG-------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:27:00+00:00" EndDate="2026-11-03T11:40:00+00:00" Medal="3" Order="10" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Men +73kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWMO73KG-------------FNL-000100--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:40:00+00:00" EndDate="2026-11-03T11:53:00+00:00" Medal="1" Order="11" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWMO73KG-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:40:00+00:00" EndDate="2026-11-03T11:53:00+00:00" Medal="1" Order="11" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Men +73kg Gold Medal Contest"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------8FNL000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:53:00+00:00" EndDate="2026-11-03T12:06:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWW44KG--------------8FNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:53:00+00:00" EndDate="2026-11-03T12:06:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Women -44kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------8FNL000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:06:00+00:00" EndDate="2026-11-03T12:19:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWW44KG--------------8FNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:06:00+00:00" EndDate="2026-11-03T12:19:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Women -44kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------8FNL000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:19:00+00:00" EndDate="2026-11-03T12:32:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWW44KG--------------8FNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:19:00+00:00" EndDate="2026-11-03T12:32:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Women -44kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -347,27 +347,27 @@
       <ItemName Language="ENG" Value="Women -44kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------8FNL000500--" PhaseType="1" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:45:00+00:00" EndDate="2026-11-03T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW05">
+    <Unit Code="TKWW44KG--------------8FNL000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:45:00+00:00" EndDate="2026-11-03T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW05">
       <ItemName Language="ENG" Value="Women -44kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------8FNL000600--" PhaseType="8" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:00:00+00:00" EndDate="2026-11-03T14:13:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW44KG--------------8FNL000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:00:00+00:00" EndDate="2026-11-03T14:13:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -44kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------8FNL000700--" PhaseType="0" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:13:00+00:00" EndDate="2026-11-03T14:26:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW44KG--------------8FNL000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:13:00+00:00" EndDate="2026-11-03T14:26:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -44kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------8FNL000800--" PhaseType="9" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:26:00+00:00" EndDate="2026-11-03T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW44KG--------------8FNL000800--" PhaseType="3" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:26:00+00:00" EndDate="2026-11-03T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -44kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------QFNL000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:39:00+00:00" EndDate="2026-11-03T14:52:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW44KG--------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:39:00+00:00" EndDate="2026-11-03T14:52:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -44kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------QFNL000200--" PhaseType="1" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:52:00+00:00" EndDate="2026-11-03T15:05:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW44KG--------------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:52:00+00:00" EndDate="2026-11-03T15:05:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -44kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -375,7 +375,7 @@
       <ItemName Language="ENG" Value="Women -44kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------QFNL000400--" PhaseType="9" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:18:00+00:00" EndDate="2026-11-03T15:31:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW44KG--------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:18:00+00:00" EndDate="2026-11-03T15:31:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -44kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -383,39 +383,39 @@
       <ItemName Language="ENG" Value="Women -44kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------SFNL000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:44:00+00:00" EndDate="2026-11-03T15:57:00+00:00" Medal="3" Order="9" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW44KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:44:00+00:00" EndDate="2026-11-03T15:57:00+00:00" Medal="3" Order="9" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -44kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW44KG--------------FNL-000100--" PhaseType="9" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:57:00+00:00" EndDate="2026-11-03T16:10:00+00:00" Medal="1" Order="10" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW44KG--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:57:00+00:00" EndDate="2026-11-03T16:10:00+00:00" Medal="1" Order="10" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -44kg Gold Medal Contest"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------8FNL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:10:00+00:00" EndDate="2026-11-03T16:23:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW49KG--------------8FNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:10:00+00:00" EndDate="2026-11-03T16:23:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -49kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------8FNL000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:23:00+00:00" EndDate="2026-11-03T16:36:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW49KG--------------8FNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:23:00+00:00" EndDate="2026-11-03T16:36:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -49kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------8FNL000300--" PhaseType="5" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:36:00+00:00" EndDate="2026-11-03T16:49:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW49KG--------------8FNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:36:00+00:00" EndDate="2026-11-03T16:49:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -49kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------8FNL000400--" PhaseType="0" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:49:00+00:00" EndDate="2026-11-03T17:02:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW49KG--------------8FNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:49:00+00:00" EndDate="2026-11-03T17:02:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -49kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------8FNL000500--" PhaseType="0" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T17:02:00+00:00" EndDate="2026-11-03T17:15:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW49KG--------------8FNL000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T17:02:00+00:00" EndDate="2026-11-03T17:15:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -49kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------8FNL000600--" PhaseType="4" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T17:15:00+00:00" EndDate="2026-11-03T17:28:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW06">
+    <Unit Code="TKWW49KG--------------8FNL000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T17:15:00+00:00" EndDate="2026-11-03T17:28:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW06">
       <ItemName Language="ENG" Value="Women -49kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------8FNL000700--" PhaseType="9" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:30:00+00:00" EndDate="2026-11-04T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW49KG--------------8FNL000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:30:00+00:00" EndDate="2026-11-04T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -49kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -423,7 +423,7 @@
       <ItemName Language="ENG" Value="Women -49kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------QFNL000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:56:00+00:00" EndDate="2026-11-04T10:09:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW49KG--------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:56:00+00:00" EndDate="2026-11-04T10:09:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -49kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -431,91 +431,91 @@
       <ItemName Language="ENG" Value="Women -49kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------QFNL000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:22:00+00:00" EndDate="2026-11-04T10:35:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW49KG--------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:22:00+00:00" EndDate="2026-11-04T10:35:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -49kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------QFNL000400--" PhaseType="5" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:35:00+00:00" EndDate="2026-11-04T10:48:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW49KG--------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:35:00+00:00" EndDate="2026-11-04T10:48:00+00:00" Order="6" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -49kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------SFNL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:48:00+00:00" EndDate="2026-11-04T11:01:00+00:00" Medal="3" Order="7" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW49KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:48:00+00:00" EndDate="2026-11-04T11:01:00+00:00" Medal="3" Order="7" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -49kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------SFNL000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:01:00+00:00" EndDate="2026-11-04T11:14:00+00:00" Medal="3" Order="8" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW49KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:01:00+00:00" EndDate="2026-11-04T11:14:00+00:00" Medal="3" Order="8" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -49kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW49KG--------------FNL-000100--" PhaseType="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:14:00+00:00" EndDate="2026-11-04T11:27:00+00:00" Medal="1" Order="9" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW49KG--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:14:00+00:00" EndDate="2026-11-04T11:27:00+00:00" Medal="1" Order="9" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -49kg Gold Medal Contest"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------8FNL000100--" PhaseType="6" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:27:00+00:00" EndDate="2026-11-04T11:40:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW55KG--------------8FNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:27:00+00:00" EndDate="2026-11-04T11:40:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------8FNL000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:40:00+00:00" EndDate="2026-11-04T11:53:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW55KG--------------8FNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:40:00+00:00" EndDate="2026-11-04T11:53:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------8FNL000300--" PhaseType="1" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:53:00+00:00" EndDate="2026-11-04T12:06:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW55KG--------------8FNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:53:00+00:00" EndDate="2026-11-04T12:06:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------8FNL000400--" PhaseType="5" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:06:00+00:00" EndDate="2026-11-04T12:19:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW55KG--------------8FNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:06:00+00:00" EndDate="2026-11-04T12:19:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------8FNL000500--" PhaseType="5" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:19:00+00:00" EndDate="2026-11-04T12:32:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW55KG--------------8FNL000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:19:00+00:00" EndDate="2026-11-04T12:32:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------8FNL000600--" PhaseType="2" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:32:00+00:00" EndDate="2026-11-04T12:45:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW55KG--------------8FNL000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:32:00+00:00" EndDate="2026-11-04T12:45:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------8FNL000700--" PhaseType="1" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:45:00+00:00" EndDate="2026-11-04T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW07">
+    <Unit Code="TKWW55KG--------------8FNL000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:45:00+00:00" EndDate="2026-11-04T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW07">
       <ItemName Language="ENG" Value="Women -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------8FNL000800--" PhaseType="4" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:00:00+00:00" EndDate="2026-11-04T14:13:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW55KG--------------8FNL000800--" PhaseType="3" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:00:00+00:00" EndDate="2026-11-04T14:13:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -55kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------QFNL000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:13:00+00:00" EndDate="2026-11-04T14:26:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW55KG--------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:13:00+00:00" EndDate="2026-11-04T14:26:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -55kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------QFNL000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:26:00+00:00" EndDate="2026-11-04T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW55KG--------------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:26:00+00:00" EndDate="2026-11-04T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -55kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------QFNL000300--" PhaseType="0" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:39:00+00:00" EndDate="2026-11-04T14:52:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW55KG--------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:39:00+00:00" EndDate="2026-11-04T14:52:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -55kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------QFNL000400--" PhaseType="5" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:52:00+00:00" EndDate="2026-11-04T15:05:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW55KG--------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:52:00+00:00" EndDate="2026-11-04T15:05:00+00:00" Order="5" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -55kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------SFNL000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:05:00+00:00" EndDate="2026-11-04T15:18:00+00:00" Medal="3" Order="6" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW55KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:05:00+00:00" EndDate="2026-11-04T15:18:00+00:00" Medal="3" Order="6" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -55kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------SFNL000200--" PhaseType="1" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:18:00+00:00" EndDate="2026-11-04T15:31:00+00:00" Medal="3" Order="7" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW55KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:18:00+00:00" EndDate="2026-11-04T15:31:00+00:00" Medal="3" Order="7" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -55kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW55KG--------------FNL-000100--" PhaseType="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:31:00+00:00" EndDate="2026-11-04T15:44:00+00:00" Medal="1" Order="8" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW55KG--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:31:00+00:00" EndDate="2026-11-04T15:44:00+00:00" Medal="1" Order="8" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -55kg Gold Medal Contest"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------8FNL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:44:00+00:00" EndDate="2026-11-04T15:57:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW63KG--------------8FNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:44:00+00:00" EndDate="2026-11-04T15:57:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------8FNL000200--" PhaseType="5" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:57:00+00:00" EndDate="2026-11-04T16:10:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW63KG--------------8FNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:57:00+00:00" EndDate="2026-11-04T16:10:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -523,39 +523,39 @@
       <ItemName Language="ENG" Value="Women -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------8FNL000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:23:00+00:00" EndDate="2026-11-04T16:36:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW63KG--------------8FNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:23:00+00:00" EndDate="2026-11-04T16:36:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------8FNL000500--" PhaseType="8" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:36:00+00:00" EndDate="2026-11-04T16:49:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW63KG--------------8FNL000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:36:00+00:00" EndDate="2026-11-04T16:49:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------8FNL000600--" PhaseType="0" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:49:00+00:00" EndDate="2026-11-04T17:02:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW63KG--------------8FNL000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:49:00+00:00" EndDate="2026-11-04T17:02:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------8FNL000700--" PhaseType="5" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T17:02:00+00:00" EndDate="2026-11-04T17:15:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW63KG--------------8FNL000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T17:02:00+00:00" EndDate="2026-11-04T17:15:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------8FNL000800--" PhaseType="0" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T17:15:00+00:00" EndDate="2026-11-04T17:28:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW08">
+    <Unit Code="TKWW63KG--------------8FNL000800--" PhaseType="3" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T17:15:00+00:00" EndDate="2026-11-04T17:28:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW08">
       <ItemName Language="ENG" Value="Women -63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------QFNL000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:30:00+00:00" EndDate="2026-11-05T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWW63KG--------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:30:00+00:00" EndDate="2026-11-05T09:43:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women -63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------QFNL000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:43:00+00:00" EndDate="2026-11-05T09:56:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWW63KG--------------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:43:00+00:00" EndDate="2026-11-05T09:56:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women -63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------QFNL000300--" PhaseType="6" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:56:00+00:00" EndDate="2026-11-05T10:09:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWW63KG--------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:56:00+00:00" EndDate="2026-11-05T10:09:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women -63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------QFNL000400--" PhaseType="5" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:09:00+00:00" EndDate="2026-11-05T10:22:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWW63KG--------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:09:00+00:00" EndDate="2026-11-05T10:22:00+00:00" Order="4" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women -63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -563,91 +563,91 @@
       <ItemName Language="ENG" Value="Women -63kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------SFNL000200--" PhaseType="1" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:35:00+00:00" EndDate="2026-11-05T10:48:00+00:00" Medal="3" Order="6" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWW63KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:35:00+00:00" EndDate="2026-11-05T10:48:00+00:00" Medal="3" Order="6" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women -63kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWW63KG--------------FNL-000100--" PhaseType="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:48:00+00:00" EndDate="2026-11-05T11:01:00+00:00" Medal="1" Order="7" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWW63KG--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:48:00+00:00" EndDate="2026-11-05T11:01:00+00:00" Medal="1" Order="7" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women -63kg Gold Medal Contest"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------8FNL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:01:00+00:00" EndDate="2026-11-05T11:14:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWWO63KG-------------8FNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:01:00+00:00" EndDate="2026-11-05T11:14:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women +63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------8FNL000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:14:00+00:00" EndDate="2026-11-05T11:27:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWWO63KG-------------8FNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:14:00+00:00" EndDate="2026-11-05T11:27:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women +63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------8FNL000300--" PhaseType="8" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:27:00+00:00" EndDate="2026-11-05T11:40:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWWO63KG-------------8FNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:27:00+00:00" EndDate="2026-11-05T11:40:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women +63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------8FNL000400--" PhaseType="5" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:40:00+00:00" EndDate="2026-11-05T11:53:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWWO63KG-------------8FNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:40:00+00:00" EndDate="2026-11-05T11:53:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women +63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------8FNL000500--" PhaseType="1" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:53:00+00:00" EndDate="2026-11-05T12:06:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWWO63KG-------------8FNL000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:53:00+00:00" EndDate="2026-11-05T12:06:00+00:00" Order="12" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women +63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------8FNL000600--" PhaseType="5" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:06:00+00:00" EndDate="2026-11-05T12:19:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWWO63KG-------------8FNL000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:06:00+00:00" EndDate="2026-11-05T12:19:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women +63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------8FNL000700--" PhaseType="2" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:19:00+00:00" EndDate="2026-11-05T12:32:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWWO63KG-------------8FNL000700--" PhaseType="3" UnitNum="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:19:00+00:00" EndDate="2026-11-05T12:32:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women +63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------8FNL000800--" PhaseType="9" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:32:00+00:00" EndDate="2026-11-05T12:45:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWWO63KG-------------8FNL000800--" PhaseType="3" UnitNum="8" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:32:00+00:00" EndDate="2026-11-05T12:45:00+00:00" Order="15" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women +63kg Round of 16"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------QFNL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:45:00+00:00" EndDate="2026-11-05T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW09">
+    <Unit Code="TKWWO63KG-------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:45:00+00:00" EndDate="2026-11-05T12:58:00+00:00" Order="16" Venue="CID" Location="CID" SessionCode="TKW09">
       <ItemName Language="ENG" Value="Women +63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------QFNL000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:00:00+00:00" EndDate="2026-11-05T14:13:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWWO63KG-------------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:00:00+00:00" EndDate="2026-11-05T14:13:00+00:00" Order="1" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Women +63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------QFNL000300--" PhaseType="1" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:13:00+00:00" EndDate="2026-11-05T14:26:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWWO63KG-------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:13:00+00:00" EndDate="2026-11-05T14:26:00+00:00" Order="2" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Women +63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------QFNL000400--" PhaseType="9" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:26:00+00:00" EndDate="2026-11-05T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWWO63KG-------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:26:00+00:00" EndDate="2026-11-05T14:39:00+00:00" Order="3" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Women +63kg Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------SFNL000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:39:00+00:00" EndDate="2026-11-05T14:52:00+00:00" Medal="3" Order="4" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWWO63KG-------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:39:00+00:00" EndDate="2026-11-05T14:52:00+00:00" Medal="3" Order="4" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Women +63kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------SFNL000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:52:00+00:00" EndDate="2026-11-05T15:05:00+00:00" Medal="3" Order="5" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWWO63KG-------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:52:00+00:00" EndDate="2026-11-05T15:05:00+00:00" Medal="3" Order="5" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Women +63kg Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWWO63KG-------------FNL-000100--" PhaseType="7" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:05:00+00:00" EndDate="2026-11-05T15:18:00+00:00" Medal="1" Order="6" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWWO63KG-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:05:00+00:00" EndDate="2026-11-05T15:18:00+00:00" Medal="1" Order="6" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Women +63kg Gold Medal Contest"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWXTEAM4-------------REP1000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:18:00+00:00" EndDate="2026-11-05T15:31:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWXTEAM4-------------REP1000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:18:00+00:00" EndDate="2026-11-05T15:31:00+00:00" Order="7" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Mixed Team Repechage"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWXTEAM4-------------REP1000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:31:00+00:00" EndDate="2026-11-05T15:44:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWXTEAM4-------------REP1000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:31:00+00:00" EndDate="2026-11-05T15:44:00+00:00" Order="8" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Mixed Team Repechage"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWXTEAM4-------------QFNL000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:44:00+00:00" EndDate="2026-11-05T15:57:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWXTEAM4-------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:44:00+00:00" EndDate="2026-11-05T15:57:00+00:00" Order="9" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Mixed Team Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWXTEAM4-------------QFNL000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:57:00+00:00" EndDate="2026-11-05T16:10:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWXTEAM4-------------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:57:00+00:00" EndDate="2026-11-05T16:10:00+00:00" Order="10" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Mixed Team Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWXTEAM4-------------QFNL000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:10:00+00:00" EndDate="2026-11-05T16:23:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWXTEAM4-------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:10:00+00:00" EndDate="2026-11-05T16:23:00+00:00" Order="11" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Mixed Team Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
@@ -655,19 +655,19 @@
       <ItemName Language="ENG" Value="Mixed Team Quarterfinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWXTEAM4-------------SFNL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:36:00+00:00" EndDate="2026-11-05T16:49:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWXTEAM4-------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:36:00+00:00" EndDate="2026-11-05T16:49:00+00:00" Order="13" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Mixed Team Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWXTEAM4-------------SFNL000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:49:00+00:00" EndDate="2026-11-05T17:02:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWXTEAM4-------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:49:00+00:00" EndDate="2026-11-05T17:02:00+00:00" Order="14" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Mixed Team Semifinal"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWXTEAM4-------------REPF000100--" PhaseType="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T17:02:00+00:00" EndDate="2026-11-05T17:15:00+00:00" Medal="3" Order="15" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWXTEAM4-------------REPF000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T17:02:00+00:00" EndDate="2026-11-05T17:15:00+00:00" Medal="3" Order="15" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Mixed Team Bronze Medal Match"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>
-    <Unit Code="TKWXTEAM4-------------FNL-000100--" PhaseType="0" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T17:15:00+00:00" EndDate="2026-11-05T17:28:00+00:00" Medal="1" Order="16" Venue="CID" Location="CID" SessionCode="TKW10">
+    <Unit Code="TKWXTEAM4-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T17:15:00+00:00" EndDate="2026-11-05T17:28:00+00:00" Medal="1" Order="16" Venue="CID" Location="CID" SessionCode="TKW10">
       <ItemName Language="ENG" Value="Mixed Team Gold Medal Match"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="Complexe Iba Mar Diop"/>
     </Unit>

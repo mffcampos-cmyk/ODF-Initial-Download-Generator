@@ -18,6 +18,18 @@ _MAX_NOCS = 60       # delegations to draw from per discipline
 _UNITS_PER_SESSION = 16
 _UNIT_MINUTES = 13   # slot length within a session, as in the real ARC feed
 
+# CC@PHASE_TYPE: what kind of activity a schedule unit is. Every unit this
+# generator emits is either a competition unit or a victory ceremony; the real
+# SYOG26 schedule uses exactly these two ("3" on all competition units, "6" on
+# every VICTMEDAL unit). The value used to be drawn at random from the whole
+# table, so bouts went out labelled as press conferences and draws.
+PHASE_TYPE_COMPETITION = "3"
+PHASE_TYPE_MEDAL_CEREMONY = "6"
+
+
+def _phase_type(phase: str) -> str:
+    return PHASE_TYPE_MEDAL_CEREMONY if phase == "VICT" else PHASE_TYPE_COMPETITION
+
 
 def _participant_status(rng, refdata) -> str:
     """A valid CC@PARTICIPANT_STATUS code. Prefer 'ENT' (Entered); if the code
@@ -40,36 +52,13 @@ def _athlete_gender(event_gender: str, i: int) -> str:
     return "M" if i % 2 == 0 else "F"
 
 
-def _team_type(refdata, discipline: str, gender: str = "",
-               team_size: int = 0) -> str:
-    """@TeamType for a squad: an SC@TeamType code chosen by what the squad is.
-
-    GEN 2.1.3.5 defines Team@TeamType as an SCGEN@TeamType code -- ORG
-    ("Organisation"), CPLM ("Couple, male first"), CPLW, CPLP, CUSTOM. The
-    attribute is required by the XSD, so it always has to carry one of them.
-
-    Two things were wrong before. Disciplines with no SC@TeamType@<disc> table
-    (TKW is the only one in SYOG26) fell back to DISCIPLINE_GENDER and emitted
-    a 34-character RSC, "TKWX------...", where the spec wants a short code --
-    invisible because TKW is also the one discipline with no code_membership
-    rule to catch it. And the value was drawn once per discipline with
-    rng.choice, so a discipline publishing both ORG and CPLM got whichever the
-    seed happened to pick, for every event.
-
-    Now: the discipline's own table where it has one, SC@TeamType@GEN
-    otherwise, and the choice is semantic rather than random -- a two-person
-    mixed squad is a couple, anything else is an organisation. Deterministic,
-    so it consumes no rng.
-    """
-    codes = (refdata.codes(f"SC@TeamType@{discipline}")
-             or refdata.codes("SC@TeamType@GEN") or [])
-    if not codes:
-        return "ORG"
-    # A mixed pair. _athlete_gender alternates from M for an X event, so the
-    # squad really is male-first, which is what CPLM asserts.
-    if gender == "X" and team_size == 2 and "CPLM" in codes:
-        return "CPLM"
-    return "ORG" if "ORG" in codes else codes[0]
+# Team@TeamType. GEN 2.1.3.5 makes it an SCGEN@TeamType code (ORG, CPLM, CPLW,
+# CPLP, CUSTOM). Every team this generator builds is a NOC's team, and the real
+# SYOG26 feed uses ORG for all 207 of its teams -- TTE mixed doubles and VBV
+# pairs included, although SC@TeamType@VBV lists only CUSTOM and
+# SC@TeamType@TTE offers CPLM. The generator used to pick CPLM for a mixed pair
+# and fall back to a discipline table's first code (CUSTOM for VBV).
+_TEAM_TYPE = "ORG"
 
 
 def _main_function(refdata, role: str) -> str:
@@ -91,11 +80,30 @@ def _nationality(refdata, org: str) -> str:
     return ""
 
 
+def _participating_nocs(refdata) -> list[str]:
+    """CC@NOC members that can send athletes to these Games.
+
+    The table marks each NOC P (participating), H (historical: EUN, SCG, URS,
+    FRG, ...) or NP (not participating: AIN, BOC, ROC). Only P belongs in a
+    2026 feed; drawing from the whole table put the Unified Team in 14
+    disciplines. A NOC table without a Participation column (another Games'
+    workbook) is taken whole rather than emptied."""
+    table = refdata.pack.codes.table("NOC")
+    if table is None:
+        return []
+    rows = table._rows
+    if not any("Participation" in r.fields for r in rows.values()):
+        return sorted(rows)
+    return sorted(c for c, r in rows.items()
+                  if r.fields.get("Participation") == "P")
+
+
 def _noc_pool(rng, refdata, count: int = _MAX_NOCS) -> list[str]:
     # Prefer the NOC table: CC@ORGANISATION also contains IFs and other
     # non-NOC organisations (e.g. UCI) that never appear on participants.
     for cs in ("NOC", "ORGANISATION", "COUNTRY"):
-        codes = refdata.codes(cs)
+        codes = (_participating_nocs(refdata) if cs == "NOC"
+                 else refdata.codes(cs))
         if codes:
             return rng.sample(codes, min(count, len(codes)))
     # Fallback: synthesize 3-letter org codes if no org table exists.
@@ -175,7 +183,7 @@ def _build_arc_dataset(refdata, seed: int) -> Dataset:
     rng = random.Random(seed)
     status = _participant_status(rng, refdata)
     used: set[str] = set()
-    known = set(refdata.codes("NOC")) or None
+    known = set(_participating_nocs(refdata)) or None
 
     def keep(noc_list):
         return [n for n in noc_list if known is None or n in known]
@@ -211,7 +219,7 @@ def _build_arc_dataset(refdata, seed: int) -> Dataset:
     _generate_officials(_add_official, refdata, "ARC", all_nocs, rng, None)
     next_id = _next[0]
 
-    tt = _team_type(refdata, "ARC", gender="X", team_size=2)
+    tt = _TEAM_TYPE
     teams: list[Team] = []
     for noc in dual:  # NOCs with one man + one woman form the mixed teams
         long_name = (refdata.description("NOC", noc, "ENG_longDescription")
@@ -373,7 +381,7 @@ def _build_codes_dataset(refdata, discipline: str, seed: int,
 
     # Team events: one squad per entrant slot, all members from the team NOC.
     for ev in (e for e in evs if e.is_team):
-        tt = _team_type(refdata, discipline, ev.gender, ev.team_size)
+        tt = _TEAM_TYPE
         ev_entry = EventEntries(_event_rsc(discipline, ev.gender, ev.event))
         event_entries.append(ev_entry)
         prefix = f"{discipline}{ev.gender}{ev.event}"[:12].ljust(12, "-")
@@ -503,7 +511,7 @@ def _build_codes_dataset(refdata, discipline: str, seed: int,
             multi = phase_counts[u.event_key].get(u.phase, 0) > 1
             s.units.append(ScheduleUnit(
                 code=u.code,
-                phase_type=fields.pick_code(rng, refdata, "PHASE_TYPE") or "3",
+                phase_type=_phase_type(u.phase),
                 schedule_status=schedule_status,
                 sort_order=order,
                 medal=u.medal or None,
@@ -548,7 +556,7 @@ def _build_fallback_dataset(refdata, discipline: str, seed: int) -> Dataset:
 
     athletes = [p for p in participants if not p.is_official]
     teams: list[Team] = []
-    tt = _team_type(refdata, discipline)
+    tt = _TEAM_TYPE
     for j in range(2):
         org = rng.choice(orgs)
         long_name = (refdata.description("NOC", org, "ENG_longDescription")
@@ -568,7 +576,7 @@ def _build_fallback_dataset(refdata, discipline: str, seed: int) -> Dataset:
     session_code = f"{discipline}01"
     units = [ScheduleUnit(
         code=fields.unit_rsc(rng, discipline),
-        phase_type=fields.pick_code(rng, refdata, "PHASE_TYPE") or "1",
+        phase_type=PHASE_TYPE_COMPETITION,
         schedule_status=_SCHEDULE_STATUS,
         sort_order=k + 1, medal=rng.choice([None, "0", "1"]),
         unit_num=str(k + 1), start_date=start, end_date=end,
@@ -661,7 +669,7 @@ def _apply_count_overrides(ds: Dataset, refdata, discipline: str, seed: int,
             short_name=refdata.description("NOC", org, "ENG_Description") or org,
             tv_team_name=long_name,
             gender=ev.gender if ev.gender in ("M", "W", "X") else "X",
-            team_type=_team_type(refdata, discipline, ev.gender, ev.team_size),
+            team_type=_TEAM_TYPE,
             status=status, member_codes=members, name=long_name))
 
     used_nocs = sorted({p.organisation for p in participants}) or list(nocs)

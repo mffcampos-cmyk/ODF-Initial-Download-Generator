@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="WRB-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-22" Time="205914997" LogicalDate="2026-09-22" Source="OGEN">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-WRB-1.0" Codes="SYOG-2026-CC-V0.04">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="WRB-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="175954108" LogicalDate="2026-09-23" Source="OSM">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-WRB-1.2" Codes="YOG-2026-2.4">
     <Session Venue="SBW" VenueName="Saly Beach West" SessionType="MOR" SessionCode="WRB01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
       <SessionName Language="ENG" Value="Session 1"/>
     </Session>
@@ -34,39 +34,39 @@
     <Session Venue="SBW" VenueName="Saly Beach West" SessionType="MOR" SessionCode="WRB11" StartDate="2026-11-06T09:30:00+00:00" EndDate="2026-11-06T12:58:00+00:00">
       <SessionName Language="ENG" Value="Session 11"/>
     </Session>
-    <Unit Code="WRBM60KG--------------GPA-000100--" PhaseType="5" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPB-000100--" PhaseType="6" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPC-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPC-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPA-000200--" PhaseType="1" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPB-000200--" PhaseType="5" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPC-000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPC-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPA-000300--" PhaseType="7" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPB-000300--" PhaseType="1" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPC-000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPC-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -74,31 +74,31 @@
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPB-000400--" PhaseType="9" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPC-000400--" PhaseType="8" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPC-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPA-000500--" PhaseType="7" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPB-000500--" PhaseType="5" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPC-000500--" PhaseType="4" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPC-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPA-000600--" PhaseType="2" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB01">
+    <Unit Code="WRBM60KG--------------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB01">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------GPB-000600--" PhaseType="8" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM60KG--------------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -106,7 +106,7 @@
       <ItemName Language="ENG" Value="MBW 60kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------SFNL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM60KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 60kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -118,35 +118,35 @@
       <ItemName Language="ENG" Value="MBW 60kg Gold Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM60KG--------------FNL-000200--" PhaseType="5" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Medal="3" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM60KG--------------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Medal="3" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 60kg Bronze Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPA-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM70KG--------------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPB-000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM70KG--------------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPC-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM70KG--------------GPC-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPA-000200--" PhaseType="7" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM70KG--------------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPB-000200--" PhaseType="1" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM70KG--------------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPC-000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM70KG--------------GPC-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPA-000300--" PhaseType="5" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:36:00+00:00" EndDate="2026-11-01T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM70KG--------------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:36:00+00:00" EndDate="2026-11-01T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -154,35 +154,35 @@
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPC-000300--" PhaseType="6" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:02:00+00:00" EndDate="2026-11-01T17:15:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM70KG--------------GPC-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:02:00+00:00" EndDate="2026-11-01T17:15:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPA-000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:15:00+00:00" EndDate="2026-11-01T17:28:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB02">
+    <Unit Code="WRBM70KG--------------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:15:00+00:00" EndDate="2026-11-01T17:28:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB02">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPB-000400--" PhaseType="0" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPC-000400--" PhaseType="5" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:43:00+00:00" EndDate="2026-11-02T09:56:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------GPC-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:43:00+00:00" EndDate="2026-11-02T09:56:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPA-000500--" PhaseType="2" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPB-000500--" PhaseType="5" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:09:00+00:00" EndDate="2026-11-02T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:09:00+00:00" EndDate="2026-11-02T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPC-000500--" PhaseType="9" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:22:00+00:00" EndDate="2026-11-02T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------GPC-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:22:00+00:00" EndDate="2026-11-02T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPA-000600--" PhaseType="4" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:35:00+00:00" EndDate="2026-11-02T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:35:00+00:00" EndDate="2026-11-02T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -190,31 +190,31 @@
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------GPC-000600--" PhaseType="5" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:01:00+00:00" EndDate="2026-11-02T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------GPC-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:01:00+00:00" EndDate="2026-11-02T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------SFNL000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:14:00+00:00" EndDate="2026-11-02T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:14:00+00:00" EndDate="2026-11-02T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------SFNL000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:27:00+00:00" EndDate="2026-11-02T11:40:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:27:00+00:00" EndDate="2026-11-02T11:40:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------FNL-000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:40:00+00:00" EndDate="2026-11-02T11:53:00+00:00" Medal="1" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:40:00+00:00" EndDate="2026-11-02T11:53:00+00:00" Medal="1" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Gold Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM70KG--------------FNL-000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:53:00+00:00" EndDate="2026-11-02T12:06:00+00:00" Medal="3" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM70KG--------------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:53:00+00:00" EndDate="2026-11-02T12:06:00+00:00" Medal="3" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 70kg Bronze Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPA-000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:06:00+00:00" EndDate="2026-11-02T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM80KG--------------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:06:00+00:00" EndDate="2026-11-02T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPB-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:19:00+00:00" EndDate="2026-11-02T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB03">
+    <Unit Code="WRBM80KG--------------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:19:00+00:00" EndDate="2026-11-02T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB03">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -226,7 +226,7 @@
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPB-000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -234,119 +234,119 @@
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPA-000300--" PhaseType="6" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:26:00+00:00" EndDate="2026-11-02T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:26:00+00:00" EndDate="2026-11-02T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPB-000300--" PhaseType="1" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:39:00+00:00" EndDate="2026-11-02T14:52:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:39:00+00:00" EndDate="2026-11-02T14:52:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPC-000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:52:00+00:00" EndDate="2026-11-02T15:05:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPC-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:52:00+00:00" EndDate="2026-11-02T15:05:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPA-000400--" PhaseType="8" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:05:00+00:00" EndDate="2026-11-02T15:18:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:05:00+00:00" EndDate="2026-11-02T15:18:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPB-000400--" PhaseType="1" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:18:00+00:00" EndDate="2026-11-02T15:31:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:18:00+00:00" EndDate="2026-11-02T15:31:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPC-000400--" PhaseType="1" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:31:00+00:00" EndDate="2026-11-02T15:44:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPC-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:31:00+00:00" EndDate="2026-11-02T15:44:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPA-000500--" PhaseType="0" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:44:00+00:00" EndDate="2026-11-02T15:57:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:44:00+00:00" EndDate="2026-11-02T15:57:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPB-000500--" PhaseType="0" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:57:00+00:00" EndDate="2026-11-02T16:10:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:57:00+00:00" EndDate="2026-11-02T16:10:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPC-000500--" PhaseType="4" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:10:00+00:00" EndDate="2026-11-02T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPC-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:10:00+00:00" EndDate="2026-11-02T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPA-000600--" PhaseType="5" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:23:00+00:00" EndDate="2026-11-02T16:36:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:23:00+00:00" EndDate="2026-11-02T16:36:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPB-000600--" PhaseType="7" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:36:00+00:00" EndDate="2026-11-02T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:36:00+00:00" EndDate="2026-11-02T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------GPC-000600--" PhaseType="7" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:49:00+00:00" EndDate="2026-11-02T17:02:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------GPC-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:49:00+00:00" EndDate="2026-11-02T17:02:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------SFNL000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:02:00+00:00" EndDate="2026-11-02T17:15:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:02:00+00:00" EndDate="2026-11-02T17:15:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------SFNL000200--" PhaseType="1" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:15:00+00:00" EndDate="2026-11-02T17:28:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB04">
+    <Unit Code="WRBM80KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:15:00+00:00" EndDate="2026-11-02T17:28:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB04">
       <ItemName Language="ENG" Value="MBW 80kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------FNL-000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T09:43:00+00:00" Medal="1" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM80KG--------------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T09:43:00+00:00" Medal="1" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 80kg Gold Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM80KG--------------FNL-000200--" PhaseType="5" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:43:00+00:00" EndDate="2026-11-03T09:56:00+00:00" Medal="3" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM80KG--------------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:43:00+00:00" EndDate="2026-11-03T09:56:00+00:00" Medal="3" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 80kg Bronze Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPA-000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:56:00+00:00" EndDate="2026-11-03T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:56:00+00:00" EndDate="2026-11-03T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPB-000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:09:00+00:00" EndDate="2026-11-03T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:09:00+00:00" EndDate="2026-11-03T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPC-000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:22:00+00:00" EndDate="2026-11-03T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPC-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:22:00+00:00" EndDate="2026-11-03T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPA-000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:35:00+00:00" EndDate="2026-11-03T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:35:00+00:00" EndDate="2026-11-03T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPB-000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:48:00+00:00" EndDate="2026-11-03T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:48:00+00:00" EndDate="2026-11-03T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPC-000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:01:00+00:00" EndDate="2026-11-03T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPC-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:01:00+00:00" EndDate="2026-11-03T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPA-000300--" PhaseType="5" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:14:00+00:00" EndDate="2026-11-03T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:14:00+00:00" EndDate="2026-11-03T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPB-000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:27:00+00:00" EndDate="2026-11-03T11:40:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:27:00+00:00" EndDate="2026-11-03T11:40:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPC-000300--" PhaseType="1" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:40:00+00:00" EndDate="2026-11-03T11:53:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPC-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:40:00+00:00" EndDate="2026-11-03T11:53:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPA-000400--" PhaseType="8" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:53:00+00:00" EndDate="2026-11-03T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:53:00+00:00" EndDate="2026-11-03T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPB-000400--" PhaseType="9" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:06:00+00:00" EndDate="2026-11-03T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:06:00+00:00" EndDate="2026-11-03T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPC-000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:19:00+00:00" EndDate="2026-11-03T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPC-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:19:00+00:00" EndDate="2026-11-03T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPA-000500--" PhaseType="2" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:32:00+00:00" EndDate="2026-11-03T12:45:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB05">
+    <Unit Code="WRBM90KG--------------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:32:00+00:00" EndDate="2026-11-03T12:45:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB05">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -354,27 +354,27 @@
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPC-000500--" PhaseType="2" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:00:00+00:00" EndDate="2026-11-03T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBM90KG--------------GPC-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:00:00+00:00" EndDate="2026-11-03T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPA-000600--" PhaseType="8" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:13:00+00:00" EndDate="2026-11-03T14:26:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBM90KG--------------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:13:00+00:00" EndDate="2026-11-03T14:26:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPB-000600--" PhaseType="0" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:26:00+00:00" EndDate="2026-11-03T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBM90KG--------------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:26:00+00:00" EndDate="2026-11-03T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------GPC-000600--" PhaseType="5" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:39:00+00:00" EndDate="2026-11-03T14:52:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBM90KG--------------GPC-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:39:00+00:00" EndDate="2026-11-03T14:52:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="MBW 90kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------SFNL000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:52:00+00:00" EndDate="2026-11-03T15:05:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBM90KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:52:00+00:00" EndDate="2026-11-03T15:05:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="MBW 90kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------SFNL000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:05:00+00:00" EndDate="2026-11-03T15:18:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBM90KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:05:00+00:00" EndDate="2026-11-03T15:18:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="MBW 90kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -382,27 +382,27 @@
       <ItemName Language="ENG" Value="MBW 90kg Gold Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBM90KG--------------FNL-000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:31:00+00:00" EndDate="2026-11-03T15:44:00+00:00" Medal="3" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBM90KG--------------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:31:00+00:00" EndDate="2026-11-03T15:44:00+00:00" Medal="3" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="MBW 90kg Bronze Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPA-000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:44:00+00:00" EndDate="2026-11-03T15:57:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBW45KG--------------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:44:00+00:00" EndDate="2026-11-03T15:57:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPB-000100--" PhaseType="6" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:57:00+00:00" EndDate="2026-11-03T16:10:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBW45KG--------------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:57:00+00:00" EndDate="2026-11-03T16:10:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPC-000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:10:00+00:00" EndDate="2026-11-03T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBW45KG--------------GPC-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:10:00+00:00" EndDate="2026-11-03T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPA-000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:23:00+00:00" EndDate="2026-11-03T16:36:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBW45KG--------------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:23:00+00:00" EndDate="2026-11-03T16:36:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPB-000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:36:00+00:00" EndDate="2026-11-03T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBW45KG--------------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:36:00+00:00" EndDate="2026-11-03T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -410,143 +410,143 @@
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPA-000300--" PhaseType="4" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T17:02:00+00:00" EndDate="2026-11-03T17:15:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBW45KG--------------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T17:02:00+00:00" EndDate="2026-11-03T17:15:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPB-000300--" PhaseType="1" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T17:15:00+00:00" EndDate="2026-11-03T17:28:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB06">
+    <Unit Code="WRBW45KG--------------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T17:15:00+00:00" EndDate="2026-11-03T17:28:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB06">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPC-000300--" PhaseType="7" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:30:00+00:00" EndDate="2026-11-04T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------GPC-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:30:00+00:00" EndDate="2026-11-04T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPA-000400--" PhaseType="6" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:43:00+00:00" EndDate="2026-11-04T09:56:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:43:00+00:00" EndDate="2026-11-04T09:56:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPB-000400--" PhaseType="8" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:56:00+00:00" EndDate="2026-11-04T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:56:00+00:00" EndDate="2026-11-04T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPC-000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:09:00+00:00" EndDate="2026-11-04T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------GPC-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:09:00+00:00" EndDate="2026-11-04T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPA-000500--" PhaseType="8" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:22:00+00:00" EndDate="2026-11-04T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:22:00+00:00" EndDate="2026-11-04T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPB-000500--" PhaseType="7" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:35:00+00:00" EndDate="2026-11-04T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:35:00+00:00" EndDate="2026-11-04T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPC-000500--" PhaseType="8" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:48:00+00:00" EndDate="2026-11-04T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------GPC-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:48:00+00:00" EndDate="2026-11-04T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPA-000600--" PhaseType="7" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:01:00+00:00" EndDate="2026-11-04T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:01:00+00:00" EndDate="2026-11-04T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPB-000600--" PhaseType="0" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:14:00+00:00" EndDate="2026-11-04T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:14:00+00:00" EndDate="2026-11-04T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------GPC-000600--" PhaseType="6" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:27:00+00:00" EndDate="2026-11-04T11:40:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------GPC-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:27:00+00:00" EndDate="2026-11-04T11:40:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------SFNL000100--" PhaseType="5" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:40:00+00:00" EndDate="2026-11-04T11:53:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:40:00+00:00" EndDate="2026-11-04T11:53:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------SFNL000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:53:00+00:00" EndDate="2026-11-04T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:53:00+00:00" EndDate="2026-11-04T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------FNL-000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:06:00+00:00" EndDate="2026-11-04T12:19:00+00:00" Medal="1" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:06:00+00:00" EndDate="2026-11-04T12:19:00+00:00" Medal="1" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Gold Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW45KG--------------FNL-000200--" PhaseType="7" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:19:00+00:00" EndDate="2026-11-04T12:32:00+00:00" Medal="3" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW45KG--------------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:19:00+00:00" EndDate="2026-11-04T12:32:00+00:00" Medal="3" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 45kg Bronze Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPA-000100--" PhaseType="0" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:32:00+00:00" EndDate="2026-11-04T12:45:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW55KG--------------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:32:00+00:00" EndDate="2026-11-04T12:45:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPB-000100--" PhaseType="6" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:45:00+00:00" EndDate="2026-11-04T12:58:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB07">
+    <Unit Code="WRBW55KG--------------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T12:45:00+00:00" EndDate="2026-11-04T12:58:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB07">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPC-000100--" PhaseType="9" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:00:00+00:00" EndDate="2026-11-04T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPC-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:00:00+00:00" EndDate="2026-11-04T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPA-000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:13:00+00:00" EndDate="2026-11-04T14:26:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:13:00+00:00" EndDate="2026-11-04T14:26:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPB-000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:26:00+00:00" EndDate="2026-11-04T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:26:00+00:00" EndDate="2026-11-04T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPC-000200--" PhaseType="5" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:39:00+00:00" EndDate="2026-11-04T14:52:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPC-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:39:00+00:00" EndDate="2026-11-04T14:52:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPA-000300--" PhaseType="9" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:52:00+00:00" EndDate="2026-11-04T15:05:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:52:00+00:00" EndDate="2026-11-04T15:05:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPB-000300--" PhaseType="2" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:05:00+00:00" EndDate="2026-11-04T15:18:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:05:00+00:00" EndDate="2026-11-04T15:18:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPC-000300--" PhaseType="9" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:18:00+00:00" EndDate="2026-11-04T15:31:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPC-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:18:00+00:00" EndDate="2026-11-04T15:31:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPA-000400--" PhaseType="2" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:31:00+00:00" EndDate="2026-11-04T15:44:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:31:00+00:00" EndDate="2026-11-04T15:44:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPB-000400--" PhaseType="2" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:44:00+00:00" EndDate="2026-11-04T15:57:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:44:00+00:00" EndDate="2026-11-04T15:57:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPC-000400--" PhaseType="4" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:57:00+00:00" EndDate="2026-11-04T16:10:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPC-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:57:00+00:00" EndDate="2026-11-04T16:10:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPA-000500--" PhaseType="4" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:10:00+00:00" EndDate="2026-11-04T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:10:00+00:00" EndDate="2026-11-04T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPB-000500--" PhaseType="6" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:23:00+00:00" EndDate="2026-11-04T16:36:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:23:00+00:00" EndDate="2026-11-04T16:36:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPC-000500--" PhaseType="9" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:36:00+00:00" EndDate="2026-11-04T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPC-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:36:00+00:00" EndDate="2026-11-04T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPA-000600--" PhaseType="6" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:49:00+00:00" EndDate="2026-11-04T17:02:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:49:00+00:00" EndDate="2026-11-04T17:02:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPB-000600--" PhaseType="2" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T17:02:00+00:00" EndDate="2026-11-04T17:15:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T17:02:00+00:00" EndDate="2026-11-04T17:15:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------GPC-000600--" PhaseType="9" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T17:15:00+00:00" EndDate="2026-11-04T17:28:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB08">
+    <Unit Code="WRBW55KG--------------GPC-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T17:15:00+00:00" EndDate="2026-11-04T17:28:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB08">
       <ItemName Language="ENG" Value="WBW 55kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------SFNL000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:30:00+00:00" EndDate="2026-11-05T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW55KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:30:00+00:00" EndDate="2026-11-05T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 55kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -554,31 +554,31 @@
       <ItemName Language="ENG" Value="WBW 55kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------FNL-000100--" PhaseType="7" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:56:00+00:00" EndDate="2026-11-05T10:09:00+00:00" Medal="1" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW55KG--------------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:56:00+00:00" EndDate="2026-11-05T10:09:00+00:00" Medal="1" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 55kg Gold Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW55KG--------------FNL-000200--" PhaseType="0" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:09:00+00:00" EndDate="2026-11-05T10:22:00+00:00" Medal="3" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW55KG--------------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:09:00+00:00" EndDate="2026-11-05T10:22:00+00:00" Medal="3" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 55kg Bronze Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPA-000100--" PhaseType="2" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:22:00+00:00" EndDate="2026-11-05T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW65KG--------------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:22:00+00:00" EndDate="2026-11-05T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPB-000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:35:00+00:00" EndDate="2026-11-05T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW65KG--------------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:35:00+00:00" EndDate="2026-11-05T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPC-000100--" PhaseType="5" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:48:00+00:00" EndDate="2026-11-05T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW65KG--------------GPC-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:48:00+00:00" EndDate="2026-11-05T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPA-000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:01:00+00:00" EndDate="2026-11-05T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW65KG--------------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:01:00+00:00" EndDate="2026-11-05T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPB-000200--" PhaseType="7" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:14:00+00:00" EndDate="2026-11-05T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW65KG--------------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:14:00+00:00" EndDate="2026-11-05T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -590,15 +590,15 @@
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPB-000300--" PhaseType="5" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:53:00+00:00" EndDate="2026-11-05T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW65KG--------------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T11:53:00+00:00" EndDate="2026-11-05T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPC-000300--" PhaseType="7" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:06:00+00:00" EndDate="2026-11-05T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW65KG--------------GPC-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:06:00+00:00" EndDate="2026-11-05T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPA-000400--" PhaseType="7" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:19:00+00:00" EndDate="2026-11-05T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW65KG--------------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:19:00+00:00" EndDate="2026-11-05T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -606,23 +606,23 @@
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPC-000400--" PhaseType="6" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:45:00+00:00" EndDate="2026-11-05T12:58:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB09">
+    <Unit Code="WRBW65KG--------------GPC-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T12:45:00+00:00" EndDate="2026-11-05T12:58:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB09">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPA-000500--" PhaseType="5" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:00:00+00:00" EndDate="2026-11-05T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW65KG--------------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:00:00+00:00" EndDate="2026-11-05T14:13:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPB-000500--" PhaseType="8" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:13:00+00:00" EndDate="2026-11-05T14:26:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW65KG--------------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:13:00+00:00" EndDate="2026-11-05T14:26:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPC-000500--" PhaseType="9" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:26:00+00:00" EndDate="2026-11-05T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW65KG--------------GPC-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:26:00+00:00" EndDate="2026-11-05T14:39:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPA-000600--" PhaseType="4" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:39:00+00:00" EndDate="2026-11-05T14:52:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW65KG--------------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T14:39:00+00:00" EndDate="2026-11-05T14:52:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -630,27 +630,27 @@
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------GPC-000600--" PhaseType="0" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:05:00+00:00" EndDate="2026-11-05T15:18:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW65KG--------------GPC-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:05:00+00:00" EndDate="2026-11-05T15:18:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 65kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------SFNL000100--" PhaseType="1" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:18:00+00:00" EndDate="2026-11-05T15:31:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW65KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:18:00+00:00" EndDate="2026-11-05T15:31:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 65kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------SFNL000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:31:00+00:00" EndDate="2026-11-05T15:44:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW65KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:31:00+00:00" EndDate="2026-11-05T15:44:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 65kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------FNL-000100--" PhaseType="5" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:44:00+00:00" EndDate="2026-11-05T15:57:00+00:00" Medal="1" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW65KG--------------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:44:00+00:00" EndDate="2026-11-05T15:57:00+00:00" Medal="1" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 65kg Gold Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW65KG--------------FNL-000200--" PhaseType="2" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:57:00+00:00" EndDate="2026-11-05T16:10:00+00:00" Medal="3" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW65KG--------------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T15:57:00+00:00" EndDate="2026-11-05T16:10:00+00:00" Medal="3" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 65kg Bronze Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPA-000100--" PhaseType="8" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:10:00+00:00" EndDate="2026-11-05T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW75KG--------------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:10:00+00:00" EndDate="2026-11-05T16:23:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -658,75 +658,75 @@
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPC-000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:36:00+00:00" EndDate="2026-11-05T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW75KG--------------GPC-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:36:00+00:00" EndDate="2026-11-05T16:49:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPA-000200--" PhaseType="4" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:49:00+00:00" EndDate="2026-11-05T17:02:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW75KG--------------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T16:49:00+00:00" EndDate="2026-11-05T17:02:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp A - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPB-000200--" PhaseType="4" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T17:02:00+00:00" EndDate="2026-11-05T17:15:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW75KG--------------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T17:02:00+00:00" EndDate="2026-11-05T17:15:00+00:00" Order="15" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp B - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPC-000200--" PhaseType="8" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T17:15:00+00:00" EndDate="2026-11-05T17:28:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB10">
+    <Unit Code="WRBW75KG--------------GPC-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T17:15:00+00:00" EndDate="2026-11-05T17:28:00+00:00" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB10">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp C - Round 1"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPA-000300--" PhaseType="5" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T09:30:00+00:00" EndDate="2026-11-06T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T09:30:00+00:00" EndDate="2026-11-06T09:43:00+00:00" Order="1" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPB-000300--" PhaseType="2" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T09:43:00+00:00" EndDate="2026-11-06T09:56:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T09:43:00+00:00" EndDate="2026-11-06T09:56:00+00:00" Order="2" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPC-000300--" PhaseType="7" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T09:56:00+00:00" EndDate="2026-11-06T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPC-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T09:56:00+00:00" EndDate="2026-11-06T10:09:00+00:00" Order="3" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPA-000400--" PhaseType="9" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T10:09:00+00:00" EndDate="2026-11-06T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T10:09:00+00:00" EndDate="2026-11-06T10:22:00+00:00" Order="4" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp A - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPB-000400--" PhaseType="1" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T10:22:00+00:00" EndDate="2026-11-06T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T10:22:00+00:00" EndDate="2026-11-06T10:35:00+00:00" Order="5" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp B - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPC-000400--" PhaseType="1" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T10:35:00+00:00" EndDate="2026-11-06T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPC-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T10:35:00+00:00" EndDate="2026-11-06T10:48:00+00:00" Order="6" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp C - Round 2"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPA-000500--" PhaseType="9" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T10:48:00+00:00" EndDate="2026-11-06T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T10:48:00+00:00" EndDate="2026-11-06T11:01:00+00:00" Order="7" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPB-000500--" PhaseType="8" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T11:01:00+00:00" EndDate="2026-11-06T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T11:01:00+00:00" EndDate="2026-11-06T11:14:00+00:00" Order="8" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPC-000500--" PhaseType="9" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T11:14:00+00:00" EndDate="2026-11-06T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPC-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T11:14:00+00:00" EndDate="2026-11-06T11:27:00+00:00" Order="9" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPA-000600--" PhaseType="6" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T11:27:00+00:00" EndDate="2026-11-06T11:40:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T11:27:00+00:00" EndDate="2026-11-06T11:40:00+00:00" Order="10" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp A - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPB-000600--" PhaseType="2" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T11:40:00+00:00" EndDate="2026-11-06T11:53:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T11:40:00+00:00" EndDate="2026-11-06T11:53:00+00:00" Order="11" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp B - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------GPC-000600--" PhaseType="2" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T11:53:00+00:00" EndDate="2026-11-06T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------GPC-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T11:53:00+00:00" EndDate="2026-11-06T12:06:00+00:00" Order="12" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Group Stage - Grp C - Round 3"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------SFNL000100--" PhaseType="4" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T12:06:00+00:00" EndDate="2026-11-06T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T12:06:00+00:00" EndDate="2026-11-06T12:19:00+00:00" Order="13" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------SFNL000200--" PhaseType="6" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T12:19:00+00:00" EndDate="2026-11-06T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T12:19:00+00:00" EndDate="2026-11-06T12:32:00+00:00" Order="14" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
@@ -734,7 +734,7 @@
       <ItemName Language="ENG" Value="WBW 75kg Gold Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>
-    <Unit Code="WRBW75KG--------------FNL-000200--" PhaseType="9" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T12:45:00+00:00" EndDate="2026-11-06T12:58:00+00:00" Medal="3" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB11">
+    <Unit Code="WRBW75KG--------------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-06T12:45:00+00:00" EndDate="2026-11-06T12:58:00+00:00" Medal="3" Order="16" Venue="SBW" Location="SBW" SessionCode="WRB11">
       <ItemName Language="ENG" Value="WBW 75kg Bronze Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="Saly Beach West"/>
     </Unit>

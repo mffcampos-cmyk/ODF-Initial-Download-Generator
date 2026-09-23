@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="ARC-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-22" Time="205827613" LogicalDate="2026-09-22" Source="AWAARC1">
-  <Competition Gen="OWG-2026-GEN-V4.5" Sport="SYOG-2026-ARC-1.0" Codes="SYOG-2026-CC-V0.04">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="ARC-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="175942348" LogicalDate="2026-09-23" Source="OSM">
+  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-ARC-1.2" Codes="YOG-2026-2.4">
     <Session Venue="SAW" VenueName="Abdoulaye Wade Stadium" SessionType="MOR" SessionCode="ARC01" StartDate="2026-11-07T09:30:00+00:00" EndDate="2026-11-07T12:30:00+00:00">
       <SessionName Language="ENG" Value="Session 1"/>
     </Session>

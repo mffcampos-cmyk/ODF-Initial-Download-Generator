@@ -15,7 +15,10 @@ LOCATION_NAME = "Abdoulaye Wade Stadium - Field"
 
 # 17 NOCs entering one man + one woman (they also form the mixed teams),
 # 15 men-only NOCs, 15 women-only NOCs -> 32 M + 32 W athletes.
-DUAL_NOCS = ["ASA","BAH","BDI","CRC","CZE","EGY","FRG","GHA","ITA","JOR","KOR","LAO","PLE","PUR","SWE","URS","USA"]
+# FRG and URS were in this list; both are historical NOCs (CC@NOC
+# Participation "H") and produced a "Federal Republic of Germany" team. GER
+# and KAZ take their places, keeping 17 dual NOCs.
+DUAL_NOCS = ["ASA","BAH","BDI","CRC","CZE","EGY","GER","GHA","ITA","JOR","KAZ","KOR","LAO","PLE","PUR","SWE","USA"]
 MEN_NOCS = ["BAR","BEL","CAM","COD","CRO","ETH","GUM","INA","ISL","LCA","MOZ","NCA","NOR","OMA","TKM"]
 WOMEN_NOCS = ["ALB","AND","AZE","BAN","BEN","CHI","CIV","COL","HUN","IRL","ISV","KGZ","KSA","SEN","SOM"]
 

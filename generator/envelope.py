@@ -4,6 +4,8 @@ import random
 from . import fields
 from .serialize import el
 
+FEED_FLAG = "P"
+
 
 def competition_code(refdata) -> str:
     codes = refdata.codes("COMPETITION_CODE")
@@ -37,7 +39,7 @@ def build_odfbody(rng: random.Random, refdata, discipline: str,
     time = now.strftime("%H%M%S") + f"{now.microsecond // 1000:03d}"  # HHMMSSmmm
 
     comp_code = ov.competition_code if ov and ov.competition_code else competition_code
-    source = ov.source if ov and ov.source else profile.source(disc)
+    source = ov.source if ov and ov.source else profile.source(document_type)
 
     root = el("OdfBody", {
         "CompetitionCode": comp_code,
@@ -46,7 +48,10 @@ def build_odfbody(rng: random.Random, refdata, discipline: str,
         "DocumentCode": document_code or fields.rsc(rng, disc),
         "DocumentType": document_type,
         "Version": "1",
-        "FeedFlag": fields.feed_flag(rng),
+        # "P" (production): an initial download is a production feed, and the
+        # real SYOG26 one is "P" on every message. This was a coin toss per
+        # message, so one bundle mixed production and test messages.
+        "FeedFlag": FEED_FLAG,
         "Date": date,
         "Time": time,
         "LogicalDate": date,
@@ -55,7 +60,7 @@ def build_odfbody(rng: random.Random, refdata, discipline: str,
     comp = el("Competition", {
         "Gen": ov.gen if ov and ov.gen else profile.gen,
         "Sport": ov.sport if ov and ov.sport else profile.sport(disc),
-        "Codes": ov.codes if ov and ov.codes else profile.codes,
+        "Codes": ov.codes if ov and ov.codes else refdata.codes_reference,
     })
     root.append(comp)
     return root, comp

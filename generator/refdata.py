@@ -1,5 +1,24 @@
 from __future__ import annotations
 
+import re
+
+# SYOG2026_ODF_Common_Codes_v_2_4.xlsx -> (2, 4)
+_CODES_RELEASE = re.compile(r"_v_(\d+)_(\d+)\.xlsx$", re.IGNORECASE)
+
+
+def codes_version(loaded_files) -> str | None:
+    """The Common Codes release among a pack's loaded files, as "2.4".
+
+    Read from what the pack actually loaded (``LoadReport.loaded_files``), not
+    from what happens to sit in the folder, so the stamp names the release the
+    messages were built from. The highest release wins if several loaded."""
+    found = [(int(m[1]), int(m[2])) for f in loaded_files or ()
+             if (m := _CODES_RELEASE.search(str(f)))]
+    if not found:
+        return None
+    major, minor = max(found)
+    return f"{major}.{minor}"
+
 
 class RefData:
     """Read-only accessor over a validator RulePack: code tables + discipline
@@ -20,6 +39,13 @@ class RefData:
             from .games import load_profile
             self._profile = load_profile(self.pack.name)
         return self._profile
+
+    @property
+    def codes_reference(self) -> str | None:
+        """``Competition/@Codes`` for this pack's messages."""
+        report = getattr(self.pack, "report", None)
+        return self.games.codes_reference(
+            codes_version(getattr(report, "loaded_files", ())))
 
     def discipline_functions(self, discipline: str):
         from .functions import read_discipline_functions
