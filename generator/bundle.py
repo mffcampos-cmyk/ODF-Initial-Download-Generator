@@ -1,7 +1,6 @@
 from __future__ import annotations
 from odf_validator.context import ValidationContext
 
-from . import eventstructure
 from .builders import partic, partic_teams, entries, schedule
 from .selfcheck import errors as check_errors
 
@@ -49,8 +48,6 @@ def build_bundle(refdata, discipline: str, seed: int, max_retries: int = 5,
     # DT_PARTIC_TEAMS message (ARC's embedded profile also has teams; its
     # codes-scheduled XTEAM2 units make has_team_events true as well).
     doc_types = dict(DOC_TYPES)
-    if not eventstructure.has_team_events(refdata, discipline):
-        doc_types.pop("DT_PARTIC_TEAMS", None)
 
     candidate_seeds = [seed + i for i in range(max_retries)]
     last_attempt: dict = {}

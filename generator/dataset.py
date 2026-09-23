@@ -621,6 +621,9 @@ def _apply_count_overrides(ds: Dataset, refdata, discipline: str, seed: int,
     # A discipline whose codes schedule only team events (e.g. FBS) has nowhere
     # to enter loose athletes; they still appear in DT_PARTIC as the
     # delegation's athlete pool, which is what DT_PARTIC is for.
+    # Every entry event gets its message, entrants or not (C7).
+    for ev in all_evs:
+        bucket(ev.gender, ev.event)
     for i, a in enumerate(athletes):
         if not indiv_evs:
             break
@@ -630,14 +633,13 @@ def _apply_count_overrides(ds: Dataset, refdata, discipline: str, seed: int,
         gender, event = team_event_of[t.code]
         bucket(gender, event).team_codes.append(t.code)
 
-    # Only events that actually have entrants. Emitting an EventEntries with
-    # neither athletes nor teams produced a DT_ENTRIES with zero <Entry>
-    # elements, violating Entry (1,N) -- reachable with athletes=0&teams=0.
-    entries = [e for _key, e in sorted(by_event.items())
-               if e.athlete_codes or e.team_codes]
+    # Every entry event, including those left without entrants: the builder
+    # sends those in the DD-valid empty form (no <Competition>).
+    entries = [e for _key, e in sorted(by_event.items())]
     out = Dataset(discipline=discipline, organisations=used_nocs,
                   participants=participants, teams=teams,
-                  sessions=ds.sessions, entries=entries)
+                  sessions=ds.sessions, entries=entries,
+                  unscheduled=ds.unscheduled)
     # Preserve the historical-athletes option when combined with count
     # overrides (HIS athletes are added to DT_PARTIC but never entered).
     if ov.historical_athletes:

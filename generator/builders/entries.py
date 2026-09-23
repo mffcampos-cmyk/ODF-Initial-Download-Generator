@@ -95,17 +95,18 @@ def build_all(refdata, discipline: str, seed: int,
     teams = {t.code: t for t in ds.teams}
     out: list[tuple[str, bytes]] = []
     for ev in ds.entries:
-        # GEN 2.1.5.2 gives Entry cardinality (1,N): a DT_ENTRIES with no
-        # entrants is not a valid message, so skip the event rather than emit
-        # an envelope with nothing in it. Nothing in the validator catches
-        # this -- it has no cardinality primitive, and the XSD does not
-        # constrain Entry either.
-        if not (ev.athlete_codes or ev.team_codes):
-            continue
         root, comp = build_odfbody(rng, refdata, discipline, "DT_ENTRIES",
                                    competition_code(refdata),
                                    document_code=ev.event_rsc,
                                    overrides=overrides)
+        if not (ev.athlete_codes or ev.team_codes):
+            # The real feed sends every event, entrants or not, but as a
+            # <Competition> with no <Entry>, which breaks the DD's Entry
+            # (1,N) (the pinned validator says CORE_DD_CARDINALITY).
+            # Competition itself is (0,1), so the valid empty form has none.
+            root.remove(comp)
+            out.append((ev.event_rsc, to_xml(root)))
+            continue
         order = 1
         # Sorted within the event by NOC, gender and name, per the spec.
         athletes = sorted((people[c] for c in ev.athlete_codes if c in people),

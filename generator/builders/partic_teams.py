@@ -32,4 +32,8 @@ def build(refdata, discipline: str, seed: int, overrides=None) -> bytes:
     # CORE_SORTORDER_UNIQUE checks @SortOrder, which this message does not use.
     for t in sorted(ds.teams, key=lambda t: t.code):
         comp.append(_team_el(t, disc_rsc))
+    if not len(comp):
+        # No teams: the real feed sends a bare OdfBody, which the DD allows
+        # (Competition (0,1)) and an empty <Competition> would not be.
+        root.remove(comp)
     return to_xml(root)

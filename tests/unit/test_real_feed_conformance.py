@@ -429,3 +429,47 @@ def test_c5_every_participant_and_team_is_confirmed():
     for disc, key, root in _all_messages():
         for e in root.xpath("//Participant|//Team"):
             assert e.get("Status") == "CNF", (disc, key, e.get("Code"))
+
+
+def test_c6_every_discipline_sends_a_teams_message():
+    """Real feed: one DT_PARTIC_TEAMS per discipline (25), 15 of them a bare
+    OdfBody with no Competition -- GEN DD: Competition (0,1)."""
+    from generator.bundle import build_bundle
+    for disc in _disciplines():
+        bundle = build_bundle(_rd(), disc, seed=SEED)
+        assert "DT_PARTIC_TEAMS" in bundle, disc
+        xml, errs = bundle["DT_PARTIC_TEAMS"]
+        assert errs == [], (disc, errs[:2])
+        root = etree.fromstring(xml)
+        comp = root.find("Competition")
+        assert comp is None or len(comp), f"{disc}: empty <Competition>"
+
+
+def test_c7_an_event_without_entrants_is_sent_empty_not_skipped():
+    """The real feed sends one DT_ENTRIES per event even with no entrants.
+    Its form (<Competition> with no <Entry>) breaks the DD's Entry (1,N), so
+    the DD form is used: no <Competition>."""
+    from generator.bundle import build_bundle
+    from generator.dataset import build_dataset
+    rd = _rd()
+    bundle = build_bundle(rd, "SWM", seed=SEED,
+                          overrides=Overrides(athletes=0))
+    entries = {k: v for k, v in bundle.items() if k.startswith("DT_ENTRIES")}
+    expected = {f"DT_ENTRIES_{e.event_rsc.rstrip('-')}"
+                for e in build_dataset(rd, "SWM", SEED).entries}
+    assert set(entries) == expected
+    for key, (xml, errs) in entries.items():
+        assert errs == [], (key, errs[:2])
+        assert etree.fromstring(xml).find("Competition") is None, key
+
+
+def test_count_overrides_keep_the_unscheduled_units():
+    """B regression: _apply_count_overrides rebuilt the Dataset without
+    `unscheduled`, silently dropping every UNSCHEDULED unit."""
+    from generator.dataset import build_dataset
+    rd = _rd()
+    plain = build_dataset(rd, "FEN", SEED)
+    counted = build_dataset(rd, "FEN", SEED, Overrides(athletes=10))
+    assert plain.unscheduled
+    assert [u.code for u in counted.unscheduled] == \
+        [u.code for u in plain.unscheduled]

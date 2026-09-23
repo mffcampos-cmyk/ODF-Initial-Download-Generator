@@ -43,4 +43,7 @@ def build(refdata, discipline: str, seed: int, overrides=None) -> bytes:
     disc_rsc = root.get("DocumentCode")
     for p in ds.participants:
         comp.append(_participant_el(p, disc_rsc))
+    if not len(comp):
+        # No participants: bare OdfBody (Competition (0,1)), as for DT_PARTIC_TEAMS.
+        root.remove(comp)
     return to_xml(root)
