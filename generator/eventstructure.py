@@ -246,6 +246,112 @@ def victory_units(refdata, discipline: str) -> list[UnitInfo]:
     return out
 
 
+SCHEDULED = "SCHEDULED"
+UNSCHEDULED = "UNSCHEDULED"
+_PLAN_LEVELS = ("Unit", "Phase", "Medals")
+
+
+@dataclass
+class PlannedRow:
+    """One row of a discipline's DT_SCHEDULE and whether it gets a slot.
+
+    kind: "block" (a Phase row, or a Unit row with Eventunittype NONE such as
+    JUD's TMRY), "bout" (any other Unit row) or "ceremony" (a Medals row)."""
+    code: str
+    level: str
+    kind: str
+    status: str
+    event_key: tuple[str, str]
+    phase: str
+    order: int
+    unit_seq: int
+    medal: str
+    name: str
+    covered_bouts: int = 0
+
+
+def plan_sort_key(row: PlannedRow) -> tuple:
+    """Event, then codes Order, prelims before finals, unit sequence, code.
+    A ceremony sorts after everything else in its event."""
+    order = 999 if row.kind == "ceremony" else row.order
+    return (row.event_key, order, _phase_rank(row.phase), row.unit_seq,
+            row.code)
+
+
+def _plan_kind(f: dict) -> str:
+    if f.get("Level") == "Medals":
+        return "ceremony"
+    if f.get("Level") == "Phase" or f.get("Eventunittype") == "NONE":
+        return "block"
+    return "bout"
+
+
+def schedule_plan(refdata, discipline: str) -> list[PlannedRow]:
+    """Every row the discipline's DT_SCHEDULE lists, with its status.
+
+    Rows: EVENT_UNIT rows with Schedule=Y at Level Unit, Phase or Medals,
+    outside the GEN events -- exactly what the real SYOG26 schedule lists.
+
+    Status, in this order (spec §1):
+    1. ceremonies are SCHEDULED;
+    2. a Phase row covering two or more bouts of its event (bouts whose phase
+       starts with the Phase row's phase, so GP-- covers GPA-..GPH-) is a
+       SCHEDULED block and those bouts are UNSCHEDULED; covering fewer, the
+       Phase row is UNSCHEDULED;
+    3. in an event with Unit-level blocks (JUD's TMRY), the blocks are
+       SCHEDULED and every bout not yet decided is UNSCHEDULED;
+    4. every remaining bout is SCHEDULED.
+    """
+    table = refdata.pack.codes.table("EVENT_UNIT")
+    if table is None:
+        return []
+    rows: list[PlannedRow] = []
+    for code, row in table._rows.items():
+        f = row.fields
+        if (f.get("Discipline") != discipline
+                or f.get("Level") not in _PLAN_LEVELS
+                or f.get("Schedule") != "Y"
+                or f.get("Event") in GEN_EVENTS):
+            continue
+        u = _row_to_unit(code, f)
+        rows.append(PlannedRow(
+            code=code, level=f["Level"], kind=_plan_kind(f), status=SCHEDULED,
+            event_key=u.event_key, phase=u.phase, order=u.order,
+            unit_seq=u.unit_seq, medal=u.medal, name=u.name))
+
+    bouts: dict[tuple[str, str], list[PlannedRow]] = {}
+    for r in rows:
+        if r.kind == "bout":
+            bouts.setdefault(r.event_key, []).append(r)
+
+    decided: set[str] = set()
+    for r in rows:
+        if r.level != "Phase":
+            continue
+        tag = r.phase.rstrip("-")
+        covered = [b for b in bouts.get(r.event_key, [])
+                   if tag and b.phase.startswith(tag)]
+        if len(covered) >= 2:
+            r.covered_bouts = len(covered)
+            for b in covered:
+                b.status = UNSCHEDULED
+                decided.add(b.code)
+        else:
+            r.status = UNSCHEDULED
+
+    unit_blocks = {r.event_key for r in rows
+                   if r.kind == "block" and r.level == "Unit"}
+    for r in rows:
+        if r.kind == "block" and r.level == "Unit":
+            r.covered_bouts = len(bouts.get(r.event_key, []))
+        elif (r.kind == "bout" and r.code not in decided
+              and r.event_key in unit_blocks):
+            r.status = UNSCHEDULED
+
+    rows.sort(key=plan_sort_key)
+    return rows
+
+
 def has_team_events(refdata, discipline: str) -> bool:
     """Whether the Common Codes schedule any team event for the discipline.
     This decides if a DT_PARTIC_TEAMS message applies — the codes are the
