@@ -15,7 +15,7 @@ def test_header_overrides_applied():
     ov = Overrides(competition_code="SYOG2026", source="OGEN",
                    gen="OWG-2026-GEN-V4.5", sport="SYOG-2026-SWM-1.0",
                    codes="SYOG-2026-CC-V0.04")
-    root, comp = build_odfbody(random.Random(1), rd, "SWM", "DT_PARTIC",
+    root, comp = build_odfbody(random.Random(1), rd, "SWM", "DT_ENTRIES",
                                competition_code(rd), overrides=ov)
     assert root.get("CompetitionCode") == "SYOG2026"
     assert root.get("Source") == "OGEN"
@@ -29,7 +29,10 @@ def test_blank_overrides_keep_defaults():
     root, comp = build_odfbody(random.Random(1), rd, "ARC", "DT_PARTIC",
                                competition_code(rd), overrides=Overrides())
     assert root.get("Source") == "SEQ"                # message-type default
-    assert comp.get("Sport") == "SYOG-2026-ARC-1.2"  # ARC DD reference
+    assert comp.get("Sport") is None                  # C2: DT_ENTRIES only
+    _root, ecomp = build_odfbody(random.Random(1), rd, "ARC", "DT_ENTRIES",
+                                 competition_code(rd), overrides=Overrides())
+    assert ecomp.get("Sport") == "SYOG-2026-ARC-1.2"  # ARC DD reference
 
 
 def test_date_and_time_are_real_generation_clock():
@@ -89,12 +92,12 @@ def test_invalid_discipline_falls_back_to_pack_member():
 
 def test_envelope_takes_versions_from_the_games_profile():
     rd = RefData(PACK)
-    root, comp = build_odfbody(random.Random(1), rd, "SWM", "DT_PARTIC",
+    root, comp = build_odfbody(random.Random(1), rd, "SWM", "DT_ENTRIES",
                                competition_code(rd))
     assert comp.get("Gen") == rd.games.gen
     assert comp.get("Codes") == rd.codes_reference == "YOG-2026-2.4"
     assert comp.get("Sport") == rd.games.sport("SWM")
-    assert root.get("Source") == rd.games.source("DT_PARTIC")
+    assert root.get("Source") == rd.games.source("DT_ENTRIES")
 
 
 def test_envelope_refuses_an_incomplete_profile():

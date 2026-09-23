@@ -6,6 +6,14 @@ from .serialize import el
 
 FEED_FLAG = "P"
 
+# GEN DD 2.1.2.2 / 2.1.3.2: DocumentSubtype SYNC = bulk re-synchronisation
+# for ODF clients; the real SYOG26 initial download carries it on exactly
+# these two message types.
+SYNC_TYPES = ("DT_PARTIC", "DT_PARTIC_TEAMS")
+# Competition@Sport is optional (O) on every message; the real feed stamps it
+# on DT_ENTRIES only.
+SPORT_TYPES = ("DT_ENTRIES",)
+
 
 def competition_code(refdata) -> str:
     codes = refdata.codes("COMPETITION_CODE")
@@ -47,6 +55,7 @@ def build_odfbody(rng: random.Random, refdata, discipline: str,
         # default; per-event messages (DT_ENTRIES) pass their Event RSC.
         "DocumentCode": document_code or fields.rsc(rng, disc),
         "DocumentType": document_type,
+        "DocumentSubtype": "SYNC" if document_type in SYNC_TYPES else None,
         "Version": "1",
         # "P" (production): an initial download is a production feed, and the
         # real SYOG26 one is "P" on every message. This was a coin toss per
@@ -59,7 +68,8 @@ def build_odfbody(rng: random.Random, refdata, discipline: str,
     })
     comp = el("Competition", {
         "Gen": ov.gen if ov and ov.gen else profile.gen,
-        "Sport": ov.sport if ov and ov.sport else profile.sport(disc),
+        "Sport": ((ov.sport if ov and ov.sport else profile.sport(disc))
+                  if document_type in SPORT_TYPES else None),
         "Codes": ov.codes if ov and ov.codes else refdata.codes_reference,
     })
     root.append(comp)

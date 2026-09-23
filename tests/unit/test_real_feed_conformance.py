@@ -213,6 +213,8 @@ def test_sport_is_the_discipline_dd_reference():
     wrong = {}
     for disc in _disciplines():
         for key, root in _messages(disc).items():
+            if root.get("DocumentType") != "DT_ENTRIES":
+                continue  # C2: Sport is stamped on DT_ENTRIES only
             got = root.find("Competition").get("Sport")
             if got != SPORT_REFERENCES[disc]:
                 wrong[f"{disc}/{key}"] = got
@@ -360,3 +362,27 @@ def test_blocks_are_scheduled_and_the_bouts_under_them_are_not():
     status = {u.get("Code"): u.get("ScheduleStatus") for u in root.iter("Unit")}
     assert status["FENMEPEE--------------8FNL--------"] == "SCHEDULED"
     assert status["FENMEPEE--------------8FNL000100--"] == "UNSCHEDULED"
+
+
+# --- C. Participants and entries -------------------------------------------
+
+def test_c1_sync_subtype_on_participant_messages_only():
+    """Real feed: DocumentSubtype="SYNC" on all 50 DT_PARTIC/DT_PARTIC_TEAMS,
+    right after DocumentType; on nothing else. GEN DD: SYNC is the bulk
+    re-synchronisation for ODF clients."""
+    for disc, key, root in _all_messages():
+        want = ("SYNC" if root.get("DocumentType") in
+                ("DT_PARTIC", "DT_PARTIC_TEAMS") else None)
+        assert root.get("DocumentSubtype") == want, (disc, key)
+    keys = list(_messages("ARC")["DT_PARTIC"].attrib)
+    assert keys.index("DocumentSubtype") == keys.index("DocumentType") + 1
+
+
+def test_c2_sport_only_on_entries():
+    """Real feed: Competition@Sport only on DT_ENTRIES (GEN DD: O)."""
+    for disc, key, root in _all_messages():
+        comp = root.find("Competition")
+        if comp is None:
+            continue
+        assert (comp.get("Sport") is not None) == \
+            (root.get("DocumentType") == "DT_ENTRIES"), (disc, key)
