@@ -1,55 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="ARC-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-23" Time="183837710" LogicalDate="2026-09-23" Source="SEQ">
-  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-ARC-1.2" Codes="YOG-2026-2.4">
-    <Team Code="ARCXTEAM2---ASA01" Status="ENT" Organisation="ASA" Name="American Samoa" ShortName="American Samoa" TVTeamName="American Samoa" PSCBName="AMERICAN SAMOA" PSCBShortName="AMERICAN SAMOA" PSCBLongName="AMERICAN SAMOA" Gender="X" TeamType="ORG">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="ARC-------------------------------" DocumentType="DT_PARTIC_TEAMS" DocumentSubtype="SYNC" Version="1" FeedFlag="P" Date="2026-09-23" Time="193421747" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Codes="YOG-2026-2.4">
+    <Team Code="ARCXTEAM2---ASA01" Status="CNF" Organisation="ASA" Name="American Samoa" ShortName="American Samoa" TVTeamName="American Samoa" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---BAH01" Status="ENT" Organisation="BAH" Name="Bahamas" ShortName="Bahamas" TVTeamName="Bahamas" PSCBName="BAHAMAS" PSCBShortName="BAHAMAS" PSCBLongName="BAHAMAS" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---BAH01" Status="CNF" Organisation="BAH" Name="Bahamas" ShortName="Bahamas" TVTeamName="Bahamas" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---BDI01" Status="ENT" Organisation="BDI" Name="Burundi" ShortName="Burundi" TVTeamName="Burundi" PSCBName="BURUNDI" PSCBShortName="BURUNDI" PSCBLongName="BURUNDI" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---BDI01" Status="CNF" Organisation="BDI" Name="Burundi" ShortName="Burundi" TVTeamName="Burundi" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---CRC01" Status="ENT" Organisation="CRC" Name="Costa Rica" ShortName="Costa Rica" TVTeamName="Costa Rica" PSCBName="COSTA RICA" PSCBShortName="COSTA RICA" PSCBLongName="COSTA RICA" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---CRC01" Status="CNF" Organisation="CRC" Name="Costa Rica" ShortName="Costa Rica" TVTeamName="Costa Rica" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---CZE01" Status="ENT" Organisation="CZE" Name="Czechia" ShortName="Czechia" TVTeamName="Czechia" PSCBName="CZECHIA" PSCBShortName="CZECHIA" PSCBLongName="CZECHIA" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---CZE01" Status="CNF" Organisation="CZE" Name="Czechia" ShortName="Czechia" TVTeamName="Czechia" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---EGY01" Status="ENT" Organisation="EGY" Name="Egypt" ShortName="Egypt" TVTeamName="Egypt" PSCBName="EGYPT" PSCBShortName="EGYPT" PSCBLongName="EGYPT" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---EGY01" Status="CNF" Organisation="EGY" Name="Egypt" ShortName="Egypt" TVTeamName="Egypt" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---GER01" Status="ENT" Organisation="GER" Name="Germany" ShortName="Germany" TVTeamName="Germany" PSCBName="GERMANY" PSCBShortName="GERMANY" PSCBLongName="GERMANY" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---GER01" Status="CNF" Organisation="GER" Name="Germany" ShortName="Germany" TVTeamName="Germany" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---GHA01" Status="ENT" Organisation="GHA" Name="Ghana" ShortName="Ghana" TVTeamName="Ghana" PSCBName="GHANA" PSCBShortName="GHANA" PSCBLongName="GHANA" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---GHA01" Status="CNF" Organisation="GHA" Name="Ghana" ShortName="Ghana" TVTeamName="Ghana" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---ITA01" Status="ENT" Organisation="ITA" Name="Italy" ShortName="Italy" TVTeamName="Italy" PSCBName="ITALY" PSCBShortName="ITALY" PSCBLongName="ITALY" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---ITA01" Status="CNF" Organisation="ITA" Name="Italy" ShortName="Italy" TVTeamName="Italy" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---JOR01" Status="ENT" Organisation="JOR" Name="Jordan" ShortName="Jordan" TVTeamName="Jordan" PSCBName="JORDAN" PSCBShortName="JORDAN" PSCBLongName="JORDAN" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---JOR01" Status="CNF" Organisation="JOR" Name="Jordan" ShortName="Jordan" TVTeamName="Jordan" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---KAZ01" Status="ENT" Organisation="KAZ" Name="Kazakhstan" ShortName="Kazakhstan" TVTeamName="Kazakhstan" PSCBName="KAZAKHSTAN" PSCBShortName="KAZAKHSTAN" PSCBLongName="KAZAKHSTAN" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---KAZ01" Status="CNF" Organisation="KAZ" Name="Kazakhstan" ShortName="Kazakhstan" TVTeamName="Kazakhstan" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---KOR01" Status="ENT" Organisation="KOR" Name="Republic of Korea" ShortName="Korea" TVTeamName="Republic of Korea" PSCBName="REPUBLIC OF KOREA" PSCBShortName="KOREA" PSCBLongName="REPUBLIC OF KOREA" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---KOR01" Status="CNF" Organisation="KOR" Name="Republic of Korea" ShortName="Korea" TVTeamName="Republic of Korea" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---LAO01" Status="ENT" Organisation="LAO" Name="Lao People's Democratic Republic" ShortName="Lao PDR" TVTeamName="Lao People's Democrat" PSCBName="LAO PEOPLE'S DEMOCRATIC REPUBLIC" PSCBShortName="LAO PDR" PSCBLongName="LAO PEOPLE'S DEMOCRATIC REPUBLIC" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---LAO01" Status="CNF" Organisation="LAO" Name="Lao People's Democratic Republic" ShortName="Lao PDR" TVTeamName="Lao People's Democrat" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---PLE01" Status="ENT" Organisation="PLE" Name="Palestine" ShortName="Palestine" TVTeamName="Palestine" PSCBName="PALESTINE" PSCBShortName="PALESTINE" PSCBLongName="PALESTINE" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---PLE01" Status="CNF" Organisation="PLE" Name="Palestine" ShortName="Palestine" TVTeamName="Palestine" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---PUR01" Status="ENT" Organisation="PUR" Name="Puerto Rico" ShortName="Puerto Rico" TVTeamName="Puerto Rico" PSCBName="PUERTO RICO" PSCBShortName="PUERTO RICO" PSCBLongName="PUERTO RICO" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---PUR01" Status="CNF" Organisation="PUR" Name="Puerto Rico" ShortName="Puerto Rico" TVTeamName="Puerto Rico" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---SWE01" Status="ENT" Organisation="SWE" Name="Sweden" ShortName="Sweden" TVTeamName="Sweden" PSCBName="SWEDEN" PSCBShortName="SWEDEN" PSCBLongName="SWEDEN" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---SWE01" Status="CNF" Organisation="SWE" Name="Sweden" ShortName="Sweden" TVTeamName="Sweden" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
-    <Team Code="ARCXTEAM2---USA01" Status="ENT" Organisation="USA" Name="United States of America" ShortName="United States" TVTeamName="United States of Amer" PSCBName="UNITED STATES OF AMERICA" PSCBShortName="UNITED STATES" PSCBLongName="UNITED STATES OF AMERICA" Gender="X" TeamType="ORG">
+    <Team Code="ARCXTEAM2---USA01" Status="CNF" Organisation="USA" Name="United States of America" ShortName="United States" TVTeamName="United States of Amer" Gender="X" TeamType="ORG">
       <Discipline Code="ARC-------------------------------"/>
     </Team>
   </Competition>

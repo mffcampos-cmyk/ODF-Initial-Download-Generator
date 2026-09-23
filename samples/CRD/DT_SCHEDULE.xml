@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="CRD-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="183841107" LogicalDate="2026-09-23" Source="OSM">
-  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-CRD-1.4" Codes="YOG-2026-2.4">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="CRD-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="193425181" LogicalDate="2026-09-23" Source="OSM">
+  <Competition Gen="OWG2026-GEN-4.6" Codes="YOG-2026-2.4">
     <Session SessionCode="CRD01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T10:42:00+00:00" Medal="4" Venue="COR" VenueName="Corniche West ">
       <SessionName Value="CRD01" Language="ENG"/>
     </Session>

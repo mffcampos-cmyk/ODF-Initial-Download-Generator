@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="TKW-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-23" Time="183846858" LogicalDate="2026-09-23" Source="SEQ">
-  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-TKW-1.2" Codes="YOG-2026-2.4">
-    <Team Code="TKWXTEAM4---ESA01" Status="ENT" Organisation="ESA" Name="El Salvador" ShortName="El Salvador" TVTeamName="El Salvador" PSCBName="EL SALVADOR" PSCBShortName="EL SALVADOR" PSCBLongName="EL SALVADOR" Gender="X" TeamType="ORG">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="TKW-------------------------------" DocumentType="DT_PARTIC_TEAMS" DocumentSubtype="SYNC" Version="1" FeedFlag="P" Date="2026-09-23" Time="193431675" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Codes="YOG-2026-2.4">
+    <Team Code="TKWXTEAM4---ESA01" Status="CNF" Organisation="ESA" Name="El Salvador" ShortName="El Salvador" TVTeamName="El Salvador" Gender="X" TeamType="ORG">
       <Discipline Code="TKW-------------------------------"/>
     </Team>
-    <Team Code="TKWXTEAM4---IRI01" Status="ENT" Organisation="IRI" Name="Islamic Republic of Iran" ShortName="IR Iran" TVTeamName="Islamic Republic of I" PSCBName="ISLAMIC REPUBLIC OF IRAN" PSCBShortName="IR IRAN" PSCBLongName="ISLAMIC REPUBLIC OF IRAN" Gender="X" TeamType="ORG">
+    <Team Code="TKWXTEAM4---IRI01" Status="CNF" Organisation="IRI" Name="Islamic Republic of Iran" ShortName="IR Iran" TVTeamName="Islamic Republic of I" Gender="X" TeamType="ORG">
       <Discipline Code="TKW-------------------------------"/>
     </Team>
-    <Team Code="TKWXTEAM4---LCA01" Status="ENT" Organisation="LCA" Name="Saint Lucia" ShortName="Saint Lucia" TVTeamName="Saint Lucia" PSCBName="SAINT LUCIA" PSCBShortName="SAINT LUCIA" PSCBLongName="SAINT LUCIA" Gender="X" TeamType="ORG">
+    <Team Code="TKWXTEAM4---LCA01" Status="CNF" Organisation="LCA" Name="Saint Lucia" ShortName="Saint Lucia" TVTeamName="Saint Lucia" Gender="X" TeamType="ORG">
       <Discipline Code="TKW-------------------------------"/>
     </Team>
-    <Team Code="TKWXTEAM4---MAD01" Status="ENT" Organisation="MAD" Name="Madagascar" ShortName="Madagascar" TVTeamName="Madagascar" PSCBName="MADAGASCAR" PSCBShortName="MADAGASCAR" PSCBLongName="MADAGASCAR" Gender="X" TeamType="ORG">
+    <Team Code="TKWXTEAM4---MAD01" Status="CNF" Organisation="MAD" Name="Madagascar" ShortName="Madagascar" TVTeamName="Madagascar" Gender="X" TeamType="ORG">
       <Discipline Code="TKW-------------------------------"/>
     </Team>
-    <Team Code="TKWXTEAM4---NOR01" Status="ENT" Organisation="NOR" Name="Norway" ShortName="Norway" TVTeamName="Norway" PSCBName="NORWAY" PSCBShortName="NORWAY" PSCBLongName="NORWAY" Gender="X" TeamType="ORG">
+    <Team Code="TKWXTEAM4---NOR01" Status="CNF" Organisation="NOR" Name="Norway" ShortName="Norway" TVTeamName="Norway" Gender="X" TeamType="ORG">
       <Discipline Code="TKW-------------------------------"/>
     </Team>
-    <Team Code="TKWXTEAM4---SEY01" Status="ENT" Organisation="SEY" Name="Seychelles" ShortName="Seychelles" TVTeamName="Seychelles" PSCBName="SEYCHELLES" PSCBShortName="SEYCHELLES" PSCBLongName="SEYCHELLES" Gender="X" TeamType="ORG">
+    <Team Code="TKWXTEAM4---SEY01" Status="CNF" Organisation="SEY" Name="Seychelles" ShortName="Seychelles" TVTeamName="Seychelles" Gender="X" TeamType="ORG">
       <Discipline Code="TKW-------------------------------"/>
     </Team>
-    <Team Code="TKWXTEAM4---SLO01" Status="ENT" Organisation="SLO" Name="Slovenia" ShortName="Slovenia" TVTeamName="Slovenia" PSCBName="SLOVENIA" PSCBShortName="SLOVENIA" PSCBLongName="SLOVENIA" Gender="X" TeamType="ORG">
+    <Team Code="TKWXTEAM4---SLO01" Status="CNF" Organisation="SLO" Name="Slovenia" ShortName="Slovenia" TVTeamName="Slovenia" Gender="X" TeamType="ORG">
       <Discipline Code="TKW-------------------------------"/>
     </Team>
-    <Team Code="TKWXTEAM4---UZB01" Status="ENT" Organisation="UZB" Name="Uzbekistan" ShortName="Uzbekistan" TVTeamName="Uzbekistan" PSCBName="UZBEKISTAN" PSCBShortName="UZBEKISTAN" PSCBLongName="UZBEKISTAN" Gender="X" TeamType="ORG">
+    <Team Code="TKWXTEAM4---UZB01" Status="CNF" Organisation="UZB" Name="Uzbekistan" ShortName="Uzbekistan" TVTeamName="Uzbekistan" Gender="X" TeamType="ORG">
       <Discipline Code="TKW-------------------------------"/>
     </Team>
   </Competition>

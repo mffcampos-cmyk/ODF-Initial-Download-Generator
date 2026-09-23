@@ -133,7 +133,7 @@ Output follows the conventions of the real SYOG26 initial download (received
 - Full 34-char discipline RSC in `@DocumentCode` and `Discipline@Code`
   (e.g. `ARC-------------------------------`).
 - `Participant@Parent` = `@Code`; 7-digit IDs from 9000001; `MainFunctionId`,
-  `Nationality`, passport names, and PSCB names (athletes only) included.
+  `Nationality`, `CountryofBirth` and passport names included.
 - Name conventions: `PrintName` = "FAMILY Given", `PrintInitialName` =
   "FAMILY EB" (one initial per given-name part, no dots), `TVName` = "Given
   FAMILY", `TVInitialName` = "E.B. FAMILY"; cut to the GEN DD widths
@@ -143,11 +143,20 @@ Output follows the conventions of the real SYOG26 initial download (received
 - Realistic, culture-aware names per NOC (`generator/names.py`) and plausible
   birth dates (athletes 2009–2011, officials 1961–1996).
 - Header, from `generator/games/SYOG26.yaml`: `Gen="OWG2026-GEN-4.6"` (the
-  GEN DD reference); `Sport` = each discipline DD's own reference
+  GEN DD reference); `Sport` (on DT_ENTRIES) = each discipline DD's own reference
   (`SYOG-2026-ARC-1.2`, `SYOG-2026-EQU-EJP-1.0`, ...); `Codes="YOG-2026-2.4"`,
   the release read from the loaded workbook's file name. `FeedFlag="P"`.
   `Source` is per message type: `SEQ` for DT_PARTIC, DT_PARTIC_TEAMS and
   DT_ENTRIES, `OSM` for DT_SCHEDULE.
+- Participants and entries, as in the real SYOG26 download: DT_PARTIC and
+  DT_PARTIC_TEAMS carry `DocumentSubtype="SYNC"`; `Competition@Sport` is on
+  DT_ENTRIES only; every participant has `CountryofBirth` (= Nationality) and
+  no PSCB scoreboard names; every participant and team is `Status="CNF"`; TV
+  names put the family name first for CHN, COR, TPE, HKG, JPN, KOR and PRK.
+  DT_PARTIC_TEAMS is sent for every discipline, and a message with nothing to
+  list is a bare `OdfBody` with no `Competition` (GEN DD: Competition (0,1)).
+  GAR is entered by gender (`GARMGEN`, `GARWGEN`), as the codes and the real
+  feed do, so all 25 disciplines generate.
 - Every team is `TeamType="ORG"`; schedule units are `PhaseType="3"`
   (competition) and victory ceremonies `"6"`. DT_ENTRIES carries no `IFId`:
   that is the federation's identifier, which the generator does not have.

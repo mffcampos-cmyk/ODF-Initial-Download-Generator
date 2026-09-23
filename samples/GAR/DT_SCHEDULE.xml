@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="GAR-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="193427255" LogicalDate="2026-09-23" Source="OSM">
+  <Competition Gen="OWG2026-GEN-4.6" Codes="YOG-2026-2.4">
+    <Session SessionCode="GAR01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T11:47:00+00:00" Medal="4" Venue="DEX" VenueName="Dakar Expo Center">
+      <SessionName Value="GAR01" Language="ENG"/>
+    </Session>
+    <Session SessionCode="GAR02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:35:00+00:00" Venue="DEX" VenueName="Dakar Expo Center">
+      <SessionName Value="GAR02" Language="ENG"/>
+    </Session>
+    <Unit Code="GARXTEAM--------------QFNL000001--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="Mixed Team Final - Round 1 Rotation 1"/>
+    </Unit>
+    <Unit Code="GARXTEAM--------------QFNL000002--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="Mixed Team Final - Round 1 Rotation 2"/>
+    </Unit>
+    <Unit Code="GARXTEAM--------------SFNL000002--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="Mixed Team Final - Round 2 Rotation 2"/>
+    </Unit>
+    <Unit Code="GARXTEAM--------------FNL-000001--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="1">
+      <ItemName Language="ENG" Value="Mixed Team Final - Round 3"/>
+    </Unit>
+    <Unit Code="GARM1AA---------------FNL-000001--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Medal="1" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Men's All-Around Final"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARM1AA---------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:48:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Men's All-Around Victory Ceremony"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARMGEN---------------QUAL000001--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:48:00+00:00" EndDate="2026-11-01T10:01:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Men's Qualification - Subdivision 1"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARMGEN---------------QUAL000002--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:01:00+00:00" EndDate="2026-11-01T10:14:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Men's Qualification - Subdivision 2"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARMTEAM--------------FNL-000001--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:14:00+00:00" EndDate="2026-11-01T10:27:00+00:00" Medal="1" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Men's Team Final"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARMTEAM--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:27:00+00:00" EndDate="2026-11-01T10:32:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Men's Team Victory Ceremony"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARW1AA---------------FNL-000001--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:32:00+00:00" EndDate="2026-11-01T10:45:00+00:00" Medal="1" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Women's All-Around Final"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARW1AA---------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:45:00+00:00" EndDate="2026-11-01T10:50:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Women's All-Around Victory Ceremony"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARWGEN---------------QUAL000001--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:50:00+00:00" EndDate="2026-11-01T11:03:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Women's Qualification - Subdivision 1"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARWGEN---------------QUAL000002--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:03:00+00:00" EndDate="2026-11-01T11:16:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Women's Qualification - Subdivision 2"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARWGEN---------------QUAL000003--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:16:00+00:00" EndDate="2026-11-01T11:29:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Women's Qualification - Subdivision 3"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARWTEAM--------------FNL-000001--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:29:00+00:00" EndDate="2026-11-01T11:42:00+00:00" Medal="1" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Women's Team Final"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARWTEAM--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:42:00+00:00" EndDate="2026-11-01T11:47:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR01">
+      <ItemName Language="ENG" Value="Women's Team Victory Ceremony"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARXTEAM--------------SFNL000001--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:30:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR02">
+      <ItemName Language="ENG" Value="Mixed Team Final - Round 2 Rotation 1"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+    <Unit Code="GARXTEAM--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:30:00+00:00" EndDate="2026-11-01T14:35:00+00:00" Medal="0" Venue="DEX" Location="DEX" SessionCode="GAR02">
+      <ItemName Language="ENG" Value="Mixed Team Victory Ceremony"/>
+      <VenueDescription VenueName="Dakar Expo Center" LocationName="Dakar Expo Center"/>
+    </Unit>
+  </Competition>
+</OdfBody>

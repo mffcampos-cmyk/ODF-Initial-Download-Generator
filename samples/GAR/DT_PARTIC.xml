@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="GAR-------------------------------" DocumentType="DT_PARTIC" DocumentSubtype="SYNC" Version="1" FeedFlag="P" Date="2026-09-23" Time="193427234" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Codes="YOG-2026-2.4">
+    <Participant Code="9000001" Parent="9000001" Status="CNF" GivenName="Ondřej" FamilyName="Černý" PassportGivenName="ONDREJ" PassportFamilyName="CERNY" PrintName="CERNY Ondřej" PrintInitialName="CERNY O" TVName="Ondřej CERNY" TVInitialName="O. CERNY" TVFamilyName="CERNY" Gender="M" Organisation="CAY" BirthDate="2010-05-19" CountryofBirth="CAY" Nationality="CAY" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000002" Parent="9000002" Status="CNF" GivenName="Rithy" FamilyName="Inthavong" PassportGivenName="RITHY" PassportFamilyName="INTHAVONG" PrintName="INTHAVONG Rithy" PrintInitialName="INTHAVONG R" TVName="Rithy INTHAVONG" TVInitialName="R. INTHAVONG" TVFamilyName="INTHAVONG" Gender="M" Organisation="PAK" BirthDate="2011-07-19" CountryofBirth="PAK" Nationality="PAK" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000003" Parent="9000003" Status="CNF" GivenName="Somchai" FamilyName="Seng" PassportGivenName="SOMCHAI" PassportFamilyName="SENG" PrintName="SENG Somchai" PrintInitialName="SENG S" TVName="Somchai SENG" TVInitialName="S. SENG" TVFamilyName="SENG" Gender="M" Organisation="YEM" BirthDate="2009-12-26" CountryofBirth="YEM" Nationality="YEM" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000004" Parent="9000004" Status="CNF" GivenName="Magnus" FamilyName="Olsen" PassportGivenName="MAGNUS" PassportFamilyName="OLSEN" PrintName="OLSEN Magnus" PrintInitialName="OLSEN M" TVName="Magnus OLSEN" TVInitialName="M. OLSEN" TVFamilyName="OLSEN" Gender="M" Organisation="UAE" BirthDate="2011-03-12" CountryofBirth="UAE" Nationality="UAE" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000005" Parent="9000005" Status="CNF" GivenName="Moussa" FamilyName="Cissé" PassportGivenName="MOUSSA" PassportFamilyName="CISSE" PrintName="CISSE Moussa" PrintInitialName="CISSE M" TVName="Moussa CISSE" TVInitialName="M. CISSE" TVFamilyName="CISSE" Gender="M" Organisation="BDI" BirthDate="2011-11-24" CountryofBirth="BDI" Nationality="BDI" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000006" Parent="9000006" Status="CNF" GivenName="Tommaso" FamilyName="Ferrari" PassportGivenName="TOMMASO" PassportFamilyName="FERRARI" PrintName="FERRARI Tommaso" PrintInitialName="FERRARI T" TVName="Tommaso FERRARI" TVInitialName="T. FERRARI" TVFamilyName="FERRARI" Gender="M" Organisation="FRA" BirthDate="2010-11-17" CountryofBirth="FRA" Nationality="FRA" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000007" Parent="9000007" Status="CNF" GivenName="Seojun" FamilyName="Oh" PassportGivenName="SEOJUN" PassportFamilyName="OH" PrintName="OH Seojun" PrintInitialName="OH S" TVName="Seojun OH" TVInitialName="S. OH" TVFamilyName="OH" Gender="M" Organisation="BUR" BirthDate="2009-09-27" CountryofBirth="BUR" Nationality="BUR" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000008" Parent="9000008" Status="CNF" GivenName="Vilay" FamilyName="Sok" PassportGivenName="VILAY" PassportFamilyName="SOK" PrintName="SOK Vilay" PrintInitialName="SOK V" TVName="Vilay SOK" TVInitialName="V. SOK" TVFamilyName="SOK" Gender="M" Organisation="MKD" BirthDate="2010-12-01" CountryofBirth="MKD" Nationality="MKD" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000009" Parent="9000009" Status="CNF" GivenName="Ndeye" FamilyName="Mensah" PassportGivenName="NDEYE" PassportFamilyName="MENSAH" PrintName="MENSAH Ndeye" PrintInitialName="MENSAH N" TVName="Ndeye MENSAH" TVInitialName="N. MENSAH" TVFamilyName="MENSAH" Gender="F" Organisation="TUV" BirthDate="2010-12-28" CountryofBirth="TUV" Nationality="TUV" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000010" Parent="9000010" Status="CNF" GivenName="Clara" FamilyName="Bonnet" PassportGivenName="CLARA" PassportFamilyName="BONNET" PrintName="BONNET Clara" PrintInitialName="BONNET C" TVName="Clara BONNET" TVInitialName="C. BONNET" TVFamilyName="BONNET" Gender="F" Organisation="LTU" BirthDate="2011-07-21" CountryofBirth="LTU" Nationality="LTU" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000011" Parent="9000011" Status="CNF" GivenName="Meron" FamilyName="Tesfaye" PassportGivenName="MERON" PassportFamilyName="TESFAYE" PrintName="TESFAYE Meron" PrintInitialName="TESFAYE M" TVName="Meron TESFAYE" TVInitialName="M. TESFAYE" TVFamilyName="TESFAYE" Gender="F" Organisation="MAW" BirthDate="2011-04-01" CountryofBirth="MAW" Nationality="MAW" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000012" Parent="9000012" Status="CNF" GivenName="Marija" FamilyName="Jurić" PassportGivenName="MARIJA" PassportFamilyName="JURIC" PrintName="JURIC Marija" PrintInitialName="JURIC M" TVName="Marija JURIC" TVInitialName="M. JURIC" TVFamilyName="JURIC" Gender="F" Organisation="SKN" BirthDate="2011-04-13" CountryofBirth="SKN" Nationality="SKN" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000013" Parent="9000013" Status="CNF" GivenName="Farah" FamilyName="Awad" PassportGivenName="FARAH" PassportFamilyName="AWAD" PrintName="AWAD Farah" PrintInitialName="AWAD F" TVName="Farah AWAD" TVInitialName="F. AWAD" TVFamilyName="AWAD" Gender="F" Organisation="JOR" BirthDate="2011-06-15" CountryofBirth="JOR" Nationality="JOR" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000014" Parent="9000014" Status="CNF" GivenName="Mariama" FamilyName="Moyo" PassportGivenName="MARIAMA" PassportFamilyName="MOYO" PrintName="MOYO Mariama" PrintInitialName="MOYO M" TVName="Mariama MOYO" TVInitialName="M. MOYO" TVFamilyName="MOYO" Gender="F" Organisation="DMA" BirthDate="2011-10-24" CountryofBirth="DMA" Nationality="DMA" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000015" Parent="9000015" Status="CNF" GivenName="Ana" FamilyName="Kovačević" PassportGivenName="ANA" PassportFamilyName="KOVACEVIC" PrintName="KOVACEVIC Ana" PrintInitialName="KOVACEVIC A" TVName="Ana KOVACEVIC" TVInitialName="A. KOVACEVIC" TVFamilyName="KOVACEVIC" Gender="F" Organisation="BOL" BirthDate="2011-09-26" CountryofBirth="BOL" Nationality="BOL" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000016" Parent="9000016" Status="CNF" GivenName="Madina" FamilyName="Umarov" PassportGivenName="MADINA" PassportFamilyName="UMAROV" PrintName="UMAROV Madina" PrintInitialName="UMAROV M" TVName="Madina UMAROV" TVInitialName="M. UMAROV" TVFamilyName="UMAROV" Gender="F" Organisation="MGL" BirthDate="2011-04-14" CountryofBirth="MGL" Nationality="MGL" MainFunctionId="AA01">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000017" Parent="9000017" Status="CNF" GivenName="Ndeye" FamilyName="Fall" PassportGivenName="NDEYE" PassportFamilyName="FALL" PrintName="FALL Ndeye" PrintInitialName="FALL N" TVName="Ndeye FALL" TVInitialName="N. FALL" TVFamilyName="FALL" Gender="F" Organisation="BDI" BirthDate="1984-10-18" CountryofBirth="BDI" Nationality="BDI" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000018" Parent="9000018" Status="CNF" GivenName="Tomáš" FamilyName="Kovačević" PassportGivenName="TOMAS" PassportFamilyName="KOVACEVIC" PrintName="KOVACEVIC Tomáš" PrintInitialName="KOVACEVIC T" TVName="Tomáš KOVACEVIC" TVInitialName="T. KOVACEVIC" TVFamilyName="KOVACEVIC" Gender="M" Organisation="BOL" BirthDate="1992-06-14" CountryofBirth="BOL" Nationality="BOL" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000019" Parent="9000019" Status="CNF" GivenName="Taeyang" FamilyName="Jang" PassportGivenName="TAEYANG" PassportFamilyName="JANG" PrintName="JANG Taeyang" PrintInitialName="JANG T" TVName="Taeyang JANG" TVInitialName="T. JANG" TVFamilyName="JANG" Gender="M" Organisation="BUR" BirthDate="1982-08-20" CountryofBirth="BUR" Nationality="BUR" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000020" Parent="9000020" Status="CNF" GivenName="Nikola" FamilyName="Novotný" PassportGivenName="NIKOLA" PassportFamilyName="NOVOTNY" PrintName="NOVOTNY Nikola" PrintInitialName="NOVOTNY N" TVName="Nikola NOVOTNY" TVInitialName="N. NOVOTNY" TVFamilyName="NOVOTNY" Gender="M" Organisation="CAY" BirthDate="1972-09-19" CountryofBirth="CAY" Nationality="CAY" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000021" Parent="9000021" Status="CNF" GivenName="Kofi" FamilyName="Sarr" PassportGivenName="KOFI" PassportFamilyName="SARR" PrintName="SARR Kofi" PrintInitialName="SARR K" TVName="Kofi SARR" TVInitialName="K. SARR" TVFamilyName="SARR" Gender="M" Organisation="DMA" BirthDate="1996-05-02" CountryofBirth="DMA" Nationality="DMA" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000022" Parent="9000022" Status="CNF" GivenName="Vittoria" FamilyName="Ferrari" PassportGivenName="VITTORIA" PassportFamilyName="FERRARI" PrintName="FERRARI Vittoria" PrintInitialName="FERRARI V" TVName="Vittoria FERRARI" TVInitialName="V. FERRARI" TVFamilyName="FERRARI" Gender="F" Organisation="FRA" BirthDate="1966-01-15" CountryofBirth="FRA" Nationality="FRA" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000023" Parent="9000023" Status="CNF" GivenName="Hamza" FamilyName="Khalil" PassportGivenName="HAMZA" PassportFamilyName="KHALIL" PrintName="KHALIL Hamza" PrintInitialName="KHALIL H" TVName="Hamza KHALIL" TVInitialName="H. KHALIL" TVFamilyName="KHALIL" Gender="M" Organisation="JOR" BirthDate="1978-02-26" CountryofBirth="JOR" Nationality="JOR" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000024" Parent="9000024" Status="CNF" GivenName="Jade" FamilyName="Laurent" PassportGivenName="JADE" PassportFamilyName="LAURENT" PrintName="LAURENT Jade" PrintInitialName="LAURENT J" TVName="Jade LAURENT" TVInitialName="J. LAURENT" TVFamilyName="LAURENT" Gender="F" Organisation="LTU" BirthDate="1965-03-06" CountryofBirth="LTU" Nationality="LTU" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000025" Parent="9000025" Status="CNF" GivenName="Dawit" FamilyName="Mengistu" PassportGivenName="DAWIT" PassportFamilyName="MENGISTU" PrintName="MENGISTU Dawit" PrintInitialName="MENGISTU D" TVName="Dawit MENGISTU" TVInitialName="D. MENGISTU" TVFamilyName="MENGISTU" Gender="M" Organisation="MAW" BirthDate="1978-11-23" CountryofBirth="MAW" Nationality="MAW" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000026" Parent="9000026" Status="CNF" GivenName="Maksat" FamilyName="Bekov" PassportGivenName="MAKSAT" PassportFamilyName="BEKOV" PrintName="BEKOV Maksat" PrintInitialName="BEKOV M" TVName="Maksat BEKOV" TVInitialName="M. BEKOV" TVFamilyName="BEKOV" Gender="M" Organisation="MGL" BirthDate="1992-08-04" CountryofBirth="MGL" Nationality="MGL" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000027" Parent="9000027" Status="CNF" GivenName="Vilay" FamilyName="Rattanavong" PassportGivenName="VILAY" PassportFamilyName="RATTANAVONG" PrintName="RATTANAVONG Vilay" PrintInitialName="RATTANAVONG V" TVName="Vilay RATTANAVONG" TVInitialName="V. RATTANAVONG" TVFamilyName="RATTANAVONG" Gender="M" Organisation="MKD" BirthDate="1973-05-04" CountryofBirth="MKD" Nationality="MKD" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000028" Parent="9000028" Status="CNF" GivenName="Agus" FamilyName="Wijaya" PassportGivenName="AGUS" PassportFamilyName="WIJAYA" PrintName="WIJAYA Agus" PrintInitialName="WIJAYA A" TVName="Agus WIJAYA" TVInitialName="A. WIJAYA" TVFamilyName="WIJAYA" Gender="M" Organisation="PAK" BirthDate="1974-10-14" CountryofBirth="PAK" Nationality="PAK" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000029" Parent="9000029" Status="CNF" GivenName="Ana" FamilyName="Černý" PassportGivenName="ANA" PassportFamilyName="CERNY" PrintName="CERNY Ana" PrintInitialName="CERNY A" TVName="Ana CERNY" TVInitialName="A. CERNY" TVFamilyName="CERNY" Gender="F" Organisation="SKN" BirthDate="1962-07-05" CountryofBirth="SKN" Nationality="SKN" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000030" Parent="9000030" Status="CNF" GivenName="Sekou" FamilyName="Traoré" PassportGivenName="SEKOU" PassportFamilyName="TRAORE" PrintName="TRAORE Sekou" PrintInitialName="TRAORE S" TVName="Sekou TRAORE" TVInitialName="S. TRAORE" TVFamilyName="TRAORE" Gender="M" Organisation="TUV" BirthDate="1993-11-14" CountryofBirth="TUV" Nationality="TUV" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000031" Parent="9000031" Status="CNF" GivenName="Maja" FamilyName="Dahl" PassportGivenName="MAJA" PassportFamilyName="DAHL" PrintName="DAHL Maja" PrintInitialName="DAHL M" TVName="Maja DAHL" TVInitialName="M. DAHL" TVFamilyName="DAHL" Gender="F" Organisation="UAE" BirthDate="1994-08-08" CountryofBirth="UAE" Nationality="UAE" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000032" Parent="9000032" Status="CNF" GivenName="Malee" FamilyName="Chea" PassportGivenName="MALEE" PassportFamilyName="CHEA" PrintName="CHEA Malee" PrintInitialName="CHEA M" TVName="Malee CHEA" TVInitialName="M. CHEA" TVFamilyName="CHEA" Gender="F" Organisation="YEM" BirthDate="1981-11-21" CountryofBirth="YEM" Nationality="YEM" MainFunctionId="COACH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000033" Parent="9000033" Status="CNF" GivenName="Ousmane" FamilyName="Boateng" PassportGivenName="OUSMANE" PassportFamilyName="BOATENG" PrintName="BOATENG Ousmane" PrintInitialName="BOATENG O" TVName="Ousmane BOATENG" TVInitialName="O. BOATENG" TVFamilyName="BOATENG" Gender="M" Organisation="TUV" BirthDate="1974-01-10" CountryofBirth="TUV" Nationality="TUV" MainFunctionId="PR">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000034" Parent="9000034" Status="CNF" GivenName="Yuna" FamilyName="Kwon" PassportGivenName="YUNA" PassportFamilyName="KWON" PrintName="KWON Yuna" PrintInitialName="KWON Y" TVName="Yuna KWON" TVInitialName="Y. KWON" TVFamilyName="KWON" Gender="F" Organisation="BUR" BirthDate="1980-12-06" CountryofBirth="BUR" Nationality="BUR" MainFunctionId="ME">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000035" Parent="9000035" Status="CNF" GivenName="Aissatou" FamilyName="Mensah" PassportGivenName="AISSATOU" PassportFamilyName="MENSAH" PrintName="MENSAH Aissatou" PrintInitialName="MENSAH A" TVName="Aissatou MENSAH" TVInitialName="A. MENSAH" TVFamilyName="MENSAH" Gender="F" Organisation="TUV" BirthDate="1996-01-19" CountryofBirth="TUV" Nationality="TUV" MainFunctionId="SUP_HB">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000036" Parent="9000036" Status="CNF" GivenName="Lina" FamilyName="Saleh" PassportGivenName="LINA" PassportFamilyName="SALEH" PrintName="SALEH Lina" PrintInitialName="SALEH L" TVName="Lina SALEH" TVInitialName="L. SALEH" TVFamilyName="SALEH" Gender="F" Organisation="JOR" BirthDate="1971-12-20" CountryofBirth="JOR" Nationality="JOR" MainFunctionId="SUP_PB">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000037" Parent="9000037" Status="CNF" GivenName="Petar" FamilyName="Svoboda" PassportGivenName="PETAR" PassportFamilyName="SVOBODA" PrintName="SVOBODA Petar" PrintInitialName="SVOBODA P" TVName="Petar SVOBODA" TVInitialName="P. SVOBODA" TVFamilyName="SVOBODA" Gender="M" Organisation="BOL" BirthDate="1974-10-22" CountryofBirth="BOL" Nationality="BOL" MainFunctionId="SUP_PH">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000038" Parent="9000038" Status="CNF" GivenName="Ndeye" FamilyName="Osei" PassportGivenName="NDEYE" PassportFamilyName="OSEI" PrintName="OSEI Ndeye" PrintInitialName="OSEI N" TVName="Ndeye OSEI" TVInitialName="N. OSEI" TVFamilyName="OSEI" Gender="F" Organisation="TUV" BirthDate="1985-05-17" CountryofBirth="TUV" Nationality="TUV" MainFunctionId="SUP_SR">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000039" Parent="9000039" Status="CNF" GivenName="Dara" FamilyName="Inthavong" PassportGivenName="DARA" PassportFamilyName="INTHAVONG" PrintName="INTHAVONG Dara" PrintInitialName="INTHAVONG D" TVName="Dara INTHAVONG" TVInitialName="D. INTHAVONG" TVFamilyName="INTHAVONG" Gender="M" Organisation="YEM" BirthDate="1986-05-01" CountryofBirth="YEM" Nationality="YEM" MainFunctionId="SUP_UB">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000040" Parent="9000040" Status="CNF" GivenName="Tommaso" FamilyName="Barbieri" PassportGivenName="TOMMASO" PassportFamilyName="BARBIERI" PrintName="BARBIERI Tommaso" PrintInitialName="BARBIERI T" TVName="Tommaso BARBIERI" TVInitialName="T. BARBIERI" TVFamilyName="BARBIERI" Gender="M" Organisation="FRA" BirthDate="1969-06-14" CountryofBirth="FRA" Nationality="FRA" MainFunctionId="SUP_V">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000041" Parent="9000041" Status="CNF" GivenName="Youssef" FamilyName="Attar" PassportGivenName="YOUSSEF" PassportFamilyName="ATTAR" PrintName="ATTAR Youssef" PrintInitialName="ATTAR Y" TVName="Youssef ATTAR" TVInitialName="Y. ATTAR" TVFamilyName="ATTAR" Gender="M" Organisation="JOR" BirthDate="1985-09-12" CountryofBirth="JOR" Nationality="JOR" MainFunctionId="SUP_BB">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000042" Parent="9000042" Status="CNF" GivenName="Channary" FamilyName="Keomany" PassportGivenName="CHANNARY" PassportFamilyName="KEOMANY" PrintName="KEOMANY Channary" PrintInitialName="KEOMANY C" TVName="Channary KEOMANY" TVInitialName="C. KEOMANY" TVFamilyName="KEOMANY" Gender="F" Organisation="YEM" BirthDate="1965-12-02" CountryofBirth="YEM" Nationality="YEM" MainFunctionId="SUP_F">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000043" Parent="9000043" Status="CNF" GivenName="Dohyun" FamilyName="Kwon" PassportGivenName="DOHYUN" PassportFamilyName="KWON" PrintName="KWON Dohyun" PrintInitialName="KWON D" TVName="Dohyun KWON" TVInitialName="D. KWON" TVFamilyName="KWON" Gender="M" Organisation="BUR" BirthDate="1995-04-09" CountryofBirth="BUR" Nationality="BUR" MainFunctionId="JU">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000044" Parent="9000044" Status="CNF" GivenName="Noy" FamilyName="Sok" PassportGivenName="NOY" PassportFamilyName="SOK" PrintName="SOK Noy" PrintInitialName="SOK N" TVName="Noy SOK" TVInitialName="N. SOK" TVFamilyName="SOK" Gender="F" Organisation="MKD" BirthDate="1982-06-04" CountryofBirth="MKD" Nationality="MKD" MainFunctionId="D1">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000045" Parent="9000045" Status="CNF" GivenName="Kanat" FamilyName="Orazov" PassportGivenName="KANAT" PassportFamilyName="ORAZOV" PrintName="ORAZOV Kanat" PrintInitialName="ORAZOV K" TVName="Kanat ORAZOV" TVInitialName="K. ORAZOV" TVFamilyName="ORAZOV" Gender="M" Organisation="MGL" BirthDate="1992-03-19" CountryofBirth="MGL" Nationality="MGL" MainFunctionId="D2">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000046" Parent="9000046" Status="CNF" GivenName="Filip" FamilyName="Svoboda" PassportGivenName="FILIP" PassportFamilyName="SVOBODA" PrintName="SVOBODA Filip" PrintInitialName="SVOBODA F" TVName="Filip SVOBODA" TVInitialName="F. SVOBODA" TVFamilyName="SVOBODA" Gender="M" Organisation="CAY" BirthDate="1985-03-27" CountryofBirth="CAY" Nationality="CAY" MainFunctionId="E1">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000047" Parent="9000047" Status="CNF" GivenName="Tendai" FamilyName="Nkosi" PassportGivenName="TENDAI" PassportFamilyName="NKOSI" PrintName="NKOSI Tendai" PrintInitialName="NKOSI T" TVName="Tendai NKOSI" TVInitialName="T. NKOSI" TVFamilyName="NKOSI" Gender="M" Organisation="DMA" BirthDate="1985-02-19" CountryofBirth="DMA" Nationality="DMA" MainFunctionId="E2">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000048" Parent="9000048" Status="CNF" GivenName="Inès" FamilyName="Lefebvre" PassportGivenName="INES" PassportFamilyName="LEFEBVRE" PrintName="LEFEBVRE Inès" PrintInitialName="LEFEBVRE I" TVName="Inès LEFEBVRE" TVInitialName="I. LEFEBVRE" TVFamilyName="LEFEBVRE" Gender="F" Organisation="LTU" BirthDate="1979-10-18" CountryofBirth="LTU" Nationality="LTU" MainFunctionId="E3">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000049" Parent="9000049" Status="CNF" GivenName="Matej" FamilyName="Svoboda" PassportGivenName="MATEJ" PassportFamilyName="SVOBODA" PrintName="SVOBODA Matej" PrintInitialName="SVOBODA M" TVName="Matej SVOBODA" TVInitialName="M. SVOBODA" TVFamilyName="SVOBODA" Gender="M" Organisation="CAY" BirthDate="1963-05-01" CountryofBirth="CAY" Nationality="CAY" MainFunctionId="E4">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000050" Parent="9000050" Status="CNF" GivenName="Kofi" FamilyName="Fall" PassportGivenName="KOFI" PassportFamilyName="FALL" PrintName="FALL Kofi" PrintInitialName="FALL K" TVName="Kofi FALL" TVInitialName="K. FALL" TVFamilyName="FALL" Gender="M" Organisation="BDI" BirthDate="1963-04-08" CountryofBirth="BDI" Nationality="BDI" MainFunctionId="E5">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000051" Parent="9000051" Status="CNF" GivenName="Cheikh" FamilyName="Boateng" PassportGivenName="CHEIKH" PassportFamilyName="BOATENG" PrintName="BOATENG Cheikh" PrintInitialName="BOATENG C" TVName="Cheikh BOATENG" TVInitialName="C. BOATENG" TVFamilyName="BOATENG" Gender="M" Organisation="TUV" BirthDate="1976-03-24" CountryofBirth="TUV" Nationality="TUV" MainFunctionId="E6">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000052" Parent="9000052" Status="CNF" GivenName="Filip" FamilyName="Pavlović" PassportGivenName="FILIP" PassportFamilyName="PAVLOVIC" PrintName="PAVLOVIC Filip" PrintInitialName="PAVLOVIC F" TVName="Filip PAVLOVIC" TVInitialName="F. PAVLOVIC" TVFamilyName="PAVLOVIC" Gender="M" Organisation="CAY" BirthDate="1995-05-18" CountryofBirth="CAY" Nationality="CAY" MainFunctionId="E7">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000053" Parent="9000053" Status="CNF" GivenName="Rahel" FamilyName="Bekele" PassportGivenName="RAHEL" PassportFamilyName="BEKELE" PrintName="BEKELE Rahel" PrintInitialName="BEKELE R" TVName="Rahel BEKELE" TVInitialName="R. BEKELE" TVFamilyName="BEKELE" Gender="F" Organisation="MAW" BirthDate="1974-11-11" CountryofBirth="MAW" Nationality="MAW" MainFunctionId="LNE_JU">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000054" Parent="9000054" Status="CNF" GivenName="Matej" FamilyName="Marek" PassportGivenName="MATEJ" PassportFamilyName="MAREK" PrintName="MAREK Matej" PrintInitialName="MAREK M" TVName="Matej MAREK" TVInitialName="M. MAREK" TVFamilyName="MAREK" Gender="M" Organisation="BOL" BirthDate="1981-08-13" CountryofBirth="BOL" Nationality="BOL" MainFunctionId="LNE_JU1">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000055" Parent="9000055" Status="CNF" GivenName="Anong" FamilyName="Sayavong" PassportGivenName="ANONG" PassportFamilyName="SAYAVONG" PrintName="SAYAVONG Anong" PrintInitialName="SAYAVONG A" TVName="Anong SAYAVONG" TVInitialName="A. SAYAVONG" TVFamilyName="SAYAVONG" Gender="M" Organisation="MKD" BirthDate="1981-10-15" CountryofBirth="MKD" Nationality="MKD" MainFunctionId="LNE_JU2">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000056" Parent="9000056" Status="CNF" GivenName="Jakub" FamilyName="Pavlović" PassportGivenName="JAKUB" PassportFamilyName="PAVLOVIC" PrintName="PAVLOVIC Jakub" PrintInitialName="PAVLOVIC J" TVName="Jakub PAVLOVIC" TVInitialName="J. PAVLOVIC" TVFamilyName="PAVLOVIC" Gender="M" Organisation="CAY" BirthDate="1995-12-16" CountryofBirth="CAY" Nationality="CAY" MainFunctionId="TIME_JU">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000057" Parent="9000057" Status="CNF" GivenName="Sovann" FamilyName="Keomany" PassportGivenName="SOVANN" PassportFamilyName="KEOMANY" PrintName="KEOMANY Sovann" PrintInitialName="KEOMANY S" TVName="Sovann KEOMANY" TVInitialName="S. KEOMANY" TVFamilyName="KEOMANY" Gender="M" Organisation="PAK" BirthDate="1980-04-08" CountryofBirth="PAK" Nationality="PAK" MainFunctionId="TIME_JU1">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000058" Parent="9000058" Status="CNF" GivenName="Khamla" FamilyName="Phommachanh" PassportGivenName="KHAMLA" PassportFamilyName="PHOMMACHANH" PrintName="PHOMMACHANH Khamla" PrintInitialName="PHOMMACHANH K" TVName="Khamla PHOMMACHANH" TVInitialName="K. PHOMMACHANH" TVFamilyName="PHOMMACHANH" Gender="M" Organisation="PAK" BirthDate="1989-02-21" CountryofBirth="PAK" Nationality="PAK" MainFunctionId="TIME_JU2">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000059" Parent="9000059" Status="CNF" GivenName="Sreyneang" FamilyName="Chanthavong" PassportGivenName="SREYNEANG" PassportFamilyName="CHANTHAVONG" PrintName="CHANTHAVONG Sreyneang" PrintInitialName="CHANTHAVONG S" TVName="Sreyneang CHANTHAVONG" TVInitialName="S. CHANTHAVONG" TVFamilyName="CHANTHAVONG" Gender="F" Organisation="MKD" BirthDate="1963-06-06" CountryofBirth="MKD" Nationality="MKD" MainFunctionId="R1">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000060" Parent="9000060" Status="CNF" GivenName="Dewi" FamilyName="Sayavong" PassportGivenName="DEWI" PassportFamilyName="SAYAVONG" PrintName="SAYAVONG Dewi" PrintInitialName="SAYAVONG D" TVName="Dewi SAYAVONG" TVInitialName="D. SAYAVONG" TVFamilyName="SAYAVONG" Gender="F" Organisation="MKD" BirthDate="1980-04-11" CountryofBirth="MKD" Nationality="MKD" MainFunctionId="R2">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+    <Participant Code="9000061" Parent="9000061" Status="CNF" GivenName="Dora" FamilyName="Pavlović" PassportGivenName="DORA" PassportFamilyName="PAVLOVIC" PrintName="PAVLOVIC Dora" PrintInitialName="PAVLOVIC D" TVName="Dora PAVLOVIC" TVInitialName="D. PAVLOVIC" TVFamilyName="PAVLOVIC" Gender="F" Organisation="CAY" BirthDate="1966-04-08" CountryofBirth="CAY" Nationality="CAY" MainFunctionId="R3">
+      <Discipline Code="GAR-------------------------------"/>
+    </Participant>
+  </Competition>
+</OdfBody>

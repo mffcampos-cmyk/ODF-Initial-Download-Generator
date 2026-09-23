@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="BDM-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="183838680" LogicalDate="2026-09-23" Source="OSM">
-  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-BDM-1.2" Codes="YOG-2026-2.4">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="BDM-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="193422865" LogicalDate="2026-09-23" Source="OSM">
+  <Competition Gen="OWG2026-GEN-4.6" Codes="YOG-2026-2.4">
     <Session SessionCode="BDM01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Venue="DAR" VenueName="Dakar Arena">
       <SessionName Value="BDM01" Language="ENG"/>
     </Session>

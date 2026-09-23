@@ -1,100 +1,100 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="TTE-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-23" Time="183847833" LogicalDate="2026-09-23" Source="SEQ">
-  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-TTE-1.3" Codes="YOG-2026-2.4">
-    <Team Code="TTEXDOUBLES-ALG01" Status="ENT" Organisation="ALG" Name="Algeria" ShortName="Algeria" TVTeamName="Algeria" PSCBName="ALGERIA" PSCBShortName="ALGERIA" PSCBLongName="ALGERIA" Gender="X" TeamType="ORG">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="TTE-------------------------------" DocumentType="DT_PARTIC_TEAMS" DocumentSubtype="SYNC" Version="1" FeedFlag="P" Date="2026-09-23" Time="193432606" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Codes="YOG-2026-2.4">
+    <Team Code="TTEXDOUBLES-ALG01" Status="CNF" Organisation="ALG" Name="Algeria" ShortName="Algeria" TVTeamName="Algeria" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-BOT01" Status="ENT" Organisation="BOT" Name="Botswana" ShortName="Botswana" TVTeamName="Botswana" PSCBName="BOTSWANA" PSCBShortName="BOTSWANA" PSCBLongName="BOTSWANA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-BOT01" Status="CNF" Organisation="BOT" Name="Botswana" ShortName="Botswana" TVTeamName="Botswana" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-CAY01" Status="ENT" Organisation="CAY" Name="Cayman Islands" ShortName="Cayman Islands" TVTeamName="Cayman Islands" PSCBName="CAYMAN ISLANDS" PSCBShortName="CAYMAN ISLANDS" PSCBLongName="CAYMAN ISLANDS" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-CAY01" Status="CNF" Organisation="CAY" Name="Cayman Islands" ShortName="Cayman Islands" TVTeamName="Cayman Islands" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-CRO01" Status="ENT" Organisation="CRO" Name="Croatia" ShortName="Croatia" TVTeamName="Croatia" PSCBName="CROATIA" PSCBShortName="CROATIA" PSCBLongName="CROATIA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-CRO01" Status="CNF" Organisation="CRO" Name="Croatia" ShortName="Croatia" TVTeamName="Croatia" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-ECU01" Status="ENT" Organisation="ECU" Name="Ecuador" ShortName="Ecuador" TVTeamName="Ecuador" PSCBName="ECUADOR" PSCBShortName="ECUADOR" PSCBLongName="ECUADOR" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-ECU01" Status="CNF" Organisation="ECU" Name="Ecuador" ShortName="Ecuador" TVTeamName="Ecuador" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-EGY01" Status="ENT" Organisation="EGY" Name="Egypt" ShortName="Egypt" TVTeamName="Egypt" PSCBName="EGYPT" PSCBShortName="EGYPT" PSCBLongName="EGYPT" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-EGY01" Status="CNF" Organisation="EGY" Name="Egypt" ShortName="Egypt" TVTeamName="Egypt" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-ESA01" Status="ENT" Organisation="ESA" Name="El Salvador" ShortName="El Salvador" TVTeamName="El Salvador" PSCBName="EL SALVADOR" PSCBShortName="EL SALVADOR" PSCBLongName="EL SALVADOR" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-ESA01" Status="CNF" Organisation="ESA" Name="El Salvador" ShortName="El Salvador" TVTeamName="El Salvador" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-GHA01" Status="ENT" Organisation="GHA" Name="Ghana" ShortName="Ghana" TVTeamName="Ghana" PSCBName="GHANA" PSCBShortName="GHANA" PSCBLongName="GHANA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-GHA01" Status="CNF" Organisation="GHA" Name="Ghana" ShortName="Ghana" TVTeamName="Ghana" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-GRE01" Status="ENT" Organisation="GRE" Name="Greece" ShortName="Greece" TVTeamName="Greece" PSCBName="GREECE" PSCBShortName="GREECE" PSCBLongName="GREECE" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-GRE01" Status="CNF" Organisation="GRE" Name="Greece" ShortName="Greece" TVTeamName="Greece" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-INA01" Status="ENT" Organisation="INA" Name="Indonesia" ShortName="Indonesia" TVTeamName="Indonesia" PSCBName="INDONESIA" PSCBShortName="INDONESIA" PSCBLongName="INDONESIA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-INA01" Status="CNF" Organisation="INA" Name="Indonesia" ShortName="Indonesia" TVTeamName="Indonesia" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-IRI01" Status="ENT" Organisation="IRI" Name="Islamic Republic of Iran" ShortName="IR Iran" TVTeamName="Islamic Republic of I" PSCBName="ISLAMIC REPUBLIC OF IRAN" PSCBShortName="IR IRAN" PSCBLongName="ISLAMIC REPUBLIC OF IRAN" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-IRI01" Status="CNF" Organisation="IRI" Name="Islamic Republic of Iran" ShortName="IR Iran" TVTeamName="Islamic Republic of I" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-KUW01" Status="ENT" Organisation="KUW" Name="Kuwait" ShortName="Kuwait" TVTeamName="Kuwait" PSCBName="KUWAIT" PSCBShortName="KUWAIT" PSCBLongName="KUWAIT" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-KUW01" Status="CNF" Organisation="KUW" Name="Kuwait" ShortName="Kuwait" TVTeamName="Kuwait" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-LAT01" Status="ENT" Organisation="LAT" Name="Latvia" ShortName="Latvia" TVTeamName="Latvia" PSCBName="LATVIA" PSCBShortName="LATVIA" PSCBLongName="LATVIA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-LAT01" Status="CNF" Organisation="LAT" Name="Latvia" ShortName="Latvia" TVTeamName="Latvia" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-LCA01" Status="ENT" Organisation="LCA" Name="Saint Lucia" ShortName="Saint Lucia" TVTeamName="Saint Lucia" PSCBName="SAINT LUCIA" PSCBShortName="SAINT LUCIA" PSCBLongName="SAINT LUCIA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-LCA01" Status="CNF" Organisation="LCA" Name="Saint Lucia" ShortName="Saint Lucia" TVTeamName="Saint Lucia" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-MAD01" Status="ENT" Organisation="MAD" Name="Madagascar" ShortName="Madagascar" TVTeamName="Madagascar" PSCBName="MADAGASCAR" PSCBShortName="MADAGASCAR" PSCBLongName="MADAGASCAR" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-MAD01" Status="CNF" Organisation="MAD" Name="Madagascar" ShortName="Madagascar" TVTeamName="Madagascar" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-MLT01" Status="ENT" Organisation="MLT" Name="Malta" ShortName="Malta" TVTeamName="Malta" PSCBName="MALTA" PSCBShortName="MALTA" PSCBLongName="MALTA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-MLT01" Status="CNF" Organisation="MLT" Name="Malta" ShortName="Malta" TVTeamName="Malta" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-MNE01" Status="ENT" Organisation="MNE" Name="Montenegro" ShortName="Montenegro" TVTeamName="Montenegro" PSCBName="MONTENEGRO" PSCBShortName="MONTENEGRO" PSCBLongName="MONTENEGRO" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-MNE01" Status="CNF" Organisation="MNE" Name="Montenegro" ShortName="Montenegro" TVTeamName="Montenegro" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-NAM01" Status="ENT" Organisation="NAM" Name="Namibia" ShortName="Namibia" TVTeamName="Namibia" PSCBName="NAMIBIA" PSCBShortName="NAMIBIA" PSCBLongName="NAMIBIA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-NAM01" Status="CNF" Organisation="NAM" Name="Namibia" ShortName="Namibia" TVTeamName="Namibia" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-NEP01" Status="ENT" Organisation="NEP" Name="Nepal" ShortName="Nepal" TVTeamName="Nepal" PSCBName="NEPAL" PSCBShortName="NEPAL" PSCBLongName="NEPAL" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-NEP01" Status="CNF" Organisation="NEP" Name="Nepal" ShortName="Nepal" TVTeamName="Nepal" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-NOR01" Status="ENT" Organisation="NOR" Name="Norway" ShortName="Norway" TVTeamName="Norway" PSCBName="NORWAY" PSCBShortName="NORWAY" PSCBLongName="NORWAY" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-NOR01" Status="CNF" Organisation="NOR" Name="Norway" ShortName="Norway" TVTeamName="Norway" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-NRO01" Status="ENT" Organisation="NRO" Name="Naoero" ShortName="Naoero" TVTeamName="Naoero" PSCBName="NAOERO" PSCBShortName="NAOERO" PSCBLongName="NAOERO" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-NRO01" Status="CNF" Organisation="NRO" Name="Naoero" ShortName="Naoero" TVTeamName="Naoero" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-PAK01" Status="ENT" Organisation="PAK" Name="Pakistan" ShortName="Pakistan" TVTeamName="Pakistan" PSCBName="PAKISTAN" PSCBShortName="PAKISTAN" PSCBLongName="PAKISTAN" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-PAK01" Status="CNF" Organisation="PAK" Name="Pakistan" ShortName="Pakistan" TVTeamName="Pakistan" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-SEY01" Status="ENT" Organisation="SEY" Name="Seychelles" ShortName="Seychelles" TVTeamName="Seychelles" PSCBName="SEYCHELLES" PSCBShortName="SEYCHELLES" PSCBLongName="SEYCHELLES" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-SEY01" Status="CNF" Organisation="SEY" Name="Seychelles" ShortName="Seychelles" TVTeamName="Seychelles" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-SLO01" Status="ENT" Organisation="SLO" Name="Slovenia" ShortName="Slovenia" TVTeamName="Slovenia" PSCBName="SLOVENIA" PSCBShortName="SLOVENIA" PSCBLongName="SLOVENIA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-SLO01" Status="CNF" Organisation="SLO" Name="Slovenia" ShortName="Slovenia" TVTeamName="Slovenia" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-SOM01" Status="ENT" Organisation="SOM" Name="Somalia" ShortName="Somalia" TVTeamName="Somalia" PSCBName="SOMALIA" PSCBShortName="SOMALIA" PSCBLongName="SOMALIA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-SOM01" Status="CNF" Organisation="SOM" Name="Somalia" ShortName="Somalia" TVTeamName="Somalia" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-SVK01" Status="ENT" Organisation="SVK" Name="Slovakia" ShortName="Slovakia" TVTeamName="Slovakia" PSCBName="SLOVAKIA" PSCBShortName="SLOVAKIA" PSCBLongName="SLOVAKIA" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-SVK01" Status="CNF" Organisation="SVK" Name="Slovakia" ShortName="Slovakia" TVTeamName="Slovakia" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-TJK01" Status="ENT" Organisation="TJK" Name="Tajikistan" ShortName="Tajikistan" TVTeamName="Tajikistan" PSCBName="TAJIKISTAN" PSCBShortName="TAJIKISTAN" PSCBLongName="TAJIKISTAN" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-TJK01" Status="CNF" Organisation="TJK" Name="Tajikistan" ShortName="Tajikistan" TVTeamName="Tajikistan" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-UAE01" Status="ENT" Organisation="UAE" Name="United Arab Emirates" ShortName="UA Emirates" TVTeamName="United Arab Emirates" PSCBName="UNITED ARAB EMIRATES" PSCBShortName="UA EMIRATES" PSCBLongName="UNITED ARAB EMIRATES" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-UAE01" Status="CNF" Organisation="UAE" Name="United Arab Emirates" ShortName="UA Emirates" TVTeamName="United Arab Emirates" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-UZB01" Status="ENT" Organisation="UZB" Name="Uzbekistan" ShortName="Uzbekistan" TVTeamName="Uzbekistan" PSCBName="UZBEKISTAN" PSCBShortName="UZBEKISTAN" PSCBLongName="UZBEKISTAN" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-UZB01" Status="CNF" Organisation="UZB" Name="Uzbekistan" ShortName="Uzbekistan" TVTeamName="Uzbekistan" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-VAN01" Status="ENT" Organisation="VAN" Name="Vanuatu" ShortName="Vanuatu" TVTeamName="Vanuatu" PSCBName="VANUATU" PSCBShortName="VANUATU" PSCBLongName="VANUATU" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-VAN01" Status="CNF" Organisation="VAN" Name="Vanuatu" ShortName="Vanuatu" TVTeamName="Vanuatu" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-VIN01" Status="ENT" Organisation="VIN" Name="St Vincent and the Grenadines" ShortName="StVincent&amp;Grenadines" TVTeamName="St Vincent and the Gr" PSCBName="ST VINCENT AND THE GRENADINES" PSCBShortName="STVINCENT&amp;GRENADINES" PSCBLongName="ST VINCENT AND THE GRENADINES" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-VIN01" Status="CNF" Organisation="VIN" Name="St Vincent and the Grenadines" ShortName="StVincent&amp;Grenadines" TVTeamName="St Vincent and the Gr" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
-    <Team Code="TTEXDOUBLES-YEM01" Status="ENT" Organisation="YEM" Name="Yemen" ShortName="Yemen" TVTeamName="Yemen" PSCBName="YEMEN" PSCBShortName="YEMEN" PSCBLongName="YEMEN" Gender="X" TeamType="ORG">
+    <Team Code="TTEXDOUBLES-YEM01" Status="CNF" Organisation="YEM" Name="Yemen" ShortName="Yemen" TVTeamName="Yemen" Gender="X" TeamType="ORG">
       <Discipline Code="TTE-------------------------------"/>
     </Team>
   </Competition>

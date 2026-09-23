@@ -1,52 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="HBB-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-23" Time="183843001" LogicalDate="2026-09-23" Source="SEQ">
-  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-HBB-1.2" Codes="YOG-2026-2.4">
-    <Team Code="HBBMTEAM4---BDI01" Status="ENT" Organisation="BDI" Name="Burundi" ShortName="Burundi" TVTeamName="Burundi" PSCBName="BURUNDI" PSCBShortName="BURUNDI" PSCBLongName="BURUNDI" Gender="M" TeamType="ORG">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="HBB-------------------------------" DocumentType="DT_PARTIC_TEAMS" DocumentSubtype="SYNC" Version="1" FeedFlag="P" Date="2026-09-23" Time="193427732" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Codes="YOG-2026-2.4">
+    <Team Code="HBBMTEAM4---BDI01" Status="CNF" Organisation="BDI" Name="Burundi" ShortName="Burundi" TVTeamName="Burundi" Gender="M" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBMTEAM4---BUR01" Status="ENT" Organisation="BUR" Name="Burkina Faso" ShortName="Burkina Faso" TVTeamName="Burkina Faso" PSCBName="BURKINA FASO" PSCBShortName="BURKINA FASO" PSCBLongName="BURKINA FASO" Gender="M" TeamType="ORG">
+    <Team Code="HBBMTEAM4---BUR01" Status="CNF" Organisation="BUR" Name="Burkina Faso" ShortName="Burkina Faso" TVTeamName="Burkina Faso" Gender="M" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBMTEAM4---CAY01" Status="ENT" Organisation="CAY" Name="Cayman Islands" ShortName="Cayman Islands" TVTeamName="Cayman Islands" PSCBName="CAYMAN ISLANDS" PSCBShortName="CAYMAN ISLANDS" PSCBLongName="CAYMAN ISLANDS" Gender="M" TeamType="ORG">
+    <Team Code="HBBMTEAM4---CAY01" Status="CNF" Organisation="CAY" Name="Cayman Islands" ShortName="Cayman Islands" TVTeamName="Cayman Islands" Gender="M" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBMTEAM4---FRA01" Status="ENT" Organisation="FRA" Name="France" ShortName="France" TVTeamName="France" PSCBName="FRANCE" PSCBShortName="FRANCE" PSCBLongName="FRANCE" Gender="M" TeamType="ORG">
+    <Team Code="HBBMTEAM4---FRA01" Status="CNF" Organisation="FRA" Name="France" ShortName="France" TVTeamName="France" Gender="M" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBMTEAM4---MKD01" Status="ENT" Organisation="MKD" Name="North Macedonia" ShortName="North Macedonia" TVTeamName="North Macedonia" PSCBName="NORTH MACEDONIA" PSCBShortName="NORTH MACEDONIA" PSCBLongName="NORTH MACEDONIA" Gender="M" TeamType="ORG">
+    <Team Code="HBBMTEAM4---MKD01" Status="CNF" Organisation="MKD" Name="North Macedonia" ShortName="North Macedonia" TVTeamName="North Macedonia" Gender="M" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBMTEAM4---PAK01" Status="ENT" Organisation="PAK" Name="Pakistan" ShortName="Pakistan" TVTeamName="Pakistan" PSCBName="PAKISTAN" PSCBShortName="PAKISTAN" PSCBLongName="PAKISTAN" Gender="M" TeamType="ORG">
+    <Team Code="HBBMTEAM4---PAK01" Status="CNF" Organisation="PAK" Name="Pakistan" ShortName="Pakistan" TVTeamName="Pakistan" Gender="M" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBMTEAM4---UAE01" Status="ENT" Organisation="UAE" Name="United Arab Emirates" ShortName="UA Emirates" TVTeamName="United Arab Emirates" PSCBName="UNITED ARAB EMIRATES" PSCBShortName="UA EMIRATES" PSCBLongName="UNITED ARAB EMIRATES" Gender="M" TeamType="ORG">
+    <Team Code="HBBMTEAM4---UAE01" Status="CNF" Organisation="UAE" Name="United Arab Emirates" ShortName="UA Emirates" TVTeamName="United Arab Emirates" Gender="M" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBMTEAM4---YEM01" Status="ENT" Organisation="YEM" Name="Yemen" ShortName="Yemen" TVTeamName="Yemen" PSCBName="YEMEN" PSCBShortName="YEMEN" PSCBLongName="YEMEN" Gender="M" TeamType="ORG">
+    <Team Code="HBBMTEAM4---YEM01" Status="CNF" Organisation="YEM" Name="Yemen" ShortName="Yemen" TVTeamName="Yemen" Gender="M" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBWTEAM4---BOL01" Status="ENT" Organisation="BOL" Name="Bolivia" ShortName="Bolivia" TVTeamName="Bolivia" PSCBName="BOLIVIA" PSCBShortName="BOLIVIA" PSCBLongName="BOLIVIA" Gender="W" TeamType="ORG">
+    <Team Code="HBBWTEAM4---BOL01" Status="CNF" Organisation="BOL" Name="Bolivia" ShortName="Bolivia" TVTeamName="Bolivia" Gender="W" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBWTEAM4---DMA01" Status="ENT" Organisation="DMA" Name="Dominica" ShortName="Dominica" TVTeamName="Dominica" PSCBName="DOMINICA" PSCBShortName="DOMINICA" PSCBLongName="DOMINICA" Gender="W" TeamType="ORG">
+    <Team Code="HBBWTEAM4---DMA01" Status="CNF" Organisation="DMA" Name="Dominica" ShortName="Dominica" TVTeamName="Dominica" Gender="W" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBWTEAM4---JOR01" Status="ENT" Organisation="JOR" Name="Jordan" ShortName="Jordan" TVTeamName="Jordan" PSCBName="JORDAN" PSCBShortName="JORDAN" PSCBLongName="JORDAN" Gender="W" TeamType="ORG">
+    <Team Code="HBBWTEAM4---JOR01" Status="CNF" Organisation="JOR" Name="Jordan" ShortName="Jordan" TVTeamName="Jordan" Gender="W" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBWTEAM4---LTU01" Status="ENT" Organisation="LTU" Name="Lithuania" ShortName="Lithuania" TVTeamName="Lithuania" PSCBName="LITHUANIA" PSCBShortName="LITHUANIA" PSCBLongName="LITHUANIA" Gender="W" TeamType="ORG">
+    <Team Code="HBBWTEAM4---LTU01" Status="CNF" Organisation="LTU" Name="Lithuania" ShortName="Lithuania" TVTeamName="Lithuania" Gender="W" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBWTEAM4---MAW01" Status="ENT" Organisation="MAW" Name="Malawi" ShortName="Malawi" TVTeamName="Malawi" PSCBName="MALAWI" PSCBShortName="MALAWI" PSCBLongName="MALAWI" Gender="W" TeamType="ORG">
+    <Team Code="HBBWTEAM4---MAW01" Status="CNF" Organisation="MAW" Name="Malawi" ShortName="Malawi" TVTeamName="Malawi" Gender="W" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBWTEAM4---MGL01" Status="ENT" Organisation="MGL" Name="Mongolia" ShortName="Mongolia" TVTeamName="Mongolia" PSCBName="MONGOLIA" PSCBShortName="MONGOLIA" PSCBLongName="MONGOLIA" Gender="W" TeamType="ORG">
+    <Team Code="HBBWTEAM4---MGL01" Status="CNF" Organisation="MGL" Name="Mongolia" ShortName="Mongolia" TVTeamName="Mongolia" Gender="W" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBWTEAM4---SKN01" Status="ENT" Organisation="SKN" Name="Saint Kitts and Nevis" ShortName="St Kitts and Nevis" TVTeamName="Saint Kitts and Nevis" PSCBName="SAINT KITTS AND NEVIS" PSCBShortName="ST KITTS AND NEVIS" PSCBLongName="SAINT KITTS AND NEVIS" Gender="W" TeamType="ORG">
+    <Team Code="HBBWTEAM4---SKN01" Status="CNF" Organisation="SKN" Name="Saint Kitts and Nevis" ShortName="St Kitts and Nevis" TVTeamName="Saint Kitts and Nevis" Gender="W" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
-    <Team Code="HBBWTEAM4---TUV01" Status="ENT" Organisation="TUV" Name="Tuvalu" ShortName="Tuvalu" TVTeamName="Tuvalu" PSCBName="TUVALU" PSCBShortName="TUVALU" PSCBLongName="TUVALU" Gender="W" TeamType="ORG">
+    <Team Code="HBBWTEAM4---TUV01" Status="CNF" Organisation="TUV" Name="Tuvalu" ShortName="Tuvalu" TVTeamName="Tuvalu" Gender="W" TeamType="ORG">
       <Discipline Code="HBB-------------------------------"/>
     </Team>
   </Competition>

@@ -1,100 +1,100 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="VBV-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-23" Time="183848356" LogicalDate="2026-09-23" Source="SEQ">
-  <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-VBV-1.2" Codes="YOG-2026-2.4">
-    <Team Code="VBVMTEAM2---BDI01" Status="ENT" Organisation="BDI" Name="Burundi" ShortName="Burundi" TVTeamName="Burundi" PSCBName="BURUNDI" PSCBShortName="BURUNDI" PSCBLongName="BURUNDI" Gender="M" TeamType="ORG">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="VBV-------------------------------" DocumentType="DT_PARTIC_TEAMS" DocumentSubtype="SYNC" Version="1" FeedFlag="P" Date="2026-09-23" Time="193433093" LogicalDate="2026-09-23" Source="SEQ">
+  <Competition Gen="OWG2026-GEN-4.6" Codes="YOG-2026-2.4">
+    <Team Code="VBVMTEAM2---BDI01" Status="CNF" Organisation="BDI" Name="Burundi" ShortName="Burundi" TVTeamName="Burundi" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---BOL01" Status="ENT" Organisation="BOL" Name="Bolivia" ShortName="Bolivia" TVTeamName="Bolivia" PSCBName="BOLIVIA" PSCBShortName="BOLIVIA" PSCBLongName="BOLIVIA" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---BOL01" Status="CNF" Organisation="BOL" Name="Bolivia" ShortName="Bolivia" TVTeamName="Bolivia" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---BUR01" Status="ENT" Organisation="BUR" Name="Burkina Faso" ShortName="Burkina Faso" TVTeamName="Burkina Faso" PSCBName="BURKINA FASO" PSCBShortName="BURKINA FASO" PSCBLongName="BURKINA FASO" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---BUR01" Status="CNF" Organisation="BUR" Name="Burkina Faso" ShortName="Burkina Faso" TVTeamName="Burkina Faso" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---CAY01" Status="ENT" Organisation="CAY" Name="Cayman Islands" ShortName="Cayman Islands" TVTeamName="Cayman Islands" PSCBName="CAYMAN ISLANDS" PSCBShortName="CAYMAN ISLANDS" PSCBLongName="CAYMAN ISLANDS" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---CAY01" Status="CNF" Organisation="CAY" Name="Cayman Islands" ShortName="Cayman Islands" TVTeamName="Cayman Islands" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---DMA01" Status="ENT" Organisation="DMA" Name="Dominica" ShortName="Dominica" TVTeamName="Dominica" PSCBName="DOMINICA" PSCBShortName="DOMINICA" PSCBLongName="DOMINICA" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---DMA01" Status="CNF" Organisation="DMA" Name="Dominica" ShortName="Dominica" TVTeamName="Dominica" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---FRA01" Status="ENT" Organisation="FRA" Name="France" ShortName="France" TVTeamName="France" PSCBName="FRANCE" PSCBShortName="FRANCE" PSCBLongName="FRANCE" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---FRA01" Status="CNF" Organisation="FRA" Name="France" ShortName="France" TVTeamName="France" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---JOR01" Status="ENT" Organisation="JOR" Name="Jordan" ShortName="Jordan" TVTeamName="Jordan" PSCBName="JORDAN" PSCBShortName="JORDAN" PSCBLongName="JORDAN" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---JOR01" Status="CNF" Organisation="JOR" Name="Jordan" ShortName="Jordan" TVTeamName="Jordan" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---LTU01" Status="ENT" Organisation="LTU" Name="Lithuania" ShortName="Lithuania" TVTeamName="Lithuania" PSCBName="LITHUANIA" PSCBShortName="LITHUANIA" PSCBLongName="LITHUANIA" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---LTU01" Status="CNF" Organisation="LTU" Name="Lithuania" ShortName="Lithuania" TVTeamName="Lithuania" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---MAW01" Status="ENT" Organisation="MAW" Name="Malawi" ShortName="Malawi" TVTeamName="Malawi" PSCBName="MALAWI" PSCBShortName="MALAWI" PSCBLongName="MALAWI" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---MAW01" Status="CNF" Organisation="MAW" Name="Malawi" ShortName="Malawi" TVTeamName="Malawi" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---MGL01" Status="ENT" Organisation="MGL" Name="Mongolia" ShortName="Mongolia" TVTeamName="Mongolia" PSCBName="MONGOLIA" PSCBShortName="MONGOLIA" PSCBLongName="MONGOLIA" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---MGL01" Status="CNF" Organisation="MGL" Name="Mongolia" ShortName="Mongolia" TVTeamName="Mongolia" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---MKD01" Status="ENT" Organisation="MKD" Name="North Macedonia" ShortName="North Macedonia" TVTeamName="North Macedonia" PSCBName="NORTH MACEDONIA" PSCBShortName="NORTH MACEDONIA" PSCBLongName="NORTH MACEDONIA" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---MKD01" Status="CNF" Organisation="MKD" Name="North Macedonia" ShortName="North Macedonia" TVTeamName="North Macedonia" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---PAK01" Status="ENT" Organisation="PAK" Name="Pakistan" ShortName="Pakistan" TVTeamName="Pakistan" PSCBName="PAKISTAN" PSCBShortName="PAKISTAN" PSCBLongName="PAKISTAN" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---PAK01" Status="CNF" Organisation="PAK" Name="Pakistan" ShortName="Pakistan" TVTeamName="Pakistan" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---SKN01" Status="ENT" Organisation="SKN" Name="Saint Kitts and Nevis" ShortName="St Kitts and Nevis" TVTeamName="Saint Kitts and Nevis" PSCBName="SAINT KITTS AND NEVIS" PSCBShortName="ST KITTS AND NEVIS" PSCBLongName="SAINT KITTS AND NEVIS" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---SKN01" Status="CNF" Organisation="SKN" Name="Saint Kitts and Nevis" ShortName="St Kitts and Nevis" TVTeamName="Saint Kitts and Nevis" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---TUV01" Status="ENT" Organisation="TUV" Name="Tuvalu" ShortName="Tuvalu" TVTeamName="Tuvalu" PSCBName="TUVALU" PSCBShortName="TUVALU" PSCBLongName="TUVALU" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---TUV01" Status="CNF" Organisation="TUV" Name="Tuvalu" ShortName="Tuvalu" TVTeamName="Tuvalu" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---UAE01" Status="ENT" Organisation="UAE" Name="United Arab Emirates" ShortName="UA Emirates" TVTeamName="United Arab Emirates" PSCBName="UNITED ARAB EMIRATES" PSCBShortName="UA EMIRATES" PSCBLongName="UNITED ARAB EMIRATES" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---UAE01" Status="CNF" Organisation="UAE" Name="United Arab Emirates" ShortName="UA Emirates" TVTeamName="United Arab Emirates" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVMTEAM2---YEM01" Status="ENT" Organisation="YEM" Name="Yemen" ShortName="Yemen" TVTeamName="Yemen" PSCBName="YEMEN" PSCBShortName="YEMEN" PSCBLongName="YEMEN" Gender="M" TeamType="ORG">
+    <Team Code="VBVMTEAM2---YEM01" Status="CNF" Organisation="YEM" Name="Yemen" ShortName="Yemen" TVTeamName="Yemen" Gender="M" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---AFG01" Status="ENT" Organisation="AFG" Name="Afghanistan" ShortName="Afghanistan" TVTeamName="Afghanistan" PSCBName="AFGHANISTAN" PSCBShortName="AFGHANISTAN" PSCBLongName="AFGHANISTAN" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---AFG01" Status="CNF" Organisation="AFG" Name="Afghanistan" ShortName="Afghanistan" TVTeamName="Afghanistan" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---ANT01" Status="ENT" Organisation="ANT" Name="Antigua and Barbuda" ShortName="Antigua and Barbuda" TVTeamName="Antigua and Barbuda" PSCBName="ANTIGUA AND BARBUDA" PSCBShortName="ANTIGUA AND BARBUDA" PSCBLongName="ANTIGUA AND BARBUDA" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---ANT01" Status="CNF" Organisation="ANT" Name="Antigua and Barbuda" ShortName="Antigua and Barbuda" TVTeamName="Antigua and Barbuda" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---ARG01" Status="ENT" Organisation="ARG" Name="Argentina" ShortName="Argentina" TVTeamName="Argentina" PSCBName="ARGENTINA" PSCBShortName="ARGENTINA" PSCBLongName="ARGENTINA" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---ARG01" Status="CNF" Organisation="ARG" Name="Argentina" ShortName="Argentina" TVTeamName="Argentina" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---ARM01" Status="ENT" Organisation="ARM" Name="Armenia" ShortName="Armenia" TVTeamName="Armenia" PSCBName="ARMENIA" PSCBShortName="ARMENIA" PSCBLongName="ARMENIA" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---ARM01" Status="CNF" Organisation="ARM" Name="Armenia" ShortName="Armenia" TVTeamName="Armenia" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---BRA01" Status="ENT" Organisation="BRA" Name="Brazil" ShortName="Brazil" TVTeamName="Brazil" PSCBName="BRAZIL" PSCBShortName="BRAZIL" PSCBLongName="BRAZIL" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---BRA01" Status="CNF" Organisation="BRA" Name="Brazil" ShortName="Brazil" TVTeamName="Brazil" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---ERI01" Status="ENT" Organisation="ERI" Name="Eritrea" ShortName="Eritrea" TVTeamName="Eritrea" PSCBName="ERITREA" PSCBShortName="ERITREA" PSCBLongName="ERITREA" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---ERI01" Status="CNF" Organisation="ERI" Name="Eritrea" ShortName="Eritrea" TVTeamName="Eritrea" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---GAM01" Status="ENT" Organisation="GAM" Name="Gambia" ShortName="Gambia" TVTeamName="Gambia" PSCBName="GAMBIA" PSCBShortName="GAMBIA" PSCBLongName="GAMBIA" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---GAM01" Status="CNF" Organisation="GAM" Name="Gambia" ShortName="Gambia" TVTeamName="Gambia" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---HAI01" Status="ENT" Organisation="HAI" Name="Haiti" ShortName="Haiti" TVTeamName="Haiti" PSCBName="HAITI" PSCBShortName="HAITI" PSCBLongName="HAITI" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---HAI01" Status="CNF" Organisation="HAI" Name="Haiti" ShortName="Haiti" TVTeamName="Haiti" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---KAZ01" Status="ENT" Organisation="KAZ" Name="Kazakhstan" ShortName="Kazakhstan" TVTeamName="Kazakhstan" PSCBName="KAZAKHSTAN" PSCBShortName="KAZAKHSTAN" PSCBLongName="KAZAKHSTAN" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---KAZ01" Status="CNF" Organisation="KAZ" Name="Kazakhstan" ShortName="Kazakhstan" TVTeamName="Kazakhstan" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---LBN01" Status="ENT" Organisation="LBN" Name="Lebanon" ShortName="Lebanon" TVTeamName="Lebanon" PSCBName="LEBANON" PSCBShortName="LEBANON" PSCBLongName="LEBANON" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---LBN01" Status="CNF" Organisation="LBN" Name="Lebanon" ShortName="Lebanon" TVTeamName="Lebanon" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---LIE01" Status="ENT" Organisation="LIE" Name="Liechtenstein" ShortName="Liechtenstein" TVTeamName="Liechtenstein" PSCBName="LIECHTENSTEIN" PSCBShortName="LIECHTENSTEIN" PSCBLongName="LIECHTENSTEIN" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---LIE01" Status="CNF" Organisation="LIE" Name="Liechtenstein" ShortName="Liechtenstein" TVTeamName="Liechtenstein" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---PLW01" Status="ENT" Organisation="PLW" Name="Palau" ShortName="Palau" TVTeamName="Palau" PSCBName="PALAU" PSCBShortName="PALAU" PSCBLongName="PALAU" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---PLW01" Status="CNF" Organisation="PLW" Name="Palau" ShortName="Palau" TVTeamName="Palau" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---PRK01" Status="ENT" Organisation="PRK" Name="Democratic People's Republic of Korea" ShortName="DPR Korea" TVTeamName="Democratic People's R" PSCBName="DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" PSCBShortName="DPR KOREA" PSCBLongName="DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---PRK01" Status="CNF" Organisation="PRK" Name="Democratic People's Republic of Korea" ShortName="DPR Korea" TVTeamName="Democratic People's R" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---SUR01" Status="ENT" Organisation="SUR" Name="Suriname" ShortName="Suriname" TVTeamName="Suriname" PSCBName="SURINAME" PSCBShortName="SURINAME" PSCBLongName="SURINAME" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---SUR01" Status="CNF" Organisation="SUR" Name="Suriname" ShortName="Suriname" TVTeamName="Suriname" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---TTO01" Status="ENT" Organisation="TTO" Name="Trinidad and Tobago" ShortName="Trinidad and Tobago" TVTeamName="Trinidad and Tobago" PSCBName="TRINIDAD AND TOBAGO" PSCBShortName="TRINIDAD AND TOBAGO" PSCBLongName="TRINIDAD AND TOBAGO" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---TTO01" Status="CNF" Organisation="TTO" Name="Trinidad and Tobago" ShortName="Trinidad and Tobago" TVTeamName="Trinidad and Tobago" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
-    <Team Code="VBVWTEAM2---UGA01" Status="ENT" Organisation="UGA" Name="Uganda" ShortName="Uganda" TVTeamName="Uganda" PSCBName="UGANDA" PSCBShortName="UGANDA" PSCBLongName="UGANDA" Gender="W" TeamType="ORG">
+    <Team Code="VBVWTEAM2---UGA01" Status="CNF" Organisation="UGA" Name="Uganda" ShortName="Uganda" TVTeamName="Uganda" Gender="W" TeamType="ORG">
       <Discipline Code="VBV-------------------------------"/>
     </Team>
   </Competition>
