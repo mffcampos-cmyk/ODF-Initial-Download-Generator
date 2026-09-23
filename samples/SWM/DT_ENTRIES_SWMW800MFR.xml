@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="SWMW800MFR------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-23" Time="175951211" LogicalDate="2026-09-23" Source="SEQ">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="SWMW800MFR------------------------" DocumentType="DT_ENTRIES" Version="1" FeedFlag="P" Date="2026-09-23" Time="183846085" LogicalDate="2026-09-23" Source="SEQ">
   <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-SWM-1.2" Codes="YOG-2026-2.4">
     <Entry Code="9000301" Type="A" Organisation="CAY" SortOrder="1">
       <ExtendedEntry Type="ENTRY" Code="QUAL_BEST" Value="9:02.04"/>

@@ -72,7 +72,7 @@ does two things:
   string, so a race and its re-row become indistinguishable by name.
 
 Against that, the `S(40)` violation is the lesser fault. A consumer keys on
-`@Code` and `@UnitNum`, which stay distinct either way; the name is what a
+`@Code`, which stays distinct either way; the name is what a
 human reads, and a name that is wrong reads as authoritative in a way a name
 that is long does not. `tests/unit/test_lengths.py` asserts that every
 generated `ItemName` equals its code's description in full, so the output
@@ -151,27 +151,34 @@ Output follows the conventions of the real SYOG26 initial download (received
 - Every team is `TeamType="ORG"`; schedule units are `PhaseType="3"`
   (competition) and victory ceremonies `"6"`. DT_ENTRIES carries no `IFId`:
   that is the federation's identifier, which the generator does not have.
-- **ARC** uses an embedded real-life profile (`generator/arc_profile.py`):
-  32 M + 32 W athletes across 47 NOCs, one coach per NOC + 4 judges
-  (115 participants), 17 mixed teams, and the real 9-session / 83-unit
-  schedule — counts match the Common Codes EVENT_UNIT tables. Venue/Location
-  use the Common Codes members `SAW` / `AR1` (the real feed's `AWA` is not in
-  Common Codes).
+- **ARC** keeps an embedded participant profile (`generator/arc_profile.py`):
+  32 M + 32 W athletes across 47 NOCs, one coach per NOC plus the codes'
+  judges, 17 mixed teams. Its schedule comes from the codes like every
+  discipline's, and matches the real SYOG26 ARC schedule row for row.
 - **Every other discipline** is derived from the Common Codes tables
-  (`generator/eventstructure.py`): the schedule contains exactly the
-  scheduled competitive units from EVENT_UNIT (real unit RSCs, item names,
-  medal flags, prelims-before-finals ordering), venue/location come from the
-  LOCATION table, and athlete/team counts follow the event structure —
+  (`generator/eventstructure.py`): the schedule follows the schedule model
+  below (real unit RSCs, item names, medal flags, prelims-before-finals
+  ordering), venue/location come from the LOCATION table, and athlete/team counts follow the event structure —
   bracket events get 2 x the matches of the largest elimination round (JUD
   R32 -> 32 entrants per weight class), heats get 8 x lanes, group phases 4
   per group, direct finals 8; multi-event disciplines (SWM/ATH) share a
   per-gender athlete pool. Team squads are sized from the event code
   (TEAM2/TEAM5). One coach per delegation plus judges are added on top.
+- **Schedule model** (as in the real SYOG26 feed). DT_SCHEDULE lists every
+  EVENT_UNIT row with `Schedule=Y` at Unit, Phase and Medals level. A phase
+  with several bouts is scheduled as one block and its bouts are listed
+  `UNSCHEDULED` with no time or venue; JUD schedules its preliminary and
+  final blocks the same way. Victory ceremonies are always scheduled
+  (`PhaseType="6"`). Every unit carries `Medal` (`0` when none); a session's
+  `Medal` counts its gold-medal units and its name is its code. Slots are
+  13 minutes a bout, 30 a block and 5 a ceremony, in sessions of at most
+  150 minutes at 09:30 and 14:00. SWM lists 548 rows and schedules 106.
 
 ## Live-operations realism options
 
-Four options (off by default — the baseline stays strictly Common-Codes-
-driven) reproduce what the real venue feeds look like, for every discipline.
+Three options (off by default — the baseline stays strictly Common-Codes-
+driven) reproduce what the real venue feeds look like, for every discipline;
+a fourth, `victory_ceremonies`, is kept only so existing calls still work.
 They are available as checkboxes in the web UI, fields on `/api/generate` and
 `/api/save`, query params on `/api/generate.zip`, and CLI flags on
 `python -m generator.export`:
@@ -184,16 +191,17 @@ They are available as checkboxes in the web UI, fields on `/api/generate` and
   `ceil(entries / 8 lanes)` per event, drawing real unit RSCs from the codes'
   full heat pool (e.g. 18 defined per SWM event). Timed-final events
   (400m/800m freestyle) correctly keep no heats.
-- `victory_ceremonies` (`--victory-ceremonies`): VICT units from the codes
-  are scheduled after each event's final.
+- `victory_ceremonies` (`--victory-ceremonies`): no longer does anything.
+  Ceremonies are always scheduled; the option is still accepted so
+  existing calls keep working.
 - `historical_athletes` (`--historical-athletes`): adds Status=HIS athletes
   with A-prefixed IDs (per spec) and adult birth dates; they appear in
   DT_PARTIC but are never entered in events.
 
-Notes: ARC uses its embedded real-life schedule profile; enabling a
-schedule-affecting option switches ARC to the codes-driven engine so the
-options apply there too. Header overrides (competition code, source,
-Gen/Sport/Codes versions, status, coach count) are also honoured end-to-end.
+Notes: realistic entries or seeded heats switch ARC from its participant
+profile to the codes engine, so those options apply there too. Header
+overrides (competition code, source, Gen/Sport/Codes versions, status, coach
+count) are also honoured end-to-end.
 
 ### Where the count overrides have less effect than you'd expect
 

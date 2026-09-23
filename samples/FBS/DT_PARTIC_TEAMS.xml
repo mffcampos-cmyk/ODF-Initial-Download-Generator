@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="FBS-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-23" Time="175946884" LogicalDate="2026-09-23" Source="SEQ">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="FBS-------------------------------" DocumentType="DT_PARTIC_TEAMS" Version="1" FeedFlag="P" Date="2026-09-23" Time="183842003" LogicalDate="2026-09-23" Source="SEQ">
   <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-FBS-1.3" Codes="YOG-2026-2.4">
     <Team Code="FBSMTEAM5---BDI01" Status="ENT" Organisation="BDI" Name="Burundi" ShortName="Burundi" TVTeamName="Burundi" PSCBName="BURUNDI" PSCBShortName="BURUNDI" PSCBLongName="BURUNDI" Gender="M" TeamType="ORG">
       <Discipline Code="FBS-------------------------------"/>

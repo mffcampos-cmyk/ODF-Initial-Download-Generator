@@ -45,7 +45,7 @@ Common Codes ships descriptions longer than 40 ("Women -44 kg Repechage Second
 Round of 16" is 41). The description governs, for the same reason it governs
 the two above: truncation merged units that Common Codes keeps apart -- a race
 and its re-row cut to the same string -- and a name that is wrong is worse than
-a name that is long. Consumers key on ``@Code`` and ``@UnitNum``; the name is
+a name that is long. Consumers key on ``@Code``; the name is
 what a human reads. ``Rules/SYOG26/pack.yaml`` records the same decision as a
 ``length_exempt`` entry, so the unenforced width is documented rather than
 forgotten.

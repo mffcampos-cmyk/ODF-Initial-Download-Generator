@@ -1,232 +1,216 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="BKG-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="175944451" LogicalDate="2026-09-23" Source="OSM">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="BKG-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="183839654" LogicalDate="2026-09-23" Source="OSM">
   <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-BKG-1.1" Codes="YOG-2026-2.4">
-    <Session Venue="CTO" VenueName="Complexe Tour de l'Oeuf" SessionType="MOR" SessionCode="BKG01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
-      <SessionName Language="ENG" Value="Session 1"/>
+    <Session SessionCode="BKG01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T11:44:00+00:00" Medal="1" Venue="CTO" VenueName="Complexe Tour de l'Oeuf">
+      <SessionName Value="BKG01" Language="ENG"/>
     </Session>
-    <Session Venue="CTO" VenueName="Complexe Tour de l'Oeuf" SessionType="AFT" SessionCode="BKG02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T17:28:00+00:00">
-      <SessionName Language="ENG" Value="Session 2"/>
+    <Session SessionCode="BKG02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T16:14:00+00:00" Medal="1" Venue="CTO" VenueName="Complexe Tour de l'Oeuf">
+      <SessionName Value="BKG02" Language="ENG"/>
     </Session>
-    <Session Venue="CTO" VenueName="Complexe Tour de l'Oeuf" SessionType="MOR" SessionCode="BKG03" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T12:58:00+00:00">
-      <SessionName Language="ENG" Value="Session 3"/>
-    </Session>
-    <Session Venue="CTO" VenueName="Complexe Tour de l'Oeuf" SessionType="AFT" SessionCode="BKG04" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T15:18:00+00:00">
-      <SessionName Language="ENG" Value="Session 4"/>
-    </Session>
-    <Unit Code="BKGMINDIVID-----------QUAL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CTO" Location="COC" SessionCode="BKG01">
+    <Unit Code="BKGMINDIVID-----------QUAL--------" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Pre-Selection"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPA-000100--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPB-000100--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPC-000100--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPA-000200--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPB-000200--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPC-000200--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPA-000300--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPB-000300--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPC-000300--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPA-000400--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPB-000400--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPC-000400--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPA-000500--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPB-000500--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPC-000500--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPA-000600--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPB-000600--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GPC-000600--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------QFNL000100--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Quarterfinal 1"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------QFNL000200--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Quarterfinal 2"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------QFNL000300--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Quarterfinal 3"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------QFNL000400--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Quarterfinal 4"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------SFNL000100--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Semifinal 1"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------SFNL000200--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Boys Semifinal 2"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------QUAL--------" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Pre-Selection"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPA-000100--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPB-000100--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPC-000100--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPA-000200--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPB-000200--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPC-000200--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPA-000300--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPB-000300--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPC-000300--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPA-000400--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPB-000400--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPC-000400--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPA-000500--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPB-000500--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPC-000500--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPA-000600--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPB-000600--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GPC-000600--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------QFNL000100--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Quarterfinal 1"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------QFNL000200--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Quarterfinal 2"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------QFNL000300--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Quarterfinal 3"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------QFNL000400--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Quarterfinal 4"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------SFNL000100--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Semifinal 1"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------SFNL000200--" PhaseType="3" ScheduleStatus="UNSCHEDULED" Medal="0">
+      <ItemName Language="ENG" Value="B-Girls Semifinal 2"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------GP----------" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T10:00:00+00:00" Medal="0" Venue="CTO" Location="COC" SessionCode="BKG01">
+      <ItemName Language="ENG" Value="B-Boys Round Robin"/>
+      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------QFNL--------" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:00:00+00:00" EndDate="2026-11-01T10:30:00+00:00" Medal="0" Venue="CTO" Location="COC" SessionCode="BKG01">
+      <ItemName Language="ENG" Value="B-Boys Quarterfinals"/>
+      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------SFNL--------" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:30:00+00:00" EndDate="2026-11-01T11:00:00+00:00" Medal="0" Venue="CTO" Location="COC" SessionCode="BKG01">
+      <ItemName Language="ENG" Value="B-Boys Semifinals"/>
+      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
+    </Unit>
+    <Unit Code="BKGMINDIVID-----------QUAL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:00:00+00:00" EndDate="2026-11-01T11:13:00+00:00" Medal="0" Venue="CTO" Location="COC" SessionCode="BKG01">
       <ItemName Language="ENG" Value="B-Boys Pre-Selection Battle"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BKGMINDIVID-----------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPC-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPC-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPC-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPC-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Order="15" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPC-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="CTO" Location="COC" SessionCode="BKG01">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Order="1" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Order="2" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------GPC-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Boys Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Order="4" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Boys Quarterfinal 1"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Order="5" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Boys Quarterfinal 2"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Order="6" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Boys Quarterfinal 3"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Boys Quarterfinal 4"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Order="8" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Boys Semifinal 1"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Order="9" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Boys Semifinal 2"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGMINDIVID-----------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Medal="1" Order="10" Venue="CTO" Location="COC" SessionCode="BKG02">
+    <Unit Code="BKGMINDIVID-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:13:00+00:00" EndDate="2026-11-01T11:26:00+00:00" Medal="1" Venue="CTO" Location="COC" SessionCode="BKG01">
       <ItemName Language="ENG" Value="B-Boys Gold Medal Battle"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BKGMINDIVID-----------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Medal="3" Order="11" Venue="CTO" Location="COC" SessionCode="BKG02">
+    <Unit Code="BKGMINDIVID-----------FNL-000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:26:00+00:00" EndDate="2026-11-01T11:39:00+00:00" Medal="3" Venue="CTO" Location="COC" SessionCode="BKG01">
       <ItemName Language="ENG" Value="B-Boys Bronze Medal Battle"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BKGWINDIVID-----------QUAL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Order="12" Venue="CTO" Location="COC" SessionCode="BKG02">
+    <Unit Code="BKGMINDIVID-----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:39:00+00:00" EndDate="2026-11-01T11:44:00+00:00" Medal="0" Venue="CTO" Location="COC" SessionCode="BKG01">
+      <ItemName Language="ENG" Value="B-Boys Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------GP----------" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:30:00+00:00" Medal="0" Venue="CTO" Location="COC" SessionCode="BKG02">
+      <ItemName Language="ENG" Value="B-Girls Round Robin"/>
+      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------QFNL--------" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:30:00+00:00" EndDate="2026-11-01T15:00:00+00:00" Medal="0" Venue="CTO" Location="COC" SessionCode="BKG02">
+      <ItemName Language="ENG" Value="B-Girls Quarterfinals"/>
+      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------SFNL--------" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:00:00+00:00" EndDate="2026-11-01T15:30:00+00:00" Medal="0" Venue="CTO" Location="COC" SessionCode="BKG02">
+      <ItemName Language="ENG" Value="B-Girls Semifinals"/>
+      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------QUAL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:30:00+00:00" EndDate="2026-11-01T15:43:00+00:00" Medal="0" Venue="CTO" Location="COC" SessionCode="BKG02">
       <ItemName Language="ENG" Value="B-Girls Pre-Selection Battle"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BKGWINDIVID-----------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:36:00+00:00" EndDate="2026-11-01T16:49:00+00:00" Order="13" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:49:00+00:00" EndDate="2026-11-01T17:02:00+00:00" Order="14" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPC-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:02:00+00:00" EndDate="2026-11-01T17:15:00+00:00" Order="15" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:15:00+00:00" EndDate="2026-11-01T17:28:00+00:00" Order="16" Venue="CTO" Location="COC" SessionCode="BKG02">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Order="1" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPC-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:43:00+00:00" EndDate="2026-11-02T09:56:00+00:00" Order="2" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:09:00+00:00" Order="3" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:09:00+00:00" EndDate="2026-11-02T10:22:00+00:00" Order="4" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPC-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:22:00+00:00" EndDate="2026-11-02T10:35:00+00:00" Order="5" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:35:00+00:00" EndDate="2026-11-02T10:48:00+00:00" Order="6" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:48:00+00:00" EndDate="2026-11-02T11:01:00+00:00" Order="7" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPC-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:01:00+00:00" EndDate="2026-11-02T11:14:00+00:00" Order="8" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:14:00+00:00" EndDate="2026-11-02T11:27:00+00:00" Order="9" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:27:00+00:00" EndDate="2026-11-02T11:40:00+00:00" Order="10" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPC-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:40:00+00:00" EndDate="2026-11-02T11:53:00+00:00" Order="11" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:53:00+00:00" EndDate="2026-11-02T12:06:00+00:00" Order="12" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group A"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:06:00+00:00" EndDate="2026-11-02T12:19:00+00:00" Order="13" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group B"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------GPC-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:19:00+00:00" EndDate="2026-11-02T12:32:00+00:00" Order="14" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Round Robin - Group C"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:32:00+00:00" EndDate="2026-11-02T12:45:00+00:00" Order="15" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Quarterfinal 1"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:45:00+00:00" EndDate="2026-11-02T12:58:00+00:00" Order="16" Venue="CTO" Location="COC" SessionCode="BKG03">
-      <ItemName Language="ENG" Value="B-Girls Quarterfinal 2"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T14:13:00+00:00" Order="1" Venue="CTO" Location="COC" SessionCode="BKG04">
-      <ItemName Language="ENG" Value="B-Girls Quarterfinal 3"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:13:00+00:00" EndDate="2026-11-02T14:26:00+00:00" Order="2" Venue="CTO" Location="COC" SessionCode="BKG04">
-      <ItemName Language="ENG" Value="B-Girls Quarterfinal 4"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:26:00+00:00" EndDate="2026-11-02T14:39:00+00:00" Order="3" Venue="CTO" Location="COC" SessionCode="BKG04">
-      <ItemName Language="ENG" Value="B-Girls Semifinal 1"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:39:00+00:00" EndDate="2026-11-02T14:52:00+00:00" Order="4" Venue="CTO" Location="COC" SessionCode="BKG04">
-      <ItemName Language="ENG" Value="B-Girls Semifinal 2"/>
-      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
-    </Unit>
-    <Unit Code="BKGWINDIVID-----------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:52:00+00:00" EndDate="2026-11-02T15:05:00+00:00" Medal="1" Order="5" Venue="CTO" Location="COC" SessionCode="BKG04">
+    <Unit Code="BKGWINDIVID-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:43:00+00:00" EndDate="2026-11-01T15:56:00+00:00" Medal="1" Venue="CTO" Location="COC" SessionCode="BKG02">
       <ItemName Language="ENG" Value="B-Girls Gold Medal Battle"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
-    <Unit Code="BKGWINDIVID-----------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:05:00+00:00" EndDate="2026-11-02T15:18:00+00:00" Medal="3" Order="6" Venue="CTO" Location="COC" SessionCode="BKG04">
+    <Unit Code="BKGWINDIVID-----------FNL-000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:56:00+00:00" EndDate="2026-11-01T16:09:00+00:00" Medal="3" Venue="CTO" Location="COC" SessionCode="BKG02">
       <ItemName Language="ENG" Value="B-Girls Bronze Medal Battle"/>
+      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
+    </Unit>
+    <Unit Code="BKGWINDIVID-----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:09:00+00:00" EndDate="2026-11-01T16:14:00+00:00" Medal="0" Venue="CTO" Location="COC" SessionCode="BKG02">
+      <ItemName Language="ENG" Value="B-Girls Victory Ceremony"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Outdoor Court"/>
     </Unit>
   </Competition>

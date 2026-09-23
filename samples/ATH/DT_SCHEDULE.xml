@@ -1,331 +1,487 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="ATH-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="175942888" LogicalDate="2026-09-23" Source="OSM">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="ATH-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="183838229" LogicalDate="2026-09-23" Source="OSM">
   <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-ATH-1.3" Codes="YOG-2026-2.4">
-    <Session Venue="CID" VenueName="Complexe Iba Mar Diop" SessionType="MOR" SessionCode="ATH01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
-      <SessionName Language="ENG" Value="Session 1"/>
+    <Session SessionCode="ATH01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T11:50:00+00:00" Medal="2" Venue="CID" VenueName="Complexe Iba Mar Diop">
+      <SessionName Value="ATH01" Language="ENG"/>
     </Session>
-    <Session Venue="CID" VenueName="Complexe Iba Mar Diop" SessionType="AFT" SessionCode="ATH02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T17:28:00+00:00">
-      <SessionName Language="ENG" Value="Session 2"/>
+    <Session SessionCode="ATH02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T16:30:00+00:00" Medal="4" Venue="CID" VenueName="Complexe Iba Mar Diop">
+      <SessionName Value="ATH02" Language="ENG"/>
     </Session>
-    <Session Venue="CID" VenueName="Complexe Iba Mar Diop" SessionType="MOR" SessionCode="ATH03" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T12:58:00+00:00">
-      <SessionName Language="ENG" Value="Session 3"/>
+    <Session SessionCode="ATH03" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T11:55:00+00:00" Medal="3" Venue="CID" VenueName="Complexe Iba Mar Diop">
+      <SessionName Value="ATH03" Language="ENG"/>
     </Session>
-    <Session Venue="CID" VenueName="Complexe Iba Mar Diop" SessionType="AFT" SessionCode="ATH04" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T17:28:00+00:00">
-      <SessionName Language="ENG" Value="Session 4"/>
+    <Session SessionCode="ATH04" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T16:24:00+00:00" Medal="8" Venue="CID" VenueName="Complexe Iba Mar Diop">
+      <SessionName Value="ATH04" Language="ENG"/>
     </Session>
-    <Session Venue="CID" VenueName="Complexe Iba Mar Diop" SessionType="MOR" SessionCode="ATH05" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T12:32:00+00:00">
-      <SessionName Language="ENG" Value="Session 5"/>
+    <Session SessionCode="ATH05" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T11:55:00+00:00" Medal="3" Venue="CID" VenueName="Complexe Iba Mar Diop">
+      <SessionName Value="ATH05" Language="ENG"/>
     </Session>
-    <Unit Code="ATHM100M--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Session SessionCode="ATH06" StartDate="2026-11-03T14:00:00+00:00" EndDate="2026-11-03T16:30:00+00:00" Medal="4" Venue="CID" VenueName="Complexe Iba Mar Diop">
+      <SessionName Value="ATH06" Language="ENG"/>
+    </Session>
+    <Session SessionCode="ATH07" StartDate="2026-11-04T09:30:00+00:00" EndDate="2026-11-04T11:55:00+00:00" Medal="3" Venue="CID" VenueName="Complexe Iba Mar Diop">
+      <SessionName Value="ATH07" Language="ENG"/>
+    </Session>
+    <Session SessionCode="ATH08" StartDate="2026-11-04T14:00:00+00:00" EndDate="2026-11-04T16:19:00+00:00" Medal="7" Venue="CID" VenueName="Complexe Iba Mar Diop">
+      <SessionName Value="ATH08" Language="ENG"/>
+    </Session>
+    <Session SessionCode="ATH09" StartDate="2026-11-05T09:30:00+00:00" EndDate="2026-11-05T10:06:00+00:00" Medal="2" Venue="CID" VenueName="Complexe Iba Mar Diop">
+      <SessionName Value="ATH09" Language="ENG"/>
+    </Session>
+    <Unit Code="ATHM100M--------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH01">
       <ItemName Language="ENG" Value="Men's 100m Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM100M--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM100M--------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH01">
       <ItemName Language="ENG" Value="Men's 100m Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM100M--------------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM100M--------------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH01">
       <ItemName Language="ENG" Value="Men's 100m Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM100M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Medal="1" Order="4" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM100M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH01">
       <ItemName Language="ENG" Value="Men's 100m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM110MHURD----------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM100M--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:27:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 100m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM110MHURD----------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:27:00+00:00" EndDate="2026-11-01T10:40:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH01">
       <ItemName Language="ENG" Value="Men's 110m Hurdles Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM110MHURD----------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM110MHURD----------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:40:00+00:00" EndDate="2026-11-01T10:53:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH01">
       <ItemName Language="ENG" Value="Men's 110m Hurdles Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM110MHURD----------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM110MHURD----------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:53:00+00:00" EndDate="2026-11-01T11:06:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH01">
       <ItemName Language="ENG" Value="Men's 110m Hurdles Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM110MHURD----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Medal="1" Order="8" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM110MHURD----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:06:00+00:00" EndDate="2026-11-01T11:19:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH01">
       <ItemName Language="ENG" Value="Men's 110m Hurdles Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM1500M-------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM110MHURD----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:19:00+00:00" EndDate="2026-11-01T11:24:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH01">
+      <ItemName Language="ENG" Value="Men's 110m Hurdles Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM1500M-------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:24:00+00:00" EndDate="2026-11-01T11:37:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH01">
       <ItemName Language="ENG" Value="Men's 1500m Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM1500M-------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM1500M-------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:37:00+00:00" EndDate="2026-11-01T11:50:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH01">
       <ItemName Language="ENG" Value="Men's 1500m Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM1500M-------------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM1500M-------------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH02">
       <ItemName Language="ENG" Value="Men's 1500m Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM1500M-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Medal="1" Order="12" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM1500M-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH02">
       <ItemName Language="ENG" Value="Men's 1500m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM2000MST-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Medal="1" Order="13" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM1500M-------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:31:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Men's 1500m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM2000MST-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:31:00+00:00" EndDate="2026-11-01T14:44:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH02">
       <ItemName Language="ENG" Value="Men's 2000m Steeplechase Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM200M--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM2000MST-----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:44:00+00:00" EndDate="2026-11-01T14:49:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Men's 2000m Steeplechase Victory Cer."/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM200M--------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:49:00+00:00" EndDate="2026-11-01T15:02:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH02">
       <ItemName Language="ENG" Value="Men's 200m Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM200M--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Order="15" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM200M--------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:02:00+00:00" EndDate="2026-11-01T15:15:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH02">
       <ItemName Language="ENG" Value="Men's 200m Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM200M--------------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="CID" Location="A01" SessionCode="ATH01">
+    <Unit Code="ATHM200M--------------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:15:00+00:00" EndDate="2026-11-01T15:28:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH02">
       <ItemName Language="ENG" Value="Men's 200m Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM200M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Medal="1" Order="1" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM200M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:28:00+00:00" EndDate="2026-11-01T15:41:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH02">
       <ItemName Language="ENG" Value="Men's 200m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM3000M-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Medal="1" Order="2" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM200M--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:41:00+00:00" EndDate="2026-11-01T15:46:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Men's 200m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM3000M-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:46:00+00:00" EndDate="2026-11-01T15:59:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH02">
       <ItemName Language="ENG" Value="Men's 3000m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM400M--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM3000M-------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:59:00+00:00" EndDate="2026-11-01T16:04:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH02">
+      <ItemName Language="ENG" Value="Men's 3000m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM400M--------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:04:00+00:00" EndDate="2026-11-01T16:17:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH02">
       <ItemName Language="ENG" Value="Men's 400m Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM400M--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Order="4" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM400M--------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:17:00+00:00" EndDate="2026-11-01T16:30:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH02">
       <ItemName Language="ENG" Value="Men's 400m Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM400M--------------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Order="5" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM400M--------------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH03">
       <ItemName Language="ENG" Value="Men's 400m Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM400M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Medal="1" Order="6" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM400M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:43:00+00:00" EndDate="2026-11-02T09:56:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH03">
       <ItemName Language="ENG" Value="Men's 400m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM400MHURD----------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM400M--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:01:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH03">
+      <ItemName Language="ENG" Value="Men's 400m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM400MHURD----------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:01:00+00:00" EndDate="2026-11-02T10:14:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH03">
       <ItemName Language="ENG" Value="Men's 400m Hurdles Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM400MHURD----------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Order="8" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM400MHURD----------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:14:00+00:00" EndDate="2026-11-02T10:27:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH03">
       <ItemName Language="ENG" Value="Men's 400m Hurdles Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM400MHURD----------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Order="9" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM400MHURD----------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:27:00+00:00" EndDate="2026-11-02T10:40:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH03">
       <ItemName Language="ENG" Value="Men's 400m Hurdles Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM400MHURD----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Medal="1" Order="10" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM400MHURD----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:40:00+00:00" EndDate="2026-11-02T10:53:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH03">
       <ItemName Language="ENG" Value="Men's 400m Hurdles Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM5KMWALK-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Medal="1" Order="11" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM400MHURD----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:53:00+00:00" EndDate="2026-11-02T10:58:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH03">
+      <ItemName Language="ENG" Value="Men's 400m Hurdles Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM5KMWALK-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:58:00+00:00" EndDate="2026-11-02T11:11:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH03">
       <ItemName Language="ENG" Value="Men's 5000m Race Walk Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM800M--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Order="12" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM5KMWALK-----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:11:00+00:00" EndDate="2026-11-02T11:16:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH03">
+      <ItemName Language="ENG" Value="Men's 5000m Race Walk Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHM800M--------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:16:00+00:00" EndDate="2026-11-02T11:29:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH03">
       <ItemName Language="ENG" Value="Men's 800m Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM800M--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:36:00+00:00" EndDate="2026-11-01T16:49:00+00:00" Order="13" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM800M--------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:29:00+00:00" EndDate="2026-11-02T11:42:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH03">
       <ItemName Language="ENG" Value="Men's 800m Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM800M--------------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:49:00+00:00" EndDate="2026-11-01T17:02:00+00:00" Order="14" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM800M--------------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:42:00+00:00" EndDate="2026-11-02T11:55:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH03">
       <ItemName Language="ENG" Value="Men's 800m Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHM800M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:02:00+00:00" EndDate="2026-11-01T17:15:00+00:00" Medal="1" Order="15" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM800M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T14:13:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH04">
       <ItemName Language="ENG" Value="Men's 800m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHMDISCUS------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:15:00+00:00" EndDate="2026-11-01T17:28:00+00:00" Medal="1" Order="16" Venue="CID" Location="A01" SessionCode="ATH02">
+    <Unit Code="ATHM800M--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:13:00+00:00" EndDate="2026-11-02T14:18:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH04">
+      <ItemName Language="ENG" Value="Men's 800m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMDISCUS------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:18:00+00:00" EndDate="2026-11-02T14:31:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH04">
       <ItemName Language="ENG" Value="Men's Discus Throw Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHMHAMMER------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Medal="1" Order="1" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHMDISCUS------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:31:00+00:00" EndDate="2026-11-02T14:36:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH04">
+      <ItemName Language="ENG" Value="Men's Discus Throw Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMHAMMER------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:36:00+00:00" EndDate="2026-11-02T14:49:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH04">
       <ItemName Language="ENG" Value="Men's Hammer Throw Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHMHIGHJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:43:00+00:00" EndDate="2026-11-02T09:56:00+00:00" Medal="1" Order="2" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHMHAMMER------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:49:00+00:00" EndDate="2026-11-02T14:54:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH04">
+      <ItemName Language="ENG" Value="Men's Hammer Throw Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMHIGHJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:54:00+00:00" EndDate="2026-11-02T15:07:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH04">
       <ItemName Language="ENG" Value="Men's High Jump Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHMJAVELIN-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:09:00+00:00" Medal="1" Order="3" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHMHIGHJUMP----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:07:00+00:00" EndDate="2026-11-02T15:12:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH04">
+      <ItemName Language="ENG" Value="Men's High Jump Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMJAVELIN-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:12:00+00:00" EndDate="2026-11-02T15:25:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH04">
       <ItemName Language="ENG" Value="Men's Javelin Throw Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHMLONGJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:09:00+00:00" EndDate="2026-11-02T10:22:00+00:00" Medal="1" Order="4" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHMJAVELIN-----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:25:00+00:00" EndDate="2026-11-02T15:30:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH04">
+      <ItemName Language="ENG" Value="Men's Javelin Throw Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMLONGJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:30:00+00:00" EndDate="2026-11-02T15:43:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH04">
       <ItemName Language="ENG" Value="Men's Long Jump Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHMPLEVAULT----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:22:00+00:00" EndDate="2026-11-02T10:35:00+00:00" Medal="1" Order="5" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHMLONGJUMP----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:43:00+00:00" EndDate="2026-11-02T15:48:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH04">
+      <ItemName Language="ENG" Value="Men's Long Jump Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMPLEVAULT----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:48:00+00:00" EndDate="2026-11-02T16:01:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH04">
       <ItemName Language="ENG" Value="Men's Pole Vault Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHMSHOTPUT-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:35:00+00:00" EndDate="2026-11-02T10:48:00+00:00" Medal="1" Order="6" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHMPLEVAULT----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:01:00+00:00" EndDate="2026-11-02T16:06:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH04">
+      <ItemName Language="ENG" Value="Men's Pole Vault Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMSHOTPUT-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:06:00+00:00" EndDate="2026-11-02T16:19:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH04">
       <ItemName Language="ENG" Value="Men's Shot Put Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHMTRPLJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:48:00+00:00" EndDate="2026-11-02T11:01:00+00:00" Medal="1" Order="7" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHMSHOTPUT-----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:19:00+00:00" EndDate="2026-11-02T16:24:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH04">
+      <ItemName Language="ENG" Value="Men's Shot Put Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHMTRPLJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T09:43:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH05">
       <ItemName Language="ENG" Value="Men's Triple Jump Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW100M--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:01:00+00:00" EndDate="2026-11-02T11:14:00+00:00" Order="8" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHMTRPLJUMP----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:43:00+00:00" EndDate="2026-11-03T09:48:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH05">
+      <ItemName Language="ENG" Value="Men's Triple Jump Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW100M--------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:48:00+00:00" EndDate="2026-11-03T10:01:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH05">
       <ItemName Language="ENG" Value="Women's 100m Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW100M--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:14:00+00:00" EndDate="2026-11-02T11:27:00+00:00" Order="9" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHW100M--------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:01:00+00:00" EndDate="2026-11-03T10:14:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH05">
       <ItemName Language="ENG" Value="Women's 100m Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW100M--------------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:27:00+00:00" EndDate="2026-11-02T11:40:00+00:00" Order="10" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHW100M--------------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:14:00+00:00" EndDate="2026-11-03T10:27:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH05">
       <ItemName Language="ENG" Value="Women's 100m Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW100M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:40:00+00:00" EndDate="2026-11-02T11:53:00+00:00" Medal="1" Order="11" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHW100M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:27:00+00:00" EndDate="2026-11-03T10:40:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH05">
       <ItemName Language="ENG" Value="Women's 100m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW100MHURD----------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:53:00+00:00" EndDate="2026-11-02T12:06:00+00:00" Order="12" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHW100M--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:40:00+00:00" EndDate="2026-11-03T10:45:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH05">
+      <ItemName Language="ENG" Value="Women's 100m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW100MHURD----------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:45:00+00:00" EndDate="2026-11-03T10:58:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH05">
       <ItemName Language="ENG" Value="Women's 100m Hurdles Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW100MHURD----------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:06:00+00:00" EndDate="2026-11-02T12:19:00+00:00" Order="13" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHW100MHURD----------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:58:00+00:00" EndDate="2026-11-03T11:11:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH05">
       <ItemName Language="ENG" Value="Women's 100m Hurdles Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW100MHURD----------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:19:00+00:00" EndDate="2026-11-02T12:32:00+00:00" Order="14" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHW100MHURD----------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:11:00+00:00" EndDate="2026-11-03T11:24:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH05">
       <ItemName Language="ENG" Value="Women's 100m Hurdles Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW100MHURD----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:32:00+00:00" EndDate="2026-11-02T12:45:00+00:00" Medal="1" Order="15" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHW100MHURD----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:24:00+00:00" EndDate="2026-11-03T11:37:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH05">
       <ItemName Language="ENG" Value="Women's 100m Hurdles Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW1500M-------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:45:00+00:00" EndDate="2026-11-02T12:58:00+00:00" Order="16" Venue="CID" Location="A01" SessionCode="ATH03">
+    <Unit Code="ATHW100MHURD----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:37:00+00:00" EndDate="2026-11-03T11:42:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH05">
+      <ItemName Language="ENG" Value="Women's 100m Hurdles Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW1500M-------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:42:00+00:00" EndDate="2026-11-03T11:55:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH05">
       <ItemName Language="ENG" Value="Women's 1500m Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW1500M-------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T14:13:00+00:00" Order="1" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW1500M-------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:00:00+00:00" EndDate="2026-11-03T14:13:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH06">
       <ItemName Language="ENG" Value="Women's 1500m Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW1500M-------------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:13:00+00:00" EndDate="2026-11-02T14:26:00+00:00" Order="2" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW1500M-------------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:13:00+00:00" EndDate="2026-11-03T14:26:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH06">
       <ItemName Language="ENG" Value="Women's 1500m Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW1500M-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:26:00+00:00" EndDate="2026-11-02T14:39:00+00:00" Medal="1" Order="3" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW1500M-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:26:00+00:00" EndDate="2026-11-03T14:39:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH06">
       <ItemName Language="ENG" Value="Women's 1500m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW2000MST-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:39:00+00:00" EndDate="2026-11-02T14:52:00+00:00" Medal="1" Order="4" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW1500M-------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:39:00+00:00" EndDate="2026-11-03T14:44:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH06">
+      <ItemName Language="ENG" Value="Women's 1500m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW2000MST-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:44:00+00:00" EndDate="2026-11-03T14:57:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH06">
       <ItemName Language="ENG" Value="Women's 2000m Steeplechase Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW200M--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:52:00+00:00" EndDate="2026-11-02T15:05:00+00:00" Order="5" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW2000MST-----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T14:57:00+00:00" EndDate="2026-11-03T15:02:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH06">
+      <ItemName Language="ENG" Value="Women's 2000m Steeplechase Victory Cer."/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW200M--------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:02:00+00:00" EndDate="2026-11-03T15:15:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH06">
       <ItemName Language="ENG" Value="Women's 200m Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW200M--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:05:00+00:00" EndDate="2026-11-02T15:18:00+00:00" Order="6" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW200M--------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:15:00+00:00" EndDate="2026-11-03T15:28:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH06">
       <ItemName Language="ENG" Value="Women's 200m Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW200M--------------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:18:00+00:00" EndDate="2026-11-02T15:31:00+00:00" Order="7" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW200M--------------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:28:00+00:00" EndDate="2026-11-03T15:41:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH06">
       <ItemName Language="ENG" Value="Women's 200m Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW200M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:31:00+00:00" EndDate="2026-11-02T15:44:00+00:00" Medal="1" Order="8" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW200M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:41:00+00:00" EndDate="2026-11-03T15:54:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH06">
       <ItemName Language="ENG" Value="Women's 200m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW3000M-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:44:00+00:00" EndDate="2026-11-02T15:57:00+00:00" Medal="1" Order="9" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW200M--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:54:00+00:00" EndDate="2026-11-03T15:59:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH06">
+      <ItemName Language="ENG" Value="Women's 200m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW3000M-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T15:59:00+00:00" EndDate="2026-11-03T16:12:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH06">
       <ItemName Language="ENG" Value="Women's 3000m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW400M--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:57:00+00:00" EndDate="2026-11-02T16:10:00+00:00" Order="10" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW3000M-------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:12:00+00:00" EndDate="2026-11-03T16:17:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH06">
+      <ItemName Language="ENG" Value="Women's 3000m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW400M--------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T16:17:00+00:00" EndDate="2026-11-03T16:30:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH06">
       <ItemName Language="ENG" Value="Women's 400m Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW400M--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:10:00+00:00" EndDate="2026-11-02T16:23:00+00:00" Order="11" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW400M--------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:30:00+00:00" EndDate="2026-11-04T09:43:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH07">
       <ItemName Language="ENG" Value="Women's 400m Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW400M--------------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:23:00+00:00" EndDate="2026-11-02T16:36:00+00:00" Order="12" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW400M--------------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:43:00+00:00" EndDate="2026-11-04T09:56:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH07">
       <ItemName Language="ENG" Value="Women's 400m Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW400M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:36:00+00:00" EndDate="2026-11-02T16:49:00+00:00" Medal="1" Order="13" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW400M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T09:56:00+00:00" EndDate="2026-11-04T10:09:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH07">
       <ItemName Language="ENG" Value="Women's 400m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW400MHURD----------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:49:00+00:00" EndDate="2026-11-02T17:02:00+00:00" Order="14" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW400M--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:09:00+00:00" EndDate="2026-11-04T10:14:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH07">
+      <ItemName Language="ENG" Value="Women's 400m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW400MHURD----------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:14:00+00:00" EndDate="2026-11-04T10:27:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH07">
       <ItemName Language="ENG" Value="Women's 400m Hurdles Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW400MHURD----------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:02:00+00:00" EndDate="2026-11-02T17:15:00+00:00" Order="15" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW400MHURD----------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:27:00+00:00" EndDate="2026-11-04T10:40:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH07">
       <ItemName Language="ENG" Value="Women's 400m Hurdles Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW400MHURD----------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T17:15:00+00:00" EndDate="2026-11-02T17:28:00+00:00" Order="16" Venue="CID" Location="A01" SessionCode="ATH04">
+    <Unit Code="ATHW400MHURD----------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:40:00+00:00" EndDate="2026-11-04T10:53:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH07">
       <ItemName Language="ENG" Value="Women's 400m Hurdles Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW400MHURD----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T09:43:00+00:00" Medal="1" Order="1" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHW400MHURD----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T10:53:00+00:00" EndDate="2026-11-04T11:06:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH07">
       <ItemName Language="ENG" Value="Women's 400m Hurdles Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW5KMWALK-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:43:00+00:00" EndDate="2026-11-03T09:56:00+00:00" Medal="1" Order="2" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHW400MHURD----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:06:00+00:00" EndDate="2026-11-04T11:11:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH07">
+      <ItemName Language="ENG" Value="Women's 400m Hurdles Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW5KMWALK-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:11:00+00:00" EndDate="2026-11-04T11:24:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH07">
       <ItemName Language="ENG" Value="Women's 5000m Race Walk Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW800M--------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:56:00+00:00" EndDate="2026-11-03T10:09:00+00:00" Order="3" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHW5KMWALK-----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:24:00+00:00" EndDate="2026-11-04T11:29:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH07">
+      <ItemName Language="ENG" Value="Women's 5000m Race Walk Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHW800M--------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:29:00+00:00" EndDate="2026-11-04T11:42:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH07">
       <ItemName Language="ENG" Value="Women's 800m Semi-Final 1"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW800M--------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:09:00+00:00" EndDate="2026-11-03T10:22:00+00:00" Order="4" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHW800M--------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T11:42:00+00:00" EndDate="2026-11-04T11:55:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH07">
       <ItemName Language="ENG" Value="Women's 800m Semi-Final 2"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW800M--------------SFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:22:00+00:00" EndDate="2026-11-03T10:35:00+00:00" Order="5" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHW800M--------------SFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:00:00+00:00" EndDate="2026-11-04T14:13:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH08">
       <ItemName Language="ENG" Value="Women's 800m Semi-Final 3"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHW800M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:35:00+00:00" EndDate="2026-11-03T10:48:00+00:00" Medal="1" Order="6" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHW800M--------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:13:00+00:00" EndDate="2026-11-04T14:26:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH08">
       <ItemName Language="ENG" Value="Women's 800m Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHWDISCUS------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:48:00+00:00" EndDate="2026-11-03T11:01:00+00:00" Medal="1" Order="7" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHW800M--------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:26:00+00:00" EndDate="2026-11-04T14:31:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH08">
+      <ItemName Language="ENG" Value="Women's 800m Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWDISCUS------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:31:00+00:00" EndDate="2026-11-04T14:44:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH08">
       <ItemName Language="ENG" Value="Women's Discus Throw Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHWHAMMER------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:01:00+00:00" EndDate="2026-11-03T11:14:00+00:00" Medal="1" Order="8" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHWDISCUS------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:44:00+00:00" EndDate="2026-11-04T14:49:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH08">
+      <ItemName Language="ENG" Value="Women's Discus Throw Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWHAMMER------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T14:49:00+00:00" EndDate="2026-11-04T15:02:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH08">
       <ItemName Language="ENG" Value="Women's Hammer Throw Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHWHIGHJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:14:00+00:00" EndDate="2026-11-03T11:27:00+00:00" Medal="1" Order="9" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHWHAMMER------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:02:00+00:00" EndDate="2026-11-04T15:07:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH08">
+      <ItemName Language="ENG" Value="Women's Hammer Throw Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWHIGHJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:07:00+00:00" EndDate="2026-11-04T15:20:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH08">
       <ItemName Language="ENG" Value="Women's High Jump Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHWJAVELIN-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:27:00+00:00" EndDate="2026-11-03T11:40:00+00:00" Medal="1" Order="10" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHWHIGHJUMP----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:20:00+00:00" EndDate="2026-11-04T15:25:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH08">
+      <ItemName Language="ENG" Value="Women's High Jump Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWJAVELIN-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:25:00+00:00" EndDate="2026-11-04T15:38:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH08">
       <ItemName Language="ENG" Value="Women's Javelin Throw Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHWLONGJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:40:00+00:00" EndDate="2026-11-03T11:53:00+00:00" Medal="1" Order="11" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHWJAVELIN-----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:38:00+00:00" EndDate="2026-11-04T15:43:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH08">
+      <ItemName Language="ENG" Value="Women's Javelin Throw Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWLONGJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:43:00+00:00" EndDate="2026-11-04T15:56:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH08">
       <ItemName Language="ENG" Value="Women's Long Jump Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHWPLEVAULT----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T11:53:00+00:00" EndDate="2026-11-03T12:06:00+00:00" Medal="1" Order="12" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHWLONGJUMP----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T15:56:00+00:00" EndDate="2026-11-04T16:01:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH08">
+      <ItemName Language="ENG" Value="Women's Long Jump Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWPLEVAULT----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:01:00+00:00" EndDate="2026-11-04T16:14:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH08">
       <ItemName Language="ENG" Value="Women's Pole Vault Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHWSHOTPUT-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:06:00+00:00" EndDate="2026-11-03T12:19:00+00:00" Medal="1" Order="13" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHWPLEVAULT----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-04T16:14:00+00:00" EndDate="2026-11-04T16:19:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH08">
+      <ItemName Language="ENG" Value="Women's Pole Vault Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWSHOTPUT-----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:30:00+00:00" EndDate="2026-11-05T09:43:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH09">
       <ItemName Language="ENG" Value="Women's Shot Put Final"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
-    <Unit Code="ATHWTRPLJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T12:19:00+00:00" EndDate="2026-11-03T12:32:00+00:00" Medal="1" Order="14" Venue="CID" Location="A01" SessionCode="ATH05">
+    <Unit Code="ATHWSHOTPUT-----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:43:00+00:00" EndDate="2026-11-05T09:48:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH09">
+      <ItemName Language="ENG" Value="Women's Shot Put Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWTRPLJUMP----------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T09:48:00+00:00" EndDate="2026-11-05T10:01:00+00:00" Medal="1" Venue="CID" Location="A01" SessionCode="ATH09">
       <ItemName Language="ENG" Value="Women's Triple Jump Final"/>
+      <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
+    </Unit>
+    <Unit Code="ATHWTRPLJUMP----------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-05T10:01:00+00:00" EndDate="2026-11-05T10:06:00+00:00" Medal="0" Venue="CID" Location="A01" SessionCode="ATH09">
+      <ItemName Language="ENG" Value="Women's Triple Jump Victory Ceremony"/>
       <VenueDescription VenueName="Complexe Iba Mar Diop" LocationName="CID Stadium - Track"/>
     </Unit>
   </Competition>

@@ -1,205 +1,219 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="HBB-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="175948018" LogicalDate="2026-09-23" Source="OSM">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="HBB-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="183843017" LogicalDate="2026-09-23" Source="OSM">
   <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-HBB-1.2" Codes="YOG-2026-2.4">
-    <Session Venue="SBW" VenueName="Saly Beach West" SessionType="MOR" SessionCode="HBB01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T12:58:00+00:00">
-      <SessionName Language="ENG" Value="Session 1"/>
+    <Session SessionCode="HBB01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Venue="SBW" VenueName="Saly Beach West">
+      <SessionName Value="HBB01" Language="ENG"/>
     </Session>
-    <Session Venue="SBW" VenueName="Saly Beach West" SessionType="AFT" SessionCode="HBB02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T17:28:00+00:00">
-      <SessionName Language="ENG" Value="Session 2"/>
+    <Session SessionCode="HBB02" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Medal="1" Venue="SBW" VenueName="Saly Beach West">
+      <SessionName Value="HBB02" Language="ENG"/>
     </Session>
-    <Session Venue="SBW" VenueName="Saly Beach West" SessionType="MOR" SessionCode="HBB03" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T12:58:00+00:00">
-      <SessionName Language="ENG" Value="Session 3"/>
+    <Session SessionCode="HBB03" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T11:58:00+00:00" Venue="SBW" VenueName="Saly Beach West">
+      <SessionName Value="HBB03" Language="ENG"/>
     </Session>
-    <Unit Code="HBBMTEAM4-------------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Session SessionCode="HBB04" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T16:23:00+00:00" Venue="SBW" VenueName="Saly Beach West">
+      <SessionName Value="HBB04" Language="ENG"/>
+    </Session>
+    <Session SessionCode="HBB05" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T10:27:00+00:00" Medal="1" Venue="SBW" VenueName="Saly Beach West">
+      <SessionName Value="HBB05" Language="ENG"/>
+    </Session>
+    <Unit Code="HBBMTEAM4-------------GPA-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPB-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Order="3" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPA-000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPB-000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPA-000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Order="6" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPB-000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Order="7" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPA-000400--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:48:00+00:00" EndDate="2026-11-01T11:01:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Order="8" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPB-000400--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:01:00+00:00" EndDate="2026-11-01T11:14:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Order="9" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPA-000500--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:14:00+00:00" EndDate="2026-11-01T11:27:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Order="10" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPB-000500--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:27:00+00:00" EndDate="2026-11-01T11:40:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Order="11" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPA-000600--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:40:00+00:00" EndDate="2026-11-01T11:53:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB01">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T11:53:00+00:00" EndDate="2026-11-01T12:06:00+00:00" Order="12" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------GPB-000600--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------SF5-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:06:00+00:00" EndDate="2026-11-01T12:19:00+00:00" Order="13" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------SF5-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Placement Match 5-8"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------SF5-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:19:00+00:00" EndDate="2026-11-01T12:32:00+00:00" Order="14" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------SF5-000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Placement Match 5-8"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:32:00+00:00" EndDate="2026-11-01T12:45:00+00:00" Order="15" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------QFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Quarterfinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T12:45:00+00:00" EndDate="2026-11-01T12:58:00+00:00" Order="16" Venue="SBW" Location="HB1" SessionCode="HBB01">
+    <Unit Code="HBBMTEAM4-------------QFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Quarterfinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:00:00+00:00" EndDate="2026-11-01T14:13:00+00:00" Order="1" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBMTEAM4-------------QFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Quarterfinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:13:00+00:00" EndDate="2026-11-01T14:26:00+00:00" Order="2" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBMTEAM4-------------QFNL000400--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Quarterfinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:26:00+00:00" EndDate="2026-11-01T14:39:00+00:00" Order="3" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBMTEAM4-------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:39:00+00:00" EndDate="2026-11-01T14:52:00+00:00" Order="4" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBMTEAM4-------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T14:52:00+00:00" EndDate="2026-11-01T15:05:00+00:00" Medal="1" Order="5" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBMTEAM4-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Medal="1" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Gold Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:05:00+00:00" EndDate="2026-11-01T15:18:00+00:00" Medal="3" Order="6" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBMTEAM4-------------FNL-000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Medal="3" Venue="SBW" Location="HB1" SessionCode="HBB02">
       <ItemName Language="ENG" Value="Men's Bronze Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------FNL-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:18:00+00:00" EndDate="2026-11-01T15:31:00+00:00" Order="7" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBMTEAM4-------------FNL-000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Men's Placement Match 5-6"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBMTEAM4-------------FNL-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:31:00+00:00" EndDate="2026-11-01T15:44:00+00:00" Order="8" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBMTEAM4-------------FNL-000400--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:43:00+00:00" EndDate="2026-11-02T09:56:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Men's Placement Match 7-8"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPA-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:44:00+00:00" EndDate="2026-11-01T15:57:00+00:00" Order="9" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBMTEAM4-------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:01:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
+      <ItemName Language="ENG" Value="Men's Victory Ceremony"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
+    </Unit>
+    <Unit Code="HBBWTEAM4-------------GPA-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:01:00+00:00" EndDate="2026-11-02T10:14:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPB-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T15:57:00+00:00" EndDate="2026-11-01T16:10:00+00:00" Order="10" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBWTEAM4-------------GPB-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:14:00+00:00" EndDate="2026-11-02T10:27:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPA-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:10:00+00:00" EndDate="2026-11-01T16:23:00+00:00" Order="11" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBWTEAM4-------------GPA-000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:27:00+00:00" EndDate="2026-11-02T10:40:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPB-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:23:00+00:00" EndDate="2026-11-01T16:36:00+00:00" Order="12" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBWTEAM4-------------GPB-000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:40:00+00:00" EndDate="2026-11-02T10:53:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPA-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:36:00+00:00" EndDate="2026-11-01T16:49:00+00:00" Order="13" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBWTEAM4-------------GPA-000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:53:00+00:00" EndDate="2026-11-02T11:06:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPB-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T16:49:00+00:00" EndDate="2026-11-01T17:02:00+00:00" Order="14" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBWTEAM4-------------GPB-000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:06:00+00:00" EndDate="2026-11-02T11:19:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPA-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:02:00+00:00" EndDate="2026-11-01T17:15:00+00:00" Order="15" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBWTEAM4-------------GPA-000400--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:19:00+00:00" EndDate="2026-11-02T11:32:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPB-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T17:15:00+00:00" EndDate="2026-11-01T17:28:00+00:00" Order="16" Venue="SBW" Location="HB1" SessionCode="HBB02">
+    <Unit Code="HBBWTEAM4-------------GPB-000400--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:32:00+00:00" EndDate="2026-11-02T11:45:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPA-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:30:00+00:00" EndDate="2026-11-02T09:43:00+00:00" Order="1" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------GPA-000500--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:45:00+00:00" EndDate="2026-11-02T11:58:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB03">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPB-000500--" PhaseType="3" UnitNum="5" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:43:00+00:00" EndDate="2026-11-02T09:56:00+00:00" Order="2" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------GPB-000500--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:00:00+00:00" EndDate="2026-11-02T14:13:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPA-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T09:56:00+00:00" EndDate="2026-11-02T10:09:00+00:00" Order="3" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------GPA-000600--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:13:00+00:00" EndDate="2026-11-02T14:26:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group A"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------GPB-000600--" PhaseType="3" UnitNum="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:09:00+00:00" EndDate="2026-11-02T10:22:00+00:00" Order="4" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------GPB-000600--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:26:00+00:00" EndDate="2026-11-02T14:39:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Preliminary Round Group B"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------SF5-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:22:00+00:00" EndDate="2026-11-02T10:35:00+00:00" Order="5" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------SF5-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:39:00+00:00" EndDate="2026-11-02T14:52:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Placement Match 5-8"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------SF5-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:35:00+00:00" EndDate="2026-11-02T10:48:00+00:00" Order="6" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------SF5-000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T14:52:00+00:00" EndDate="2026-11-02T15:05:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Placement Match 5-8"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------QFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T10:48:00+00:00" EndDate="2026-11-02T11:01:00+00:00" Order="7" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------QFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:05:00+00:00" EndDate="2026-11-02T15:18:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Quarterfinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------QFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:01:00+00:00" EndDate="2026-11-02T11:14:00+00:00" Order="8" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------QFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:18:00+00:00" EndDate="2026-11-02T15:31:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Quarterfinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------QFNL000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:14:00+00:00" EndDate="2026-11-02T11:27:00+00:00" Order="9" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------QFNL000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:31:00+00:00" EndDate="2026-11-02T15:44:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Quarterfinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------QFNL000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:27:00+00:00" EndDate="2026-11-02T11:40:00+00:00" Order="10" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------QFNL000400--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:44:00+00:00" EndDate="2026-11-02T15:57:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Quarterfinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------SFNL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:40:00+00:00" EndDate="2026-11-02T11:53:00+00:00" Order="11" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------SFNL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T15:57:00+00:00" EndDate="2026-11-02T16:10:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------SFNL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T11:53:00+00:00" EndDate="2026-11-02T12:06:00+00:00" Order="12" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------SFNL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T16:10:00+00:00" EndDate="2026-11-02T16:23:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB04">
       <ItemName Language="ENG" Value="Women's Semifinal"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------FNL-000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:06:00+00:00" EndDate="2026-11-02T12:19:00+00:00" Medal="1" Order="13" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:30:00+00:00" EndDate="2026-11-03T09:43:00+00:00" Medal="1" Venue="SBW" Location="HB1" SessionCode="HBB05">
       <ItemName Language="ENG" Value="Women's Gold Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------FNL-000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:19:00+00:00" EndDate="2026-11-02T12:32:00+00:00" Medal="3" Order="14" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------FNL-000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:43:00+00:00" EndDate="2026-11-03T09:56:00+00:00" Medal="3" Venue="SBW" Location="HB1" SessionCode="HBB05">
       <ItemName Language="ENG" Value="Women's Bronze Medal Match"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------FNL-000300--" PhaseType="3" UnitNum="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:32:00+00:00" EndDate="2026-11-02T12:45:00+00:00" Order="15" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------FNL-000300--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T09:56:00+00:00" EndDate="2026-11-03T10:09:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB05">
       <ItemName Language="ENG" Value="Women's Placement Match 5-6"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
-    <Unit Code="HBBWTEAM4-------------FNL-000400--" PhaseType="3" UnitNum="4" ScheduleStatus="SCHEDULED" StartDate="2026-11-02T12:45:00+00:00" EndDate="2026-11-02T12:58:00+00:00" Order="16" Venue="SBW" Location="HB1" SessionCode="HBB03">
+    <Unit Code="HBBWTEAM4-------------FNL-000400--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:09:00+00:00" EndDate="2026-11-03T10:22:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB05">
       <ItemName Language="ENG" Value="Women's Placement Match 7-8"/>
+      <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
+    </Unit>
+    <Unit Code="HBBWTEAM4-------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-03T10:22:00+00:00" EndDate="2026-11-03T10:27:00+00:00" Medal="0" Venue="SBW" Location="HB1" SessionCode="HBB05">
+      <ItemName Language="ENG" Value="Women's Victory Ceremony"/>
       <VenueDescription VenueName="Saly Beach West" LocationName="SBW Beach Courts- Centre Court"/>
     </Unit>
   </Competition>

@@ -1,31 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<OdfBody CompetitionCode="SYOG2026" DocumentCode="SKB-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="175950522" LogicalDate="2026-09-23" Source="OSM">
+<OdfBody CompetitionCode="SYOG2026" DocumentCode="SKB-------------------------------" DocumentType="DT_SCHEDULE" Version="1" FeedFlag="P" Date="2026-09-23" Time="183845464" LogicalDate="2026-09-23" Source="OSM">
   <Competition Gen="OWG2026-GEN-4.6" Sport="SYOG-2026-SKB-1.0" Codes="YOG-2026-2.4">
-    <Session Venue="CTO" VenueName="Complexe Tour de l'Oeuf" SessionType="MOR" SessionCode="SKB01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T10:48:00+00:00">
-      <SessionName Language="ENG" Value="Session 1"/>
+    <Session SessionCode="SKB01" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T10:58:00+00:00" Medal="2" Venue="CTO" VenueName="Complexe Tour de l'Oeuf">
+      <SessionName Value="SKB01" Language="ENG"/>
     </Session>
-    <Unit Code="SKBMSTREET------------QUAL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Order="1" Venue="CTO" Location="CSP" SessionCode="SKB01">
+    <Unit Code="SKBMSTREET------------QUAL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:30:00+00:00" EndDate="2026-11-01T09:43:00+00:00" Medal="0" Venue="CTO" Location="CSP" SessionCode="SKB01">
       <ItemName Language="ENG" Value="Men's Street Prelims Heat 1"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Skatepark"/>
     </Unit>
-    <Unit Code="SKBMSTREET------------QUAL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Order="2" Venue="CTO" Location="CSP" SessionCode="SKB01">
+    <Unit Code="SKBMSTREET------------QUAL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:43:00+00:00" EndDate="2026-11-01T09:56:00+00:00" Medal="0" Venue="CTO" Location="CSP" SessionCode="SKB01">
       <ItemName Language="ENG" Value="Men's Street Prelims Heat 2"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Skatepark"/>
     </Unit>
-    <Unit Code="SKBMSTREET------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Medal="1" Order="3" Venue="CTO" Location="CSP" SessionCode="SKB01">
+    <Unit Code="SKBMSTREET------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T09:56:00+00:00" EndDate="2026-11-01T10:09:00+00:00" Medal="1" Venue="CTO" Location="CSP" SessionCode="SKB01">
       <ItemName Language="ENG" Value="Men's Street Final"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Skatepark"/>
     </Unit>
-    <Unit Code="SKBWSTREET------------QUAL000100--" PhaseType="3" UnitNum="1" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:22:00+00:00" Order="4" Venue="CTO" Location="CSP" SessionCode="SKB01">
+    <Unit Code="SKBMSTREET------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:09:00+00:00" EndDate="2026-11-01T10:14:00+00:00" Medal="0" Venue="CTO" Location="CSP" SessionCode="SKB01">
+      <ItemName Language="ENG" Value="Men's Street Victory Ceremony"/>
+      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Skatepark"/>
+    </Unit>
+    <Unit Code="SKBWSTREET------------QUAL000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:14:00+00:00" EndDate="2026-11-01T10:27:00+00:00" Medal="0" Venue="CTO" Location="CSP" SessionCode="SKB01">
       <ItemName Language="ENG" Value="Women's Street Prelims Heat 1"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Skatepark"/>
     </Unit>
-    <Unit Code="SKBWSTREET------------QUAL000200--" PhaseType="3" UnitNum="2" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:22:00+00:00" EndDate="2026-11-01T10:35:00+00:00" Order="5" Venue="CTO" Location="CSP" SessionCode="SKB01">
+    <Unit Code="SKBWSTREET------------QUAL000200--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:27:00+00:00" EndDate="2026-11-01T10:40:00+00:00" Medal="0" Venue="CTO" Location="CSP" SessionCode="SKB01">
       <ItemName Language="ENG" Value="Women's Street Prelims Heat 2"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Skatepark"/>
     </Unit>
-    <Unit Code="SKBWSTREET------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:35:00+00:00" EndDate="2026-11-01T10:48:00+00:00" Medal="1" Order="6" Venue="CTO" Location="CSP" SessionCode="SKB01">
+    <Unit Code="SKBWSTREET------------FNL-000100--" PhaseType="3" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:40:00+00:00" EndDate="2026-11-01T10:53:00+00:00" Medal="1" Venue="CTO" Location="CSP" SessionCode="SKB01">
       <ItemName Language="ENG" Value="Women's Street Final"/>
+      <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Skatepark"/>
+    </Unit>
+    <Unit Code="SKBWSTREET------------VICTMEDAL---" PhaseType="6" ScheduleStatus="SCHEDULED" StartDate="2026-11-01T10:53:00+00:00" EndDate="2026-11-01T10:58:00+00:00" Medal="0" Venue="CTO" Location="CSP" SessionCode="SKB01">
+      <ItemName Language="ENG" Value="Women's Street Victory Ceremony"/>
       <VenueDescription VenueName="Complexe Tour de l'Oeuf" LocationName="CTO Skatepark"/>
     </Unit>
   </Competition>
