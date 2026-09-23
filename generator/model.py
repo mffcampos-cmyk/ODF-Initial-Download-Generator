@@ -11,7 +11,7 @@ class Participant:
     gender: str
     organisation: str
     birth_date: str
-    status: str = "ENT"
+    status: str = "CNF"
     is_official: bool = False
     nationality: str = ""          # CC@COUNTRY; usually same as organisation
     main_function: str = "AA01"    # CC@DISCIPLINE_FUNCTION; AA01=Athlete
@@ -25,7 +25,7 @@ class Team:
     tv_team_name: str
     gender: str
     team_type: str
-    status: str = "ENT"
+    status: str = "CNF"
     member_codes: list[str] = field(default_factory=list)
     name: str = ""                 # full team name (e.g. country long name)
 

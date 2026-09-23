@@ -12,7 +12,10 @@ def _event_rsc(discipline: str, gender: str, event: str) -> str:
     return f"{discipline}{gender}{event}"[:34].ljust(34, "-")
 
 _SCHEDULE_STATUS = eventstructure.SCHEDULED
-_PARTICIPANT_STATUS = "ENT"  # Entered — default sport-entry status for an initial download
+# Default sport-entry status: CNF (Confirmed). The real SYOG26 download uses
+# CNF/NPR for athletes and LGL/CNF for teams and never ENT; teams with named
+# athletes lean CNF, and every generated team has its full squad.
+_PARTICIPANT_STATUS = "CNF"
 _ID_BASE = 9000000  # 7-digit participant IDs, as in the real-life feed
 _MAX_NOCS = 60       # delegations to draw from per discipline
 

@@ -420,3 +420,12 @@ def test_c11_tv_names_switch_for_the_listed_nocs():
     usa = name_fields("Minji", "Kim", "USA")
     assert (usa["TVName"], usa["TVInitialName"]) == ("Minji KIM", "M. KIM")
     assert name_fields("Minji", "Kim") == usa
+
+
+def test_c5_every_participant_and_team_is_confirmed():
+    """Real feed: CNF/NPR athletes, LGL/CNF teams, never ENT. Every generated
+    team has its full squad, so the default is CNF (Confirmed) throughout;
+    the status override still stamps any CC@PARTICIPANT_STATUS code."""
+    for disc, key, root in _all_messages():
+        for e in root.xpath("//Participant|//Team"):
+            assert e.get("Status") == "CNF", (disc, key, e.get("Code"))
