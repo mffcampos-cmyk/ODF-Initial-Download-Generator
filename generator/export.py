@@ -105,7 +105,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--seeded-heats", action="store_true",
                         help="schedule heats = ceil(entries/8) using the codes' heat units")
     parser.add_argument("--victory-ceremonies", action="store_true",
-                        help="include VICT units in the schedule")
+                        help="no-op, kept for compatibility: ceremonies are always scheduled")
     parser.add_argument("--historical-athletes", action="store_true",
                         help="add Status=HIS athletes with A-prefixed IDs")
     args = parser.parse_args(argv)

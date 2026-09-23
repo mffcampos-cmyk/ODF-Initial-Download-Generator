@@ -152,6 +152,7 @@ class GenerateRequest(BaseModel):
     # live-operations realism options (all default off = codes-driven)
     realistic_entries: bool = False
     seeded_heats: bool = False
+    # Accepted for compatibility; a no-op (ceremonies are always scheduled).
     victory_ceremonies: bool = False
     historical_athletes: bool = False
 

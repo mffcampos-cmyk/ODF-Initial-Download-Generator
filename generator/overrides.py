@@ -17,7 +17,7 @@ class Overrides:
     # default to off so the baseline stays strictly Common-Codes-driven):
     realistic_entries: bool = False    # qualification-scale entry lists
     seeded_heats: bool = False         # heats = ceil(entries/8), real RSCs
-    victory_ceremonies: bool = False   # include VICT units in the schedule
+    victory_ceremonies: bool = False   # no-op: ceremonies are always scheduled
     historical_athletes: bool = False  # Status=HIS athletes with A-prefix IDs
 
     def normalize(self) -> "Overrides":

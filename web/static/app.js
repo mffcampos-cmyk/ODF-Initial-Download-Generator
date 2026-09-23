@@ -25,7 +25,6 @@ const COUNT_FIELDS = ["athletes", "teams", "coaches"];
 const FLAGS = [
   "realistic_entries",
   "seeded_heats",
-  "victory_ceremonies",
   "historical_athletes",
 ];
 

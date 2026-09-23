@@ -211,3 +211,12 @@ def test_stylesheet_wraps_the_output_block():
     rule = re.search(r"#out\s*\{([^}]*)\}", css, re.S)
     assert rule, "no #out rule in app.css"
     assert "pre-wrap" in rule.group(1), "#out must wrap long XML lines"
+
+
+def test_victory_ceremonies_checkbox_is_gone():
+    """Ceremonies are always scheduled (spec §4); a checkbox that does nothing
+    would mislead."""
+    html = TEMPLATE.read_text(encoding="utf-8")
+    assert 'id="victory_ceremonies"' not in html
+    js = (PROJECT_ROOT / "web" / "static" / "app.js").read_text(encoding="utf-8")
+    assert '"victory_ceremonies"' not in js

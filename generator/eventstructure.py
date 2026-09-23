@@ -229,23 +229,6 @@ def heat_pool(refdata, discipline: str) -> dict[tuple[str, str], list[UnitInfo]]
     return pool
 
 
-def victory_units(refdata, discipline: str) -> list[UnitInfo]:
-    """Victory-ceremony units (Phase=VICT; Level 'Medals' in the codes) for
-    every competitive event of the discipline."""
-    table = refdata.pack.codes.table("EVENT_UNIT")
-    out: list[UnitInfo] = []
-    if table is None:
-        return out
-    for code, row in table._rows.items():
-        f = row.fields
-        if (f.get("Discipline") == discipline and f.get("Phase") == "VICT"
-                and f.get("Eventunit", "--------") != "--------"
-                and f.get("Event") not in GEN_EVENTS):
-            out.append(_row_to_unit(code, f))
-    out.sort(key=lambda u: (u.event_key, u.unit_seq, u.code))
-    return out
-
-
 SCHEDULED = "SCHEDULED"
 UNSCHEDULED = "UNSCHEDULED"
 _PLAN_LEVELS = ("Unit", "Phase", "Medals")

@@ -40,8 +40,6 @@ class ScheduleUnit:
     end_date: str = ""
     session_code: str = ""
     item_name: str = "Round"
-    sort_order: int = 0          # removed in Task 5
-    unit_num: str = ""           # removed in Task 5
 
 
 @dataclass
@@ -51,9 +49,7 @@ class Session:
     session_code: str
     start_date: str
     end_date: str
-    name: str = ""               # removed in Task 5
     units: list[ScheduleUnit] = field(default_factory=list)
-    session_type: str = ""       # removed in Task 5
     location: str = ""
     location_name: str = ""
 
