@@ -24,31 +24,29 @@ def _entry_counts(msgs):
 
 
 def _scheduled_unit_codes(discipline: str) -> set[str]:
-    """The unit codes Common Codes says belong on a schedule, read from the
-    table rather than from eventstructure, so this is a second opinion on the
-    same rule and not a restatement of the implementation."""
+    """The rows Common Codes says belong on a schedule, read from the table
+    rather than from eventstructure, so this is a second opinion on the same
+    rule and not a restatement of the implementation."""
     table = PACK.codes.table("EVENT_UNIT")
     return {code for code, row in table._rows.items()
             if row.fields.get("Discipline") == discipline
-            and row.fields.get("Level") == "Unit"
+            and row.fields.get("Level") in ("Unit", "Phase", "Medals")
             and row.fields.get("Schedule") == "Y"
-            and row.fields.get("Phase") != "VICT"
             and row.fields.get("Event") not in eventstructure.GEN_EVENTS}
 
 
 def test_defaults_unchanged_without_options():
-    """With every option off, the schedule is exactly what Common Codes marks
-    scheduled -- no invented units, none dropped.
+    """With every option off, the schedule lists exactly what Common Codes
+    marks Schedule=Y at Unit, Phase and Medals level -- no invented rows,
+    none dropped -- as the real SYOG26 schedule does.
 
     Derived rather than hardcoded, and the reason is on the record. This
-    assertion read `== 94` until Common Codes v_2_4, which retired the
-    `Schedule = "S"` flag: 463 unit rows carried it (SWM 416, ATH 42, SKB 4,
-    ARC 1) and the generator schedules only `Y`, so SWM's heats had never been
-    emitted. v_2_4 resolved each row to `Y` or `N` and SWM went from 94 units
-    to 492 overnight. A constant could only ever record what the workbook said
-    on the day it was written; what this test means is the relationship."""
+    assertion read `== 94` until Common Codes v_2_4 retired the
+    `Schedule = "S"` flag and SWM went from 94 units to 492 overnight. Since
+    2026-09-23 the schedule also lists the Phase-level blocks and the Medals
+    rows, so SWM lists 548 rows, of which 106 are scheduled."""
     expected = _scheduled_unit_codes("SWM")
-    assert expected, "no scheduled SWM units in the pack -- check the workbook"
+    assert expected, "no scheduled SWM rows in the pack -- check the workbook"
     xml = schedule.build(rd(), "SWM", seed=1)
     emitted = [u.get("Code") for u in etree.fromstring(xml).iter("Unit")]
     assert len(emitted) == len(set(emitted)), "a unit was emitted twice"
@@ -86,7 +84,7 @@ def test_seeded_heats_follow_entry_counts():
     for u in root.iter("Unit"):
         code = u.get("Code")
         assert code in table  # real RSCs from the codes, never invented
-        if code[22:26] == "HEAT":
+        if code[22:26] == "HEAT" and code[26:].strip("-"):
             ev = code[:22]
             heats[ev] = heats.get(ev, 0) + 1
     checked = 0
@@ -99,13 +97,21 @@ def test_seeded_heats_follow_entry_counts():
     assert checked == 26  # 30 events minus the four timed-final events
 
 
-def test_victory_ceremonies_added_for_any_discipline():
+def test_victory_ceremonies_are_in_the_default_schedule():
     for disc, expected in (("SWM", 30), ("WST", 4), ("JUD", 8)):
-        ov = Overrides(victory_ceremonies=True)
-        xml = schedule.build(rd(), disc, seed=1, overrides=ov)
-        root = etree.fromstring(xml)
+        root = etree.fromstring(schedule.build(rd(), disc, seed=1))
         vict = [u for u in root.iter("Unit") if u.get("Code")[22:26] == "VICT"]
         assert len(vict) == expected, disc
+
+
+def test_victory_ceremonies_option_is_a_no_op():
+    """Kept so existing API calls and scripts keep working (spec §4)."""
+    import re
+    strip = lambda b: re.sub(rb' (Date|Time|LogicalDate)="[^"]*"', b"", b)
+    plain = schedule.build(rd(), "WST", seed=1)
+    flagged = schedule.build(rd(), "WST", seed=1,
+                             overrides=Overrides(victory_ceremonies=True))
+    assert strip(plain) == strip(flagged)
 
 
 def test_historical_athletes_added_but_not_entered():

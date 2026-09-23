@@ -1,8 +1,8 @@
 from __future__ import annotations
+import math
 import random
-from datetime import datetime, timedelta, timezone
 from itertools import cycle
-from . import fields, names, arc_profile, eventstructure
+from . import fields, names, arc_profile, eventstructure, schedule_layout
 from .model import (Participant, Team, ScheduleUnit, Session, Dataset,
                     EventEntries)
 
@@ -11,25 +11,10 @@ def _event_rsc(discipline: str, gender: str, event: str) -> str:
     """Event RSC per CC@EVENT: discipline(3) + gender(1) + event(18) + '-'x12."""
     return f"{discipline}{gender}{event}"[:34].ljust(34, "-")
 
-_SCHEDULE_STATUS = "SCHEDULED"  # fallback when SCHEDULESTATUS code table is absent
+_SCHEDULE_STATUS = eventstructure.SCHEDULED
 _PARTICIPANT_STATUS = "ENT"  # Entered — default sport-entry status for an initial download
 _ID_BASE = 9000000  # 7-digit participant IDs, as in the real-life feed
 _MAX_NOCS = 60       # delegations to draw from per discipline
-_UNITS_PER_SESSION = 16
-_UNIT_MINUTES = 13   # slot length within a session, as in the real ARC feed
-
-# CC@PHASE_TYPE: what kind of activity a schedule unit is. Every unit this
-# generator emits is either a competition unit or a victory ceremony; the real
-# SYOG26 schedule uses exactly these two ("3" on all competition units, "6" on
-# every VICTMEDAL unit). The value used to be drawn at random from the whole
-# table, so bouts went out labelled as press conferences and draws.
-PHASE_TYPE_COMPETITION = "3"
-PHASE_TYPE_MEDAL_CEREMONY = "6"
-
-
-def _phase_type(phase: str) -> str:
-    return PHASE_TYPE_MEDAL_CEREMONY if phase == "VICT" else PHASE_TYPE_COMPETITION
-
 
 def _participant_status(rng, refdata) -> str:
     """A valid CC@PARTICIPANT_STATUS code. Prefer 'ENT' (Entered); if the code
@@ -178,7 +163,7 @@ def _generate_officials(add_person, refdata, discipline: str,
 def _build_arc_dataset(refdata, seed: int) -> Dataset:
     """Real-life-scale ARC dataset: 32 M + 32 W athletes across 47 NOCs,
     one coach per NOC, 4 judges (115 participants), 17 mixed teams, and the
-    real 9-session / 83-unit schedule (counts match Common Codes EVENT_UNIT:
+    codes-derived schedule (counts match Common Codes EVENT_UNIT:
     a 16-match R32 bracket per individual event => 32 entrants)."""
     rng = random.Random(seed)
     status = _participant_status(rng, refdata)
@@ -237,23 +222,14 @@ def _build_arc_dataset(refdata, seed: int) -> Dataset:
             name=long_name,
         ))
 
-    sessions: list[Session] = []
-    by_code: dict[str, Session] = {}
-    for code, stype, start, end, name in arc_profile.SESSIONS:
-        s = Session(
-            venue=arc_profile.VENUE, venue_name=arc_profile.VENUE_NAME,
-            session_code=code, start_date=start, end_date=end, name=name,
-            session_type=stype, location=arc_profile.LOCATION,
-            location_name=arc_profile.LOCATION_NAME)
-        sessions.append(s)
-        by_code[code] = s
-    for (code, phase_type, unit_num, start, end, medal, order,
-         session_code, item_name) in arc_profile.UNITS:
-        by_code[session_code].units.append(ScheduleUnit(
-            code=code, phase_type=phase_type, schedule_status=_SCHEDULE_STATUS,
-            sort_order=int(order), medal=medal or None, unit_num=unit_num,
-            start_date=start, end_date=end, session_code=session_code,
-            item_name=item_name))
+    # The 2025 embedded calendar is retired: ARC schedules through the same
+    # codes plan as every discipline (its plan matches the real SYOG26 ARC
+    # schedule row for row). The profile still supplies the participant mix.
+    venue, venue_name, location, location_name = \
+        _discipline_venue(rng, refdata, "ARC")
+    sessions, unscheduled = schedule_layout.lay_out(
+        eventstructure.schedule_plan(refdata, "ARC"), "ARC",
+        venue, venue_name, location, location_name)
 
     entries = [
         EventEntries(_event_rsc("ARC", "M", "INDIVID-----------"),
@@ -265,33 +241,58 @@ def _build_arc_dataset(refdata, seed: int) -> Dataset:
     ]
     return Dataset(discipline="ARC", organisations=all_nocs,
                    participants=participants, teams=teams, sessions=sessions,
-                   entries=entries)
+                   entries=entries, unscheduled=unscheduled)
 
 
 # --------------------------------------------------------------------------
 # All other disciplines: derived from the Common Codes tables
 # --------------------------------------------------------------------------
 
-# First day of the synthetic competition window. Only the codes-driven engine
-# uses it; ARC carries the real feed's own dates (see arc_profile).
-_SCHEDULE_BASE = datetime(2026, 11, 1, tzinfo=timezone.utc)
+def _discipline_venue(rng, refdata, discipline: str):
+    """(venue, venue_name, location, location_name) from LOCATION, with the
+    fallback the codes engine always had for a discipline LOCATION omits."""
+    venue, venue_name, location, location_name = \
+        eventstructure.discipline_venue(refdata, discipline)
+    if not venue:
+        venue = fields.pick_code(rng, refdata, "VENUE") or "ALL"
+        venue_name = (refdata.description("VENUE", venue, "ENG_Description")
+                      or venue)
+        location, location_name = "", ""
+    return venue, venue_name, location, location_name
 
 
-def _dt(day: int, hour: int = 0, minute: int = 0) -> datetime:
-    """An instant in the competition window, ``day`` counted from 1.
-
-    Real ``datetime`` arithmetic, not f-string formatting. The previous
-    version built the string from hand-rolled divmod and dropped the carry
-    when ``start_m + total % 60`` crossed the hour, emitting sessions whose
-    EndDate preceded their StartDate (ATH03: 09:30 -> 09:22). It also
-    hardcoded month 11, so a discipline long enough to reach day 31 would
-    have produced 2026-11-31. Both are structurally impossible here."""
-    return _SCHEDULE_BASE + timedelta(days=day - 1, hours=hour, minutes=minute)
-
-
-def _fmt_dt(moment: datetime) -> str:
-    """ODF datetime: ``2026-11-01T09:30:00+00:00``."""
-    return moment.isoformat()
+def _seed_heats(plan, refdata, discipline: str, evs, entries_by_event):
+    """seeded_heats: a SWM event's heat bouts become ceil(entries / 8) real
+    heat RSCs from the codes' full heat pool. They keep the status the plan
+    gave the heats they replace (UNSCHEDULED under a HEAT block)."""
+    pool = eventstructure.heat_pool(refdata, discipline)
+    out = list(plan)
+    for ev in evs:
+        key = (ev.gender, ev.event)
+        if key not in pool:
+            continue
+        e_list = entries_by_event.get(
+            _event_rsc(discipline, ev.gender, ev.event))
+        n_entries = len(e_list.athlete_codes) if e_list else ev.entrants
+        need = max(1, math.ceil(n_entries / 8))
+        old = [r for r in out if r.event_key == key and r.kind == "bout"
+               and r.phase == "HEAT"]
+        status = old[0].status if old else eventstructure.SCHEDULED
+        keep_order = min((r.order for r in old), default=0)
+        out = [r for r in out if r not in old]
+        kept = pool[key][:min(need, len(pool[key]))]
+        for h in kept:
+            out.append(eventstructure.PlannedRow(
+                code=h.code, level="Unit", kind="bout", status=status,
+                event_key=h.event_key, phase=h.phase,
+                order=keep_order or h.order, unit_seq=h.unit_seq,
+                medal=h.medal, name=h.name))
+        for r in out:
+            if (r.event_key == key and r.level == "Phase"
+                    and r.phase.rstrip("-") and "HEAT".startswith(r.phase.rstrip("-"))):
+                r.covered_bouts = len(kept)
+    out.sort(key=eventstructure.plan_sort_key)
+    return out
 
 
 def _build_codes_dataset(refdata, discipline: str, seed: int,
@@ -306,8 +307,8 @@ def _build_codes_dataset(refdata, discipline: str, seed: int,
     swimming/athletics); team events get one full squad per entrant slot.
 
     ``ov`` (normalized Overrides) can enable live-operations realism:
-    qualification-scale entry lists, seeded heats, victory ceremonies and
-    historical athletes — modeled on the real CTO1/AWAARC1 feeds."""
+    qualification-scale entry lists, seeded heats and historical athletes.
+    Victory ceremonies are always in the plan; the old option is a no-op."""
     rng = random.Random(seed)
     evs = eventstructure.events(refdata, discipline)
     units = eventstructure.competitive_units(refdata, discipline)
@@ -432,100 +433,19 @@ def _build_codes_dataset(refdata, discipline: str, seed: int,
                 nationality=_nationality(refdata, noc),
                 main_function=_main_function(refdata, "athlete")))
 
-    # Schedule: chunk the codes-defined units into morning/afternoon sessions.
-    sched_units = list(units)
+    # Schedule: the codes' schedule plan (spec §1), laid out into sessions.
     entries_by_event = {e.event_rsc: e for e in event_entries}
+    plan = eventstructure.schedule_plan(refdata, discipline)
     if ov and ov.seeded_heats:
-        # Heats follow the entry lists (ceil(entries/8) lanes of 8), drawing
-        # real RSCs from the codes' full heat pool — as in the real feed.
-        import math
-        pool = eventstructure.heat_pool(refdata, discipline)
-        for ev in evs:
-            key = (ev.gender, ev.event)
-            if key not in pool:
-                continue
-            e_list = entries_by_event.get(
-                _event_rsc(discipline, ev.gender, ev.event))
-            n_entries = len(e_list.athlete_codes) if e_list else ev.entrants
-            need = max(1, math.ceil(n_entries / 8))
-            old_heats = [u for u in sched_units
-                         if u.event_key == key and u.phase == "HEAT"]
-            keep_order = min((u.order for u in old_heats), default=0)
-            sched_units = [u for u in sched_units
-                           if not (u.event_key == key and u.phase == "HEAT")]
-            for h in pool[key][:min(need, len(pool[key]))]:
-                h.order = keep_order or h.order
-                sched_units.append(h)
-    if ov and ov.victory_ceremonies:
-        for v in eventstructure.victory_units(refdata, discipline):
-            v.order = 999  # after the finals of its event
-            sched_units.append(v)
-    sched_units.sort(key=lambda u: (u.event_key, u.order,
-                                    eventstructure._phase_rank(u.phase),
-                                    u.unit_seq, u.code))
-
+        plan = _seed_heats(plan, refdata, discipline, evs, entries_by_event)
     venue, venue_name, location, location_name = \
-        eventstructure.discipline_venue(refdata, discipline)
-    if not venue:
-        venue = fields.pick_code(rng, refdata, "VENUE") or "ALL"
-        venue_name = (refdata.description("VENUE", venue, "ENG_Description")
-                      or venue)
-        location, location_name = "", ""
-    session_types = refdata.codes("SESSION_TYPE")
-    phase_counts: dict[tuple, dict[str, int]] = {}
-    for u in sched_units:
-        phase_counts.setdefault(u.event_key, {})
-        phase_counts[u.event_key][u.phase] = \
-            phase_counts[u.event_key].get(u.phase, 0) + 1
-
-    sessions: list[Session] = []
-    schedule_status = _SCHEDULE_STATUS
-    codes = refdata.codes("SCHEDULESTATUS")
-    if codes and schedule_status not in codes:
-        schedule_status = rng.choice(codes)
-    chunks = [sched_units[i:i + _UNITS_PER_SESSION]
-              for i in range(0, len(sched_units), _UNITS_PER_SESSION)]
-    for idx, chunk in enumerate(chunks):
-        day = 1 + idx // 2
-        morning = idx % 2 == 0
-        start_h = 9 if morning else 14
-        start_m = 30 if morning else 0
-        stype = ("MOR" if morning else "AFT")
-        if session_types and stype not in session_types:
-            stype = session_types[0]
-        session_code = f"{discipline}{idx + 1:02d}"
-        session_start = _dt(day, start_h, start_m)
-        session_end = session_start + timedelta(
-            minutes=len(chunk) * _UNIT_MINUTES)
-        s = Session(
-            venue=venue, venue_name=venue_name, session_code=session_code,
-            start_date=_fmt_dt(session_start),
-            end_date=_fmt_dt(session_end),
-            name=f"Session {idx + 1}", session_type=stype,
-            location=location, location_name=location_name)
-        cursor = session_start
-        for order, u in enumerate(chunk, start=1):
-            u_start = _fmt_dt(cursor)
-            cursor += timedelta(minutes=_UNIT_MINUTES)
-            u_end = _fmt_dt(cursor)
-            multi = phase_counts[u.event_key].get(u.phase, 0) > 1
-            s.units.append(ScheduleUnit(
-                code=u.code,
-                phase_type=_phase_type(u.phase),
-                schedule_status=schedule_status,
-                sort_order=order,
-                medal=u.medal or None,
-                unit_num=str(u.unit_seq) if multi and u.unit_seq else "",
-                start_date=u_start,
-                end_date=u_end,
-                session_code=session_code,
-                item_name=u.name,
-            ))
-        sessions.append(s)
+        _discipline_venue(rng, refdata, discipline)
+    sessions, unscheduled = schedule_layout.lay_out(
+        plan, discipline, venue, venue_name, location, location_name)
 
     return Dataset(discipline=discipline, organisations=used_nocs,
                    participants=participants, teams=teams, sessions=sessions,
-                   entries=event_entries)
+                   entries=event_entries, unscheduled=unscheduled)
 
 
 # --------------------------------------------------------------------------
@@ -576,15 +496,15 @@ def _build_fallback_dataset(refdata, discipline: str, seed: int) -> Dataset:
     session_code = f"{discipline}01"
     units = [ScheduleUnit(
         code=fields.unit_rsc(rng, discipline),
-        phase_type=PHASE_TYPE_COMPETITION,
+        phase_type=schedule_layout.PHASE_TYPE_COMPETITION,
         schedule_status=_SCHEDULE_STATUS,
-        sort_order=k + 1, medal=rng.choice([None, "0", "1"]),
-        unit_num=str(k + 1), start_date=start, end_date=end,
+        medal=rng.choice(["0", "0", "1"]),
+        start_date=start, end_date=end,
         session_code=session_code, item_name="Round") for k in range(3)]
+    fields.pick_code(rng, refdata, "SESSION_TYPE")  # keep the rng sequence
     sessions = [Session(
         venue=venue, venue_name=venue_name, session_code=session_code,
-        start_date=start, end_date=end, name="Session 1", units=units,
-        session_type=fields.pick_code(rng, refdata, "SESSION_TYPE") or "")]
+        start_date=start, end_date=end, units=units)]
 
     # No event structure in the pack for this discipline: single entries
     # message at discipline level (best effort).
@@ -728,11 +648,9 @@ def build_dataset(refdata, discipline: str, seed: int,
     # The embedded profile is real SYOG2026 archery data (exact schedule times,
     # real NOC mix). It must never be emitted under another Games.
     if discipline == "ARC" and refdata.games.pack_name == "SYOG26":
-        # ARC uses the embedded real-life profile (exact schedule times).
-        # Schedule-affecting options switch it to the codes-driven engine so
-        # the options apply there too.
-        schedule_opts = bool(ov and (ov.realistic_entries or ov.seeded_heats
-                                     or ov.victory_ceremonies))
+        # ARC uses the embedded participant profile. Entry-shaping options
+        # switch it to the codes engine so they apply there too.
+        schedule_opts = bool(ov and (ov.realistic_entries or ov.seeded_heats))
         if not schedule_opts:
             ds = _build_arc_dataset(refdata, seed)
             if ov and ov.historical_athletes:

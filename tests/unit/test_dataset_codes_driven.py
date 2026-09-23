@@ -14,13 +14,15 @@ def rd():
 
 
 def _expected_units(discipline):
-    """Scheduled competitive event units for the discipline, per EVENT_UNIT."""
+    """Schedule rows for the discipline, per EVENT_UNIT: Schedule=Y at Unit,
+    Phase and Medals level, outside the GEN events."""
     table = PACK.codes.table("EVENT_UNIT")
     out = []
     for code, row in table._rows.items():
         f = row.fields
-        if (f.get("Discipline") == discipline and f.get("Level") == "Unit"
-                and f.get("Schedule") == "Y" and f.get("Phase") != "VICT"
+        if (f.get("Discipline") == discipline
+                and f.get("Level") in ("Unit", "Phase", "Medals")
+                and f.get("Schedule") == "Y"
                 and f.get("Event") not in ("GEN---------------",
                                            "------------------")):
             out.append(code)
@@ -36,16 +38,17 @@ def test_wst_schedule_units_come_from_event_unit_table():
     assert got == expected  # real RSCs, not synthetic random tails
 
 
-def test_wst_schedule_units_have_names_sessions_and_times():
+def test_wst_scheduled_units_have_names_sessions_and_times():
     xml = schedule.build(rd(), "WST", seed=1)
     root = etree.fromstring(xml)
     sessions = list(root.iter("Session"))
     assert sessions
     session_codes = {s.get("SessionCode") for s in sessions}
     for u in root.iter("Unit"):
-        assert u.get("SessionCode") in session_codes
-        assert u.get("StartDate") and u.get("EndDate")
         assert u.find("ItemName").get("Value") not in ("", "Round")
+        if u.get("ScheduleStatus") == "SCHEDULED":
+            assert u.get("SessionCode") in session_codes
+            assert u.get("StartDate") and u.get("EndDate")
 
 
 def test_wst_athlete_count_derived_from_event_structure():

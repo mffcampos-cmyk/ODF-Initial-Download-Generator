@@ -22,16 +22,16 @@ def test_schedule_has_sessions_units_and_34char_unit_codes():
 
 
 
-def test_schedule_arc_matches_real_life_profile():
-    # ARC uses the embedded real-life profile: 9 sessions, 83 units, and
-    # Common Codes venue/location (SAW / AR1).
+def test_arc_schedule_matches_the_real_feed_shape():
+    # ARC schedules through the codes model like every discipline. Its plan
+    # matches the real SYOG26 ARC schedule exactly: 91 rows, 75 scheduled.
     rd = RefData(PACK)
-    xml = schedule.build(rd, "ARC", seed=1)
-    root = etree.fromstring(xml)
-    assert len(list(root.iter("Session"))) == 9
+    root = etree.fromstring(schedule.build(rd, "ARC", seed=1))
     units = list(root.iter("Unit"))
-    assert len(units) == 83
-    assert {u.get("Venue") for u in units} == {"SAW"}
-    assert {u.get("Location") for u in units} == {"AR1"}
-    medals = [u.get("Medal") for u in units if u.get("Medal") in ("1", "3")]
-    assert sorted(medals) == ["1", "1", "1", "3", "3", "3"]  # 3 gold + 3 bronze matches
+    assert len(units) == 91
+    sched = [u for u in units if u.get("ScheduleStatus") == "SCHEDULED"]
+    assert len(sched) == 75
+    assert {u.get("Venue") for u in sched} == {"SAW"}
+    golds = [u for u in units if u.get("Medal") == "1"]
+    bronzes = [u for u in units if u.get("Medal") == "3"]
+    assert len(golds) == 3 and len(bronzes) == 3

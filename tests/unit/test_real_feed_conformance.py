@@ -68,6 +68,8 @@ def test_every_competition_unit_has_phase_type_competition():
     wrong = {}
     for disc in _disciplines():
         for u in _messages(disc)["DT_SCHEDULE"].iter("Unit"):
+            if "VICT" in u.get("Code"):
+                continue  # ceremonies are "6", pinned by their own tests
             if u.get("PhaseType") != "3":
                 wrong.setdefault(disc, set()).add(u.get("PhaseType"))
     assert not wrong, f"non-competition PhaseType on competition units: {wrong}"
@@ -340,3 +342,21 @@ def test_unscheduled_units_come_before_scheduled_ones():
     for disc, root in _schedules():
         statuses = [u.get("ScheduleStatus") for u in root.iter("Unit")]
         assert statuses == sorted(statuses, key=lambda s: s != "UNSCHEDULED"), disc
+
+
+def test_ceremonies_are_scheduled_without_any_option():
+    """Real feed: 150 VICTMEDAL units, all SCHEDULED, PhaseType 6. They are
+    part of the default schedule now, not an option."""
+    for disc in ("ATH", "SWM", "JUD"):
+        root = _messages(disc)["DT_SCHEDULE"]
+        cer = [u for u in root.iter("Unit") if "VICT" in u.get("Code")]
+        assert cer, disc
+        assert {(u.get("ScheduleStatus"), u.get("PhaseType")) for u in cer} \
+            == {("SCHEDULED", "6")}, disc
+
+
+def test_blocks_are_scheduled_and_the_bouts_under_them_are_not():
+    root = _messages("FEN")["DT_SCHEDULE"]
+    status = {u.get("Code"): u.get("ScheduleStatus") for u in root.iter("Unit")}
+    assert status["FENMEPEE--------------8FNL--------"] == "SCHEDULED"
+    assert status["FENMEPEE--------------8FNL000100--"] == "UNSCHEDULED"
