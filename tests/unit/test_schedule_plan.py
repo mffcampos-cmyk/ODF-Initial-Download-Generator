@@ -19,13 +19,17 @@ def _by_code(discipline):
 
 
 def _schedule_y_rows(discipline):
-    """Read from the table, not from eventstructure: a second opinion."""
+    """Read from the table, not from eventstructure: a second opinion.
+    Discipline-level rows (Gender G GEN events, and the blank event) are
+    not schedule rows; gender-level GEN events (GAR's qualification) are."""
     table = PACK.codes.table("EVENT_UNIT")
     return {code for code, row in table._rows.items()
             if row.fields.get("Discipline") == discipline
             and row.fields.get("Level") in ("Unit", "Phase", "Medals")
             and row.fields.get("Schedule") == "Y"
-            and row.fields.get("Event") not in eventstructure.GEN_EVENTS}
+            and row.fields.get("Event") != "------------------"
+            and not (row.fields.get("Event", "").startswith("GEN")
+                     and row.fields.get("Gender") == "G")}
 
 
 def test_plan_lists_exactly_the_schedule_y_rows_once():
@@ -87,7 +91,7 @@ def test_ceremonies_are_always_scheduled_and_come_last_in_their_event():
 EXPECTED = {  # discipline: (rows, scheduled)
     "ARC": (91, 75), "ATH": (114, 114), "BDM": (114, 114), "BK3": (42, 42),
     "BKG": (64, 14), "BOX": (180, 120), "BS5": (23, 23), "CRD": (8, 8),
-    "EQU": (5, 4), "FBS": (36, 36), "FEN": (468, 48), "GAR": (14, 10),
+    "EQU": (5, 4), "FBS": (36, 36), "FEN": (468, 48), "GAR": (19, 15),
     "HBB": (50, 50), "JUD": (496, 24), "RCB": (63, 27), "RU7": (42, 42),
     "SAL": (32, 32), "SKB": (8, 8), "SWM": (548, 106), "TKW": (171, 171),
     "TRI": (4, 4), "TTE": (170, 42), "VBV": (110, 110), "WRB": (184, 184),

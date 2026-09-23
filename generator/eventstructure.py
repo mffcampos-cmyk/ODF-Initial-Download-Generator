@@ -22,6 +22,16 @@ from dataclasses import dataclass, field
 
 GEN_EVENTS = ("GEN---------------", "------------------")
 
+
+def _is_discipline_level(f: dict) -> bool:
+    """A discipline-level EVENT/EVENT_UNIT row -- the <DISC>GGEN row (Gender
+    G) or the blank event -- rather than competition. Gender-level GEN events
+    (GARMGEN, GARWGEN) are competition: GAR's entries and its qualification
+    subdivisions live there."""
+    event = f.get("Event", "")
+    return (event == "------------------"
+            or (event.startswith("GEN") and f.get("Gender") == "G"))
+
 # Squad size for team events whose code does not carry the number. The codes
 # tables have no squad-size column (EVENT holds Discipline, Gender, Event,
 # Order, Team_Event, SEQ, Type and descriptions), so this cannot be derived --
@@ -294,7 +304,7 @@ def schedule_plan(refdata, discipline: str) -> list[PlannedRow]:
         if (f.get("Discipline") != discipline
                 or f.get("Level") not in _PLAN_LEVELS
                 or f.get("Schedule") != "Y"
-                or f.get("Event") in GEN_EVENTS):
+                or _is_discipline_level(f)):
             continue
         u = _row_to_unit(code, f)
         rows.append(PlannedRow(
@@ -335,12 +345,55 @@ def schedule_plan(refdata, discipline: str) -> list[PlannedRow]:
     return rows
 
 
+def gender_gen_events(refdata, discipline: str) -> list[tuple[str, str]]:
+    """(gender, event) of the discipline's gender-level GEN events. Only GAR
+    has them (GARMGEN, GARWGEN) in SYOG26."""
+    table = refdata.pack.codes.table("EVENT")
+    if table is None:
+        return []
+    return sorted(
+        (row.fields.get("Gender", ""), row.fields.get("Event", ""))
+        for row in table._rows.values()
+        if row.fields.get("Discipline") == discipline
+        and row.fields.get("Event", "").startswith("GEN")
+        and not _is_discipline_level(row.fields))
+
+
+def entry_events(refdata, discipline: str) -> list[EventInfo]:
+    """The events that get a DT_ENTRIES.
+
+    Normally the competitive events (``events``). A discipline with
+    gender-level GEN events is entered there instead, one pooled list per
+    gender, and its other events get no DT_ENTRIES -- as the real SYOG26 feed
+    does for GAR (GARMGEN / GARWGEN only; no apparatus or team entries, an
+    empty DT_PARTIC_TEAMS). No team is built, so no squad size is needed.
+    Entrants follow ``_entrants`` over the GEN event's own units."""
+    gens = gender_gen_events(refdata, discipline)
+    if not gens:
+        return events(refdata, discipline)
+    table = refdata.pack.codes.table("EVENT_UNIT")
+    out = []
+    for gender, event in gens:
+        phases: dict[str, int] = {}
+        for row in table._rows.values():
+            f = row.fields
+            if (f.get("Discipline") == discipline and f.get("Gender") == gender
+                    and f.get("Event") == event and f.get("Level") == "Unit"
+                    and f.get("Schedule") == "Y"):
+                phases[f.get("Phase", "")] = phases.get(f.get("Phase", ""), 0) + 1
+        out.append(EventInfo(gender=gender, event=event, is_team=False,
+                             team_size=1, entrants=_entrants(phases),
+                             phases=phases))
+    return out
+
+
 def has_team_events(refdata, discipline: str) -> bool:
     """Whether the Common Codes schedule any team event for the discipline.
     This decides if a DT_PARTIC_TEAMS message applies — the codes are the
     source of truth, not the validator's rule heuristic (which emitted empty
-    teams messages for SWM/ATH/JUD and dropped TKW's mixed team event)."""
-    return any(e.is_team for e in events(refdata, discipline))
+    teams messages for SWM/ATH/JUD and dropped TKW's mixed team event).
+    Entry events, not events: GAR schedules team events but enters no teams."""
+    return any(e.is_team for e in entry_events(refdata, discipline))
 
 
 def discipline_venue(refdata, discipline: str) -> tuple[str, str, str, str]:

@@ -313,7 +313,7 @@ def _build_codes_dataset(refdata, discipline: str, seed: int,
     qualification-scale entry lists, seeded heats and historical athletes.
     Victory ceremonies are always in the plan; the old option is a no-op."""
     rng = random.Random(seed)
-    evs = eventstructure.events(refdata, discipline)
+    evs = eventstructure.entry_events(refdata, discipline)
     units = eventstructure.competitive_units(refdata, discipline)
     if not units:
         return _build_fallback_dataset(refdata, discipline, seed)
@@ -567,7 +567,7 @@ def _apply_count_overrides(ds: Dataset, refdata, discipline: str, seed: int,
     # size. Disciplines whose codes schedule no team event get no teams at all —
     # bundle.py drops DT_PARTIC_TEAMS for them, so fabricating teams here would
     # leave DT_ENTRIES referencing teams that no message in the bundle declares.
-    all_evs = eventstructure.events(refdata, discipline)
+    all_evs = eventstructure.entry_events(refdata, discipline)
     team_evs = [e for e in all_evs if e.is_team]
     teams: list[Team] = []
     team_event_of: dict[str, tuple[str, str]] = {}   # team code -> (gender, event)

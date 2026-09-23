@@ -473,3 +473,31 @@ def test_count_overrides_keep_the_unscheduled_units():
     assert plain.unscheduled
     assert [u.code for u in counted.unscheduled] == \
         [u.code for u in plain.unscheduled]
+
+
+def test_c8_gar_is_entered_by_gender_like_the_real_feed():
+    """Real feed: GAR's DT_ENTRIES are GARMGEN and GARWGEN only, and its
+    DT_PARTIC_TEAMS is empty. GAR is the only discipline with gender-level
+    GEN events in the codes, so the rule is derived, not special-cased."""
+    from generator.bundle import build_bundle
+    bundle = build_bundle(_rd(), "GAR", seed=SEED)
+    assert bundle.clean, bundle.errors
+    assert {k for k in bundle if k.startswith("DT_ENTRIES")} == \
+        {"DT_ENTRIES_GARMGEN", "DT_ENTRIES_GARWGEN"}
+    teams_xml, _ = bundle["DT_PARTIC_TEAMS"]
+    assert etree.fromstring(teams_xml).find("Competition") is None
+    sched = etree.fromstring(bundle["DT_SCHEDULE"][0])
+    quals = {u.get("Code") for u in sched.iter("Unit")
+             if u.get("Code")[3:7] in ("MGEN", "WGEN")}
+    assert len(quals) == 5  # the five qualification subdivisions
+
+
+def test_c8_entry_events_are_events_everywhere_else():
+    from generator import eventstructure
+    rd = _rd()
+    for disc in rd.disciplines():
+        if disc == "GAR":
+            continue
+        assert eventstructure.gender_gen_events(rd, disc) == [], disc
+        assert eventstructure.entry_events(rd, disc) == \
+            eventstructure.events(rd, disc), disc

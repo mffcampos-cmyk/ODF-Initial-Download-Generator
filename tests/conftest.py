@@ -10,10 +10,10 @@ PACK = load_refdata().pack
 # test_refused_disciplines_are_exactly_the_known_set), so a discipline that
 # starts refusing for a new reason is caught rather than absorbed.
 #
-# GAR: its three team events carry no squad size in the event code, and the
-# Common Codes tables have no squad-size column. Rather than default to a
-# plausible-looking number, eventstructure.squad_size raises UnknownSquadSize.
-REFUSED_DISCIPLINES = {"GAR"}
+# Empty since 2026-09-23: GAR used to refuse (its team events carry no squad
+# size), but it is entered by gender (GARMGEN/GARWGEN) like the real feed, so
+# no team is built and no squad size is needed.
+REFUSED_DISCIPLINES: set[str] = set()
 
 try:
     import pytest
