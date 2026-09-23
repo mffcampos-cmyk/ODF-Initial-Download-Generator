@@ -26,10 +26,3 @@ def test_team_members_reference_real_participants():
     for team in ds.teams:
         for code in team.member_codes:
             assert code in athletes
-
-
-def test_unit_sort_orders_unique_within_session():
-    ds = build_dataset(rd(), "ARC", seed=3)
-    for s in ds.sessions:
-        orders = [u.sort_order for u in s.units]
-        assert len(orders) == len(set(orders))

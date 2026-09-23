@@ -282,3 +282,61 @@ def test_long_names_are_cut_not_dropped():
         == "A.M. HOHENBERGER V"
     assert clamp("Participant", "PrintInitialName", nf["PrintInitialName"]) \
         == "HOHENBERGER VILLAN"
+
+
+# --- B. Schedule attributes ------------------------------------------------
+
+def _schedules():
+    for disc in _disciplines():
+        yield disc, _messages(disc)["DT_SCHEDULE"]
+
+
+def test_every_unit_carries_medal_and_no_order_or_unitnum():
+    """Real feed: Medal on all 3,077 units ("0" when none); no Order and no
+    UnitNum anywhere."""
+    bad = []
+    for disc, root in _schedules():
+        for u in root.iter("Unit"):
+            if u.get("Medal") not in ("0", "1", "3"):
+                bad.append((disc, u.get("Code"), "Medal", u.get("Medal")))
+            for attr in ("Order", "UnitNum"):
+                if u.get(attr) is not None:
+                    bad.append((disc, u.get("Code"), attr, u.get(attr)))
+    assert not bad, bad[:5]
+
+
+def test_sessions_are_named_by_code_and_count_their_gold_medals():
+    """Real feed: SessionName@Value = SessionCode; no SessionType;
+    Session@Medal = number of Medal="1" units in it, omitted when zero -- true
+    for all 186 real sessions."""
+    for disc, root in _schedules():
+        golds = {}
+        for u in root.iter("Unit"):
+            if u.get("Medal") == "1" and u.get("SessionCode"):
+                golds[u.get("SessionCode")] = golds.get(u.get("SessionCode"), 0) + 1
+        for s in root.iter("Session"):
+            code = s.get("SessionCode")
+            assert s.find("SessionName").get("Value") == code, disc
+            assert s.get("SessionType") is None, disc
+            n = golds.get(code, 0)
+            assert s.get("Medal") == (str(n) if n else None), (disc, code)
+
+
+def test_scheduled_units_carry_time_venue_and_session_and_unscheduled_none():
+    for disc, root in _schedules():
+        for u in root.iter("Unit"):
+            placed = [u.get(a) for a in ("StartDate", "EndDate", "Venue",
+                                          "SessionCode")]
+            if u.get("ScheduleStatus") == "SCHEDULED":
+                assert all(placed), (disc, u.get("Code"))
+                assert u.find("VenueDescription") is not None
+            else:
+                assert u.get("ScheduleStatus") == "UNSCHEDULED"
+                assert not any(placed) and u.get("Location") is None
+                assert u.find("VenueDescription") is None
+
+
+def test_unscheduled_units_come_before_scheduled_ones():
+    for disc, root in _schedules():
+        statuses = [u.get("ScheduleStatus") for u in root.iter("Unit")]
+        assert statuses == sorted(statuses, key=lambda s: s != "UNSCHEDULED"), disc
